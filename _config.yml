@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tanner Phillips, PhD Candidate"
+title                    : "Tanner Phillips"
 title_separator          : "-"
 name                     : &name "Tanner Phillips"
 description              : &description "I am an educational data scientists and PhD candidate in Instructional Systems Technology at Indiana University"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Tanner Phillips, Ph.D. Candidate"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
