@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+## Tanner Phillips
+## tanner.matthew.phillips@gmail.com
+
 **Education**
 
 > **Ph.D. in Instructional Systems Technology,** 2023 (expected) 
@@ -145,4 +148,4 @@ redirect_from:
 >- **Python**. Proficient with Pandas, Sklearn, NumPy, TensorFlow.
 >- **SQL, HTML/CSS, C++**. Working knowledge.
 >- **NLP Methods**. RNN, Transformers, GPT-3, BERT, Word2Vec.
->-**Learning and Instructional Theory**. Adaptive scaffolding, self-guided learning, distributed cognition, socio-cultural theory.
+>- **Learning and Instructional Theory**. Adaptive scaffolding, self-guided learning, distributed cognition, socio-cultural theory.
