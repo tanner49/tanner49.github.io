@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Download a copy of my [cv here](link.com)
-Download a copy of my 2 page [professional resume here](link.com)
+### Download a copy of my [cv here](link.com)
+### Download a copy of my 2 page [professional resume here](link.com)
 
 **Education**
 
