@@ -12,6 +12,8 @@ redirect_from:
 ### Download a copy of my [CV here](link.com).
 ### Download a copy of my 2 page [professional resume here](link.com).
 
+---
+
 **Education**
 
 > **Ph.D. in Instructional Systems Technology,** 2023 (expected) 
