@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Instructional Systems Technology, Expected 2023
+* M.S. in Statistics, Indiana University, 2022
+* B.S. in Statistics, Brigham Young University, 2015
 
 Work experience
 ======
