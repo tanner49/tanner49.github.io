@@ -138,3 +138,11 @@ redirect_from:
 **Book Chapters**
 
 > **Phillips, T.,** Lachheb, A., Sankaranarayanan, R., Abramenka, V.. (In Press, 2021). Learning analytics as a tool for improvement and reflection on instructional design practices. In J. Stefaniak, S. Conklin, B. Oyarzun, R. Reese (Eds.), *A practitioner's guide to instructional design in higher education.*
+
+**Skills**
+
+>- **R**. Keras, statistical and machine learning models, API, tidyverse, Rshiny web applications.
+>- **Python**. Proficient with Pandas, Sklearn, NumPy, TensorFlow.
+>- **SQL, HTML/CSS, C++**. Working knowledge.
+>- **NLP Methods**. RNN, Transformers, GPT-3, BERT, Word2Vec.
+>-**Learning and Instructional Theory**. Adaptive scaffolding, self-guided learning, distributed cognition, socio-cultural theory.
