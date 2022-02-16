@@ -1,5 +1,5 @@
 ---
-title: "Learning analytics research in relation to educational technology: Capturing learning analytics contributions with bibliometric analysis"
+title: "Learning analytics research in relation to educational technology"
 collection: publications
 permalink: /bibliometrics_2020
 excerpt: 'This paper uses citation network analysis techniques to uncover trends and patterns in learning analytics publications and their relationship to educational technology research as a whole.'
