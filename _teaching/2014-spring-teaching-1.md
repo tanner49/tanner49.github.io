@@ -1,20 +1,17 @@
 ---
-title: "Teaching experience 1"
+title: "Qualtrics Certification Training"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Professional Training"
+permalink: /teaching/Qualtrics
+venue: "Qualtrics"
+date: 2016-01-01
+location: "Provo, Utah"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+As part of my responsibilities at Qualtrics, I administered the Qualtrics certification courses to private, public, and non-profit organizations. These 1 - 2 day intensive trainings were a challenging venue; keeping a dozon or so employees engaged for 16 straight working hours posed a special teaching challenge.
+\
+Some of the clients I taught included:
+> - The Detroit Public School District
+> - General Services Administration (Federal Agency)
+> - The State of Utah Administrative Offices
+> - Austin Unified Public School District
