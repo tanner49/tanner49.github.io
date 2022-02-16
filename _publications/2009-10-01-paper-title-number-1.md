@@ -8,6 +8,8 @@ venue: 'Tech Trends'
 paperurl: 'https://drgawdat.edutech-portal.net/wp-content/uploads/2020/10/Phillips-Ozogul2020_Article_LearningAnalyticsResearchInRel.pdf'
 citation: 'Phillips,T., Ozogul, G. (2020). &quot;Learning Analytics Bibliometric Analysis.&quot; <i>Tech Trends</i>. 64(6).'
 ---
+
+## Abstract
 In this study the authors conducted an empirical, bibliometric analysis of current literature in learning analytics. The authors
 performed a citation network analysis and found three dominant clusters of research. A qualitative thematic review of publications in these clusters revealed distinct context, goals, and topics. The largest cluster focused on predicting student success and
 failure, the second largest on using analytics to inform instructional design, and the third on concerns in implementing learning
