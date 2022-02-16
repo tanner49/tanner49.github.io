@@ -1,15 +1,17 @@
 ---
-title: "Paper Title Number 2"
+title: "An AI toolkit to support teacher reflection"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /IJAIED_2020
+excerpt: 'This paper presents a novel application of LSTM networks to student data to support teacher reflection on their design and practices.'
+date: 2022-06-01
+venue: 'International Journal of Artificial Intelligence in Education
+citation: 'Phillips,T., Saleh, A., Ozogul, G. (2022, In Press). &quot;Learning Analytics Bibliometric Analysis.&quot; <i>International Journal of Artificial Intelligence in Education</i>.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+## Abstract
+Encouraging teachers to reflect on their instructional practices and course design has been shown to be an effective means of improving instruction and student learning. However, the process of encouraging reflection is difficult; reflection requires quality data, thoughtful analysis, and contextualized interpretation. Because of this, research on and the practice of reflection is often limited to pre-service training or short professional development cycles. This study explores how natural language processing, deep-learning methods can be used to support continuous teacher reflection by facilitating data collection and analysis in any instructional setting that includes ample linguistic and assessment material. Data was collected from an existing introductory undergraduate biology course. A Bidirectional Long-Short Term Memory network was trained to predict assessment item difficulty and tasked with assigning difficulty to recorded lectures. Comparison with the instructor’s perceptions of lecture material difficulty suggested the model was highly reliable at predicting difficult lecture material. We discuss how this model could be expanded into an AI toolkit meant to aid in teacher reflection on their practices and curriculum.
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+### Keywords 
+**Natural Language Processing, Deep Learning, Reflective Practices, Blended Learning, Higher Education**
+
+[Download paper here](tanner49.github.io/files/AI_Toolkit_Revisions_Final.pdf)
