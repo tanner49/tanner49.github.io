@@ -22,6 +22,3 @@ practitioners.
 **Bibliometrics . Citation network analysis . Educational technology . Learning analytics**
 
 [Download paper here](https://drgawdat.edutech-portal.net/wp-content/uploads/2020/10/Phillips-Ozogul2020_Article_LearningAnalyticsResearchInRel.pdf)
-
-### Recommended citation: 
-Phillips,T., Ozogul, G. (2020). "Learning analytics research in relation to educational technology: Capturing learning analytics contributions with bibliometric analysis." <i>Tech Trends</i>. 64(6).
