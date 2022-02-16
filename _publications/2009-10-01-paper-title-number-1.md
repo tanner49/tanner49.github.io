@@ -5,7 +5,7 @@ permalink: https://link.springer.com/article/10.1007/s11528-020-00519-y
 excerpt: 'This paper uses citation network analysis techniques to uncover trends and patterns in learning analytics publications and their relationship to educational technology research as a whole.'
 date: 2020-06-01
 venue: 'Tech Trends'
-paperurl: 'https://drgawdat.edutech-portal.net/wp-content/uploads/2020/10/Phillips-Ozogul2020_Article_LearningAnalyticsResearchInRel.pdf'
+paperurl: 'https://doi.org/10.1007/s11528-020-00519-y'
 citation: 'Phillips,T., Ozogul, G. (2020). &quot;Learning Analytics Bibliometric Analysis.&quot; <i>Tech Trends</i>. 64(6).'
 ---
 
