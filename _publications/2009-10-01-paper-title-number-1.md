@@ -18,8 +18,10 @@ be necessary for learning analytics to reach its interdisciplinary goal. The aut
 not often take place in K-12 settings, and that the burden of creating learning interventions still seemed to reside mainly with
 practitioners.
 
-**Keywords Bibliometrics . Citation network analysis . Educational technology . Learning analytics**
+### Keywords 
+**Bibliometrics . Citation network analysis . Educational technology . Learning analytics**
 
 [Download paper here](https://drgawdat.edutech-portal.net/wp-content/uploads/2020/10/Phillips-Ozogul2020_Article_LearningAnalyticsResearchInRel.pdf)
 
-Recommended citation: Phillips,T., Ozogul, G. (2020). "Learning analytics research in relation to educational technology: Capturing learning analytics contributions with bibliometric analysis." <i>Tech Trends</i>. 64(6).
+### Recommended citation: 
+Phillips,T., Ozogul, G. (2020). "Learning analytics research in relation to educational technology: Capturing learning analytics contributions with bibliometric analysis." <i>Tech Trends</i>. 64(6).
