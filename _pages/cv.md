@@ -14,7 +14,7 @@ redirect_from:
 
 ---
 
-**Education**
+## **Education**
 
 > **Ph.D. in Instructional Systems Technology,** 2023 (expected) 
 >
@@ -30,7 +30,7 @@ redirect_from:
 >
 > *Brigham Young University, Provo, UT*
 
-**Academic Positions**
+## **Academic Positions**
 
 > **Graduate Research Assistant**, **Center for Research on Learning and Technology**, 2020 - Present
 >
@@ -52,7 +52,7 @@ redirect_from:
 >
 > - Program Director: Jamie Jensen
 
-**Professional Experience**
+## **Professional Experience**
 
 > **Instructional Designer, Qualtrics** 2016-2018. Designed and presented trainings and certifications on survey, dashboarding, and analytics software in both online and in-person contexts. Other responsibilities included internal UX strategy and customer feedback analytics.
 >
@@ -74,13 +74,13 @@ redirect_from:
 >
 > **2015 Barry Goldwater Fellowship Nominee**. *Brigham Young University.*
 
-**Grants**
+## **Grants**
 
 > *A design-based research approach to implementing an artificial intelligence toolkit in an in-person classroom.* (2021-2022). Proposal funded by the Jerrold E. Kemp Instructional Systems Technology Fellowship Fund. \$1000. **Principal investigator.**
 >
 > *Creating a predictive learning analytics model in line with instructional design practices.* (2019-2020). Proposal funded by the Jerrold E. Kemp Instructional Systems Technology Fellowship Fund. One year grant, \$1750. **Principal investigator.**
 
-**Teaching**
+## **Teaching**
 
 > *Indiana University*
 >-   *W200* - Using Computers in Education, Fall 2019.
@@ -93,7 +93,7 @@ redirect_from:
 >-   *Qualtrics Certification* - One and two day certification courses on Qualtrics survey, statistical, and voice-of-the-customer software.
 >-   *Crash Course in Survey Design with Qualtrics* - Online course hosted on Udemy.com. 1000+ students.
 
-**Service Activities**
+## **Service Activities**
 
 > *Academic Reviewing and Editing*
 >-   Review Team Lead, Instructional Systems Technology conference, 2021.
@@ -106,7 +106,7 @@ redirect_from:
 >-   Hospitality Team Lead. Instructional Systems Technology conference, 2019 & 2020.
 >-   *President, BYU Analytics Club (2015 -- 2016)*
 
-**Peer Reviewed Journal Articles**
+## **Peer Reviewed Journal Articles**
 
 > **Phillips., T.** Saleh, A., Ozogul., G. (2022, under revision). An AI toolkit to support teacher design and reflection. *International Journal of Artificial Intelligence in Education.*
 >
@@ -118,7 +118,7 @@ redirect_from:
 >
 > Buxton, A., Jensen, J., Wright, G., Bybee, S., Phillips, A., **Phillips, T**., Steadman, M., (2020). Spiders or Butterflies? Despite Student Preference, Gender-Biased Lesson Models do Not Impact Interest, Attitude, and Learning in Biology. Advances In Social Sciences Research Journal, 7(4), 87-101. https://doi.org/10.14738/assrj.74.8074
 
-**Conference Proceeding Publications**
+## **Conference Proceeding Publications**
 
 > **Phillips, T.,** Saleh, A., Glazewski, K., Hmelo-Silver, C., Mott, B., Lester., J. (March, 2022). *Exploring the use of GPT-3 as a tool for evaluating text-based collaborative discourse.* Companion proceedings to the 11^th^ international learning analytics and knowledge conference.
 >
@@ -128,7 +128,7 @@ redirect_from:
 >
 > **Phillips, T.** (2021) *Educational digital data analytics, five factions and four philosophical divides.* Proceedings of the annual meeting of the Association for Educational Communication and Technology, 2020.
 
-**Conference Presentations**
+## **Conference Presentations**
 
 > **Phillips, T.,** Jeon, M., Jantaraweragul, K., Kown, K. (2021, November). *An exploration of the relationship between social media usage and undergraduate school satisfaction.* Presentation at the annual meeting of the Association for Educational Communication and Technology, Chicago, Il.
 >
@@ -150,11 +150,11 @@ redirect_from:
 > 
 > **Phillips, T.**, Jensen JL., (2015, August). Lab work or class work? *Students show preference for hands-on learning in undergraduate biology.* Presentation at the annual Society for the Advancement of Biology Education Research, Minneapolis, MN. 
 
-**Book Chapters**
+## **Book Chapters**
 
 > **Phillips, T.,** Lachheb, A., Sankaranarayanan, R., Abramenka, V.. (In Press, 2021). Learning analytics as a tool for improvement and reflection on instructional design practices. In J. Stefaniak, S. Conklin, B. Oyarzun, R. Reese (Eds.), *A practitioner's guide to instructional design in higher education.*
 
-**Skills**
+## **Skills**
 
 >- **R**. Keras, statistical and machine learning models, API, tidyverse, Rshiny web applications.
 >- **Python**. Proficient with Pandas, Sklearn, NumPy, TensorFlow.
