@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-### Download a copy of my [CV here](https://tanner49.github.io/files/CV_2022.docx).
-### Download a copy of my 2 page [professional resume here](https://tanner49.github.io/files/Professional_Resume.docx).
+#### Download a copy of my [CV here](https://tanner49.github.io/files/CV_2022.docx).
+#### Download a copy of my 2 page [professional resume here](https://tanner49.github.io/files/Professional_Resume.docx).
 
 ---
 
