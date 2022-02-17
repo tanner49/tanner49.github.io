@@ -88,7 +88,9 @@ redirect_from:
 >-   *TA, P622 --* Discourse Learning Analytics, Fall 2021
 
 
-> *Private Courses*
+> *Corporate and Private Instruction*
+>-   *Employee Onboarding* - Initial training on Qualtrics software for over 300 new Qualtrics employees in a 40-hour course over two weeks.
+>-   *Qualtrics Certification* - One and two day certification courses on Qualtrics survey, statistical, and voice-of-the-customer software.
 >-   *Crash Course in Survey Design with Qualtrics* - Online course hosted on Udemy.com. 1000+ students.
 
 **Service Activities**
