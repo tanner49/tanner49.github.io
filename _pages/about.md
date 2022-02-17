@@ -12,4 +12,4 @@ I am an educational data scientist with a focus on the use of natural language p
 
 I love finding creative ways to visualize complex data for a more general audiance. My work often involves making sense of high dimensional data such as log files from software, language, and survey data. I've gained broad experience in a range of statistical and machine learning methods, and have used everything from GLMs to LSTMs to Social Network Analysis in my peer reviewed research.
 
-If you have any questions about my work, I'd love to hear from you! Feel free to take a look at my, portfolio, and recent publications to learn more about me.
+If you have any questions about my work, I'd love to hear from you! Feel free to take a look at my portfolio, CV, and recent publications to learn more about me.
