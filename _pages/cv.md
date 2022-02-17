@@ -58,7 +58,7 @@ redirect_from:
 >
 > **Product Specialist, Qualtrics** 2015. Customer support and design of online support pages.
 
-**Awards & Fellowships**
+## **Awards & Fellowships**
 
 > **Measurement Fellow** (2021). *Sloan Equity and Inclusion in STEM Introductory Courses.*
 >
