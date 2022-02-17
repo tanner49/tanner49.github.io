@@ -141,6 +141,14 @@ redirect_from:
 > **Phillips, T.,** (May, 2021). *A method for projecting assessment difficulty to lecture material*. Indiana University's 3rd Annual Learning Analytics Summit.
 >
 > **Phillips, T.,** Saleh, A., Lee, S., Mott, B., Glazewski, K., Hmelo-Silver, C., Lester., J. (April, 2021). *Understanding user profiles and group dynamics in an online collaborative learning environment using trace data.* 2021 annual meeting of the American Educational Research Association**.**
+> 
+> **Phillips, T.**, Ozogul., J.L. (2020, November). *Creating a predictive learning analytics model in line with instructional design principles.*  Presentation at the annual meeting of the Association for Educational Communication and Technology, Virtual.
+> 
+> **Phillips, T.**, (2020, March). *Challenges in exploring education content with natural language processing*. Presentation at the annual Instructional Systems Technology conference, Bloomington, IN.
+> 
+> **Phillips, T.**, Ozogul, G., (2019, October). *Learning analytics research in education: Capturing the emergence and impact through a bibliometric approach.* Presentation at the annual meeting of the Association for Educational Communication and Technology, Las Vegas, NV.
+> 
+> **Phillips, T.**, Jensen JL., (2015, August). Lab work or class work? *Students show preference for hands-on learning in undergraduate biology.* Presentation at the annual Society for the Advancement of Biology Education Research, Minneapolis, MN. 
 
 **Book Chapters**
 
