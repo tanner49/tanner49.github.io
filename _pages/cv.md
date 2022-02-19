@@ -83,9 +83,9 @@ redirect_from:
 ## **Teaching**
 
 > *Indiana University*
+>- *Co-instructor, P622* Discourse Learning Analytics, Fall 2021
 >-   *W200* - Using Computers in Education, Fall 2019.
 >-   *Saturday Science Spring 2020*, 4-6th grade: The Science of Sleuthing
->-   *TA, P622 --* Discourse Learning Analytics, Fall 2021
 
 
 > *Corporate and Private Instruction*
