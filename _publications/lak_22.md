@@ -15,4 +15,4 @@ Natural language processing (NLP) models have previously been used to classify a
 ### Keywords 
 **Natural Language Processing, Collaborative Learning, Discourse **
 
-[Download Pre-Print Here] (tanner49.github.io/files/LAK22_Phillips_et_al_camera_reading.pdf)
+[Download Pre-Print Here](/files/LAK22_Phillips_et_al_camera_reading.pdf)
