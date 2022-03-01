@@ -15,4 +15,4 @@ This exploratory article highlights how problem-based learning (PBL) provided th
 ### Keywords 
 **Learning Analytics, Problem-based learning, Collaborative learning, Games, Quantitative Analysis, Qualitative research **
 
-[Download Available Soon] (pre-print pending)
+[Download Here](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13198)
