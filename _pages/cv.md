@@ -32,7 +32,7 @@ redirect_from:
 
 ## **Academic Positions**
 
-> **Graduate Research Assistant**, **Center for Research on Learning and Technology**, 2020 - Present
+> **Graduate Research Assistant**, **Center for Research on Learning and Technology**, 2020 - 2022
 >
 > - Funded by NSF grant #1561655
 >
