@@ -56,7 +56,7 @@ redirect_from:
 
 > **Data Scientist, Pluralsight** 2022 - Present. Product and R&D focused data scientist with experience taking data science products from ill-defined business problems all the way to production in cloud enviornments. Focus on combining in-house NLP and embeddings with pre-trained and generative ML tools to create world class AI solutions.
 > 
-> **Instructional Designer, Qualtrics** 2016-2018. Designed and presented trainings and certifications on survey, dashboarding, and analytics software in both online and in-person contexts. Other responsibilities included internal UX strategy and customer feedback analytics.
+> **Instructional Designer, Qualtrics** 2016 - 2018. Designed and presented trainings and certifications on survey, dashboarding, and analytics software in both online and in-person contexts. Other responsibilities included internal UX strategy and customer feedback analytics.
 >
 > **Product Specialist, Qualtrics** 2015. Customer support and design of online support pages.
 
