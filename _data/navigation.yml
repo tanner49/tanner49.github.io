@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Tanner Ratings"
+    url: /tanner-ratings/
+
   - title: "Publications"
     url: /publications/
 
