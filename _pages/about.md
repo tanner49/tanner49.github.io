@@ -18,6 +18,3 @@ At Angi, I've worked on lead scoring and enrichment, recommendations, demand for
 
 I hold a PhD in Educational/Instructional Technology and a master's degree in Statistics from Indiana University, and a bachelor's degree in Statistics from Brigham Young University.
 
-[Experience and education](/cv/) | [LinkedIn](https://www.linkedin.com/in/tanner-phillips-phd-58798b67/) | [GitHub](https://github.com/tanner49)
-
-For a side project, see [Tanner Ratings](/tanner-ratings/): my college football rankings based on a modified Massey model.
