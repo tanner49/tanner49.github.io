@@ -1,9 +1,6 @@
-# Authors
-
 Tanner Phillips:
-  name        : "Tanner Phillips"
-  uri         : "tanner49.github.io"
-  email       : "tanner.matthew.phillips@gmail.com"
-  bio         : "I’m an educational data scientist who focuses on using AI and machine learning to improve education. I have expertise in deep learning NLP models, high-dimensional data reduction and modeling, and theories of learning and instruction. I am constantly learning and seeking new opportunities to use data to improve education. Expertise with tensorflow, gpt-3, and R (analysis, visualization, web apps)"
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "TannerMPhillips"
+  name: "Tanner Phillips, PhD"
+  uri: "https://tanner49.github.io"
+  email: "tanner.matthew.phillips@gmail.com"
+  bio: "Senior Data Scientist at Angi. Statistics, machine learning, causal analysis, and AI pipelines."
+  avatar: "IMG_0187_JPG.webp"

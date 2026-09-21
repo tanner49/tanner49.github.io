@@ -1,15 +1,23 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: "Tanner Phillips"
+excerpt: "Senior Data Scientist at Angi. Statistics, machine learning, causal analysis, and AI pipelines."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
+  - /portfolio/
+  - /publications/
+  - /teaching/
+  - /talks/
 ---
 
-I am an educational data scientist with a focus on the use of natural language processing to better understand learning and instruction. I recieved my undegraduate in statistics from Brigham Young University. I'm currently completing graduate work at Indiana University, which includes a M.S. in statistics (expected spring 2022) and a PhD in Instructional Systems Technology (expected spring 2023).   My research has been published in journals such as *The British Journal of Educational Technology* and *Artificial Intelligence in Education*. Before beginning graduate school, I worked as an instructional designer at Qualtrics for three years.
+I'm a Senior Data Scientist at Angi. I build, deploy, and evaluate machine learning models and AI pipelines, with a focus on go-to-market teams and causal analysis. My work includes systems that support millions of daily inferences.
 
-I love finding creative ways to make sense of complex data and ground my analyses in learning and instructional theory. My work often involves making sense of high dimensional data such as log files from software, language, and survey data. For the last three years, I've been funded in a lab co-run by both education and computer science researchers. As a result, I've gained broad experience at the intersection of AI and education. I've gained broad experience in a range of statistical and machine learning methods, and have used everything from GLMs to LSTMs to Social Network Analysis in my peer reviewed research; I've also taken courses in learning science and instructional theory and have a specific interest in inquiry-based instruction.
+At Angi, I've worked on lead scoring and enrichment, recommendations, demand forecasting, and large-scale LLM pipelines. I also study the business impact of AI tools. Previously, I worked in data science at Pluralsight.
 
-If you have any questions about my work, I'd love to hear from you! Feel free to take a look at my portfolio, CV, and recent publications to learn more about me.
+I hold a PhD in Educational/Instructional Technology and a master's degree in Statistics from Indiana University, and a bachelor's degree in Statistics from Brigham Young University.
+
+[Experience and education](/cv/) | [LinkedIn](https://www.linkedin.com/in/tanner-phillips-phd-58798b67/) | [GitHub](https://github.com/tanner49)
+
+For a side project, see [Tanner Ratings](/tanner-ratings/): my college football rankings based on a modified Massey model.

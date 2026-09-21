@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tanner Phillips"
 title_separator          : "-"
 name                     : &name "Tanner Phillips"
-description              : &description "I am an educational data scientists and PhD candidate in Instructional Systems Technology at Indiana University"
+description              : &description "Senior Data Scientist at Angi. Statistics, machine learning, causal analysis, and AI pipelines."
 url                      : https://tanner49.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/Home"
 repository               : "tanner49/tanner49.github.io"
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Tanner Phillips, Ph.D. Candidate"
+  name             : "Tanner Phillips, PhD"
   avatar           : "IMG_0187_JPG.webp"
-  bio              : "I am an educational data scientists and PhD candidate in Instructional Systems Technology at Indiana University. Please feel free to contact me via any of the methods below."
+  bio              : "Senior Data Scientist at Angi. Statistics, machine learning, causal analysis, and AI pipelines."
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=WQMUXNYAAAAJ&hl=en&oi=ao"
+  googlescholar    :
   email            : "tanner.matthew.phillips@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Tanner-Phillips"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "tanner-phillips-58798b67"
+  linkedin         : "tanner-phillips-phd-58798b67"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -121,8 +121,22 @@ author:
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
+  # Retired academic content and theme examples are retained in Git only.
+  - _portfolio
+  - _publications
+  - _teaching
+  - _talks
+  - _posts
+  - _drafts
+  - files
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - trending_bytime.html
+  - trending_document_visualization_test.html
+  - tanner-ratings/README.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -176,16 +190,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
