@@ -107,6 +107,23 @@ function openTeam(name) {
   $('team-detail').innerHTML = `<h2>${escapeHTML(name)}</h2><p class="detail-meta">${escapeHTML(team.conference)} · ${divisionName(team.classification)} · ${state.current.season} Week ${state.current.week}</p><div class="detail-stats"><div><span>RANK</span><strong>#${rankFor(team)}</strong></div><div><span>RATING</span><strong>${signed(team.rating)}</strong></div><div><span>RECORD</span><strong>${record(team)}</strong></div></div><h3>Season trajectory</h3>${chart}<h3>Games in the model</h3><div class="table-wrap"><table><thead><tr><th>Week</th><th>Opponent</th><th>Result</th><th>Score</th></tr></thead><tbody>${team.games.map(g=>`<tr><td>${g.week}</td><td>${g.venue === 'A' ? 'at ' : g.venue === 'N' ? 'vs. ' : ''}${escapeHTML(g.opponent)}</td><td class="${g.result === 'W' ? 'positive':g.result === 'L' ? 'negative':'neutral'}">${g.result}</td><td>${g.scored}–${g.allowed}</td></tr>`).join('')}</tbody></table></div>`;
   $('team-dialog').showModal();
 }
+let selectedShare = 'top10';
+function renderShareGraphic() {
+  const snapshot = state.current;
+  if (!snapshot) return;
+  const path = `share/${snapshot.season}/week-${String(snapshot.week).padStart(2, '0')}/${selectedShare}.png`;
+  const title = {top10: 'FBS Top 10', matchups: 'FBS games to watch', schedules: 'FBS toughest schedules played'}[selectedShare];
+  $('share-image').src = path;
+  $('share-image').alt = `${snapshot.season} Week ${snapshot.week}: ${title}`;
+  $('share-download').href = path;
+  $('share-download').download = `tanner-ratings-${snapshot.season}-week-${snapshot.week}-${selectedShare}.png`;
+  document.querySelectorAll('[data-share]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.share === selectedShare)));
+}
+document.querySelectorAll('[data-share]').forEach(button => button.addEventListener('click', () => {
+  selectedShare = button.dataset.share;
+  renderShareGraphic();
+}));
+
 async function changeSnapshot() {
   const token = ++state.token;
   const entry = state.snapshots[Number($('snapshot').value)];
@@ -128,7 +145,7 @@ async function changeSnapshot() {
     $('leader-rating').textContent = leader ? signed(leader.rating) : '—';
     $('leader-record').textContent = leader ? record(leader) : '—';
     $('download').href = `data/${entry.path.replace(/\.json$/,'.csv')}`;
-    populateConferences(); populateComparison(); renderBoard(); renderFixtures();
+    populateConferences(); populateComparison(); renderBoard(); renderFixtures(); renderShareGraphic();
   } catch (error) {
     $('error').hidden = false;
     $('error').textContent = `Rankings could not be loaded. Please reload the page. ${error.message}`;

@@ -20,3 +20,5 @@
 @media(max-width:700px){.rankings-header{grid-template-columns:1fr;gap:24px}.rankings-intro h1{font-size:40px}.rankings-header .leader-card{max-width:none}.fixture-heading{align-items:start;flex-direction:column;gap:5px}.fixture-panel{padding:18px}.fixture strong{font-size:12px}.fixture .fixture-edge{font-size:11px}}
 
 .ratings-tagline{font-size:14px;color:var(--muted);margin:0 0 16px}
+
+.share-gallery{margin:24px 0 32px}.share-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}.share-options{display:flex;flex-wrap:wrap;gap:8px}.share-options button{border:1px solid var(--line);padding:8px 14px;background:transparent;font-size:12px;min-height:40px}.share-options button[aria-pressed="true"]{background:var(--ink);color:var(--lime);border-color:var(--ink)}#share-download{font-size:12px;font-weight:600;white-space:nowrap}#share-image{width:100%;height:auto;display:block;max-width:1200px}.share-gallery .fine-print{margin-top:8px}@media(max-width:600px){.share-toolbar{align-items:start;flex-direction:column;gap:10px}.share-options button{font-size:11px;padding:8px 10px}}
