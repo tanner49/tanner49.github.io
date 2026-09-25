@@ -12,3 +12,5 @@ Plain HTML, CSS, and JavaScript hosted on GitHub Pages. No Jekyll, package manag
 Preview from this directory with `python -m http.server 8000`, then open http://localhost:8000/. Edit the HTML directly. Navigation markup is repeated in the main pages; keep it consistent when adding a page. Google Fonts are optional and have system fallbacks. The personal pages and navigation work without JavaScript.
 
 The academic theme, notebooks, old documents, and retired research pages were removed from the publishing tree; they remain in Git history. Do not restore them to the root merely to archive them: without Jekyll exclusions, static files are public. The original theme license is retained in `LICENSE`.
+
+After editing the ratings JavaScript, CSS, or graphics, run `python share_cards.py` from the sibling `PublicCode/football` directory before publishing. It updates content-versioned asset URLs in the ratings HTML to prevent stale scripts/styles from being mixed with a new page. The generated site remains fully static.
