@@ -117,7 +117,7 @@ function renderShareGraphic() {
   $('profile-data').href = `share/${snapshot.season}/week-${String(snapshot.week).padStart(2, '0')}/profile-metrics.json`;
   $('share-image').alt = `${snapshot.season} Week ${snapshot.week}: ${title}`;
   $('share-download').href = path;
-  $('share-download').download = `tanner-ratings-${snapshot.season}-week-${snapshot.week}-${selectedShare}.png`;
+  $('share-download').download = `prove-it-rankings-${snapshot.season}-week-${snapshot.week}-${selectedShare}.png`;
   document.querySelectorAll('[data-share]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.share === selectedShare)));
 }
 document.querySelectorAll('[data-share]').forEach(button => button.addEventListener('click', () => {
