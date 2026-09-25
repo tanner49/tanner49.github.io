@@ -112,8 +112,9 @@ function renderShareGraphic() {
   const snapshot = state.current;
   if (!snapshot) return;
   const path = `share/${snapshot.season}/week-${String(snapshot.week).padStart(2, '0')}/${selectedShare}.png`;
-  const title = {top10: 'FBS Top 10', matchups: 'FBS games to watch', schedules: 'FBS toughest schedules played'}[selectedShare];
+  const title = {top10: 'FBS Top 10', matchups: 'FBS games to watch', schedules: 'FBS toughest schedules played', brawlers: 'Brawlers: competitive game support among the FBS Top 50', cupcakes: 'Cupcake Annihilators: dominance against weaker opponents'}[selectedShare];
   $('share-image').src = path;
+  $('profile-data').href = `share/${snapshot.season}/week-${String(snapshot.week).padStart(2, '0')}/profile-metrics.json`;
   $('share-image').alt = `${snapshot.season} Week ${snapshot.week}: ${title}`;
   $('share-download').href = path;
   $('share-download').download = `tanner-ratings-${snapshot.season}-week-${snapshot.week}-${selectedShare}.png`;
