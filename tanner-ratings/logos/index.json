@@ -1,0 +1,692 @@
+{
+  "Air Force": {
+    "path": "logos/2005.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+    "espnId": "2005"
+  },
+  "Akron": {
+    "path": "logos/2006.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+    "espnId": "2006"
+  },
+  "Alabama": {
+    "path": "logos/333.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+    "espnId": "333"
+  },
+  "App State": {
+    "path": "logos/2026.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2026.png",
+    "espnId": "2026"
+  },
+  "Arizona": {
+    "path": "logos/12.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+    "espnId": "12"
+  },
+  "Arizona State": {
+    "path": "logos/9.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+    "espnId": "9"
+  },
+  "Arkansas": {
+    "path": "logos/8.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+    "espnId": "8"
+  },
+  "Arkansas State": {
+    "path": "logos/2032.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+    "espnId": "2032"
+  },
+  "Army": {
+    "path": "logos/349.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+    "espnId": "349"
+  },
+  "Auburn": {
+    "path": "logos/2.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+    "espnId": "2"
+  },
+  "BYU": {
+    "path": "logos/252.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+    "espnId": "252"
+  },
+  "Ball State": {
+    "path": "logos/2050.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+    "espnId": "2050"
+  },
+  "Baylor": {
+    "path": "logos/239.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+    "espnId": "239"
+  },
+  "Boise State": {
+    "path": "logos/68.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+    "espnId": "68"
+  },
+  "Boston College": {
+    "path": "logos/103.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+    "espnId": "103"
+  },
+  "Bowling Green": {
+    "path": "logos/189.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+    "espnId": "189"
+  },
+  "Buffalo": {
+    "path": "logos/2084.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+    "espnId": "2084"
+  },
+  "California": {
+    "path": "logos/25.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+    "espnId": "25"
+  },
+  "Central Michigan": {
+    "path": "logos/2117.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+    "espnId": "2117"
+  },
+  "Charlotte": {
+    "path": "logos/2429.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2429.png",
+    "espnId": "2429"
+  },
+  "Cincinnati": {
+    "path": "logos/2132.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+    "espnId": "2132"
+  },
+  "Clemson": {
+    "path": "logos/228.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+    "espnId": "228"
+  },
+  "Coastal Carolina": {
+    "path": "logos/324.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+    "espnId": "324"
+  },
+  "Colorado": {
+    "path": "logos/38.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+    "espnId": "38"
+  },
+  "Colorado State": {
+    "path": "logos/36.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+    "espnId": "36"
+  },
+  "Delaware": {
+    "path": "logos/48.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+    "espnId": "48"
+  },
+  "Duke": {
+    "path": "logos/150.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    "espnId": "150"
+  },
+  "East Carolina": {
+    "path": "logos/151.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+    "espnId": "151"
+  },
+  "Eastern Michigan": {
+    "path": "logos/2199.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+    "espnId": "2199"
+  },
+  "Florida": {
+    "path": "logos/57.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+    "espnId": "57"
+  },
+  "Florida Atlantic": {
+    "path": "logos/2226.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+    "espnId": "2226"
+  },
+  "Florida International": {
+    "path": "logos/2229.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+    "espnId": "2229"
+  },
+  "Florida State": {
+    "path": "logos/52.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+    "espnId": "52"
+  },
+  "Fresno State": {
+    "path": "logos/278.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+    "espnId": "278"
+  },
+  "Georgia": {
+    "path": "logos/61.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+    "espnId": "61"
+  },
+  "Georgia Southern": {
+    "path": "logos/290.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+    "espnId": "290"
+  },
+  "Georgia State": {
+    "path": "logos/2247.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+    "espnId": "2247"
+  },
+  "Georgia Tech": {
+    "path": "logos/59.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+    "espnId": "59"
+  },
+  "Hawai'i": {
+    "path": "logos/62.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/62.png",
+    "espnId": "62"
+  },
+  "Houston": {
+    "path": "logos/248.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+    "espnId": "248"
+  },
+  "Illinois": {
+    "path": "logos/356.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+    "espnId": "356"
+  },
+  "Indiana": {
+    "path": "logos/84.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+    "espnId": "84"
+  },
+  "Iowa": {
+    "path": "logos/2294.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+    "espnId": "2294"
+  },
+  "Iowa State": {
+    "path": "logos/66.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+    "espnId": "66"
+  },
+  "Jacksonville State": {
+    "path": "logos/55.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+    "espnId": "55"
+  },
+  "James Madison": {
+    "path": "logos/256.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+    "espnId": "256"
+  },
+  "Kansas": {
+    "path": "logos/2305.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+    "espnId": "2305"
+  },
+  "Kansas State": {
+    "path": "logos/2306.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+    "espnId": "2306"
+  },
+  "Kennesaw State": {
+    "path": "logos/338.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+    "espnId": "338"
+  },
+  "Kent State": {
+    "path": "logos/2309.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+    "espnId": "2309"
+  },
+  "Kentucky": {
+    "path": "logos/96.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+    "espnId": "96"
+  },
+  "LSU": {
+    "path": "logos/99.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "espnId": "99"
+  },
+  "Liberty": {
+    "path": "logos/2335.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+    "espnId": "2335"
+  },
+  "Louisiana": {
+    "path": "logos/309.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+    "espnId": "309"
+  },
+  "Louisiana Tech": {
+    "path": "logos/2348.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+    "espnId": "2348"
+  },
+  "Louisville": {
+    "path": "logos/97.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+    "espnId": "97"
+  },
+  "Marshall": {
+    "path": "logos/276.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+    "espnId": "276"
+  },
+  "Maryland": {
+    "path": "logos/120.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+    "espnId": "120"
+  },
+  "Massachusetts": {
+    "path": "logos/113.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+    "espnId": "113"
+  },
+  "Memphis": {
+    "path": "logos/235.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+    "espnId": "235"
+  },
+  "Miami": {
+    "path": "logos/2390.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2390.png",
+    "espnId": "2390"
+  },
+  "Miami (OH)": {
+    "path": "logos/193.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+    "espnId": "193"
+  },
+  "Michigan": {
+    "path": "logos/130.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+    "espnId": "130"
+  },
+  "Michigan State": {
+    "path": "logos/127.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+    "espnId": "127"
+  },
+  "Middle Tennessee": {
+    "path": "logos/2393.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+    "espnId": "2393"
+  },
+  "Minnesota": {
+    "path": "logos/135.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+    "espnId": "135"
+  },
+  "Mississippi State": {
+    "path": "logos/344.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+    "espnId": "344"
+  },
+  "Missouri": {
+    "path": "logos/142.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+    "espnId": "142"
+  },
+  "Missouri State": {
+    "path": "logos/2623.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+    "espnId": "2623"
+  },
+  "NC State": {
+    "path": "logos/152.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+    "espnId": "152"
+  },
+  "Navy": {
+    "path": "logos/2426.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+    "espnId": "2426"
+  },
+  "Nebraska": {
+    "path": "logos/158.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+    "espnId": "158"
+  },
+  "Nevada": {
+    "path": "logos/2440.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+    "espnId": "2440"
+  },
+  "New Mexico": {
+    "path": "logos/167.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+    "espnId": "167"
+  },
+  "New Mexico State": {
+    "path": "logos/166.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+    "espnId": "166"
+  },
+  "North Carolina": {
+    "path": "logos/153.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+    "espnId": "153"
+  },
+  "North Dakota State": {
+    "path": "logos/2449.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+    "espnId": "2449"
+  },
+  "North Texas": {
+    "path": "logos/249.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+    "espnId": "249"
+  },
+  "Northern Illinois": {
+    "path": "logos/2459.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+    "espnId": "2459"
+  },
+  "Northwestern": {
+    "path": "logos/77.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+    "espnId": "77"
+  },
+  "Notre Dame": {
+    "path": "logos/87.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+    "espnId": "87"
+  },
+  "Ohio": {
+    "path": "logos/195.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+    "espnId": "195"
+  },
+  "Ohio State": {
+    "path": "logos/194.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+    "espnId": "194"
+  },
+  "Oklahoma": {
+    "path": "logos/201.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+    "espnId": "201"
+  },
+  "Oklahoma State": {
+    "path": "logos/197.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+    "espnId": "197"
+  },
+  "Old Dominion": {
+    "path": "logos/295.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+    "espnId": "295"
+  },
+  "Ole Miss": {
+    "path": "logos/145.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+    "espnId": "145"
+  },
+  "Oregon": {
+    "path": "logos/2483.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+    "espnId": "2483"
+  },
+  "Oregon State": {
+    "path": "logos/204.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+    "espnId": "204"
+  },
+  "Penn State": {
+    "path": "logos/213.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+    "espnId": "213"
+  },
+  "Pittsburgh": {
+    "path": "logos/221.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+    "espnId": "221"
+  },
+  "Purdue": {
+    "path": "logos/2509.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+    "espnId": "2509"
+  },
+  "Rice": {
+    "path": "logos/242.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+    "espnId": "242"
+  },
+  "Rutgers": {
+    "path": "logos/164.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+    "espnId": "164"
+  },
+  "SMU": {
+    "path": "logos/2567.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+    "espnId": "2567"
+  },
+  "Sacramento State": {
+    "path": "logos/16.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+    "espnId": "16"
+  },
+  "Sam Houston": {
+    "path": "logos/2534.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+    "espnId": "2534"
+  },
+  "San Diego State": {
+    "path": "logos/21.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+    "espnId": "21"
+  },
+  "San José State": {
+    "path": "logos/23.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+    "espnId": "23"
+  },
+  "South Alabama": {
+    "path": "logos/6.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+    "espnId": "6"
+  },
+  "South Carolina": {
+    "path": "logos/2579.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+    "espnId": "2579"
+  },
+  "South Florida": {
+    "path": "logos/58.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+    "espnId": "58"
+  },
+  "Southern Miss": {
+    "path": "logos/2572.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+    "espnId": "2572"
+  },
+  "Stanford": {
+    "path": "logos/24.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+    "espnId": "24"
+  },
+  "Syracuse": {
+    "path": "logos/183.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+    "espnId": "183"
+  },
+  "TCU": {
+    "path": "logos/2628.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+    "espnId": "2628"
+  },
+  "Temple": {
+    "path": "logos/218.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+    "espnId": "218"
+  },
+  "Tennessee": {
+    "path": "logos/2633.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+    "espnId": "2633"
+  },
+  "Texas": {
+    "path": "logos/251.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+    "espnId": "251"
+  },
+  "Texas A&M": {
+    "path": "logos/245.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "espnId": "245"
+  },
+  "Texas State": {
+    "path": "logos/326.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+    "espnId": "326"
+  },
+  "Texas Tech": {
+    "path": "logos/2641.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+    "espnId": "2641"
+  },
+  "Toledo": {
+    "path": "logos/2649.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+    "espnId": "2649"
+  },
+  "Troy": {
+    "path": "logos/2653.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
+    "espnId": "2653"
+  },
+  "Tulane": {
+    "path": "logos/2655.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+    "espnId": "2655"
+  },
+  "Tulsa": {
+    "path": "logos/202.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+    "espnId": "202"
+  },
+  "UAB": {
+    "path": "logos/5.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+    "espnId": "5"
+  },
+  "UCF": {
+    "path": "logos/2116.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+    "espnId": "2116"
+  },
+  "UCLA": {
+    "path": "logos/26.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "espnId": "26"
+  },
+  "UConn": {
+    "path": "logos/41.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+    "espnId": "41"
+  },
+  "UL Monroe": {
+    "path": "logos/2433.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+    "espnId": "2433"
+  },
+  "UNLV": {
+    "path": "logos/2439.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+    "espnId": "2439"
+  },
+  "USC": {
+    "path": "logos/30.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "espnId": "30"
+  },
+  "UTEP": {
+    "path": "logos/2638.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+    "espnId": "2638"
+  },
+  "UTSA": {
+    "path": "logos/2636.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+    "espnId": "2636"
+  },
+  "Utah": {
+    "path": "logos/254.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+    "espnId": "254"
+  },
+  "Utah State": {
+    "path": "logos/328.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+    "espnId": "328"
+  },
+  "Vanderbilt": {
+    "path": "logos/238.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+    "espnId": "238"
+  },
+  "Virginia": {
+    "path": "logos/258.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+    "espnId": "258"
+  },
+  "Virginia Tech": {
+    "path": "logos/259.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+    "espnId": "259"
+  },
+  "Wake Forest": {
+    "path": "logos/154.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+    "espnId": "154"
+  },
+  "Washington": {
+    "path": "logos/264.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+    "espnId": "264"
+  },
+  "Washington State": {
+    "path": "logos/265.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+    "espnId": "265"
+  },
+  "West Virginia": {
+    "path": "logos/277.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+    "espnId": "277"
+  },
+  "Western Kentucky": {
+    "path": "logos/98.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+    "espnId": "98"
+  },
+  "Western Michigan": {
+    "path": "logos/2711.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+    "espnId": "2711"
+  },
+  "Wisconsin": {
+    "path": "logos/275.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+    "espnId": "275"
+  },
+  "Wyoming": {
+    "path": "logos/2751.png",
+    "source": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+    "espnId": "2751"
+  }
+}

@@ -4,7 +4,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .rankings-section{padding-top:32px}
-.rankings-header{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:36px;align-items:center;margin-bottom:32px}
+.rankings-header{margin-bottom:20px}
 .rankings-intro h1{font:600 clamp(36px,4vw,56px)/1.05 var(--display);margin:0 0 12px}
 .rankings-intro .eyebrow{margin-bottom:12px}
 .snapshot-cutoff{font-size:11px;color:var(--muted);letter-spacing:1px}
@@ -24,3 +24,14 @@
 .share-gallery{margin:24px 0 32px}.share-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}.share-options{display:flex;flex-wrap:wrap;gap:8px}.share-options button{border:1px solid var(--line);padding:8px 14px;background:transparent;font-size:12px;min-height:40px}.share-options button[aria-pressed="true"]{background:var(--ink);color:var(--lime);border-color:var(--ink)}#share-download{font-size:12px;font-weight:600;white-space:nowrap}#share-image{width:100%;height:auto;display:block;max-width:1200px}.share-gallery .fine-print{margin-top:8px}@media(max-width:600px){.share-toolbar{align-items:start;flex-direction:column;gap:10px}.share-options button{font-size:11px;padding:8px 10px}}
 
 .graphic-methods{font-size:12px;color:var(--muted);max-width:1000px;margin:14px 0}.graphic-methods summary{cursor:pointer;font-weight:600;color:var(--ink)}.graphic-methods a{text-decoration:underline}.share-toolbar{flex-wrap:wrap}
+
+/* Local team marks retain names and fall back to initials if unavailable. */
+.team-badge{position:relative;display:inline-grid;place-items:center;width:40px;height:40px;flex:none;background:transparent;border-radius:8px;overflow:hidden;color:var(--ink);font:700 13px var(--display)}
+.team-badge img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:4px;background:transparent}
+.leader-card h2{display:flex;align-items:center;gap:16px;position:relative;z-index:1}
+.leader-logo{width:66px;height:66px;border-radius:12px}
+.fixture strong.fixture-teams{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.fixture-team{display:inline-flex;align-items:center;gap:7px}
+.fixture .team-badge{width:28px;height:28px;border-radius:5px;font-size:10px}
+
+.team-badge:has(img) .badge-fallback{visibility:hidden}

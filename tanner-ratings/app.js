@@ -6,6 +6,14 @@ const number = value => Number(value).toFixed(2);
 const signed = value => `${value > 0 ? '+' : ''}${number(value)}`;
 const record = team => `${team.wins}–${team.losses}${team.ties ? `–${team.ties}` : ''}`;
 const initials = name => name.split(/\s+/).map(word => word[0]).join('').slice(0,3).toUpperCase();
+let logos = {};
+function teamBadge(name, extra = '') {
+  const logo = logos[name];
+  return `<span class="team-badge ${extra}" aria-hidden="true"><span class="badge-fallback">${escapeHTML(initials(name))}</span>${logo ? `<img src="${escapeHTML(logo.path)}" alt="" width="40" height="40" loading="lazy">` : ''}</span>`;
+}
+document.addEventListener('error', event => {
+  if (event.target.matches?.('.team-badge img')) event.target.remove();
+}, true);
 const divisionName = value => ({fbs:'FBS',fcs:'FCS',ii:'Division II',iii:'Division III',unknown:'Other / unclassified',all:'All divisions'}[value] || value);
 const rankFor = (team, division = $('division').value) => division === 'all' ? team.rank : team.divisionRank;
 const roundedMargin = value => Math.sign(value) * Math.round(Math.abs(value) * 2) / 2;
@@ -55,7 +63,7 @@ function renderBoard() {
     const old = oldTeams.get(team.team), comparable = old && (division === 'all' || old.classification === team.classification);
     const delta = comparable ? rankFor(old) - rankFor(team) : null;
     const move = !previous ? '<span class="neutral">—</span>' : delta === null ? '<span class="neutral">NEW</span>' : delta === 0 ? '<span class="neutral">—</span>' : `<span class="${delta > 0 ? 'positive':'negative'}">${delta > 0 ? '↑':'↓'} ${Math.abs(delta)}</span>`;
-    return `<tr class="${rankFor(team) <= 3 ? 'rank-top':''}"><td>${String(rankFor(team)).padStart(2,'0')}</td><td class="movement">${move}</td><td><button class="team-button" data-team="${escapeHTML(team.team)}"><span class="team-initial" aria-hidden="true">${escapeHTML(initials(team.team))}</span><span>${escapeHTML(team.team)}<span class="team-conference">${escapeHTML(team.conference)}${division === 'all' ? ` · ${divisionName(team.classification)}`:''}</span></span></button></td><td>${record(team)}</td><td class="rating-value">${signed(team.rating)}<div class="rating-bar" aria-hidden="true"><span style="width:${20 + 80 * (team.rating - minRating) / (maxRating - minRating || 1)}%"></span></div></td><td>${signed(team.scheduleStrength)}</td><td>${sparkline(teamHistory(team.team))}</td></tr>`;
+    return `<tr class="${rankFor(team) <= 3 ? 'rank-top':''}"><td>${String(rankFor(team)).padStart(2,'0')}</td><td class="movement">${move}</td><td><button class="team-button" data-team="${escapeHTML(team.team)}">${teamBadge(team.team)}<span>${escapeHTML(team.team)}<span class="team-conference">${escapeHTML(team.conference)}${division === 'all' ? ` · ${divisionName(team.classification)}`:''}</span></span></button></td><td>${record(team)}</td><td class="rating-value">${signed(team.rating)}<div class="rating-bar" aria-hidden="true"><span style="width:${20 + 80 * (team.rating - minRating) / (maxRating - minRating || 1)}%"></span></div></td><td>${signed(team.scheduleStrength)}</td><td>${sparkline(teamHistory(team.team))}</td></tr>`;
   }).join('');
   $('result-count').textContent = `${state.expanded ? teams.length : Math.min(25,teams.length)} of ${teams.length} teams · ${divisionName(division)}`;
   $('movement-note').textContent = previous ? `Movement vs. Week ${previous.week} · ${state.current.season}` : `First weekly ranking`;
@@ -76,7 +84,7 @@ function renderFixtures() {
     .filter(g => division === 'all' || g.classification === division || g.awayClassification === division)
     .sort((a, b) => combinedRating(b) - combinedRating(a) || a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
   $('fixtures-title').textContent = `Week ${state.current.week} · predicted lines`;
-  $('fixtures').innerHTML = fixtures.length ? fixtures.map(g => `<div class="fixture"><div><strong>${escapeHTML(g.away)} <span class="neutral">${g.neutral ? 'vs.':'at'}</span> ${escapeHTML(g.home)}</strong><small>${escapeHTML(new Date(g.date).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'America/Denver'}))}${g.neutral ? ' · Neutral site':''}</small></div><span class="fixture-edge">${escapeHTML(prediction(g.home,g.away,g.homeEdge))}</span></div>`).join('') : '<p class="fine-print">No upcoming games available for this division this week.</p>';
+  $('fixtures').innerHTML = fixtures.length ? fixtures.map(g => `<div class="fixture"><div><strong class="fixture-teams"><span class="fixture-team">${teamBadge(g.away)}${escapeHTML(g.away)}</span> <span class="neutral">${g.neutral ? 'vs.':'at'}</span> <span class="fixture-team">${teamBadge(g.home)}${escapeHTML(g.home)}</span></strong><small>${escapeHTML(new Date(g.date).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'America/Denver'}))}${g.neutral ? ' · Neutral site':''}</small></div><span class="fixture-edge">${escapeHTML(prediction(g.home,g.away,g.homeEdge))}</span></div>`).join('') : '<p class="fine-print">No upcoming games available for this division this week.</p>';
 }
 function renderComparison() {
   const a = state.current.teams.find(t => t.team === $('team-a').value), b = state.current.teams.find(t => t.team === $('team-b').value);
@@ -135,17 +143,7 @@ async function changeSnapshot() {
     if (token !== state.token) return;
     state.current = current; state.history = history; state.expanded = false;
     $('error').hidden = true;
-    const leader = current.teams.find(t=>t.classification === 'fbs');
     $('edition').textContent = `${current.season} SEASON · WEEK ${current.week}`;
-    $('cutoff').textContent = `RESULTS THROUGH WEEK ${current.throughWeek}`;
-    $('stat-week').textContent = `Week ${current.week}`;
-    $('stat-games').textContent = current.gameCount.toLocaleString();
-    $('stat-teams').textContent = current.teams.length.toLocaleString();
-    $('leader-name').textContent = leader?.team || 'No FBS teams';
-    $('leader-meta').textContent = leader ? `${leader.conference} · ${current.season} Week ${current.week}` : '';
-    $('leader-rating').textContent = leader ? signed(leader.rating) : '—';
-    $('leader-record').textContent = leader ? record(leader) : '—';
-    $('download').href = `data/${entry.path.replace(/\.json$/,'.csv')}`;
     populateConferences(); populateComparison(); renderBoard(); renderFixtures(); renderShareGraphic();
   } catch (error) {
     $('error').hidden = false;
@@ -165,11 +163,12 @@ $('close-dialog').addEventListener('click',()=>$('team-dialog').close());
 $('team-dialog').addEventListener('click',event=>{if(event.target === $('team-dialog')){const box=event.target.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)event.target.close();}});
 (async()=>{
   try {
-    const manifest = await fetchJSON('data/index.json');
+    const [manifest, logoIndex] = await Promise.all([fetchJSON('data/index.json'), fetchJSON('logos/index.json').catch(() => ({}))]);
+    logos = logoIndex;
     state.snapshots = manifest.snapshots.sort((a,b)=>a.season-b.season || a.week-b.week);
     if (!state.snapshots.length) throw new Error('No weekly rankings are available yet.');
     $('snapshot').replaceChildren(...state.snapshots.map((s,i)=>new Option(`${s.season} · Week ${s.week}`,String(i))).reverse());
     $('snapshot').value = String(state.snapshots.length-1);
     await changeSnapshot();
-  } catch (error) { $('error').hidden=false;$('error').textContent=`Rankings could not be loaded. ${error.message}`;$('result-count').textContent='Rankings unavailable';$('leader-name').textContent='Rankings unavailable'; }
+  } catch (error) { $('error').hidden=false;$('error').textContent=`Rankings could not be loaded. ${error.message}`;$('result-count').textContent='Rankings unavailable'; }
 })();
