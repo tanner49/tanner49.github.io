@@ -6,6 +6,7 @@ const number = value => Number(value).toFixed(2);
 const signed = value => `${value > 0 ? '+' : ''}${number(value)}`;
 const record = team => `${team.wins}–${team.losses}${team.ties ? `–${team.ties}` : ''}`;
 const initials = name => name.split(/\s+/).map(word => word[0]).join('').slice(0,3).toUpperCase();
+const mobileLayout = matchMedia('(max-width: 700px)');
 let logos = {};
 function teamBadge(name, extra = '') {
   const logo = logos[name];
@@ -63,7 +64,7 @@ function renderBoard() {
     const old = oldTeams.get(team.team), comparable = old && (division === 'all' || old.classification === team.classification);
     const delta = comparable ? rankFor(old) - rankFor(team) : null;
     const move = !previous ? '<span class="neutral">—</span>' : delta === null ? '<span class="neutral">NEW</span>' : delta === 0 ? '<span class="neutral">—</span>' : `<span class="${delta > 0 ? 'positive':'negative'}">${delta > 0 ? '↑':'↓'} ${Math.abs(delta)}</span>`;
-    return `<tr class="${rankFor(team) <= 3 ? 'rank-top':''}"><td>${String(rankFor(team)).padStart(2,'0')}</td><td class="movement">${move}</td><td><button class="team-button" data-team="${escapeHTML(team.team)}">${teamBadge(team.team)}<span>${escapeHTML(team.team)}<span class="team-conference">${escapeHTML(team.conference)}${division === 'all' ? ` · ${divisionName(team.classification)}`:''}</span></span></button></td><td>${record(team)}</td><td class="rating-value">${signed(team.rating)}<div class="rating-bar" aria-hidden="true"><span style="width:${20 + 80 * (team.rating - minRating) / (maxRating - minRating || 1)}%"></span></div></td><td>${signed(team.scheduleStrength)}</td><td>${sparkline(teamHistory(team.team))}</td></tr>`;
+    return `<tr class="ranking-row ${rankFor(team) <= 3 ? 'rank-top':''}"><td>${String(rankFor(team)).padStart(2,'0')}</td><td class="movement">${move}</td><td><button class="team-button" data-team="${escapeHTML(team.team)}" ${mobileLayout.matches ? 'aria-expanded="false"' : 'aria-haspopup="dialog"'}>${teamBadge(team.team)}<span>${escapeHTML(team.team)}<span class="team-conference">${escapeHTML(team.conference)}${division === 'all' ? ` · ${divisionName(team.classification)}`:''}</span></span></button></td><td>${record(team)}</td><td class="rating-value">${signed(team.rating)}<div class="rating-bar" aria-hidden="true"><span style="width:${20 + 80 * (team.rating - minRating) / (maxRating - minRating || 1)}%"></span></div></td><td>${signed(team.scheduleStrength)}</td><td>${sparkline(teamHistory(team.team))}</td></tr>`;
   }).join('');
   $('result-count').textContent = `${state.expanded ? teams.length : Math.min(25,teams.length)} of ${teams.length} teams · ${divisionName(division)}`;
   $('movement-note').textContent = previous ? `Movement vs. Week ${previous.week} · ${state.current.season}` : `First weekly ranking`;
@@ -102,6 +103,13 @@ function populateComparison() {
   renderComparison();
 }
 function openTeam(name) {
+  const button = [...$('ranking-body').querySelectorAll('[data-team]')].find(b => b.dataset.team === name);
+  const row = button?.closest('tr');
+  if (mobileLayout.matches && row?.nextElementSibling?.classList.contains('team-expanded')) {
+    row.nextElementSibling.remove(); button.setAttribute('aria-expanded', 'false'); return;
+  }
+  $('ranking-body').querySelectorAll('.team-expanded').forEach(el => el.remove());
+  $('ranking-body').querySelectorAll('[aria-expanded]').forEach(el => el.setAttribute('aria-expanded', 'false'));
   const team = state.current.teams.find(t=>t.team === name);
   if (!team) return;
   const history = teamHistory(name), values = history.filter(h=>h.rank !== null);
@@ -112,8 +120,17 @@ function openTeam(name) {
     const paths = coords.reduce((parts,p)=>{if (!p) parts.push([]); else parts[parts.length-1].push(p);return parts;},[[]]);
     chart = `<svg class="history-chart" viewBox="0 0 620 150" role="img" aria-label="Weekly rank history">${paths.filter(p=>p.length).map(points=>`<polyline points="${points.map(p=>`${p.x},${p.y}`).join(' ')}" fill="none" stroke="#327144" stroke-width="2"/>`).join('')}${coords.filter(Boolean).map(p=>`<circle cx="${p.x}" cy="${p.y}" r="4" fill="#d94e2a"/><text x="${p.x}" y="${p.y-10}" text-anchor="middle">#${p.h.rank}</text><text x="${p.x}" y="140" text-anchor="middle">W${p.h.week}</text>`).join('')}</svg><p class="history-list">${values.map(h=>`Week ${h.week}: #${h.rank}`).join(' · ')}</p>`;
   }
-  $('team-detail').innerHTML = `<h2>${escapeHTML(name)}</h2><p class="detail-meta">${escapeHTML(team.conference)} · ${divisionName(team.classification)} · ${state.current.season} Week ${state.current.week}</p><div class="detail-stats"><div><span>RANK</span><strong>#${rankFor(team)}</strong></div><div><span>RATING</span><strong>${signed(team.rating)}</strong></div><div><span>RECORD</span><strong>${record(team)}</strong></div></div><h3>Season trajectory</h3>${chart}<h3>Games in the model</h3><div class="table-wrap"><table><thead><tr><th>Week</th><th>Opponent</th><th>Result</th><th>Score</th></tr></thead><tbody>${team.games.map(g=>`<tr><td>${g.week}</td><td>${g.venue === 'A' ? 'at ' : g.venue === 'N' ? 'vs. ' : ''}${escapeHTML(g.opponent)}</td><td class="${g.result === 'W' ? 'positive':g.result === 'L' ? 'negative':'neutral'}">${g.result}</td><td>${g.scored}–${g.allowed}</td></tr>`).join('')}</tbody></table></div>`;
-  $('team-dialog').showModal();
+  $('team-detail').innerHTML = `<h2>${escapeHTML(name)}</h2><p class="detail-meta">${escapeHTML(team.conference)} · ${divisionName(team.classification)} · ${state.current.season} Week ${state.current.week}</p><div class="detail-stats"><div><span>RANK</span><strong>#${rankFor(team)}</strong></div><div><span>RATING</span><strong>${signed(team.rating)}</strong></div><div><span>RECORD</span><strong>${record(team)}</strong></div></div><p class="detail-meta">Schedule strength: <strong>${signed(team.scheduleStrength)}</strong> (average opponent rating)</p><h3>Season trajectory</h3>${chart}<h3>Games in the model</h3><div class="table-wrap"><table><thead><tr><th>Week</th><th>Opponent</th><th>Result</th><th>Score</th></tr></thead><tbody>${team.games.map(g=>`<tr><td>${g.week}</td><td>${g.venue === 'A' ? 'at ' : g.venue === 'N' ? 'vs. ' : ''}${escapeHTML(g.opponent)}</td><td class="${g.result === 'W' ? 'positive':g.result === 'L' ? 'negative':'neutral'}">${g.result}</td><td>${g.scored}–${g.allowed}</td></tr>`).join('')}</tbody></table></div>`;
+  if (mobileLayout.matches && row) {
+    const expanded = document.createElement('tr');
+    expanded.className = 'team-expanded';
+    expanded.innerHTML = `<td colspan="4"><section class="inline-team-detail" id="expanded-team" aria-label="${escapeHTML(name)} season details">${$('team-detail').innerHTML}</section></td>`;
+    row.after(expanded);
+    button.setAttribute('aria-expanded', 'true');
+    button.setAttribute('aria-controls', 'expanded-team');
+  } else {
+    $('team-dialog').showModal();
+  }
 }
 let selectedShare = 'top10';
 function renderShareGraphic() {
@@ -157,7 +174,7 @@ $('search').addEventListener('input',()=>{if (!state.current) return;state.expan
 $('snapshot').addEventListener('change',changeSnapshot);
 $('show-more').addEventListener('click',()=>{state.expanded=!state.expanded;renderBoard();});
 ['rating','sos'].forEach(id=>$( `sort-${id}` ).addEventListener('click',()=>{if (!state.current) return;const key=id==='rating'?'rating':'scheduleStrength';state.direction=state.sort===key?-state.direction:-1;state.sort=key;renderBoard();}));
-$('ranking-body').addEventListener('click',event=>{const button=event.target.closest('[data-team]');if(button) openTeam(button.dataset.team);});
+$('ranking-body').addEventListener('click',event=>{const button=event.target.closest('[data-team]') || (mobileLayout.matches ? event.target.closest('.ranking-row')?.querySelector('[data-team]') : null);if(button) openTeam(button.dataset.team);});
 ['team-a','team-b'].forEach(id=>$(id).addEventListener('change',()=>{if(state.current) renderComparison();}));
 $('close-dialog').addEventListener('click',()=>$('team-dialog').close());
 $('team-dialog').addEventListener('click',event=>{if(event.target === $('team-dialog')){const box=event.target.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)event.target.close();}});
@@ -172,3 +189,23 @@ $('team-dialog').addEventListener('click',event=>{if(event.target === $('team-di
     await changeSnapshot();
   } catch (error) { $('error').hidden=false;$('error').textContent=`Rankings could not be loaded. ${error.message}`;$('result-count').textContent='Rankings unavailable'; }
 })();
+
+mobileLayout.addEventListener('change', () => {
+  if ($('team-dialog').open) $('team-dialog').close();
+  if (state.current) renderBoard();
+});
+$('expand-graphic').addEventListener('click', () => {
+  $('enlarged-graphic').src = $('share-image').src;
+  $('enlarged-graphic').alt = $('share-image').alt;
+  $('graphic-viewport').classList.add('zoomed');
+  $('graphic-zoom').textContent = 'Fit to screen';
+  $('graphic-dialog').showModal();
+  document.body.classList.add('graphic-open');
+  $('graphic-viewport').scrollTo(0, 0);
+});
+$('graphic-zoom').addEventListener('click', () => {
+  const zoomed = $('graphic-viewport').classList.toggle('zoomed');
+  $('graphic-zoom').textContent = zoomed ? 'Fit to screen' : 'Zoom in';
+});
+$('close-graphic').addEventListener('click', () => $('graphic-dialog').close());
+$('graphic-dialog').addEventListener('close', () => document.body.classList.remove('graphic-open'));

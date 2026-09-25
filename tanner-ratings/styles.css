@@ -35,3 +35,57 @@
 .fixture .team-badge{width:28px;height:28px;border-radius:5px;font-size:10px}
 
 .team-badge:has(img) .badge-fallback{visibility:hidden}
+
+/* Graphic viewer and compact, expandable mobile rankings. */
+.graphic-button{display:block;width:100%;padding:0;border:0;background:transparent;cursor:zoom-in;text-align:left}
+.graphic-hint{font-size:11px;color:var(--muted);margin:6px 0}
+body.graphic-open{overflow:hidden}
+#graphic-dialog{width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;padding:0;background:var(--ink);color:var(--paper)}
+#graphic-dialog[open]{display:flex;flex-direction:column}
+.graphic-dialog-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px max(16px,env(safe-area-inset-right)) 12px max(16px,env(safe-area-inset-left));flex:none}
+.graphic-dialog-toolbar button{min-height:44px;padding:8px 16px;border:1px solid #809685;background:transparent;color:var(--paper);font-size:14px}
+.graphic-dialog-toolbar span{font-size:12px;color:#b6c6ba}
+.graphic-viewport{overflow:auto;flex:1;min-height:0;overscroll-behavior:contain;padding-bottom:env(safe-area-inset-bottom)}
+.graphic-viewport img{display:block;width:100%;height:auto;margin:auto}
+.graphic-viewport.zoomed img{width:max(100%,900px);max-width:none}
+.inline-team-detail{white-space:normal;font:13px/1.6 var(--body)}
+.inline-team-detail h2{font:600 28px var(--display);margin:0}
+.inline-team-detail h3{font:600 22px var(--display);margin:16px 0 8px}
+.inline-team-detail .detail-stats{margin:12px 0;padding:10px 0;gap:22px;flex-wrap:wrap}
+.inline-team-detail .detail-stats strong{font-size:25px}
+.inline-team-detail table{white-space:normal;table-layout:fixed}
+.inline-team-detail th,.inline-team-detail td{padding:8px 4px;font:12px var(--body);width:auto}
+.inline-team-detail th:first-child{width:16%}.inline-team-detail th:nth-child(2){width:44%}
+.inline-team-detail th:nth-child(3),.inline-team-detail th:nth-child(4){width:20%}
+.inline-team-detail .detail-meta{margin:8px 0}
+@media(max-width:700px){
+  .graphic-button{width:100vw;margin-left:calc((100% - 100vw)/2)}
+  #share-image{max-width:none}
+  .share-options{flex-wrap:nowrap;overflow-x:auto;width:100%;padding-bottom:4px}
+  .share-options button{white-space:nowrap;min-height:44px;flex:none}
+  .share-toolbar{display:block;min-width:0}
+  #share-download{display:inline-flex;align-items:center;min-height:44px}
+  .rankings-table{table-layout:fixed;white-space:normal}
+  .rankings-table>thead>tr>th:nth-child(4),.rankings-table>thead>tr>th:nth-child(6),.rankings-table>thead>tr>th:nth-child(7){display:none}
+  #ranking-body>.ranking-row>td:nth-child(4),#ranking-body>.ranking-row>td:nth-child(6),#ranking-body>.ranking-row>td:nth-child(7){display:none}
+  .rankings-table>thead>tr>th,.rankings-table>tbody>.ranking-row>td{padding:10px 5px}
+  .rankings-table>thead>tr>th:first-child,.rankings-table>tbody>.ranking-row>td:first-child{width:36px}
+  .rankings-table>thead>tr>th:nth-child(2),.rankings-table>tbody>.ranking-row>td:nth-child(2){width:40px}
+  .rankings-table>thead>tr>th:nth-child(5),.rankings-table>tbody>.ranking-row>td:nth-child(5){width:65px;text-align:right}
+  .rankings-table>thead{font-size:8px;letter-spacing:.5px}
+  .rankings-table .rating-bar{display:none}
+  .rankings-table .team-button{min-height:44px;gap:6px;font-size:12px;line-height:1.35}
+  .rankings-table .team-button>span:last-child{min-width:0;overflow-wrap:anywhere}
+  .rankings-table .team-badge{width:28px;height:28px}
+  .rankings-table .team-conference{font-size:9px}
+  .team-button[aria-expanded="true"]{color:#327144}
+  #ranking-body>.team-expanded>td{padding:16px 10px;background:#e9ecdf;width:auto}
+  .ranking-row{cursor:pointer}
+  .controls select,.controls input,.compare-selects select{font-size:16px}
+  .compare-selects{grid-template-columns:1fr;gap:8px}
+  .compare-selects .versus{margin:0;justify-self:center}
+  .fixture{align-items:flex-start}
+  .fixture .fixture-edge{flex-shrink:0;font-size:12px}
+  .graphic-dialog-toolbar{gap:6px}
+  .graphic-dialog-toolbar span{font-size:10px}
+}
