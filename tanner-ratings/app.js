@@ -136,8 +136,13 @@ let selectedShare = 'top10';
 function renderShareGraphic() {
   const snapshot = state.current;
   if (!snapshot) return;
+  const hasNewLight = state.history.some(s => s.week === snapshot.week - 1);
+  document.querySelector('[data-share="newlight"]').hidden = !hasNewLight;
+  if (selectedShare === 'newlight' && !hasNewLight) selectedShare = 'top10';
+  $('new-light-method').hidden = !hasNewLight;
+  $('new-light-data').href = `share/${snapshot.season}/week-${String(snapshot.week).padStart(2, '0')}/new-light.json`;
   const path = `share/${snapshot.season}/week-${String(snapshot.week).padStart(2, '0')}/${selectedShare}.png?v=${encodeURIComponent($('share-image').dataset.version || '1')}`;
-  const title = {top10: 'FBS Top 10', matchups: 'FBS games to watch', schedules: 'FBS toughest schedules played', brawlers: 'Brawlers: competitive game support among the FBS Top 50', cupcakes: 'Cupcake Annihilators: dominance against weaker opponents'}[selectedShare];
+  const title = {newlight: 'Seen in a New Light: rating changes from results elsewhere', top10: 'FBS Top 10', matchups: 'FBS games to watch', schedules: 'FBS toughest schedules played', brawlers: 'Brawlers: competitive game support among the FBS Top 50', cupcakes: 'Cupcake Annihilators: dominance against weaker opponents'}[selectedShare];
   $('share-image').src = path;
   $('profile-data').href = `share/${snapshot.season}/week-${String(snapshot.week).padStart(2, '0')}/profile-metrics.json`;
   $('share-image').alt = `${snapshot.season} Week ${snapshot.week}: ${title}`;
@@ -160,6 +165,7 @@ async function changeSnapshot() {
     if (token !== state.token) return;
     state.current = current; state.history = history; state.expanded = false;
     $('error').hidden = true;
+    $('prior-description').textContent = `Last season's ratings enter as a ${current.model.priorWeight}-game prior against a zero-rated baseline. Their influence diminishes as results accumulate.`;
     $('edition').textContent = `${current.season} SEASON · WEEK ${current.week}`;
     populateConferences(); populateComparison(); renderBoard(); renderFixtures(); renderShareGraphic();
   } catch (error) {
