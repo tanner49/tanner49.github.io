@@ -8,6 +8,13 @@ const record = team => `${team.wins}–${team.losses}${team.ties ? `–${team.ti
 const initials = name => name.split(/\s+/).map(word => word[0]).join('').slice(0,3).toUpperCase();
 const mobileLayout = matchMedia('(max-width: 700px)');
 let logos = {};
+let predictionPolicy;
+function fixtureMargin(game) {
+  if (game.homeEdge == null) return null;
+  const s = state.current, p = predictionPolicy;
+  const active = s.season > p.effectiveSeason || (s.season === p.effectiveSeason && s.week >= p.effectiveWeek);
+  return game.homeEdge + (active && !game.neutral ? p.homeAdvantage : 0);
+}
 function teamBadge(name, extra = '') {
   const logo = logos[name];
   return `<span class="team-badge ${extra}" aria-hidden="true"><span class="badge-fallback">${escapeHTML(initials(name))}</span>${logo ? `<img src="${escapeHTML(logo.path)}" alt="" width="40" height="40" loading="lazy">` : ''}</span>`;
@@ -85,12 +92,12 @@ function renderFixtures() {
     .filter(g => division === 'all' || g.classification === division || g.awayClassification === division)
     .sort((a, b) => combinedRating(b) - combinedRating(a) || a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
   $('fixtures-title').textContent = `Week ${state.current.week} · predicted lines`;
-  $('fixtures').innerHTML = fixtures.length ? fixtures.map(g => `<div class="fixture"><div><strong class="fixture-teams"><span class="fixture-team">${teamBadge(g.away)}${escapeHTML(g.away)}</span> <span class="neutral">${g.neutral ? 'vs.':'at'}</span> <span class="fixture-team">${teamBadge(g.home)}${escapeHTML(g.home)}</span></strong><small>${escapeHTML(new Date(g.date).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'America/Denver'}))}${g.neutral ? ' · Neutral site':''}</small></div><span class="fixture-edge">${escapeHTML(prediction(g.home,g.away,g.homeEdge))}</span></div>`).join('') : '<p class="fine-print">No upcoming games available for this division this week.</p>';
+  $('fixtures').innerHTML = fixtures.length ? fixtures.map(g => `<div class="fixture"><div><strong class="fixture-teams"><span class="fixture-team">${teamBadge(g.away)}${escapeHTML(g.away)}</span> <span class="neutral">${g.neutral ? 'vs.':'at'}</span> <span class="fixture-team">${teamBadge(g.home)}${escapeHTML(g.home)}</span></strong><small>${escapeHTML(new Date(g.date).toLocaleDateString('en-US',{month:'short',day:'numeric',timeZone:'America/Denver'}))}${g.neutral ? ' · Neutral site':''}</small></div><span class="fixture-edge">${escapeHTML(prediction(g.home,g.away,fixtureMargin(g)))}</span></div>`).join('') : '<p class="fine-print">No upcoming games available for this division this week.</p>';
 }
 function renderComparison() {
   const a = state.current.teams.find(t => t.team === $('team-a').value), b = state.current.teams.find(t => t.team === $('team-b').value);
   if (!a || !b) { $('comparison').textContent = 'Choose two rated teams.'; return; }
-  $('comparison').innerHTML = `<span class="edge-label">PROJECTED LINE / NEUTRAL FIELD</span><strong>${escapeHTML(a.team === b.team ? 'Choose two different teams' : prediction(a.team,b.team,a.rating - b.rating))}</strong><p>Rating difference rounded to the nearest half-point. No home-field adjustment.</p>`;
+  $('comparison').innerHTML = `<span class="edge-label">PROJECTED LINE / HOME FIELD</span><strong>${escapeHTML(a.team === b.team ? 'Choose two different teams' : prediction(a.team,b.team,a.rating - b.rating + predictionPolicy.homeAdvantage))}</strong><p>Includes a ${predictionPolicy.homeAdvantage}-point home advantage. Rounded to the nearest half-point.</p>`;
 }
 function populateComparison() {
   const teams = [...state.current.teams].sort((a,b) => a.team.localeCompare(b.team));
@@ -186,7 +193,8 @@ $('close-dialog').addEventListener('click',()=>$('team-dialog').close());
 $('team-dialog').addEventListener('click',event=>{if(event.target === $('team-dialog')){const box=event.target.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)event.target.close();}});
 (async()=>{
   try {
-    const [manifest, logoIndex] = await Promise.all([fetchJSON('data/index.json'), fetchJSON('logos/index.json').catch(() => ({}))]);
+    const [manifest, logoIndex, policy] = await Promise.all([fetchJSON('data/index.json'), fetchJSON('logos/index.json').catch(() => ({})), fetchJSON('data/prediction-policy.json')]);
+    predictionPolicy = policy;
     logos = logoIndex;
     state.snapshots = manifest.snapshots.sort((a,b)=>a.season-b.season || a.week-b.week);
     if (!state.snapshots.length) throw new Error('No weekly rankings are available yet.');
