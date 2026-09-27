@@ -74,7 +74,8 @@ function renderBoard() {
     return `<tr class="ranking-row ${rankFor(team) <= 3 ? 'rank-top':''}"><td>${String(rankFor(team)).padStart(2,'0')}</td><td class="movement">${move}</td><td><button class="team-button" data-team="${escapeHTML(team.team)}" ${mobileLayout.matches ? 'aria-expanded="false"' : 'aria-haspopup="dialog"'}>${teamBadge(team.team)}<span>${escapeHTML(team.team)}<span class="team-conference">${escapeHTML(team.conference)}${division === 'all' ? ` · ${divisionName(team.classification)}`:''}</span></span></button></td><td>${record(team)}</td><td class="rating-value">${signed(team.rating)}<div class="rating-bar" aria-hidden="true"><span style="width:${20 + 80 * (team.rating - minRating) / (maxRating - minRating || 1)}%"></span></div></td><td>${signed(team.scheduleStrength)}</td><td>${sparkline(teamHistory(team.team))}</td></tr>`;
   }).join('');
   $('result-count').textContent = `${state.expanded ? teams.length : Math.min(25,teams.length)} of ${teams.length} teams · ${divisionName(division)}`;
-  $('movement-note').textContent = previous ? `Movement vs. Week ${previous.week} · ${state.current.season}` : `First weekly ranking`;
+  const modelChanged = previous && (previous.model.marginModel || 'cap28') !== (state.current.model.marginModel || 'cap28');
+  $('movement-note').textContent = previous ? `Movement vs. Week ${previous.week} · ${state.current.season}${modelChanged ? " (includes model update)" : ""}` : `First weekly ranking`;
   $('empty').hidden = teams.length > 0;
   $('show-more').hidden = teams.length <= 25;
   $('show-more').textContent = state.expanded ? 'Show top 25' : `Show all ${teams.length} teams`;
@@ -172,6 +173,7 @@ async function changeSnapshot() {
     if (token !== state.token) return;
     state.current = current; state.history = history; state.expanded = false;
     $('error').hidden = true;
+    $('margin-description').textContent = current.model.marginModel === 'halftime1.25' ? 'Scores usually receive up to 28 points of margin credit, plus a 2.75-point win bonus. When the winner led by at least 21 at halftime and still won by at least 10, we allow 1.25 times the halftime lead as margin credit, up to 56. Missing quarter scores use the usual cap. Predictions add 3 points for home advantage except at neutral sites.' : 'Margins are capped at 28 points, plus a 2.75-point win bonus. Historical Week 4 scheduled predictions retain their original lines without home advantage; the matchup builder uses the current 3-point home adjustment.';
     $('prior-description').textContent = `Last season's ratings enter as a ${current.model.priorWeight}-game prior against a zero-rated baseline. Their influence diminishes as results accumulate.`;
     $('edition').textContent = `${current.season} SEASON · WEEK ${current.week}`;
     populateConferences(); populateComparison(); renderBoard(); renderFixtures(); renderShareGraphic();
