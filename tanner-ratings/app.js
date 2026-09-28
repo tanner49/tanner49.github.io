@@ -63,9 +63,36 @@ function populateConferences() {
 function renderBoard() {
   const division = $('division').value, query = $('search').value.trim().toLocaleLowerCase(), conference = $('conference').value;
   let teams = state.current.teams.filter(t => (division === 'all' || t.classification === division) && (conference === 'all' || t.conference === conference) && t.team.toLocaleLowerCase().includes(query));
-  teams.sort((a,b) => state.direction * (a[state.sort] - b[state.sort]) || a.rank - b.rank);
   const previous = state.history.at(-2);
   const oldTeams = new Map((previous?.teams || []).map(t => [t.team,t]));
+  const movement = team => {
+    const old = oldTeams.get(team.team);
+    return old && (division === 'all' || old.classification === team.classification) ? rankFor(old) - rankFor(team) : null;
+  };
+  const sortValue = team => {
+    switch (state.sort) {
+      case 'rank': return rankFor(team);
+      case 'move': return movement(team);
+      case 'team': return team.team;
+      case 'record': {
+        const games = team.wins + team.losses + team.ties;
+        return games ? (team.wins + team.ties / 2) / games : null;
+      }
+      case 'trend': {
+        const history = teamHistory(team.team).filter(h => h.rank !== null);
+        return history.length > 1 ? history[0].rank - history.at(-1).rank : null;
+      }
+      default: return team[state.sort];
+    }
+  };
+  const values = new Map(teams.map(team => [team.team, sortValue(team)]));
+  teams.sort((a,b) => {
+    const av = values.get(a.team), bv = values.get(b.team);
+    if (av == null || bv == null) return av == null && bv == null ? a.rank - b.rank : av == null ? 1 : -1;
+    const comparison = typeof av === 'string' ? av.localeCompare(bv) : av - bv;
+    const recordTie = state.sort === 'record' ? a.wins - b.wins || b.losses - a.losses : 0;
+    return state.direction * (comparison || recordTie) || a.rank - b.rank;
+  });
   const maxRating = Math.max(...state.current.teams.map(t=>t.rating)), minRating = Math.min(...state.current.teams.map(t=>t.rating));
   $('ranking-body').innerHTML = (state.expanded ? teams : teams.slice(0,25)).map(team => {
     const old = oldTeams.get(team.team), comparable = old && (division === 'all' || old.classification === team.classification);
@@ -78,10 +105,11 @@ function renderBoard() {
   $('empty').hidden = teams.length > 0;
   $('show-more').hidden = teams.length <= 25;
   $('show-more').textContent = state.expanded ? 'Show top 25' : `Show all ${teams.length} teams`;
-  $('sort-rating').textContent = `Rating ${state.sort === 'rating' ? state.direction === -1 ? '↓':'↑':'↕'}`;
-  $('sort-sos').textContent = `Schedule ${state.sort === 'scheduleStrength' ? state.direction === -1 ? '↓':'↑':'↕'}`;
-  $('sort-rating').closest('th').setAttribute('aria-sort',state.sort === 'rating' ? state.direction === -1 ? 'descending':'ascending':'none');
-  $('sort-sos').closest('th').setAttribute('aria-sort',state.sort === 'scheduleStrength' ? state.direction === -1 ? 'descending':'ascending':'none');
+  document.querySelectorAll('.rankings-table [data-sort]').forEach(button => {
+    const active = state.sort === button.dataset.sort;
+    button.textContent = `${button.dataset.label} ${active ? state.direction === -1 ? '↓' : '↑' : '↕'}`;
+    button.closest('th').setAttribute('aria-sort', active ? state.direction === -1 ? 'descending' : 'ascending' : 'none');
+  });
 }
 function renderFixtures() {
   const division = $('division').value;
@@ -188,7 +216,13 @@ $('conference').addEventListener('change',()=>{if (!state.current) return;state.
 $('search').addEventListener('input',()=>{if (!state.current) return;state.expanded=false;renderBoard();});
 $('snapshot').addEventListener('change',changeSnapshot);
 $('show-more').addEventListener('click',()=>{state.expanded=!state.expanded;renderBoard();});
-['rating','sos'].forEach(id=>$( `sort-${id}` ).addEventListener('click',()=>{if (!state.current) return;const key=id==='rating'?'rating':'scheduleStrength';state.direction=state.sort===key?-state.direction:-1;state.sort=key;renderBoard();}));
+document.querySelectorAll('.rankings-table [data-sort]').forEach(button => button.addEventListener('click', () => {
+  if (!state.current) return;
+  const key = button.dataset.sort;
+  state.direction = state.sort === key ? -state.direction : ['rank','team'].includes(key) ? 1 : -1;
+  state.sort = key;
+  renderBoard();
+}));
 $('ranking-body').addEventListener('click',event=>{const button=event.target.closest('[data-team]') || (mobileLayout.matches ? event.target.closest('.ranking-row')?.querySelector('[data-team]') : null);if(button) openTeam(button.dataset.team);});
 ['team-a','team-b'].forEach(id=>$(id).addEventListener('change',()=>{if(state.current) renderComparison();}));
 $('close-dialog').addEventListener('click',()=>$('team-dialog').close());
