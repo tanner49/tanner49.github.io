@@ -8,7 +8,8 @@
     {
       "season": 2026,
       "week": 5,
-      "path": "2026/week-05.json"
+      "path": "2026/week-05.json",
+      "comparisonPath": "comparisons/2026/week-05.json"
     }
   ]
 }
