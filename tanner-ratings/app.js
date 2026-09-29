@@ -205,6 +205,13 @@ async function changeSnapshot() {
     $('prior-description').textContent = `Last season's ratings enter as a ${current.model.priorWeight}-game prior against a zero-rated baseline. Their influence diminishes as results accumulate.`;
     $('edition').textContent = `${current.season} SEASON · WEEK ${current.week}`;
     populateConferences(); populateComparison(); renderBoard(); renderFixtures(); renderShareGraphic();
+    $('conference-strength').hidden = !entry.conferenceCharts;
+    if (entry.conferenceCharts) {
+      $('conference-edition').textContent = `FBS CONFERENCES · ${current.season} WEEK ${current.week}`;
+      document.querySelectorAll('[data-conference]').forEach(button => {
+        button.querySelector('img').src = `${entry.conferenceCharts.path}/${button.dataset.conference}.png?v=${entry.conferenceCharts.version}`;
+      });
+    }
   } catch (error) {
     $('error').hidden = false;
     $('error').textContent = `Rankings could not be loaded. Please reload the page. ${error.message}`;
@@ -244,15 +251,17 @@ mobileLayout.addEventListener('change', () => {
   if ($('team-dialog').open) $('team-dialog').close();
   if (state.current) renderBoard();
 });
-$('expand-graphic').addEventListener('click', () => {
-  $('enlarged-graphic').src = $('share-image').src;
-  $('enlarged-graphic').alt = $('share-image').alt;
+function enlargeGraphic(img) {
+  $('enlarged-graphic').src = img.src;
+  $('enlarged-graphic').alt = img.alt;
   $('graphic-viewport').classList.add('zoomed');
   $('graphic-zoom').textContent = 'Fit to screen';
   $('graphic-dialog').showModal();
   document.body.classList.add('graphic-open');
   $('graphic-viewport').scrollTo(0, 0);
-});
+}
+$('expand-graphic').addEventListener('click', () => enlargeGraphic($('share-image')));
+document.querySelectorAll('[data-conference]').forEach(button => button.addEventListener('click', () => enlargeGraphic(button.querySelector('img'))));
 $('graphic-zoom').addEventListener('click', () => {
   const zoomed = $('graphic-viewport').classList.toggle('zoomed');
   $('graphic-zoom').textContent = zoomed ? 'Fit to screen' : 'Zoom in';

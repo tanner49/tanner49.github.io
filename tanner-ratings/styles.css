@@ -89,3 +89,14 @@ body.graphic-open{overflow:hidden}
   .graphic-dialog-toolbar{gap:6px}
   .graphic-dialog-toolbar span{font-size:10px}
 }
+
+.conference-section{padding-top:60px;margin-top:45px;border-top:1px solid var(--line)}
+.conference-section[hidden]{display:none}
+.conference-intro{max-width:760px;color:var(--muted);font-size:13px;line-height:1.8}
+.conference-charts{display:grid;gap:38px;margin:28px 0}
+.conference-charts figure{margin:0;min-width:0}
+.conference-charts h3{font:600 28px/1.2 var(--display);margin:0 0 8px}
+.conference-charts figcaption p{font-size:12px;color:var(--muted);line-height:1.8;max-width:850px;margin:0 0 16px}
+.conference-charts .graphic-button{display:block;width:100%;border:0;padding:0;background:transparent;cursor:zoom-in}
+.conference-charts img{display:block;width:100%;height:auto}
+@media(max-width:700px){.conference-charts .graphic-button{width:100vw;max-width:none;margin-left:calc(50% - 50vw)}.conference-charts{gap:30px}.conference-section{padding-top:35px}}
