@@ -11,6 +11,17 @@ test('ridge solve satisfies normal equations',()=>{
   assert.ok(Math.abs(x[0]+3*x[1]-2)<1e-10);
 });
 
+test('agreement across three moderate neighbors beats a single exact match',()=>{
+  const movies=Array.from({length:5},(_,i)=>[i,'Movie '+i,'',1000,3]);
+  const v=1/Math.sqrt(3),factors=new Float32Array([1,0,0,0,1,0,0,0,1,1,0,0,v,v,v]);
+  const results=recommend(movies,factors,{rank:3,ridge:1,minRecommendationRatings:100},[[0,5],[1,5],[2,5]]);
+  assert.equal(results[0].index,4);
+  assert.equal(results[0].reasons.length,3);
+  assert.equal(results[1].reasons.length,1);
+  const reduced=recommend(movies,factors,{rank:3,ridge:1,minRecommendationRatings:100},[[0,5],[1,1],[2,5]]);
+  assert.ok(reduced.find(r=>r.index===4).rankScore<results[0].rankScore);
+});
+
 test('long mixed histories, deterministic ranking, cached updates, and cancellation',async()=>{
   const read=path=>readFileSync(new URL('../data/'+path,import.meta.url));
   const movies=JSON.parse(read('movies.json')),meta=JSON.parse(read('model.json')),buffer=read('factors.f32');
@@ -25,6 +36,15 @@ test('long mixed histories, deterministic ranking, cached updates, and cancellat
   const seed=favorites.filter(f=>f.id!==null).map(f=>[movies.findIndex(m=>m[0]===f.id),5]);
   assert.equal(seed.length,28);assert.ok(seed.every(([i])=>i>=0));
   const first=engine.recommend(seed);
+  const extended=engine.recommend(seed,500);
+  assert.equal(extended.length,500);
+  assert.equal(new Set(extended.map(r=>r.index)).size,500);
+  assert.deepEqual(extended.slice(0,20),first);
+  const seedSet=new Set(seed.map(p=>p[0]));
+  for(const r of extended) {
+    assert.ok(!seedSet.has(r.index));
+    assert.ok(r.reasons.every(i=>seedSet.has(i)));
+  }
   assert.deepEqual(engine.recommend([...seed].reverse()),first);
   assert.deepEqual(await engine.recommendAsync(seed),first);
   assert.equal(await engine.recommendAsync(prefs,20,()=>true),null);

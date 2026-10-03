@@ -18,17 +18,35 @@ sometimes also called SVD by recommender libraries.
 
 For a new visitor, Like = 5 stars and Dislike = 1 star. We solve
 `p = (Q_selected.T Q_selected + I)^-1 Q_selected.T (ratings - movie_means)`.
-Predictions are `movie_mean + Q_movie p`. Results are sorted by the unbounded
-prediction and displayed clipped to the dataset's 0.5–5 scale. Existing picks
+Predictions are `movie_mean + Q_movie p`. These provide a small secondary signal
+for the neighborhood-consensus ranking described below. Existing picks
 are excluded. Recommendations need 100 ratings; all titles remain searchable,
 but titles with no ratings cannot be used to build a profile. Low-support picks
 and small preference lists can produce less reliable results. Genre metadata
 is displayed but is not used by the model.
 
-Ranking uses only this jointly fitted user profile. There are no per-favorite
-similarity boosts, neighborhood penalties, or diversity reranking. Likes and
-dislikes both enter the least-squares fit; this is not an average of embeddings.
-The worker yields during long computations and cancels outdated requests.
+Ranking primarily uses item-neighborhood consensus, inspired by the established
+[item-item kNN similarity-sum approach](https://lenskit.org/0.14.3/knn.html).
+This implementation uses SVD cosine similarities, not raw co-rating similarities.
+For each candidate, transform each similarity with `max(0, (cosine - .25) / .75)`.
+Add the three largest positive values and divide by `min(3, number_of_likes)`.
+Missing neighbors contribute zero, so three moderate matches can outrank one
+very close match. This top-three neighborhood allows a candidate to match one
+interest without matching the visitor's entire list. All likes are considered.
+
+The final score is `0.9 * consensus + 0.1 * normalized_profile_prediction
+- 0.35 * dislike_consensus - 0.15 * strongest_dislike_similarity`. Dislikes use
+the same top-three aggregation. With no likes, the score falls back to the
+profile prediction minus `0.5 * dislike_consensus`. These blending weights and
+the similarity threshold are heuristics, not validated probability estimates.
+The UI shows up to three actual supporting likes rather than inflated star
+predictions. All entered movies are excluded. There is no genre filter or
+handwritten exclusion for a particular movie.
+
+The worker yields during long computations and cancels outdated requests. An
+LRU cache stores similarities for up to 128 seeds. A 1,000-preference history
+took about 2.4 seconds in local Node testing. The browser retrieves the top 500
+recommendations and reveals another 20 per click without recomputing the model.
 Tanner's favorites button merges 28 matched titles into Like, preserving other
 picks and moving any matching dislikes to Like. Both tiers are treated equally.
 Next Goal Wins (2023) and Dune: Part Two are unavailable in this dataset.
