@@ -54,18 +54,19 @@ function update() {
 function renderResults(results) {
   $('results').replaceChildren(); $('result-count').textContent=`${results.length} PICKS`;
   $('recommendation-status').textContent=`Based on ${preferences.size} ${preferences.size===1?'movie':'movies'} you’ve rated. Add more to refine your picks.`;
-  results.forEach(({index,score},position)=>{
+  results.forEach(({index,reasons=[]},position)=>{
     const movie=movies[index], li=element('li',undefined,'movie'); li.append(element('span',String(position+1).padStart(2,'0'),'rank'));
     const body=element('div'), h3=element('h3'), a=element('a',movie[1]); a.href=`https://movielens.org/movies/${movie[0]}`; a.target='_blank'; a.rel='noopener noreferrer'; h3.append(a);
     body.append(h3,element('p',movie[2].replaceAll('|',' · '),'genres'));
+    body.append(element('p',reasons.length ? `Matches ${reasons.map(i=>movies[i][1]).join(' · ')}` : 'Based on your overall preferences and dislikes.','explanation'));
     const actions=element('div',undefined,'actions'); actions.append(button('＋ Like',`Like ${movie[1]}`,()=>setPreference(index,5)),button('− Dislike',`Dislike ${movie[1]}`,()=>setPreference(index,1))); body.append(actions);
-    const prediction=element('div',score.toFixed(1),'score'); prediction.append(element('small','predicted / 5')); li.append(body,prediction); $('results').append(li);
+    const support=element('div',String(reasons.length),'score'); support.append(element('small',reasons.length===1?'supporting like':'supporting likes')); li.append(body,support); $('results').append(li);
   });
 }
 function fail(message) { $('load-status').textContent=message+' Check your connection and try again.'; $('load-status').classList.add('error'); $('retry').hidden=false; $('search').disabled=true; $('favorites').disabled=true; $('like').disabled=$('dislike').disabled=true; }
 function load() {
   if(worker) worker.terminate(); $('retry').hidden=true; $('load-status').classList.remove('error'); $('load-status').textContent='Loading catalog and model (about 24 MB on your first visit)…';
-  try { worker=new Worker(new URL('./worker.js?v=2',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
+  try { worker=new Worker(new URL('./worker.js?v=3',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
   worker.onerror=()=>fail('The recommendation engine could not start.');
   worker.onmessage=({data})=>{
     if(data.type==='ready') {

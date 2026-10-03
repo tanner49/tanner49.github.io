@@ -20,7 +20,7 @@ test('long mixed histories, deterministic ranking, cached updates, and cancellat
   const started=performance.now(),results=engine.recommend(prefs);
   console.log(`1,000-preference production benchmark: ${Math.round(performance.now()-started)} ms`);
   assert.equal(results.length,20);
-  assert.ok(results.every((r,i)=>i===0||r.prediction<=results[i-1].prediction));
+  assert.ok(results.every((r,i)=>i===0||r.rankScore<=results[i-1].rankScore));
   for(const r of results) { assert.ok(!excluded.has(r.index));assert.ok(Number.isFinite(r.prediction)); }
   const seed=favorites.filter(f=>f.id!==null).map(f=>[movies.findIndex(m=>m[0]===f.id),5]);
   assert.equal(seed.length,28);assert.ok(seed.every(([i])=>i>=0));
