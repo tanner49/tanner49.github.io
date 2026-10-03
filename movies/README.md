@@ -25,6 +25,14 @@ but titles with no ratings cannot be used to build a profile. Low-support picks
 and small preference lists can produce less reliable results. Genre metadata
 is displayed but is not used by the model.
 
+Ranking uses only this jointly fitted user profile. There are no per-favorite
+similarity boosts, neighborhood penalties, or diversity reranking. Likes and
+dislikes both enter the least-squares fit; this is not an average of embeddings.
+The worker yields during long computations and cancels outdated requests.
+Tanner's favorites button merges 28 matched titles into Like, preserving other
+picks and moving any matching dislikes to Like. Both tiers are treated equally.
+Next Goal Wins (2023) and Dune: Part Two are unavailable in this dataset.
+
 Validation withholds five randomly chosen ratings for each of 1,000 seeded
 random users before fitting both the SVD and baselines. Their remaining ratings
 fit ridge profiles. RMSE on 5,000 unseen ratings is **0.81175**, compared with
