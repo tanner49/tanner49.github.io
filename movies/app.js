@@ -2,6 +2,7 @@ import {favorites} from './favorites.mjs';
 const $ = id => document.getElementById(id);
 const storageKey = 'movie-night-preferences-v1';
 let movies = [], titles = [], idToIndex = new Map(), preferences = new Map(), selected = null, matches = [], active = -1, requestId = 0, worker;
+let rankedResults=[],visibleCount=20;
 const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 function element(tag, text, className) { const e = document.createElement(tag); if(text !== undefined) e.textContent=text; if(className) e.className=className; return e; }
 function button(text, label, action) { const b = element('button',text); b.type='button'; b.setAttribute('aria-label',label); b.addEventListener('click',action); return b; }
@@ -46,15 +47,19 @@ function renderPreferences() {
   $('clear').disabled=!preferences.size;
 }
 function update() {
+  rankedResults=[];visibleCount=20;$('show-more').hidden=true;
   requestId++; $('results').replaceChildren(); $('result-count').textContent=''; $('results-empty').hidden=!!preferences.size;
   worker.postMessage({type:'cancel',id:requestId});
   $('recommendation-status').textContent=preferences.size ? 'Finding movies for your taste…' : 'Your recommendations will appear here.';
   if(preferences.size) worker.postMessage({type:'recommend',id:requestId,preferences:[...preferences].map(([id,rating])=>[idToIndex.get(id),rating])});
 }
 function renderResults(results) {
-  $('results').replaceChildren(); $('result-count').textContent=`${results.length} PICKS`;
+  rankedResults=results;
+  $('results').replaceChildren(); $('result-count').textContent=`${Math.min(visibleCount,results.length)} OF ${results.length} PICKS`;
+  $('show-more').hidden=visibleCount>=results.length;
+  $('show-more').textContent=`Show ${Math.min(20,results.length-visibleCount)} more`;
   $('recommendation-status').textContent=`Based on ${preferences.size} ${preferences.size===1?'movie':'movies'} you’ve rated. Add more to refine your picks.`;
-  results.forEach(({index,reasons=[]},position)=>{
+  results.slice(0,visibleCount).forEach(({index,reasons=[]},position)=>{
     const movie=movies[index], li=element('li',undefined,'movie'); li.append(element('span',String(position+1).padStart(2,'0'),'rank'));
     const body=element('div'), h3=element('h3'), a=element('a',movie[1]); a.href=`https://movielens.org/movies/${movie[0]}`; a.target='_blank'; a.rel='noopener noreferrer'; h3.append(a);
     body.append(h3,element('p',movie[2].replaceAll('|',' · '),'genres'));
@@ -66,7 +71,7 @@ function renderResults(results) {
 function fail(message) { $('load-status').textContent=message+' Check your connection and try again.'; $('load-status').classList.add('error'); $('retry').hidden=false; $('search').disabled=true; $('favorites').disabled=true; $('like').disabled=$('dislike').disabled=true; }
 function load() {
   if(worker) worker.terminate(); $('retry').hidden=true; $('load-status').classList.remove('error'); $('load-status').textContent='Loading catalog and model (about 24 MB on your first visit)…';
-  try { worker=new Worker(new URL('./worker.js?v=3',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
+  try { worker=new Worker(new URL('./worker.js?v=4',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
   worker.onerror=()=>fail('The recommendation engine could not start.');
   worker.onmessage=({data})=>{
     if(data.type==='ready') {
@@ -104,4 +109,5 @@ $('favorites').addEventListener('click',()=>{
   $('favorites-status').textContent=`Loaded ${loaded} favorites into Like. Other picks are kept. Unavailable in this dataset: ${missing.join('; ')}.`;
 });
 $('retry').addEventListener('click',load);
+$('show-more').addEventListener('click',()=>{visibleCount+=20;renderResults(rankedResults);});
 load();

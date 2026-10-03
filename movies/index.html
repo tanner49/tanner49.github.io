@@ -10,7 +10,7 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/assets/site.css">
   <link rel="stylesheet" href="./styles.css">
-  <script type="module" src="./app.js?v=3"></script>
+  <script type="module" src="./app.js?v=4"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -32,7 +32,7 @@
         <div class="preference-section"><h3>Dislike <span id="dislike-count">0</span></h3><ul id="dislikes" class="preferences"></ul><p id="dislikes-empty" class="empty-list">The ones that weren’t for you.</p></div>
         <p class="privacy">Your picks stay in this browser. No account needed.</p>
       </section>
-      <section class="recommendations" aria-labelledby="results-title"><div class="section-label"><span>02 / YOUR NEXT WATCH</span><span id="result-count"></span></div><h2 id="results-title">Made for your taste.</h2><p id="recommendation-status" class="muted" role="status">Your recommendations will appear here.</p><div id="results-empty" class="empty-results"><span aria-hidden="true">✳</span><h3>Good movies start with you.</h3><p>Add a movie to either list and we’ll find your next watch. Keep adding picks to fine-tune the results.</p></div><ol id="results"></ol></section>
+      <section class="recommendations" aria-labelledby="results-title"><div class="section-label"><span>02 / YOUR NEXT WATCH</span><span id="result-count"></span></div><h2 id="results-title">Made for your taste.</h2><p id="recommendation-status" class="muted" role="status">Your recommendations will appear here.</p><div id="results-empty" class="empty-results"><span aria-hidden="true">✳</span><h3>Good movies start with you.</h3><p>Add a movie to either list and we’ll find your next watch. Keep adding picks to fine-tune the results.</p></div><ol id="results"></ol><button id="show-more" hidden>Show 20 more</button></section>
     </div>
     <details class="about-model"><summary>Behind the recommendations</summary><p>A 48-factor truncated SVD model learns patterns from the user–movie rating matrix in <a href="https://grouplens.org/datasets/movielens/32m/">MovieLens 32M</a>. Your likes (5 stars) and dislikes (1 star) fit a personal profile using regularized least squares. Recommendations primarily reward agreement among a movie's three closest liked movies, rather than letting one favorite dominate. Disliked neighbors lower the score. A jointly fitted user vector supplies a small secondary signal. The supporting likes shown beside each pick are the actual contributors to its similarity score. Movies you entered are excluded.</p><p>The entire catalog is searchable. Recommendations require at least 100 ratings for a more reliable signal. Movies without ratings cannot be used as preferences. The dataset covers ratings through October 2023, so newer releases are not included. Computation runs on your device. Tanner’s favorites button loads both tiers as Likes; Next Goal Wins (2023) and Dune: Part Two are unavailable.</p><p>Dataset: F. Maxwell Harper and Joseph A. Konstan. 2015. <a href="https://doi.org/10.1145/2827872">The MovieLens Datasets: History and Context.</a> This independent, noncommercial experiment is not endorsed by GroupLens or the University of Minnesota. Data and derived model are subject to the <a href="./data/MOVIELENS-README.txt">MovieLens license</a>. <a href="./data/model.json">Training and validation details</a> · <a href="https://github.com/tanner49/tanner49.github.io/tree/master/movies">Source code</a></p></details>
   </main>

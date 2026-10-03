@@ -16,7 +16,7 @@ self.onmessage = async ({data}) => {
       self.postMessage({type:'ready',movies});
     } else if (data.type === 'recommend') {
       latestRequest=data.id;
-      const results=await engine.recommendAsync(data.preferences,20,()=>latestRequest!==data.id);
+      const results=await engine.recommendAsync(data.preferences,500,()=>latestRequest!==data.id);
       if(results && latestRequest===data.id) self.postMessage({type:'results',id:data.id,results});
     } else if (data.type === 'cancel') {
       latestRequest=data.id;
