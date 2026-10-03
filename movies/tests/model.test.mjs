@@ -11,6 +11,35 @@ test('ridge solve satisfies normal equations',()=>{
   assert.ok(Math.abs(x[0]+3*x[1]-2)<1e-10);
 });
 
+test('fourth and fifth nearby likes increase score without a cap or averaging',()=>{
+  const movies=Array.from({length:6},(_,i)=>[i,'Movie '+i,'',1000,3]);
+  const factors=new Float32Array(6).fill(1),meta={rank:1,ridge:1,minRecommendationRatings:100};
+  for(let count=3;count<=5;count++) {
+    const result=recommend(movies,factors,meta,Array.from({length:count},(_,i)=>[i,5])).find(r=>r.index===5);
+    assert.equal(result.rankScore,count);
+    assert.equal(result.supportCount,count);
+    assert.equal(result.contributions.length,count);
+    assert.equal(result.contributions.reduce((s,c)=>s+c.weight,0),result.rankScore);
+  }
+  const result=recommend(movies,factors,meta,[[0,5],[1,5],[2,5],[3,5],[4,1]])[0];
+  assert.equal(result.rankScore,3);
+  assert.equal(result.positiveScore,4);
+  assert.equal(result.negativeScore,1);
+});
+
+test('two strong neighbors outrank five weak neighbors: weighted sums, not counts',()=>{
+  const rank=8,movies=Array.from({length:9},(_,i)=>[i,'Movie '+i,'',1000,3]);
+  const factors=new Float32Array(9*rank);
+  for(let i=0;i<7;i++) factors[i*rank+i]=1;
+  for(let k=0;k<5;k++) factors[7*rank+k]=.3;
+  factors[7*rank+7]=Math.sqrt(1-5*.3*.3);
+  factors[8*rank+5]=factors[8*rank+6]=1/Math.sqrt(2);
+  const results=recommend(movies,factors,{rank,ridge:1,minRecommendationRatings:100},Array.from({length:7},(_,i)=>[i,5]));
+  assert.equal(results[0].index,8);assert.equal(results[0].supportCount,2);
+  assert.equal(results[1].index,7);assert.equal(results[1].supportCount,5);
+  assert.ok(results[0].rankScore>results[1].rankScore);
+});
+
 test('agreement across three moderate neighbors beats a single exact match',()=>{
   const movies=Array.from({length:5},(_,i)=>[i,'Movie '+i,'',1000,3]);
   const v=1/Math.sqrt(3),factors=new Float32Array([1,0,0,0,1,0,0,0,1,1,0,0,v,v,v]);
@@ -44,7 +73,11 @@ test('long mixed histories, deterministic ranking, cached updates, and cancellat
   for(const r of extended) {
     assert.ok(!seedSet.has(r.index));
     assert.ok(r.reasons.every(i=>seedSet.has(i)));
+    assert.equal(r.reasons.length,r.supportCount);
+    assert.ok(Math.abs(r.contributions.reduce((s,c)=>s+c.weight,0)-r.positiveScore)<1e-8);
+    assert.equal(r.rankScore,r.positiveScore-r.negativeScore);
   }
+  assert.ok(extended.some(r=>r.supportCount>5));
   assert.deepEqual(engine.recommend([...seed].reverse()),first);
   assert.deepEqual(await engine.recommendAsync(seed),first);
   assert.equal(await engine.recommendAsync(prefs,20,()=>true),null);

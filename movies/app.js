@@ -59,19 +59,25 @@ function renderResults(results) {
   $('show-more').hidden=visibleCount>=results.length;
   $('show-more').textContent=`Show ${Math.min(20,results.length-visibleCount)} more`;
   $('recommendation-status').textContent=`Based on ${preferences.size} ${preferences.size===1?'movie':'movies'} you’ve rated. Add more to refine your picks.`;
-  results.slice(0,visibleCount).forEach(({index,reasons=[]},position)=>{
+  results.slice(0,visibleCount).forEach(({index,reasons=[],contributions=[],supportCount=0,oppositionCount=0,rankScore=0,positiveScore=0,negativeScore=0},position)=>{
     const movie=movies[index], li=element('li',undefined,'movie'); li.append(element('span',String(position+1).padStart(2,'0'),'rank'));
     const body=element('div'), h3=element('h3'), a=element('a',movie[1]); a.href=`https://movielens.org/movies/${movie[0]}`; a.target='_blank'; a.rel='noopener noreferrer'; h3.append(a);
     body.append(h3,element('p',movie[2].replaceAll('|',' · '),'genres'));
-    body.append(element('p',reasons.length ? `Matches ${reasons.map(i=>movies[i][1]).join(' · ')}` : 'Based on your overall preferences and dislikes.','explanation'));
+    body.append(element('p',reasons.length ? `Closest matches: ${reasons.slice(0,3).map(i=>movies[i][1]).join(' · ')}${reasons.length>3?` · and ${reasons.length-3} more`:''}` : 'Based on your overall preferences and dislikes.','explanation'));
+    const details=element('details',undefined,'match-details');
+    details.append(element('summary',`${supportCount} supporting ${supportCount===1?'like':'likes'}${oppositionCount?` · ${oppositionCount} nearby dislikes`:''}`));
+    details.append(element('p',`Liked similarity sum: ${positiveScore.toFixed(3)}. Disliked similarity sum: ${negativeScore.toFixed(3)}.`));
+    const sources=element('ul');
+    for(const contribution of contributions) sources.append(element('li',`${movies[contribution.index][1]}: +${contribution.weight.toFixed(3)}`));
+    details.append(sources);body.append(details);
     const actions=element('div',undefined,'actions'); actions.append(button('＋ Like',`Like ${movie[1]}`,()=>setPreference(index,5)),button('− Dislike',`Dislike ${movie[1]}`,()=>setPreference(index,1))); body.append(actions);
-    const support=element('div',String(reasons.length),'score'); support.append(element('small',reasons.length===1?'supporting like':'supporting likes')); li.append(body,support); $('results').append(li);
+    const support=element('div',rankScore.toFixed(2),'score'); support.append(element('small','match score')); li.append(body,support); $('results').append(li);
   });
 }
 function fail(message) { $('load-status').textContent=message+' Check your connection and try again.'; $('load-status').classList.add('error'); $('retry').hidden=false; $('search').disabled=true; $('favorites').disabled=true; $('like').disabled=$('dislike').disabled=true; }
 function load() {
   if(worker) worker.terminate(); $('retry').hidden=true; $('load-status').classList.remove('error'); $('load-status').textContent='Loading catalog and model (about 24 MB on your first visit)…';
-  try { worker=new Worker(new URL('./worker.js?v=4',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
+  try { worker=new Worker(new URL('./worker.js?v=5',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
   worker.onerror=()=>fail('The recommendation engine could not start.');
   worker.onmessage=({data})=>{
     if(data.type==='ready') {

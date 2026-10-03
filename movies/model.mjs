@@ -17,7 +17,7 @@ export function solve(a, b, n) {
   return x;
 }
 
-// Item-neighborhood consensus is primary; the joint user profile is a small prior.
+// Sum all nearby item evidence; the joint profile breaks exact ties only.
 export function createRecommender(movies,factors,meta) {
   const n=meta.rank;
   const eligible=movies.flatMap((m,i)=>m[3]>=meta.minRecommendationRatings?[i]:[]),cache=new Map();
@@ -53,35 +53,41 @@ export function createRecommender(movies,factors,meta) {
     const profile=solve(a,b,n),results=[];
     const likes=[...unique].filter(p=>p[1]===5).map(p=>p[0]).sort((a,b)=>a-b);
     const dislikes=[...unique].filter(p=>p[1]===1).map(p=>p[0]).sort((a,b)=>a-b);
-    const positive=new Float32Array(eligible.length*3),negative=new Float32Array(eligible.length*3);
-    const sources=new Int32Array(eligible.length*3).fill(-1);
-    for(const [seeds,values,keepSources] of [[likes,positive,true],[dislikes,negative,false]]) {
+    const positive=new Float64Array(eligible.length),negative=new Float64Array(eligible.length);
+    const supportCount=new Uint32Array(eligible.length),oppositionCount=new Uint32Array(eligible.length);
+    for(const [seeds,totals,counts] of [[likes,positive,supportCount],[dislikes,negative,oppositionCount]]) {
       for(const seed of seeds) {
         const sims=similarities(seed);
-        for(let j=0;j<eligible.length;j++) {
-          const offset=j*3,value=sims[j];if(value<=values[offset+2]) continue;
-          for(let k=0;k<3;k++) if(value>values[offset+k]) {
-            for(let t=2;t>k;t--){values[offset+t]=values[offset+t-1];if(keepSources)sources[offset+t]=sources[offset+t-1];}
-            values[offset+k]=value;if(keepSources)sources[offset+k]=seed;break;
-          }
-        }
+        for(let j=0;j<eligible.length;j++) if(sims[j]>0) {totals[j]+=sims[j];counts[j]++;}
         yield;
       }
     }
     for(let j=0;j<eligible.length;j++) {
       const i=eligible[j];if(unique.has(i)) continue;
       let prediction=movies[i][4];
-      for(let j=0;j<n;j++) prediction+=factors[i*n+j]*profile[j];
-      const offset=j*3;
-      const consensus=(positive[offset]+positive[offset+1]+positive[offset+2])/Math.min(3,likes.length||1);
-      const opposition=(negative[offset]+negative[offset+1]+negative[offset+2])/Math.min(3,dislikes.length||1);
+      for(let k=0;k<n;k++) prediction+=factors[i*n+k]*profile[k];
       const prior=(Math.max(.5,Math.min(5,prediction))-.5)/4.5;
-      const rankScore=likes.length ? .9*consensus+.1*prior-.35*opposition-.15*negative[offset] : prior-.5*opposition;
-      const reasons=Array.from(sources.slice(offset,offset+3)).filter(i=>i>=0);
-      results.push({index:i,prediction,score:Math.max(.5,Math.min(5,prediction)),rankScore,consensus,reasons});
+      // Sum all nearby evidence. No division by list length or contributor cap.
+      // The fitted profile only breaks exact score ties when likes are present.
+      const rankScore=likes.length ? positive[j]-negative[j] : prior-negative[j];
+      results.push({index:i,prediction,score:Math.max(.5,Math.min(5,prediction)),rankScore,
+        positiveScore:positive[j],negativeScore:negative[j],supportCount:supportCount[j],oppositionCount:oppositionCount[j]});
     }
-    results.sort((a,b)=>b.rankScore-a.rankScore||movies[b.index][3]-movies[a.index][3]||a.index-b.index);
-    return results.slice(0,limit);
+    results.sort((a,b)=>b.rankScore-a.rankScore||b.prediction-a.prediction||movies[b.index][3]-movies[a.index][3]||a.index-b.index);
+    const selected=results.slice(0,limit);
+    // Recompute explanations only for returned movies, keeping long-list memory bounded.
+    for(const result of selected) {
+      result.contributions=[];
+      for(const seed of likes) {
+        let dot=0;for(let k=0;k<n;k++) dot+=factors[result.index*n+k]*factors[seed*n+k];
+        const weight=Math.fround(Math.max(0,Math.min(1,(dot-.25)/.75)));
+        if(weight>0) result.contributions.push({index:seed,weight});
+      }
+      result.contributions.sort((a,b)=>b.weight-a.weight||a.index-b.index);
+      result.reasons=result.contributions.map(c=>c.index);
+      yield;
+    }
+    return selected;
   }
   return {
     recommend(preferences,limit=20) {

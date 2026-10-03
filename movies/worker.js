@@ -1,4 +1,4 @@
-import {createRecommender} from './model.mjs?v=3';
+import {createRecommender} from './model.mjs?v=5';
 let movies, factors, meta, engine, latestRequest=0;
 self.onmessage = async ({data}) => {
   try {

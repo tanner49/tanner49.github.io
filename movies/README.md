@@ -18,30 +18,28 @@ sometimes also called SVD by recommender libraries.
 
 For a new visitor, Like = 5 stars and Dislike = 1 star. We solve
 `p = (Q_selected.T Q_selected + I)^-1 Q_selected.T (ratings - movie_means)`.
-Predictions are `movie_mean + Q_movie p`. These provide a small secondary signal
-for the neighborhood-consensus ranking described below. Existing picks
-are excluded. Recommendations need 100 ratings; all titles remain searchable,
-but titles with no ratings cannot be used to build a profile. Low-support picks
-and small preference lists can produce less reliable results. Genre metadata
-is displayed but is not used by the model.
+Predictions are `movie_mean + Q_movie p`. These break exact similarity-score ties
+and provide a fallback for dislike-only profiles. Existing picks are excluded.
+Recommendations need 100 ratings; all titles remain searchable, but titles with
+no ratings cannot be used to build a profile. Genre metadata is display-only.
 
-Ranking primarily uses item-neighborhood consensus, inspired by the established
+Ranking uses item-neighborhood similarity sums, inspired by the established
 [item-item kNN similarity-sum approach](https://lenskit.org/0.14.3/knn.html).
-This implementation uses SVD cosine similarities, not raw co-rating similarities.
-For each candidate, transform each similarity with `max(0, (cosine - .25) / .75)`.
-Add the three largest positive values and divide by `min(3, number_of_likes)`.
-Missing neighbors contribute zero, so three moderate matches can outrank one
-very close match. This top-three neighborhood allows a candidate to match one
-interest without matching the visitor's entire list. All likes are considered.
+For every candidate and every preference, transform SVD cosine similarity with
+`weight = max(0, (cosine - .25) / .75)`, capped at 1 for numerical roundoff.
+Every positive weight contributes: there is no top-k cap and no division by
+contributor count. Weak similarities below the threshold contribute zero.
 
-The final score is `0.9 * consensus + 0.1 * normalized_profile_prediction
-- 0.35 * dislike_consensus - 0.15 * strongest_dislike_similarity`. Dislikes use
-the same top-three aggregation. With no likes, the score falls back to the
-profile prediction minus `0.5 * dislike_consensus`. These blending weights and
-the similarity threshold are heuristics, not validated probability estimates.
-The UI shows up to three actual supporting likes rather than inflated star
-predictions. All entered movies are excluded. There is no genre filter or
-handwritten exclusion for a particular movie.
+The ranking score is exactly `sum(liked weights) - sum(disliked weights)`.
+The fitted user vector only breaks exact ties; dislike-only profiles instead
+use `normalized_profile_prediction - sum(disliked weights)`. The threshold is
+heuristic and the displayed score is neither a probability nor a star rating.
+
+The UI displays the weighted score separately from the full supporting-like
+count. Its compact explanation previews three titles; expandable details list
+**every** contributing like and weight, plus positive/negative totals. Only
+explanation previews are shortened. All entered movies are excluded, and there
+are no handwritten title exclusions or genre filters.
 
 The worker yields during long computations and cancels outdated requests. An
 LRU cache stores similarities for up to 128 seeds. A 1,000-preference history
