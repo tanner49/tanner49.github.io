@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "dataset": "MovieLens 32M",
+  "ratings": 32000204,
+  "users": 200948,
+  "movies": 87585,
+  "rank": 48,
+  "seed": 49,
+  "iterations": 4,
+  "ridge": 1.0,
+  "minRecommendationRatings": 100,
+  "factorFormat": "row-major little-endian float32",
+  "validation": {
+    "method": "5 random held-out ratings per 1000 seeded random users; factors and baselines trained without holdout; ridge profiles from remaining ratings",
+    "ratings": 5000,
+    "rmse": 0.8117549243328483,
+    "movieMeanRmse": 0.9809892481871574
+  },
+  "ratingsMD5": "cf12b74f9ad4b94a011f079e26d4270a",
+  "trainingSeconds": 46,
+  "factorsSHA256": "ed24facb29eef102954f71d96b7ab16535a72451a9499db4552ae6afafb302e7"
+}

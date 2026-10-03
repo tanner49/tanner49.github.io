@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find your next movie with personalized recommendations learned from MovieLens 32M. Pick movies you like and dislike to get started.">
+  <meta name="theme-color" content="#172d25">
+  <title>Movie Night · Tanner Phillips</title>
+  <link rel="canonical" href="https://tanner49.github.io/movies/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="site-brand" href="/"><span class="site-mark">TP<span>↗</span></span><span>TANNER PHILLIPS</span></a><nav aria-label="Main"><a href="/">About</a><a href="/cv/">Experience</a><a href="/tanner-ratings/">Prove It Rankings</a><a href="/movies/" aria-current="page">Movie Night</a></nav></header>
+  <main id="main">
+    <section class="intro"><div><p class="overline">A LITTLE TASTE. A BETTER WATCHLIST.</p><h1>Your next<br><span>movie night.</span></h1><p class="lead">Start with movies you know.<br>Find something you’ll love.</p></div><aside class="ticket" aria-label="About this experiment"><span class="ticket-icon" aria-hidden="true">▶</span><strong>32 million opinions.<br>One very personal list.</strong><span>Powered by MovieLens ratings<br>Curated by your taste</span><div class="ticket-bottom">ADMIT ONE <span>∞ POSSIBILITIES</span></div></aside></section>
+    <div id="load-status" class="notice" role="status">Loading the movie catalog and recommendation model…</div>
+    <button id="retry" hidden>Try loading again</button>
+    <noscript><p>This app needs JavaScript to search movies and generate recommendations.</p></noscript>
+    <div class="workspace">
+      <section class="taste" aria-labelledby="taste-title"><div class="section-label"><span>01 / YOUR TASTE</span><button id="clear" class="text-button" disabled>Clear all</button></div><h2 id="taste-title">What have you seen?</h2><p class="muted">Add a few favorites and a few misses. Three or more is a great start.</p>
+        <button id="favorites" class="like-button" disabled>Load Tanner’s favorites</button>
+        <p id="favorites-status" class="small muted" role="status">Try Tanner’s 28 available favorites, or build your own list below.</p>
+        <label for="search">Search for a movie</label>
+        <div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try The Matrix or Spirited Away" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions" aria-describedby="search-help" disabled><ul id="suggestions" role="listbox" aria-label="Matching movies" hidden></ul></div>
+        <p id="search-help" class="small muted">Type a title, then select a movie from the dropdown.</p>
+        <div id="selected" class="selected"><span id="selected-title">Choose a movie to add</span><div class="actions"><button id="like" class="like-button" disabled>＋ Like</button><button id="dislike" class="dislike-button" disabled>− Dislike</button></div></div>
+        <div class="preference-section"><h3>Like <span id="like-count">0</span></h3><ul id="likes" class="preferences"></ul><p id="likes-empty" class="empty-list">The ones you’d watch again.</p></div>
+        <div class="preference-section"><h3>Dislike <span id="dislike-count">0</span></h3><ul id="dislikes" class="preferences"></ul><p id="dislikes-empty" class="empty-list">The ones that weren’t for you.</p></div>
+        <p class="privacy">Your picks stay in this browser. No account needed.</p>
+      </section>
+      <section class="recommendations" aria-labelledby="results-title"><div class="section-label"><span>02 / YOUR NEXT WATCH</span><span id="result-count"></span></div><h2 id="results-title">Made for your taste.</h2><p id="recommendation-status" class="muted" role="status">Your recommendations will appear here.</p><div id="results-empty" class="empty-results"><span aria-hidden="true">✳</span><h3>Good movies start with you.</h3><p>Add a movie to either list and we’ll find your next watch. Keep adding picks to fine-tune the results.</p></div><ol id="results"></ol></section>
+    </div>
+    <details class="about-model"><summary>Behind the recommendations</summary><p>A 48-factor truncated SVD model learns patterns from the user–movie rating matrix in <a href="https://grouplens.org/datasets/movielens/32m/">MovieLens 32M</a>. Your likes (5 stars) and dislikes (1 star) fit a personal profile using regularized least squares. We combine its predictions with matches to individual favorites, penalize similarity to dislikes, and balance picks across your interests. Movies you entered are excluded. Explanations identify favorites with similar rating patterns. The displayed rating is the profile’s estimate; ranking also considers similarity and variety.</p><p>The entire catalog is searchable. Recommendations require at least 100 ratings for a more reliable signal. Movies without ratings cannot be used as preferences. The dataset covers ratings through October 2023, so newer releases are not included. Computation runs on your device. Tanner’s favorites button loads both tiers as Likes; Next Goal Wins (2023) and Dune: Part Two are unavailable.</p><p>Dataset: F. Maxwell Harper and Joseph A. Konstan. 2015. <a href="https://doi.org/10.1145/2827872">The MovieLens Datasets: History and Context.</a> This independent, noncommercial experiment is not endorsed by GroupLens or the University of Minnesota. Data and derived model are subject to the <a href="./data/MOVIELENS-README.txt">MovieLens license</a>. <a href="./data/model.json">Training and validation details</a> · <a href="https://github.com/tanner49/tanner49.github.io/tree/master/movies">Source code</a></p></details>
+  </main>
+  <footer class="site-footer"><span>Tanner Phillips, PhD</span><a href="/">Back to home ↗</a></footer>
+</body>
+</html>
