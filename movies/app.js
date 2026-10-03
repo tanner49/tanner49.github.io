@@ -54,11 +54,10 @@ function update() {
 function renderResults(results) {
   $('results').replaceChildren(); $('result-count').textContent=`${results.length} PICKS`;
   $('recommendation-status').textContent=`Based on ${preferences.size} ${preferences.size===1?'movie':'movies'} you’ve rated. Add more to refine your picks.`;
-  results.forEach(({index,score,reasons=[]},position)=>{
+  results.forEach(({index,score},position)=>{
     const movie=movies[index], li=element('li',undefined,'movie'); li.append(element('span',String(position+1).padStart(2,'0'),'rank'));
     const body=element('div'), h3=element('h3'), a=element('a',movie[1]); a.href=`https://movielens.org/movies/${movie[0]}`; a.target='_blank'; a.rel='noopener noreferrer'; h3.append(a);
     body.append(h3,element('p',movie[2].replaceAll('|',' · '),'genres'));
-    body.append(element('p',reasons.length ? `Similar taste patterns to ${reasons.map(i=>movies[i][1]).join(' and ')}.` : 'Suggested by your overall taste profile.','explanation'));
     const actions=element('div',undefined,'actions'); actions.append(button('＋ Like',`Like ${movie[1]}`,()=>setPreference(index,5)),button('− Dislike',`Dislike ${movie[1]}`,()=>setPreference(index,1))); body.append(actions);
     const prediction=element('div',score.toFixed(1),'score'); prediction.append(element('small','predicted / 5')); li.append(body,prediction); $('results').append(li);
   });
