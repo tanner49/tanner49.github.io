@@ -14,6 +14,16 @@
         "path": "share/2026/week-05/conferences",
         "version": "4cd57d1c74a4"
       }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "path": "2026/week-06.json",
+      "comparisonPath": "comparisons/2026/week-06.json",
+      "conferenceCharts": {
+        "path": "share/2026/week-06/conferences",
+        "version": "03e6c7cd4ac0"
+      }
     }
   ]
 }

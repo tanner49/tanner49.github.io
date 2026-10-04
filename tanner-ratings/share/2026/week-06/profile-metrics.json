@@ -1,0 +1,6245 @@
+{
+  "fingerprint": "14caef816dca3c592e6c4017b4752803b517d4b4c7237afce036531ca8e2fd70",
+  "season": 2026,
+  "week": 6,
+  "fbsMedian": 48.067787,
+  "fbsBest": 84.452317,
+  "brawlers": [
+    {
+      "team": "Ole Miss",
+      "rank": 27,
+      "score": 3.8693212904436303,
+      "games": [
+        {
+          "gameId": "401856688",
+          "opponent": "LSU",
+          "margin": 8,
+          "opponentRating": 72.230238,
+          "ratingWithout": 55.25852026253183,
+          "lift": 5.826537902623578,
+          "oppositionWeight": 0.664085835381136,
+          "contribution": 3.8693212904436303
+        },
+        {
+          "gameId": "401856661",
+          "opponent": "Louisville",
+          "margin": 3,
+          "opponentRating": 55.020992,
+          "ratingWithout": 61.27230005944058,
+          "lift": -0.18724189428517235,
+          "oppositionWeight": 0.19110333430169357,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401856699",
+          "opponent": "Florida",
+          "margin": -24,
+          "opponentRating": 66.885187,
+          "ratingWithout": 66.85240990225958,
+          "lift": -5.767351737104171,
+          "oppositionWeight": 0.5171813405312644,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Florida",
+      "rank": 16,
+      "score": 2.3853505602976783,
+      "games": [
+        {
+          "gameId": "401856699",
+          "opponent": "Ole Miss",
+          "margin": 24,
+          "opponentRating": 61.085058,
+          "ratingWithout": 60.990331815652006,
+          "lift": 5.894854886615612,
+          "oppositionWeight": 0.3577693871543757,
+          "contribution": 2.108998620148444
+        },
+        {
+          "gameId": "401856687",
+          "opponent": "Auburn",
+          "margin": 5,
+          "opponentRating": 60.390286,
+          "ratingWithout": 66.06920485825059,
+          "lift": 0.8159818440170312,
+          "oppositionWeight": 0.3386741288124377,
+          "contribution": 0.2763519401492345
+        }
+      ]
+    },
+    {
+      "team": "Texas",
+      "rank": 6,
+      "score": 2.2436033729748024,
+      "games": [
+        {
+          "gameId": "401856682",
+          "opponent": "Ohio State",
+          "margin": 1,
+          "opponentRating": 75.180489,
+          "ratingWithout": 71.7598906701205,
+          "lift": 2.2353814366508544,
+          "oppositionWeight": 0.7451711482874727,
+          "contribution": 1.6657417520096176
+        },
+        {
+          "gameId": "401856704",
+          "opponent": "Tennessee",
+          "margin": 3,
+          "opponentRating": 67.740451,
+          "ratingWithout": 73.26274565120431,
+          "lift": 0.7325264555670401,
+          "oppositionWeight": 0.5406875944254329,
+          "contribution": 0.39606796711353165
+        },
+        {
+          "gameId": "401856693",
+          "opponent": "UTSA",
+          "margin": 24,
+          "opponentRating": 51.44192,
+          "ratingWithout": 72.03492358097967,
+          "lift": 1.9603485257916873,
+          "oppositionWeight": 0.09273537407244237,
+          "contribution": 0.18179365385165305
+        }
+      ]
+    },
+    {
+      "team": "Oregon",
+      "rank": 15,
+      "score": 2.1192092073279403,
+      "games": [
+        {
+          "gameId": "401858469",
+          "opponent": "USC",
+          "margin": 14,
+          "opponentRating": 64.906809,
+          "ratingWithout": 63.64401628032392,
+          "lift": 3.42851165012393,
+          "oppositionWeight": 0.4628071875602075,
+          "contribution": 1.5867398343112622
+        },
+        {
+          "gameId": "401858433",
+          "opponent": "Boise State",
+          "margin": 7,
+          "opponentRating": 62.594051,
+          "ratingWithout": 65.73883002459907,
+          "lift": 1.33369790584878,
+          "oppositionWeight": 0.39924286503082496,
+          "contribution": 0.5324693730166783
+        },
+        {
+          "gameId": "401856782",
+          "opponent": "Oklahoma State",
+          "margin": -8,
+          "opponentRating": 51.170801,
+          "ratingWithout": 75.3444644385271,
+          "lift": -8.27193650807925,
+          "oppositionWeight": 0.08528388301291773,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Florida State",
+      "rank": 32,
+      "score": 2.099458592478875,
+      "games": [
+        {
+          "gameId": "401856685",
+          "opponent": "Alabama",
+          "margin": -14,
+          "opponentRating": 84.452317,
+          "ratingWithout": 57.583442401317235,
+          "lift": 2.099458592478875,
+          "oppositionWeight": 1.0,
+          "contribution": 2.099458592478875
+        },
+        {
+          "gameId": "401858212",
+          "opponent": "SMU",
+          "margin": -3,
+          "opponentRating": 57.934769,
+          "ratingWithout": 61.14852081799765,
+          "lift": -1.4656198242015392,
+          "oppositionWeight": 0.2711861881959174,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Mississippi State",
+      "rank": 18,
+      "score": 2.0008655148871317,
+      "games": [
+        {
+          "gameId": "401856703",
+          "opponent": "Missouri",
+          "margin": 7,
+          "opponentRating": 66.229068,
+          "ratingWithout": 62.93459005003854,
+          "lift": 2.9309858278111562,
+          "oppositionWeight": 0.49914842929124,
+          "contribution": 1.4629969722268235
+        },
+        {
+          "gameId": "401856677",
+          "opponent": "Minnesota",
+          "margin": 25,
+          "opponentRating": 51.876842,
+          "ratingWithout": 61.49385910631756,
+          "lift": 4.371716771532135,
+          "oppositionWeight": 0.10468886089774972,
+          "contribution": 0.4576700489792872
+        },
+        {
+          "gameId": "401856691",
+          "opponent": "South Carolina",
+          "margin": 7,
+          "opponentRating": 55.421632,
+          "ratingWithout": 65.46877876024769,
+          "lift": 0.39679711760200576,
+          "oppositionWeight": 0.20211460749939608,
+          "contribution": 0.0801984936810211
+        }
+      ]
+    },
+    {
+      "team": "Kentucky",
+      "rank": 22,
+      "score": 1.6822794656885964,
+      "games": [
+        {
+          "gameId": "401856694",
+          "opponent": "Texas A&M",
+          "margin": 10,
+          "opponentRating": 64.723853,
+          "ratingWithout": 60.28986696076518,
+          "lift": 3.6748742282679885,
+          "oppositionWeight": 0.45777878675360123,
+          "contribution": 1.6822794656885964
+        },
+        {
+          "gameId": "401856709",
+          "opponent": "South Carolina",
+          "margin": 1,
+          "opponentRating": 55.421632,
+          "ratingWithout": 64.54861919561364,
+          "lift": -0.5838780065804698,
+          "oppositionWeight": 0.20211460749939608,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Northwestern",
+      "rank": 14,
+      "score": 1.4349879022890364,
+      "games": [
+        {
+          "gameId": "401858476",
+          "opponent": "Penn State",
+          "margin": 21,
+          "opponentRating": 58.23483,
+          "ratingWithout": 62.08305310586671,
+          "lift": 5.135353551713365,
+          "oppositionWeight": 0.27943312721093283,
+          "contribution": 1.4349879022890364
+        },
+        {
+          "gameId": "401858461",
+          "opponent": "Indiana",
+          "margin": -6,
+          "opponentRating": 70.620757,
+          "ratingWithout": 67.61119094417118,
+          "lift": -0.39278428659110887,
+          "oppositionWeight": 0.6198505243849516,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Houston",
+      "rank": 23,
+      "score": 1.180306437737239,
+      "games": [
+        {
+          "gameId": "401856778",
+          "opponent": "Oregon State",
+          "margin": 13,
+          "opponentRating": 56.414854,
+          "ratingWithout": 60.5617134287465,
+          "lift": 2.36414876436433,
+          "oppositionWeight": 0.22941252779684107,
+          "contribution": 0.5423653441205993
+        },
+        {
+          "gameId": "401856819",
+          "opponent": "UCF",
+          "margin": 10,
+          "opponentRating": 57.117166,
+          "ratingWithout": 60.978028968177256,
+          "lift": 1.947833224933575,
+          "oppositionWeight": 0.24871501706906746,
+          "contribution": 0.48445537378705084
+        },
+        {
+          "gameId": "401856811",
+          "opponent": "Texas Tech",
+          "margin": -2,
+          "opponentRating": 67.587338,
+          "ratingWithout": 62.639764127755164,
+          "lift": 0.2860980653556666,
+          "oppositionWeight": 0.5364794048459608,
+          "contribution": 0.15348571982958883
+        }
+      ]
+    },
+    {
+      "team": "Ohio State",
+      "rank": 5,
+      "score": 1.1103379005387037,
+      "games": [
+        {
+          "gameId": "401858473",
+          "opponent": "Iowa",
+          "margin": 17,
+          "opponentRating": 64.913321,
+          "ratingWithout": 72.93732777007898,
+          "lift": 2.243160841035632,
+          "oppositionWeight": 0.4629861647244034,
+          "contribution": 1.0385524346510544
+        },
+        {
+          "gameId": "401858465",
+          "opponent": "Illinois",
+          "margin": 23,
+          "opponentRating": 52.042311,
+          "ratingWithout": 74.52333307823743,
+          "lift": 0.6571555328771836,
+          "oppositionWeight": 0.10923664535449534,
+          "contribution": 0.07178546588764931
+        },
+        {
+          "gameId": "401856682",
+          "opponent": "Texas",
+          "margin": -1,
+          "opponentRating": 73.995272,
+          "ratingWithout": 76.39483147936481,
+          "lift": -1.214342868250199,
+          "oppositionWeight": 0.7125963974249496,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Michigan",
+      "rank": 45,
+      "score": 1.0376128357082797,
+      "games": [
+        {
+          "gameId": "401858463",
+          "opponent": "Iowa",
+          "margin": -1,
+          "opponentRating": 64.913321,
+          "ratingWithout": 54.3841691969897,
+          "lift": 1.2082430266200674,
+          "oppositionWeight": 0.4629861647244034,
+          "contribution": 0.5593998049498303
+        },
+        {
+          "gameId": "401856679",
+          "opponent": "Oklahoma",
+          "margin": 7,
+          "opponentRating": 55.75047,
+          "ratingWithout": 53.327636185860754,
+          "lift": 2.264776037749016,
+          "oppositionWeight": 0.21115245957553935,
+          "contribution": 0.47821303075844923
+        },
+        {
+          "gameId": "401858474",
+          "opponent": "Minnesota",
+          "margin": -6,
+          "opponentRating": 51.876842,
+          "ratingWithout": 58.569824070208654,
+          "lift": -2.9774118465988835,
+          "oppositionWeight": 0.10468886089774972,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Louisville",
+      "rank": 48,
+      "score": 0.9755812850242404,
+      "games": [
+        {
+          "gameId": "401858230",
+          "opponent": "SMU",
+          "margin": 10,
+          "opponentRating": 57.934769,
+          "ratingWithout": 51.47531993003234,
+          "lift": 3.545672321618916,
+          "oppositionWeight": 0.2711861881959174,
+          "contribution": 0.9615373614916027
+        },
+        {
+          "gameId": "401856661",
+          "opponent": "Ole Miss",
+          "margin": -3,
+          "opponentRating": 61.085058,
+          "ratingWithout": 54.98173812864107,
+          "lift": 0.03925412301018838,
+          "oppositionWeight": 0.3577693871543757,
+          "contribution": 0.014043923532637573
+        },
+        {
+          "gameId": "401858243",
+          "opponent": "Wake Forest",
+          "margin": -3,
+          "opponentRating": 58.92037,
+          "ratingWithout": 55.48593429375127,
+          "lift": -0.464942042100013,
+          "oppositionWeight": 0.298274651342205,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401858248",
+          "opponent": "NC State",
+          "margin": -3,
+          "opponentRating": 52.475993,
+          "ratingWithout": 56.951911953853404,
+          "lift": -1.9309197022021465,
+          "oppositionWeight": 0.12115605176155912,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Tennessee",
+      "rank": 11,
+      "score": 0.8025655124833129,
+      "games": [
+        {
+          "gameId": "401856710",
+          "opponent": "Auburn",
+          "margin": 10,
+          "opponentRating": 60.390286,
+          "ratingWithout": 66.24032342811533,
+          "lift": 1.5001272284619205,
+          "oppositionWeight": 0.3386741288124377,
+          "contribution": 0.5080542822071576
+        },
+        {
+          "gameId": "401856704",
+          "opponent": "Texas",
+          "margin": -3,
+          "opponentRating": 73.995272,
+          "ratingWithout": 67.32715747780115,
+          "lift": 0.41329317877610094,
+          "oppositionWeight": 0.7125963974249496,
+          "contribution": 0.29451123027615517
+        }
+      ]
+    },
+    {
+      "team": "BYU",
+      "rank": 12,
+      "score": 0.7166915599320016,
+      "games": [
+        {
+          "gameId": "401856810",
+          "opponent": "Arizona",
+          "margin": 11,
+          "opponentRating": 60.722679,
+          "ratingWithout": 65.67214692729453,
+          "lift": 2.0605853896732356,
+          "oppositionWeight": 0.34780968724894895,
+          "contribution": 0.7166915599320016
+        },
+        {
+          "gameId": "401856818",
+          "opponent": "TCU",
+          "margin": 7,
+          "opponentRating": 52.987976,
+          "ratingWithout": 68.9081700838842,
+          "lift": -1.1754377669164313,
+          "oppositionWeight": 0.1352274991596704,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Indiana",
+      "rank": 9,
+      "score": 0.7119894770142983,
+      "games": [
+        {
+          "gameId": "401858461",
+          "opponent": "Northwestern",
+          "margin": 6,
+          "opponentRating": 67.218407,
+          "ratingWithout": 69.26803861924458,
+          "lift": 1.352718736318252,
+          "oppositionWeight": 0.5263396284080075,
+          "contribution": 0.7119894770142983
+        }
+      ]
+    },
+    {
+      "team": "Auburn",
+      "rank": 31,
+      "score": 0.6941237459384927,
+      "games": [
+        {
+          "gameId": "401856636",
+          "opponent": "Baylor",
+          "margin": 1,
+          "opponentRating": 61.320333,
+          "ratingWithout": 59.1540040955637,
+          "lift": 1.2362819588978766,
+          "oppositionWeight": 0.36423573425299155,
+          "contribution": 0.4502980670428948
+        },
+        {
+          "gameId": "401856698",
+          "opponent": "Vanderbilt",
+          "margin": 6,
+          "opponentRating": 55.867962,
+          "ratingWithout": 59.25294199121335,
+          "lift": 1.1373440632482286,
+          "oppositionWeight": 0.21438163417254524,
+          "contribution": 0.2438256788955979
+        },
+        {
+          "gameId": "401856687",
+          "opponent": "Florida",
+          "margin": -5,
+          "opponentRating": 66.885187,
+          "ratingWithout": 60.49274228823587,
+          "lift": -0.1024562337742907,
+          "oppositionWeight": 0.5171813405312644,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401856710",
+          "opponent": "Tennessee",
+          "margin": -10,
+          "opponentRating": 67.740451,
+          "ratingWithout": 61.430861738543264,
+          "lift": -1.0405756840816878,
+          "oppositionWeight": 0.5406875944254329,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Utah",
+      "rank": 4,
+      "score": 0.6878617094361155,
+      "games": [
+        {
+          "gameId": "401856816",
+          "opponent": "Iowa State",
+          "margin": 14,
+          "opponentRating": 56.064406,
+          "ratingWithout": 72.06300759921243,
+          "lift": 3.1297633415859423,
+          "oppositionWeight": 0.21978074198017666,
+          "contribution": 0.6878617094361155
+        }
+      ]
+    },
+    {
+      "team": "South Carolina",
+      "rank": 46,
+      "score": 0.6330467062294443,
+      "games": [
+        {
+          "gameId": "401856709",
+          "opponent": "Kentucky",
+          "margin": -1,
+          "opponentRating": 63.964741,
+          "ratingWithout": 54.25625880946069,
+          "lift": 1.1653733935152815,
+          "oppositionWeight": 0.4369151944521476,
+          "contribution": 0.5091693428370884
+        },
+        {
+          "gameId": "401856691",
+          "opponent": "Mississippi State",
+          "margin": -7,
+          "opponentRating": 65.865576,
+          "ratingWithout": 55.168386159623616,
+          "lift": 0.25324604335235534,
+          "oppositionWeight": 0.4891581394620188,
+          "contribution": 0.1238773633923559
+        }
+      ]
+    },
+    {
+      "team": "SMU",
+      "rank": 37,
+      "score": 0.5657779125767941,
+      "games": [
+        {
+          "gameId": "401858212",
+          "opponent": "Florida State",
+          "margin": 3,
+          "opponentRating": 59.682901,
+          "ratingWithout": 56.162460707098845,
+          "lift": 1.772308341828392,
+          "oppositionWeight": 0.31923221215170294,
+          "contribution": 0.5657779125767941
+        },
+        {
+          "gameId": "401858230",
+          "opponent": "Louisville",
+          "margin": -10,
+          "opponentRating": 55.020992,
+          "ratingWithout": 61.45610382194853,
+          "lift": -3.5213347730212945,
+          "oppositionWeight": 0.19110333430169357,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Arizona",
+      "rank": 29,
+      "score": 0.554114793134742,
+      "games": [
+        {
+          "gameId": "401856820",
+          "opponent": "Cincinnati",
+          "margin": 27,
+          "opponentRating": 52.222182,
+          "ratingWithout": 55.86969630412794,
+          "lift": 4.852982519537704,
+          "oppositionWeight": 0.11418025737861653,
+          "contribution": 0.554114793134742
+        },
+        {
+          "gameId": "401856810",
+          "opponent": "BYU",
+          "margin": -11,
+          "opponentRating": 67.732732,
+          "ratingWithout": 62.3659392266611,
+          "lift": -1.6432604029954518,
+          "oppositionWeight": 0.5404754438218661,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Oklahoma",
+      "rank": 43,
+      "score": 0.5001423680206543,
+      "games": [
+        {
+          "gameId": "401856690",
+          "opponent": "New Mexico",
+          "margin": 8,
+          "opponentRating": 55.723527,
+          "ratingWithout": 53.37350230086139,
+          "lift": 2.3769674771502878,
+          "oppositionWeight": 0.2104119525523621,
+          "contribution": 0.5001423680206543
+        },
+        {
+          "gameId": "401856679",
+          "opponent": "Michigan",
+          "margin": -7,
+          "opponentRating": 55.592412,
+          "ratingWithout": 58.740702934078115,
+          "lift": -2.990233156066438,
+          "oppositionWeight": 0.20680836058621624,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Wisconsin",
+      "rank": 30,
+      "score": 0.42380575039078655,
+      "games": [
+        {
+          "gameId": "401858466",
+          "opponent": "Penn State",
+          "margin": 4,
+          "opponentRating": 58.23483,
+          "ratingWithout": 59.194890781330734,
+          "lift": 1.5166625182234483,
+          "oppositionWeight": 0.27943312721093283,
+          "contribution": 0.42380575039078655
+        }
+      ]
+    },
+    {
+      "team": "Washington",
+      "rank": 50,
+      "score": 0.35051613806859133,
+      "games": [
+        {
+          "gameId": "401858478",
+          "opponent": "USC",
+          "margin": -4,
+          "opponentRating": 64.906809,
+          "ratingWithout": 52.8728548575443,
+          "lift": 0.7573696940974841,
+          "oppositionWeight": 0.4628071875602075,
+          "contribution": 0.35051613806859133
+        },
+        {
+          "gameId": "401858470",
+          "opponent": "Minnesota",
+          "margin": -3,
+          "opponentRating": 51.876842,
+          "ratingWithout": 55.598800509655455,
+          "lift": -1.9685759580136732,
+          "oppositionWeight": 0.10468886089774972,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Georgia",
+      "rank": 3,
+      "score": 0.34609449107856816,
+      "games": [
+        {
+          "gameId": "401856705",
+          "opponent": "Vanderbilt",
+          "margin": 24,
+          "opponentRating": 55.867962,
+          "ratingWithout": 75.30664867334673,
+          "lift": 1.6143849841167537,
+          "oppositionWeight": 0.21438163417254524,
+          "contribution": 0.34609449107856816
+        }
+      ]
+    },
+    {
+      "team": "Iowa State",
+      "rank": 41,
+      "score": 0.3398648675923409,
+      "games": [
+        {
+          "gameId": "401856788",
+          "opponent": "Iowa",
+          "margin": -3,
+          "opponentRating": 64.913321,
+          "ratingWithout": 55.33033463763165,
+          "lift": 0.7340713254242672,
+          "oppositionWeight": 0.4629861647244034,
+          "contribution": 0.3398648675923409
+        },
+        {
+          "gameId": "401856816",
+          "opponent": "Utah",
+          "margin": -14,
+          "opponentRating": 75.192771,
+          "ratingWithout": 58.534199488743056,
+          "lift": -2.4697935256871375,
+          "oppositionWeight": 0.7455087093333347,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Pittsburgh",
+      "rank": 28,
+      "score": 0.2767188592440662,
+      "games": [
+        {
+          "gameId": "401856790",
+          "opponent": "UCF",
+          "margin": 5,
+          "opponentRating": 57.117166,
+          "ratingWithout": 59.7244619405591,
+          "lift": 1.1125940946590376,
+          "oppositionWeight": 0.24871501706906746,
+          "contribution": 0.2767188592440662
+        },
+        {
+          "gameId": "401858245",
+          "opponent": "Virginia Tech",
+          "margin": 2,
+          "opponentRating": 53.48823,
+          "ratingWithout": 61.224447192204806,
+          "lift": -0.3873911569866664,
+          "oppositionWeight": 0.14897658427908786,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "UCF",
+      "rank": 38,
+      "score": 0.2646638848564845,
+      "games": [
+        {
+          "gameId": "401856815",
+          "opponent": "TCU",
+          "margin": 8,
+          "opponentRating": 52.987976,
+          "ratingWithout": 55.15999137711042,
+          "lift": 1.9571750309748879,
+          "oppositionWeight": 0.1352274991596704,
+          "contribution": 0.2646638848564845
+        },
+        {
+          "gameId": "401856790",
+          "opponent": "Pittsburgh",
+          "margin": -5,
+          "opponentRating": 60.837056,
+          "ratingWithout": 57.60059358140023,
+          "lift": -0.48342717331492224,
+          "oppositionWeight": 0.35095324853722165,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401856819",
+          "opponent": "Houston",
+          "margin": -10,
+          "opponentRating": 62.925862,
+          "ratingWithout": 58.264522972473145,
+          "lift": -1.1473565643878345,
+          "oppositionWeight": 0.4083624276581284,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Nebraska",
+      "rank": 10,
+      "score": 0.1982975764645402,
+      "games": [
+        {
+          "gameId": "401858464",
+          "opponent": "Michigan State",
+          "margin": 18,
+          "opponentRating": 52.361249,
+          "ratingWithout": 67.17338181053353,
+          "lift": 1.6804537037480145,
+          "oppositionWeight": 0.11800240376885449,
+          "contribution": 0.1982975764645402
+        }
+      ]
+    },
+    {
+      "team": "Wake Forest",
+      "rank": 33,
+      "score": 0.16584257020573476,
+      "games": [
+        {
+          "gameId": "401858243",
+          "opponent": "Louisville",
+          "margin": 3,
+          "opponentRating": 55.020992,
+          "ratingWithout": 58.195380787842964,
+          "lift": 0.7249891254889889,
+          "oppositionWeight": 0.19110333430169357,
+          "contribution": 0.1385478392134147
+        },
+        {
+          "gameId": "401858226",
+          "opponent": "Miami",
+          "margin": -13,
+          "opponentRating": 73.570728,
+          "ratingWithout": 58.881429072797836,
+          "lift": 0.03894084053411717,
+          "oppositionWeight": 0.7009281417129755,
+          "contribution": 0.02729473099232006
+        }
+      ]
+    },
+    {
+      "team": "Miami",
+      "rank": 7,
+      "score": 0.14862235666188384,
+      "games": [
+        {
+          "gameId": "401858226",
+          "opponent": "Wake Forest",
+          "margin": 13,
+          "opponentRating": 58.92037,
+          "ratingWithout": 73.07245436795066,
+          "lift": 0.4982735072963749,
+          "oppositionWeight": 0.298274651342205,
+          "contribution": 0.14862235666188384
+        }
+      ]
+    },
+    {
+      "team": "Boise State",
+      "rank": 24,
+      "score": 0.14443694642216473,
+      "games": [
+        {
+          "gameId": "401860881",
+          "opponent": "Memphis",
+          "margin": 18,
+          "opponentRating": 50.329076,
+          "ratingWithout": 60.27003555052411,
+          "lift": 2.324015378045729,
+          "oppositionWeight": 0.06214973781439525,
+          "contribution": 0.14443694642216473
+        },
+        {
+          "gameId": "401858433",
+          "opponent": "Oregon",
+          "margin": -7,
+          "opponentRating": 67.072528,
+          "ratingWithout": 63.551834197815964,
+          "lift": -0.9577832692461214,
+          "oppositionWeight": 0.5223302595910957,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Texas Tech",
+      "rank": 13,
+      "score": 0.12382513630135945,
+      "games": [
+        {
+          "gameId": "401856783",
+          "opponent": "Oregon State",
+          "margin": 11,
+          "opponentRating": 56.414854,
+          "ratingWithout": 67.07982812592869,
+          "lift": 0.5075101796629156,
+          "oppositionWeight": 0.22941252779684107,
+          "contribution": 0.11642919319909842
+        },
+        {
+          "gameId": "401856811",
+          "opponent": "Houston",
+          "margin": 2,
+          "opponentRating": 62.925862,
+          "ratingWithout": 67.56922708232193,
+          "lift": 0.018111223269670518,
+          "oppositionWeight": 0.4083624276581284,
+          "contribution": 0.0073959431022610385
+        }
+      ]
+    },
+    {
+      "team": "Oregon State",
+      "rank": 39,
+      "score": 0.11514118365244282,
+      "games": [
+        {
+          "gameId": "401856783",
+          "opponent": "Texas Tech",
+          "margin": -11,
+          "opponentRating": 67.587338,
+          "ratingWithout": 56.20023005021416,
+          "lift": 0.21462367914291747,
+          "oppositionWeight": 0.5364794048459608,
+          "contribution": 0.11514118365244282
+        },
+        {
+          "gameId": "401856778",
+          "opponent": "Houston",
+          "margin": -13,
+          "opponentRating": 62.925862,
+          "ratingWithout": 57.66710028909276,
+          "lift": -1.2522465597356813,
+          "oppositionWeight": 0.4083624276581284,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Duke",
+      "rank": 36,
+      "score": 0.062009160861711494,
+      "games": [
+        {
+          "gameId": "401858217",
+          "opponent": "Illinois",
+          "margin": 4,
+          "opponentRating": 52.042311,
+          "ratingWithout": 57.496828336479496,
+          "lift": 0.5676589633495155,
+          "oppositionWeight": 0.10923664535449534,
+          "contribution": 0.062009160861711494
+        }
+      ]
+    },
+    {
+      "team": "Vanderbilt",
+      "rank": 42,
+      "score": 0.0605433399769687,
+      "games": [
+        {
+          "gameId": "401856695",
+          "opponent": "NC State",
+          "margin": 4,
+          "opponentRating": 52.475993,
+          "ratingWithout": 55.368247945923045,
+          "lift": 0.4997137088630197,
+          "oppositionWeight": 0.12115605176155912,
+          "contribution": 0.0605433399769687
+        },
+        {
+          "gameId": "401856698",
+          "opponent": "Auburn",
+          "margin": -6,
+          "opponentRating": 60.390286,
+          "ratingWithout": 57.10160845587711,
+          "lift": -1.233646801091048,
+          "oppositionWeight": 0.3386741288124377,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401856705",
+          "opponent": "Georgia",
+          "margin": -24,
+          "opponentRating": 76.921034,
+          "ratingWithout": 57.44443294106114,
+          "lift": -1.5764712862750727,
+          "oppositionWeight": 0.7930086495551821,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "USC",
+      "rank": 20,
+      "score": 0.011441678681889418,
+      "games": [
+        {
+          "gameId": "401858445",
+          "opponent": "Louisiana",
+          "margin": 19,
+          "opponentRating": 48.439163,
+          "ratingWithout": 63.78584203370191,
+          "lift": 1.1209666247995784,
+          "oppositionWeight": 0.010206975327151348,
+          "contribution": 0.011441678681889418
+        },
+        {
+          "gameId": "401858469",
+          "opponent": "Oregon",
+          "margin": -14,
+          "opponentRating": 67.072528,
+          "ratingWithout": 67.99585713905374,
+          "lift": -3.0890484805522505,
+          "oppositionWeight": 0.5223302595910957,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401858478",
+          "opponent": "Washington",
+          "margin": 4,
+          "opponentRating": 53.630225,
+          "ratingWithout": 65.7099272947089,
+          "lift": -0.8031186362074152,
+          "oppositionWeight": 0.15287920443111402,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Missouri",
+      "rank": 17,
+      "score": 0.0018469087375276659,
+      "games": [
+        {
+          "gameId": "401856678",
+          "opponent": "Kansas",
+          "margin": 17,
+          "opponentRating": 48.162215,
+          "ratingWithout": 65.5174260278369,
+          "lift": 0.7116417415156207,
+          "oppositionWeight": 0.002595278817673353,
+          "contribution": 0.0018469087375276659
+        },
+        {
+          "gameId": "401856703",
+          "opponent": "Mississippi State",
+          "margin": -7,
+          "opponentRating": 65.865576,
+          "ratingWithout": 68.20962246536766,
+          "lift": -1.9805546960151332,
+          "oppositionWeight": 0.4891581394620188,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Alabama",
+      "rank": 1,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401856685",
+          "opponent": "Florida State",
+          "margin": 14,
+          "opponentRating": 59.682901,
+          "ratingWithout": 85.63344547759539,
+          "lift": -1.181128392462881,
+          "oppositionWeight": 0.31923221215170294,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Baylor",
+      "rank": 26,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401856636",
+          "opponent": "Auburn",
+          "margin": -1,
+          "opponentRating": 60.390286,
+          "ratingWithout": 61.95377952538804,
+          "lift": -0.6334464071491013,
+          "oppositionWeight": 0.3386741288124377,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Iowa",
+      "rank": 19,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401856788",
+          "opponent": "Iowa State",
+          "margin": 3,
+          "opponentRating": 56.064406,
+          "ratingWithout": 65.44619677243764,
+          "lift": -0.532875929775912,
+          "oppositionWeight": 0.21978074198017666,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401858463",
+          "opponent": "Michigan",
+          "margin": 1,
+          "opponentRating": 55.592412,
+          "ratingWithout": 66.00278823153734,
+          "lift": -1.0894673888756046,
+          "oppositionWeight": 0.20680836058621624,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401858473",
+          "opponent": "Ohio State",
+          "margin": -17,
+          "opponentRating": 75.180489,
+          "ratingWithout": 66.88587190374679,
+          "lift": -1.9725510610850563,
+          "oppositionWeight": 0.7451711482874727,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "James Madison",
+      "rank": 34,
+      "score": 0,
+      "games": []
+    },
+    {
+      "team": "Kansas State",
+      "rank": 40,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401856814",
+          "opponent": "Cincinnati",
+          "margin": -5,
+          "opponentRating": 52.222182,
+          "ratingWithout": 59.042511365232556,
+          "lift": -2.9699654091543906,
+          "oppositionWeight": 0.11418025737861653,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "LSU",
+      "rank": 8,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401856688",
+          "opponent": "Ole Miss",
+          "margin": -8,
+          "opponentRating": 61.085058,
+          "ratingWithout": 77.22259152672966,
+          "lift": -4.992353765100418,
+          "oppositionWeight": 0.3577693871543757,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "New Mexico",
+      "rank": 44,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401856690",
+          "opponent": "Oklahoma",
+          "margin": -8,
+          "opponentRating": 55.75047,
+          "ratingWithout": 58.03793514032419,
+          "lift": -2.3144081549964994,
+          "oppositionWeight": 0.21115245957553935,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "North Dakota State",
+      "rank": 47,
+      "score": 0,
+      "games": []
+    },
+    {
+      "team": "Notre Dame",
+      "rank": 2,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401858250",
+          "opponent": "North Carolina",
+          "margin": 11,
+          "opponentRating": 53.425421,
+          "ratingWithout": 84.56040616646742,
+          "lift": -3.3126552708250188,
+          "oppositionWeight": 0.14725032864242024,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401858453",
+          "opponent": "Michigan State",
+          "margin": 17,
+          "opponentRating": 52.361249,
+          "ratingWithout": 82.94887693404758,
+          "lift": -1.701126038405178,
+          "oppositionWeight": 0.11800240376885449,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Penn State",
+      "rank": 35,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401858466",
+          "opponent": "Wisconsin",
+          "margin": -4,
+          "opponentRating": 60.711553,
+          "ratingWithout": 59.16809210664323,
+          "lift": -0.933262055943942,
+          "oppositionWeight": 0.3475038979478367,
+          "contribution": 0.0
+        },
+        {
+          "gameId": "401858476",
+          "opponent": "Northwestern",
+          "margin": -21,
+          "opponentRating": 67.218407,
+          "ratingWithout": 61.96237313246351,
+          "lift": -3.7275430817642246,
+          "oppositionWeight": 0.5263396284080075,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Texas A&M",
+      "rank": 21,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401856694",
+          "opponent": "Kentucky",
+          "margin": -10,
+          "opponentRating": 63.964741,
+          "ratingWithout": 67.74254235001634,
+          "lift": -3.018689421356555,
+          "oppositionWeight": 0.4369151944521476,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Toledo",
+      "rank": 49,
+      "score": 0.0,
+      "games": [
+        {
+          "gameId": "401858429",
+          "opponent": "Michigan State",
+          "margin": -10,
+          "opponentRating": 52.361249,
+          "ratingWithout": 56.95247029042945,
+          "lift": -3.0737072094626328,
+          "oppositionWeight": 0.11800240376885449,
+          "contribution": 0.0
+        }
+      ]
+    },
+    {
+      "team": "UCLA",
+      "rank": 25,
+      "score": 0,
+      "games": []
+    }
+  ],
+  "cupcakes": [
+    {
+      "team": "Georgia",
+      "rank": 3,
+      "score": 36.653064401626025,
+      "games": [
+        {
+          "opponent": "Tennessee State",
+          "margin": 60,
+          "ratingGap": 63.637341000000006,
+          "credit": 63.637341000000006
+        },
+        {
+          "opponent": "Western Kentucky",
+          "margin": 50,
+          "ratingGap": 51.12881800000001,
+          "credit": 51.12881800000001
+        },
+        {
+          "opponent": "Arkansas",
+          "margin": 28,
+          "ratingGap": 29.014138000000003,
+          "credit": 29.014138000000003
+        },
+        {
+          "opponent": "Oklahoma",
+          "margin": 28,
+          "ratingGap": 21.170564000000006,
+          "credit": 21.170564000000006
+        },
+        {
+          "opponent": "Vanderbilt",
+          "margin": 24,
+          "ratingGap": 21.053072000000007,
+          "credit": 18.31446100813009
+        }
+      ]
+    },
+    {
+      "team": "Miami",
+      "rank": 7,
+      "score": 33.27391378048781,
+      "games": [
+        {
+          "opponent": "Stanford",
+          "margin": 39,
+          "ratingGap": 34.551052000000006,
+          "credit": 34.551052000000006
+        },
+        {
+          "opponent": "Florida A&M",
+          "margin": 70,
+          "ratingGap": 66.49117,
+          "credit": 66.49117
+        },
+        {
+          "opponent": "Wake Forest",
+          "margin": 13,
+          "ratingGap": 14.650358000000004,
+          "credit": 7.503841902439027
+        },
+        {
+          "opponent": "Central Michigan",
+          "margin": 49,
+          "ratingGap": 36.027995000000004,
+          "credit": 36.027995000000004
+        },
+        {
+          "opponent": "Clemson",
+          "margin": 28,
+          "ratingGap": 21.79551,
+          "credit": 21.79551
+        }
+      ]
+    },
+    {
+      "team": "Indiana",
+      "rank": 9,
+      "score": 31.049363274796747,
+      "games": [
+        {
+          "opponent": "North Texas",
+          "margin": 36,
+          "ratingGap": 19.927862999999995,
+          "credit": 19.927862999999995
+        },
+        {
+          "opponent": "Howard",
+          "margin": 55,
+          "ratingGap": 58.800248999999994,
+          "credit": 58.800248999999994
+        },
+        {
+          "opponent": "Western Kentucky",
+          "margin": 38,
+          "ratingGap": 44.828541,
+          "credit": 44.828541
+        },
+        {
+          "opponent": "Northwestern",
+          "margin": 6,
+          "ratingGap": 3.4023499999999984,
+          "credit": 0.9681483739837394
+        },
+        {
+          "opponent": "Rutgers",
+          "margin": 32,
+          "ratingGap": 30.722015,
+          "credit": 30.722015
+        }
+      ]
+    },
+    {
+      "team": "Utah",
+      "rank": 4,
+      "score": 28.77285547357723,
+      "games": [
+        {
+          "opponent": "Idaho",
+          "margin": 52,
+          "ratingGap": 43.81641599999999,
+          "credit": 43.81641599999999
+        },
+        {
+          "opponent": "Arkansas",
+          "margin": 33,
+          "ratingGap": 27.28587499999999,
+          "credit": 27.28587499999999
+        },
+        {
+          "opponent": "Utah State",
+          "margin": 33,
+          "ratingGap": 33.56961499999999,
+          "credit": 33.56961499999999
+        },
+        {
+          "opponent": "Iowa State",
+          "margin": 14,
+          "ratingGap": 19.128364999999995,
+          "credit": 10.419515894308942
+        }
+      ]
+    },
+    {
+      "team": "Notre Dame",
+      "rank": 2,
+      "score": 25.883713487804876,
+      "games": [
+        {
+          "opponent": "Wisconsin",
+          "margin": 28,
+          "ratingGap": 20.53619799999999,
+          "credit": 20.53619799999999
+        },
+        {
+          "opponent": "Rice",
+          "margin": 52,
+          "ratingGap": 44.596202999999996,
+          "credit": 44.596202999999996
+        },
+        {
+          "opponent": "Michigan State",
+          "margin": 17,
+          "ratingGap": 28.886501999999993,
+          "credit": 18.5531191707317
+        },
+        {
+          "opponent": "Purdue",
+          "margin": 39,
+          "ratingGap": 33.292168,
+          "credit": 33.292168
+        },
+        {
+          "opponent": "North Carolina",
+          "margin": 11,
+          "ratingGap": 27.822329999999994,
+          "credit": 12.440879268292681
+        }
+      ]
+    },
+    {
+      "team": "Nebraska",
+      "rank": 10,
+      "score": 24.997097899186993,
+      "games": [
+        {
+          "opponent": "Ohio",
+          "margin": 28,
+          "ratingGap": 29.597932999999998,
+          "credit": 29.597932999999998
+        },
+        {
+          "opponent": "Bowling Green",
+          "margin": 49,
+          "ratingGap": 38.525207,
+          "credit": 38.525207
+        },
+        {
+          "opponent": "North Dakota",
+          "margin": 27,
+          "ratingGap": 24.659798000000002,
+          "credit": 23.857853349593498
+        },
+        {
+          "opponent": "Michigan State",
+          "margin": 18,
+          "ratingGap": 16.492587,
+          "credit": 11.129144073170734
+        },
+        {
+          "opponent": "Maryland",
+          "margin": 25,
+          "ratingGap": 24.240254999999998,
+          "credit": 21.875352073170728
+        }
+      ]
+    },
+    {
+      "team": "Alabama",
+      "rank": 1,
+      "score": 24.35562130243902,
+      "games": [
+        {
+          "opponent": "East Carolina",
+          "margin": 38,
+          "ratingGap": 40.180820999999995,
+          "credit": 40.180820999999995
+        },
+        {
+          "opponent": "Kentucky",
+          "margin": 28,
+          "ratingGap": 20.487575999999997,
+          "credit": 20.487575999999997
+        },
+        {
+          "opponent": "Florida State",
+          "margin": 14,
+          "ratingGap": 24.769415999999993,
+          "credit": 13.492283512195119
+        },
+        {
+          "opponent": "South Carolina",
+          "margin": 31,
+          "ratingGap": 29.03068499999999,
+          "credit": 29.03068499999999
+        },
+        {
+          "opponent": "Mississippi State",
+          "margin": 33,
+          "ratingGap": 18.58674099999999,
+          "credit": 18.58674099999999
+        }
+      ]
+    },
+    {
+      "team": "James Madison",
+      "rank": 34,
+      "score": 24.28302882113821,
+      "games": [
+        {
+          "opponent": "Liberty",
+          "margin": 7,
+          "ratingGap": 11.342039999999997,
+          "credit": 3.5962565853658526
+        },
+        {
+          "opponent": "Wagner",
+          "margin": 84,
+          "ratingGap": 60.178903,
+          "credit": 60.178903
+        },
+        {
+          "opponent": "San Diego State",
+          "margin": 13,
+          "ratingGap": 14.890251999999997,
+          "credit": 7.626714439024388
+        },
+        {
+          "opponent": "Old Dominion",
+          "margin": 26,
+          "ratingGap": 27.934005999999997,
+          "credit": 26.11716008130081
+        },
+        {
+          "opponent": "Marshall",
+          "margin": 28,
+          "ratingGap": 23.896109999999993,
+          "credit": 23.896109999999993
+        }
+      ]
+    },
+    {
+      "team": "New Mexico",
+      "rank": 44,
+      "score": 24.079256681300812,
+      "games": [
+        {
+          "opponent": "Central Michigan",
+          "margin": 31,
+          "ratingGap": 18.180794,
+          "credit": 18.180794
+        },
+        {
+          "opponent": "Mercyhurst",
+          "margin": 63,
+          "ratingGap": 52.784532999999996,
+          "credit": 52.784532999999996
+        },
+        {
+          "opponent": "Oklahoma",
+          "margin": -8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "New Mexico State",
+          "margin": 24,
+          "ratingGap": 22.611501999999994,
+          "credit": 19.67016840650406
+        },
+        {
+          "opponent": "UTEP",
+          "margin": 54,
+          "ratingGap": 29.760787999999998,
+          "credit": 29.760787999999998
+        }
+      ]
+    },
+    {
+      "team": "North Dakota State",
+      "rank": 47,
+      "score": 22.846618398373984,
+      "games": [
+        {
+          "opponent": "Jacksonville State",
+          "margin": 26,
+          "ratingGap": 15.326889999999999,
+          "credit": 14.330019105691056
+        },
+        {
+          "opponent": "Fordham",
+          "margin": 38,
+          "ratingGap": 42.650576,
+          "credit": 42.650576
+        },
+        {
+          "opponent": "Air Force",
+          "margin": 6,
+          "ratingGap": 12.381785,
+          "credit": 3.523272154471545
+        },
+        {
+          "opponent": "Sacramento State",
+          "margin": 21,
+          "ratingGap": 36.102824999999996,
+          "credit": 27.884295731707315
+        },
+        {
+          "opponent": "Wyoming",
+          "margin": 28,
+          "ratingGap": 25.844928999999997,
+          "credit": 25.844928999999997
+        }
+      ]
+    },
+    {
+      "team": "Ohio State",
+      "rank": 5,
+      "score": 22.437903513821134,
+      "games": [
+        {
+          "opponent": "Ball State",
+          "margin": 53,
+          "ratingGap": 44.453374999999994,
+          "credit": 44.453374999999994
+        },
+        {
+          "opponent": "Texas",
+          "margin": -1,
+          "ratingGap": 1.1852169999999944,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Kent State",
+          "margin": 56,
+          "ratingGap": 41.76590999999999,
+          "credit": 41.76590999999999
+        },
+        {
+          "opponent": "Illinois",
+          "margin": 23,
+          "ratingGap": 23.138177999999996,
+          "credit": 19.37587263414634
+        },
+        {
+          "opponent": "Iowa",
+          "margin": 17,
+          "ratingGap": 10.267167999999998,
+          "credit": 6.594359934959349
+        }
+      ]
+    },
+    {
+      "team": "BYU",
+      "rank": 12,
+      "score": 21.288296418699186,
+      "games": [
+        {
+          "opponent": "Utah Tech",
+          "margin": 56,
+          "ratingGap": 58.278735999999995,
+          "credit": 58.278735999999995
+        },
+        {
+          "opponent": "Arizona",
+          "margin": 11,
+          "ratingGap": 7.010052999999999,
+          "credit": 3.134576544715447
+        },
+        {
+          "opponent": "Colorado State",
+          "margin": 18,
+          "ratingGap": 28.252516999999997,
+          "credit": 19.064706593495934
+        },
+        {
+          "opponent": "TCU",
+          "margin": 7,
+          "ratingGap": 14.744755999999995,
+          "credit": 4.675166536585364
+        }
+      ]
+    },
+    {
+      "team": "LSU",
+      "rank": 8,
+      "score": 21.197767199999998,
+      "games": [
+        {
+          "opponent": "Clemson",
+          "margin": 41,
+          "ratingGap": 20.455019999999998,
+          "credit": 20.455019999999998
+        },
+        {
+          "opponent": "Louisiana Tech",
+          "margin": 31,
+          "ratingGap": 26.896997,
+          "credit": 26.896997
+        },
+        {
+          "opponent": "Ole Miss",
+          "margin": -8,
+          "ratingGap": 11.145180000000003,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Texas A&M",
+          "margin": 29,
+          "ratingGap": 7.5063849999999945,
+          "credit": 7.5063849999999945
+        },
+        {
+          "opponent": "McNeese",
+          "margin": 49,
+          "ratingGap": 51.130434,
+          "credit": 51.130434
+        }
+      ]
+    },
+    {
+      "team": "Duke",
+      "rank": 36,
+      "score": 19.664190784552847,
+      "games": [
+        {
+          "opponent": "Tulane",
+          "margin": 14,
+          "ratingGap": 13.978493,
+          "credit": 7.61430106504065
+        },
+        {
+          "opponent": "Illinois",
+          "margin": 4,
+          "ratingGap": 6.022176000000002,
+          "credit": 1.3219410731707322
+        },
+        {
+          "opponent": "Stanford",
+          "margin": 28,
+          "ratingGap": 19.044811000000003,
+          "credit": 19.044811000000003
+        },
+        {
+          "opponent": "William & Mary",
+          "margin": 55,
+          "ratingGap": 50.67571,
+          "credit": 50.67571
+        }
+      ]
+    },
+    {
+      "team": "Virginia Tech",
+      "rank": 51,
+      "score": 17.773388736585368,
+      "games": [
+        {
+          "opponent": "VMI",
+          "margin": 70,
+          "ratingGap": 61.22325,
+          "credit": 61.22325
+        },
+        {
+          "opponent": "Old Dominion",
+          "margin": 23,
+          "ratingGap": 22.857607,
+          "credit": 19.14092293495935
+        },
+        {
+          "opponent": "Maryland",
+          "margin": 9,
+          "ratingGap": 8.874648999999998,
+          "credit": 3.391126040650406
+        },
+        {
+          "opponent": "Boston College",
+          "margin": 7,
+          "ratingGap": 16.121341,
+          "credit": 5.111644707317073
+        },
+        {
+          "opponent": "Pittsburgh",
+          "margin": -2,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Tennessee",
+      "rank": 11,
+      "score": 17.682006029268287,
+      "games": [
+        {
+          "opponent": "Furman",
+          "margin": 47,
+          "ratingGap": 43.27614799999999,
+          "credit": 43.27614799999999
+        },
+        {
+          "opponent": "Georgia Tech",
+          "margin": 21,
+          "ratingGap": 21.32172599999999,
+          "credit": 16.467999756097555
+        },
+        {
+          "opponent": "Kennesaw State",
+          "margin": 33,
+          "ratingGap": 25.618252999999996,
+          "credit": 25.618252999999996
+        },
+        {
+          "opponent": "Texas",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Auburn",
+          "margin": 10,
+          "ratingGap": 7.35016499999999,
+          "credit": 3.0476293902438982
+        }
+      ]
+    },
+    {
+      "team": "Pittsburgh",
+      "rank": 28,
+      "score": 16.964757082926827,
+      "games": [
+        {
+          "opponent": "Miami (OH)",
+          "margin": 45,
+          "ratingGap": 18.536686999999993,
+          "credit": 18.536686999999993
+        },
+        {
+          "opponent": "UCF",
+          "margin": 5,
+          "ratingGap": 3.7198899999999995,
+          "credit": 0.9375332520325202
+        },
+        {
+          "opponent": "Syracuse",
+          "margin": 14,
+          "ratingGap": 16.185170999999997,
+          "credit": 8.816312658536583
+        },
+        {
+          "opponent": "Bucknell",
+          "margin": 59,
+          "ratingGap": 55.398067999999995,
+          "credit": 55.398067999999995
+        },
+        {
+          "opponent": "Virginia Tech",
+          "margin": 2,
+          "ratingGap": 7.348825999999995,
+          "credit": 1.13518450406504
+        }
+      ]
+    },
+    {
+      "team": "Kansas State",
+      "rank": 40,
+      "score": 16.645460522357727,
+      "games": [
+        {
+          "opponent": "Nicholls",
+          "margin": 68,
+          "ratingGap": 44.655261,
+          "credit": 44.655261
+        },
+        {
+          "opponent": "Washington State",
+          "margin": 27,
+          "ratingGap": 17.123606000000002,
+          "credit": 16.566740764227646
+        },
+        {
+          "opponent": "Tulane",
+          "margin": 11,
+          "ratingGap": 11.986552000000003,
+          "credit": 5.359840325203254
+        },
+        {
+          "opponent": "Cincinnati",
+          "margin": -5,
+          "ratingGap": 3.850364000000006,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Texas Tech",
+      "rank": 13,
+      "score": 16.590754956097562,
+      "games": [
+        {
+          "opponent": "Abilene Christian",
+          "margin": 23,
+          "ratingGap": 33.476233,
+          "credit": 28.032943081300814
+        },
+        {
+          "opponent": "Oregon State",
+          "margin": 11,
+          "ratingGap": 11.172484000000004,
+          "credit": 4.99582617886179
+        },
+        {
+          "opponent": "Houston",
+          "margin": 2,
+          "ratingGap": 4.661476,
+          "credit": 0.7200653983739839
+        },
+        {
+          "opponent": "Sam Houston",
+          "margin": 35,
+          "ratingGap": 32.013669,
+          "credit": 32.013669
+        },
+        {
+          "opponent": "Colorado",
+          "margin": 22,
+          "ratingGap": 21.358852000000006,
+          "credit": 17.191271121951225
+        }
+      ]
+    },
+    {
+      "team": "Iowa",
+      "rank": 19,
+      "score": 16.155513676422764,
+      "games": [
+        {
+          "opponent": "Northern Illinois",
+          "margin": 40,
+          "ratingGap": 38.304227,
+          "credit": 38.304227
+        },
+        {
+          "opponent": "Iowa State",
+          "margin": 3,
+          "ratingGap": 8.848914999999998,
+          "credit": 1.6546751626016256
+        },
+        {
+          "opponent": "Northern Iowa",
+          "margin": 55,
+          "ratingGap": 39.68196999999999,
+          "credit": 39.68196999999999
+        },
+        {
+          "opponent": "Michigan",
+          "margin": 1,
+          "ratingGap": 9.320908999999993,
+          "credit": 1.1366962195121941
+        },
+        {
+          "opponent": "Ohio State",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Houston",
+      "rank": 23,
+      "score": 15.579505902439024,
+      "games": [
+        {
+          "opponent": "Oregon State",
+          "margin": 13,
+          "ratingGap": 6.511008000000004,
+          "credit": 3.334906536585368
+        },
+        {
+          "opponent": "Southern",
+          "margin": 71,
+          "ratingGap": 59.402361,
+          "credit": 59.402361
+        },
+        {
+          "opponent": "Texas Tech",
+          "margin": -2,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia Southern",
+          "margin": 14,
+          "ratingGap": 23.409981000000002,
+          "credit": 12.751778268292684
+        },
+        {
+          "opponent": "UCF",
+          "margin": 10,
+          "ratingGap": 5.808696000000005,
+          "credit": 2.408483707317075
+        }
+      ]
+    },
+    {
+      "team": "Georgia State",
+      "rank": 70,
+      "score": 15.554397772357726,
+      "games": [
+        {
+          "opponent": "North Carolina A&T",
+          "margin": 49,
+          "ratingGap": 40.74118,
+          "credit": 40.74118
+        },
+        {
+          "opponent": "Kennesaw State",
+          "margin": 14,
+          "ratingGap": 5.851161000000005,
+          "credit": 3.1872177804878077
+        },
+        {
+          "opponent": "UCF",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Northern Illinois",
+          "margin": 21,
+          "ratingGap": 21.364265000000003,
+          "credit": 16.500855081300816
+        },
+        {
+          "opponent": "Old Dominion",
+          "margin": 32,
+          "ratingGap": 17.342736000000002,
+          "credit": 17.342736000000002
+        }
+      ]
+    },
+    {
+      "team": "Missouri",
+      "rank": 17,
+      "score": 15.242314679674797,
+      "games": [
+        {
+          "opponent": "Arkansas-Pine Bluff",
+          "margin": 40,
+          "ratingGap": 54.378932999999996,
+          "credit": 54.378932999999996
+        },
+        {
+          "opponent": "Kansas",
+          "margin": 17,
+          "ratingGap": 18.066852999999995,
+          "credit": 11.60391371544715
+        },
+        {
+          "opponent": "Troy",
+          "margin": 10,
+          "ratingGap": 24.669281999999995,
+          "credit": 10.228726682926828
+        },
+        {
+          "opponent": "Mississippi State",
+          "margin": -7,
+          "ratingGap": 0.3634919999999937,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Florida",
+          "margin": 28,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Arizona",
+      "rank": 29,
+      "score": 15.217894224390246,
+      "games": [
+        {
+          "opponent": "Northern Arizona",
+          "margin": 28,
+          "ratingGap": 28.051847000000002,
+          "credit": 28.051847000000002
+        },
+        {
+          "opponent": "BYU",
+          "margin": -11,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Northern Illinois",
+          "margin": 25,
+          "ratingGap": 34.113585,
+          "credit": 30.78543036585366
+        },
+        {
+          "opponent": "Washington State",
+          "margin": 10,
+          "ratingGap": 21.773739,
+          "credit": 9.028135682926829
+        },
+        {
+          "opponent": "Cincinnati",
+          "margin": 27,
+          "ratingGap": 8.500497000000003,
+          "credit": 8.224058073170735
+        }
+      ]
+    },
+    {
+      "team": "Kansas",
+      "rank": 69,
+      "score": 15.086875000000001,
+      "games": [
+        {
+          "opponent": "Long Island University",
+          "margin": 45,
+          "ratingGap": 42.048566,
+          "credit": 42.048566
+        },
+        {
+          "opponent": "Missouri",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Arizona State",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Middle Tennessee",
+          "margin": 55,
+          "ratingGap": 18.298934000000003,
+          "credit": 18.298934000000003
+        }
+      ]
+    },
+    {
+      "team": "Baylor",
+      "rank": 26,
+      "score": 14.764647471544714,
+      "games": [
+        {
+          "opponent": "Auburn",
+          "margin": -1,
+          "ratingGap": 0.9300469999999947,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Prairie View A&M",
+          "margin": 41,
+          "ratingGap": 45.279594,
+          "credit": 45.279594
+        },
+        {
+          "opponent": "Louisiana Tech",
+          "margin": 17,
+          "ratingGap": 15.987091999999997,
+          "credit": 10.2681322601626
+        },
+        {
+          "opponent": "Colorado",
+          "margin": 10,
+          "ratingGap": 15.091847000000001,
+          "credit": 6.2575950975609755
+        },
+        {
+          "opponent": "Arizona State",
+          "margin": 36,
+          "ratingGap": 12.017916,
+          "credit": 12.017916
+        }
+      ]
+    },
+    {
+      "team": "Wisconsin",
+      "rank": 30,
+      "score": 14.723587177235771,
+      "games": [
+        {
+          "opponent": "Notre Dame",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Western Illinois",
+          "margin": 27,
+          "ratingGap": 39.190691,
+          "credit": 37.91619698373984
+        },
+        {
+          "opponent": "Eastern Michigan",
+          "margin": 44,
+          "ratingGap": 26.807764,
+          "credit": 26.807763999999995
+        },
+        {
+          "opponent": "Penn State",
+          "margin": 4,
+          "ratingGap": 2.476723,
+          "credit": 0.5436709024390244
+        },
+        {
+          "opponent": "Michigan State",
+          "margin": 28,
+          "ratingGap": 8.350304000000001,
+          "credit": 8.350304000000001
+        }
+      ]
+    },
+    {
+      "team": "Florida Atlantic",
+      "rank": 85,
+      "score": 14.31670891382114,
+      "games": [
+        {
+          "opponent": "Florida",
+          "margin": -45,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Navy",
+          "margin": 8,
+          "ratingGap": 7.0900880000000015,
+          "credit": 2.4786486504065044
+        },
+        {
+          "opponent": "Florida International",
+          "margin": 6,
+          "ratingGap": 8.985466000000002,
+          "credit": 2.556839918699188
+        },
+        {
+          "opponent": "UL Monroe",
+          "margin": 28,
+          "ratingGap": 24.402259000000004,
+          "credit": 24.402259
+        },
+        {
+          "opponent": "Texas Southern",
+          "margin": 56,
+          "ratingGap": 42.145797,
+          "credit": 42.145797
+        }
+      ]
+    },
+    {
+      "team": "Florida",
+      "rank": 16,
+      "score": 13.903977388617886,
+      "games": [
+        {
+          "opponent": "Florida Atlantic",
+          "margin": 45,
+          "ratingGap": 22.882191,
+          "credit": 22.882191
+        },
+        {
+          "opponent": "Campbell",
+          "margin": 49,
+          "ratingGap": 39.955129,
+          "credit": 39.955129
+        },
+        {
+          "opponent": "Auburn",
+          "margin": 5,
+          "ratingGap": 6.494900999999999,
+          "credit": 1.6369262682926826
+        },
+        {
+          "opponent": "Ole Miss",
+          "margin": 24,
+          "ratingGap": 5.800129000000005,
+          "credit": 5.045640674796752
+        },
+        {
+          "opponent": "Missouri",
+          "margin": -28,
+          "ratingGap": 0.6561190000000039,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Memphis",
+      "rank": 65,
+      "score": 13.69505759186992,
+      "games": [
+        {
+          "opponent": "UNLV",
+          "margin": 6,
+          "ratingGap": 6.531468000000004,
+          "credit": 1.8585478048780497
+        },
+        {
+          "opponent": "Arkansas State",
+          "margin": 18,
+          "ratingGap": 12.421784000000002,
+          "credit": 8.382179447154472
+        },
+        {
+          "opponent": "Boise State",
+          "margin": -18,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UT Martin",
+          "margin": 24,
+          "ratingGap": 33.465012,
+          "credit": 29.111839707317074
+        },
+        {
+          "opponent": "Charlotte",
+          "margin": 51,
+          "ratingGap": 29.122721000000002,
+          "credit": 29.122721000000002
+        }
+      ]
+    },
+    {
+      "team": "South Carolina",
+      "rank": 46,
+      "score": 13.5867342,
+      "games": [
+        {
+          "opponent": "Kent State",
+          "margin": 57,
+          "ratingGap": 22.007053,
+          "credit": 22.007053
+        },
+        {
+          "opponent": "Towson",
+          "margin": 36,
+          "ratingGap": 45.926618000000005,
+          "credit": 45.926618000000005
+        },
+        {
+          "opponent": "Mississippi State",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Alabama",
+          "margin": -31,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Kentucky",
+          "margin": -1,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Louisiana Tech",
+      "rank": 79,
+      "score": 13.52560525,
+      "games": [
+        {
+          "opponent": "Northwestern State",
+          "margin": 74,
+          "ratingGap": 54.102421,
+          "credit": 54.102421
+        },
+        {
+          "opponent": "LSU",
+          "margin": -31,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Baylor",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Army",
+          "margin": 2,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "UCLA",
+      "rank": 25,
+      "score": 13.520974457317074,
+      "games": [
+        {
+          "opponent": "California",
+          "margin": 21,
+          "ratingGap": 21.756931,
+          "credit": 16.80413369918699
+        },
+        {
+          "opponent": "San Diego State",
+          "margin": 18,
+          "ratingGap": 18.270234000000002,
+          "credit": 12.32869448780488
+        },
+        {
+          "opponent": "Purdue",
+          "margin": 14,
+          "ratingGap": 13.989028000000005,
+          "credit": 7.620039642276425
+        },
+        {
+          "opponent": "Maryland",
+          "margin": 51,
+          "ratingGap": 17.33103,
+          "credit": 17.33103
+        }
+      ]
+    },
+    {
+      "team": "Oregon",
+      "rank": 15,
+      "score": 13.520258123983742,
+      "games": [
+        {
+          "opponent": "Boise State",
+          "margin": 7,
+          "ratingGap": 4.478477000000005,
+          "credit": 1.420004902439026
+        },
+        {
+          "opponent": "Oklahoma State",
+          "margin": -8,
+          "ratingGap": 15.901727000000008,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Portland State",
+          "margin": 84,
+          "ratingGap": 51.48132700000001,
+          "credit": 51.48132700000001
+        },
+        {
+          "opponent": "USC",
+          "margin": 14,
+          "ratingGap": 2.16571900000001,
+          "credit": 1.1797005934959404
+        }
+      ]
+    },
+    {
+      "team": "Penn State",
+      "rank": 35,
+      "score": 13.327721596747967,
+      "games": [
+        {
+          "opponent": "Marshall",
+          "margin": 45,
+          "ratingGap": 23.566311,
+          "credit": 23.566311
+        },
+        {
+          "opponent": "Temple",
+          "margin": 18,
+          "ratingGap": 14.060210000000005,
+          "credit": 9.48778398373984
+        },
+        {
+          "opponent": "Buffalo",
+          "margin": 42,
+          "ratingGap": 33.584513,
+          "credit": 33.584513
+        },
+        {
+          "opponent": "Wisconsin",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Northwestern",
+          "margin": -21,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Minnesota",
+      "rank": 59,
+      "score": 13.1755478,
+      "games": [
+        {
+          "opponent": "Eastern Illinois",
+          "margin": 52,
+          "ratingGap": 37.283807,
+          "credit": 37.283807
+        },
+        {
+          "opponent": "Mississippi State",
+          "margin": -25,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Akron",
+          "margin": 34,
+          "ratingGap": 28.593932000000002,
+          "credit": 28.593932000000002
+        },
+        {
+          "opponent": "Washington",
+          "margin": 3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Michigan",
+          "margin": 6,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Oregon State",
+      "rank": 39,
+      "score": 12.538235326829268,
+      "games": [
+        {
+          "opponent": "Houston",
+          "margin": -13,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Texas Tech",
+          "margin": -11,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Montana",
+          "margin": 35,
+          "ratingGap": 17.285047999999996,
+          "credit": 17.285047999999996
+        },
+        {
+          "opponent": "UTEP",
+          "margin": 26,
+          "ratingGap": 30.452115,
+          "credit": 28.47148963414634
+        },
+        {
+          "opponent": "Colorado State",
+          "margin": 30,
+          "ratingGap": 16.934638999999997,
+          "credit": 16.934638999999997
+        }
+      ]
+    },
+    {
+      "team": "Florida State",
+      "rank": 32,
+      "score": 12.474706783739837,
+      "games": [
+        {
+          "opponent": "New Mexico State",
+          "margin": 17,
+          "ratingGap": 26.570876,
+          "credit": 17.06584718699187
+        },
+        {
+          "opponent": "SMU",
+          "margin": -3,
+          "ratingGap": 1.7481319999999982,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Alabama",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Central Arkansas",
+          "margin": 27,
+          "ratingGap": 39.430763999999996,
+          "credit": 38.14846273170731
+        },
+        {
+          "opponent": "Virginia",
+          "margin": 31,
+          "ratingGap": 7.159224000000002,
+          "credit": 7.159224000000002
+        }
+      ]
+    },
+    {
+      "team": "Mississippi State",
+      "rank": 18,
+      "score": 12.440062580487808,
+      "games": [
+        {
+          "opponent": "UL Monroe",
+          "margin": 49,
+          "ratingGap": 46.26483900000001,
+          "credit": 46.26483900000001
+        },
+        {
+          "opponent": "Minnesota",
+          "margin": 25,
+          "ratingGap": 13.988734000000001,
+          "credit": 12.623979463414635
+        },
+        {
+          "opponent": "South Carolina",
+          "margin": 7,
+          "ratingGap": 10.443944000000002,
+          "credit": 3.311494439024391
+        },
+        {
+          "opponent": "Missouri",
+          "margin": 7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Alabama",
+          "margin": -33,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Virginia",
+      "rank": 54,
+      "score": 12.066645120325202,
+      "games": [
+        {
+          "opponent": "NC State",
+          "margin": 26,
+          "ratingGap": 0.04768399999999673,
+          "credit": 0.0445826016260132
+        },
+        {
+          "opponent": "Norfolk State",
+          "margin": 56,
+          "ratingGap": 41.93176,
+          "credit": 41.93176
+        },
+        {
+          "opponent": "West Virginia",
+          "margin": -11,
+          "ratingGap": 4.922707000000003,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Delaware",
+          "margin": 39,
+          "ratingGap": 18.356882999999996,
+          "credit": 18.356882999999996
+        },
+        {
+          "opponent": "Florida State",
+          "margin": -31,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Iowa State",
+      "rank": 41,
+      "score": 11.959159744715446,
+      "games": [
+        {
+          "opponent": "Southeast Missouri State",
+          "margin": 28,
+          "ratingGap": 32.477428,
+          "credit": 32.477428
+        },
+        {
+          "opponent": "Iowa",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Bowling Green",
+          "margin": 48,
+          "ratingGap": 25.735777,
+          "credit": 25.735777
+        },
+        {
+          "opponent": "Utah",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "West Virginia",
+          "margin": 3,
+          "ratingGap": 8.463436000000002,
+          "credit": 1.582593723577236
+        }
+      ]
+    },
+    {
+      "team": "Oklahoma State",
+      "rank": 62,
+      "score": 11.607709321138211,
+      "games": [
+        {
+          "opponent": "Tulsa",
+          "margin": -14,
+          "ratingGap": 7.509249999999994,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Oregon",
+          "margin": 8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Murray State",
+          "margin": 59,
+          "ratingGap": 44.138019,
+          "credit": 44.138019
+        },
+        {
+          "opponent": "West Virginia",
+          "margin": 17,
+          "ratingGap": 3.5698310000000006,
+          "credit": 2.2928182845528458
+        }
+      ]
+    },
+    {
+      "team": "Massachusetts",
+      "rank": 117,
+      "score": 11.392725642276423,
+      "games": [
+        {
+          "opponent": "Rutgers",
+          "margin": 16,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Sacred Heart",
+          "margin": 27,
+          "ratingGap": 21.717094,
+          "credit": 21.010847040650408
+        },
+        {
+          "opponent": "Stonehill",
+          "margin": 22,
+          "ratingGap": 25.898013,
+          "credit": 20.84474217073171
+        },
+        {
+          "opponent": "Sacramento State",
+          "margin": 29,
+          "ratingGap": 15.108038999999998,
+          "credit": 15.108038999999998
+        },
+        {
+          "opponent": "Eastern Michigan",
+          "margin": -24,
+          "ratingGap": 0.27757599999999627,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Texas A&M",
+      "rank": 21,
+      "score": 11.23039041788618,
+      "games": [
+        {
+          "opponent": "Missouri State",
+          "margin": 50,
+          "ratingGap": 24.460452000000004,
+          "credit": 24.460452000000004
+        },
+        {
+          "opponent": "Arizona State",
+          "margin": 28,
+          "ratingGap": 15.421436000000007,
+          "credit": 15.421436000000007
+        },
+        {
+          "opponent": "Kentucky",
+          "margin": -10,
+          "ratingGap": 0.7591120000000089,
+          "credit": 0.0
+        },
+        {
+          "opponent": "LSU",
+          "margin": -29,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Arkansas",
+          "margin": 27,
+          "ratingGap": 16.816957000000002,
+          "credit": 16.270064089430896
+        }
+      ]
+    },
+    {
+      "team": "Fresno State",
+      "rank": 66,
+      "score": 11.042883876422763,
+      "games": [
+        {
+          "opponent": "USC",
+          "margin": -39,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Sacramento State",
+          "margin": 46,
+          "ratingGap": 30.564096999999997,
+          "credit": 30.564096999999997
+        },
+        {
+          "opponent": "San José State",
+          "margin": 16,
+          "ratingGap": 15.857121,
+          "credit": 9.668976219512196
+        },
+        {
+          "opponent": "Rice",
+          "margin": 14,
+          "ratingGap": 12.985875,
+          "credit": 7.073606707317073
+        },
+        {
+          "opponent": "Washington State",
+          "margin": 20,
+          "ratingGap": 10.688482999999998,
+          "credit": 7.907739455284552
+        }
+      ]
+    },
+    {
+      "team": "Texas",
+      "rank": 6,
+      "score": 10.992135577235771,
+      "games": [
+        {
+          "opponent": "Texas State",
+          "margin": 52,
+          "ratingGap": 23.179358999999998,
+          "credit": 23.179358999999998
+        },
+        {
+          "opponent": "Ohio State",
+          "margin": 1,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UTSA",
+          "margin": 24,
+          "ratingGap": 22.553351999999997,
+          "credit": 19.61958263414634
+        },
+        {
+          "opponent": "Tennessee",
+          "margin": 3,
+          "ratingGap": 6.254821000000007,
+          "credit": 1.1696006747967493
+        }
+      ]
+    },
+    {
+      "team": "Toledo",
+      "rank": 49,
+      "score": 10.966478242276422,
+      "games": [
+        {
+          "opponent": "Michigan State",
+          "margin": -10,
+          "ratingGap": 1.5175139999999985,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Central Connecticut",
+          "margin": 53,
+          "ratingGap": 31.076162999999998,
+          "credit": 31.076162999999998
+        },
+        {
+          "opponent": "Temple",
+          "margin": 1,
+          "ratingGap": 9.704143000000002,
+          "credit": 1.183432073170732
+        },
+        {
+          "opponent": "San Diego State",
+          "margin": 25,
+          "ratingGap": 10.204386,
+          "credit": 9.208836146341463
+        },
+        {
+          "opponent": "Ball State",
+          "margin": 15,
+          "ratingGap": 23.151649,
+          "credit": 13.363959991869919
+        }
+      ]
+    },
+    {
+      "team": "Ole Miss",
+      "rank": 27,
+      "score": 10.253158510162601,
+      "games": [
+        {
+          "opponent": "Louisville",
+          "margin": 3,
+          "ratingGap": 6.064065999999997,
+          "credit": 1.133931040650406
+        },
+        {
+          "opponent": "Charlotte",
+          "margin": 32,
+          "ratingGap": 39.878703,
+          "credit": 39.878703
+        },
+        {
+          "opponent": "LSU",
+          "margin": 8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Florida",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Wake Forest",
+      "rank": 33,
+      "score": 10.201480567479674,
+      "games": [
+        {
+          "opponent": "Akron",
+          "margin": 22,
+          "ratingGap": 35.63746,
+          "credit": 28.68380926829268
+        },
+        {
+          "opponent": "Purdue",
+          "margin": 2,
+          "ratingGap": 10.964787000000001,
+          "credit": 1.693747585365854
+        },
+        {
+          "opponent": "Miami",
+          "margin": -13,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Louisville",
+          "margin": 3,
+          "ratingGap": 3.8993779999999987,
+          "credit": 0.7291519837398371
+        },
+        {
+          "opponent": "Stanford",
+          "margin": 54,
+          "ratingGap": 19.900694,
+          "credit": 19.900694
+        }
+      ]
+    },
+    {
+      "team": "East Carolina",
+      "rank": 82,
+      "score": 10.105783837398373,
+      "games": [
+        {
+          "opponent": "Alabama",
+          "margin": -38,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "App State",
+          "margin": -3,
+          "ratingGap": 4.069986,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Old Dominion",
+          "margin": 3,
+          "ratingGap": 13.640873,
+          "credit": 2.550732349593496
+        },
+        {
+          "opponent": "North Carolina Central",
+          "margin": 33,
+          "ratingGap": 37.872403,
+          "credit": 37.872403
+        }
+      ]
+    },
+    {
+      "team": "Maryland",
+      "rank": 81,
+      "score": 10.023133704065042,
+      "games": [
+        {
+          "opponent": "Hampton",
+          "margin": 62,
+          "ratingGap": 48.851681000000006,
+          "credit": 48.85168100000001
+        },
+        {
+          "opponent": "UConn",
+          "margin": 24,
+          "ratingGap": 1.4529950000000014,
+          "credit": 1.2639875203252044
+        },
+        {
+          "opponent": "Virginia Tech",
+          "margin": -9,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UCLA",
+          "margin": -51,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Nebraska",
+          "margin": -25,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Boise State",
+      "rank": 24,
+      "score": 10.010241902439024,
+      "games": [
+        {
+          "opponent": "Oregon",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Memphis",
+          "margin": 18,
+          "ratingGap": 12.264975,
+          "credit": 8.27636524390244
+        },
+        {
+          "opponent": "South Dakota",
+          "margin": 14,
+          "ratingGap": 16.759617,
+          "credit": 9.129222268292683
+        },
+        {
+          "opponent": "Western Michigan",
+          "margin": 25,
+          "ratingGap": 19.738231,
+          "credit": 17.812549926829266
+        },
+        {
+          "opponent": "Utah State",
+          "margin": 19,
+          "ratingGap": 20.970895,
+          "credit": 14.833072073170731
+        }
+      ]
+    },
+    {
+      "team": "TCU",
+      "rank": 53,
+      "score": 9.913035601626017,
+      "games": [
+        {
+          "opponent": "North Carolina",
+          "margin": -5,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Grambling",
+          "margin": 56,
+          "ratingGap": 36.446209,
+          "credit": 36.446209
+        },
+        {
+          "opponent": "Arkansas State",
+          "margin": 24,
+          "ratingGap": 15.080684000000005,
+          "credit": 13.118969008130085
+        },
+        {
+          "opponent": "UCF",
+          "margin": -8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "BYU",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "App State",
+      "rank": 98,
+      "score": 9.64716319715447,
+      "games": [
+        {
+          "opponent": "Maine",
+          "margin": 52,
+          "ratingGap": 33.801255999999995,
+          "credit": 33.801255999999995
+        },
+        {
+          "opponent": "East Carolina",
+          "margin": 3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Charlotte",
+          "margin": 5,
+          "ratingGap": 18.995155,
+          "credit": 4.787396788617887
+        },
+        {
+          "opponent": "NC State",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Northwestern",
+      "rank": 14,
+      "score": 9.602387953252034,
+      "games": [
+        {
+          "opponent": "South Dakota State",
+          "margin": 16,
+          "ratingGap": 17.188997,
+          "credit": 10.481095731707317
+        },
+        {
+          "opponent": "Colorado",
+          "margin": 34,
+          "ratingGap": 20.989921000000002,
+          "credit": 20.989921000000006
+        },
+        {
+          "opponent": "Indiana",
+          "margin": -6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Penn State",
+          "margin": 21,
+          "ratingGap": 8.983576999999997,
+          "credit": 6.93853508130081
+        }
+      ]
+    },
+    {
+      "team": "South Florida",
+      "rank": 75,
+      "score": 9.511334850406504,
+      "games": [
+        {
+          "opponent": "Florida International",
+          "margin": 10,
+          "ratingGap": 12.189064000000002,
+          "credit": 5.054002146341464
+        },
+        {
+          "opponent": "Army",
+          "margin": 4,
+          "ratingGap": 0.5233300000000014,
+          "credit": 0.11487731707317105
+        },
+        {
+          "opponent": "Delaware State",
+          "margin": 42,
+          "ratingGap": 36.487368000000004,
+          "credit": 36.487368000000004
+        },
+        {
+          "opponent": "Bowling Green",
+          "margin": 8,
+          "ratingGap": 16.877965000000003,
+          "credit": 5.900426788617888
+        },
+        {
+          "opponent": "Temple",
+          "margin": -4,
+          "ratingGap": 3.0319740000000053,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Louisiana",
+      "rank": 68,
+      "score": 9.40919817886179,
+      "games": [
+        {
+          "opponent": "Lamar",
+          "margin": 31,
+          "ratingGap": 14.434932000000003,
+          "credit": 14.434932000000002
+        },
+        {
+          "opponent": "USC",
+          "margin": -19,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UAB",
+          "margin": 7,
+          "ratingGap": 13.544181000000002,
+          "credit": 4.294496414634146
+        },
+        {
+          "opponent": "Charlotte",
+          "margin": 27,
+          "ratingGap": 27.232808000000002,
+          "credit": 26.347188227642278
+        },
+        {
+          "opponent": "Arkansas State",
+          "margin": 3,
+          "ratingGap": 10.531871000000002,
+          "credit": 1.9693742520325208
+        }
+      ]
+    },
+    {
+      "team": "USC",
+      "rank": 20,
+      "score": 9.383590902439023,
+      "games": [
+        {
+          "opponent": "San José State",
+          "margin": 16,
+          "ratingGap": 31.126506999999997,
+          "credit": 18.979577439024386
+        },
+        {
+          "opponent": "Fresno State",
+          "margin": 39,
+          "ratingGap": 15.269385999999997,
+          "credit": 15.269385999999997
+        },
+        {
+          "opponent": "Louisiana",
+          "margin": 19,
+          "ratingGap": 16.467645999999995,
+          "credit": 11.647847170731705
+        },
+        {
+          "opponent": "Rutgers",
+          "margin": 7,
+          "ratingGap": 25.008066999999997,
+          "credit": 7.929387097560975
+        },
+        {
+          "opponent": "Oregon",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Washington",
+          "margin": 4,
+          "ratingGap": 11.276583999999993,
+          "credit": 2.4753477073170718
+        }
+      ]
+    },
+    {
+      "team": "UCF",
+      "rank": 38,
+      "score": 9.254672777235772,
+      "games": [
+        {
+          "opponent": "Bethune-Cookman",
+          "margin": 67,
+          "ratingGap": 39.849053,
+          "credit": 39.849053
+        },
+        {
+          "opponent": "Pittsburgh",
+          "margin": -5,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia State",
+          "margin": 14,
+          "ratingGap": 9.143806999999995,
+          "credit": 4.980772918699184
+        },
+        {
+          "opponent": "TCU",
+          "margin": 8,
+          "ratingGap": 4.129189999999994,
+          "credit": 1.4435379674796727
+        },
+        {
+          "opponent": "Houston",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Arizona State",
+      "rank": 67,
+      "score": 9.223530865853657,
+      "games": [
+        {
+          "opponent": "Morgan State",
+          "margin": 63,
+          "ratingGap": 36.532596,
+          "credit": 36.532596
+        },
+        {
+          "opponent": "Texas A&M",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Kansas",
+          "margin": 7,
+          "ratingGap": 1.140201999999995,
+          "credit": 0.3615274634146326
+        },
+        {
+          "opponent": "Baylor",
+          "margin": -36,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "SMU",
+      "rank": 37,
+      "score": 9.198991160975611,
+      "games": [
+        {
+          "opponent": "Florida State",
+          "margin": 3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UC Davis",
+          "margin": 46,
+          "ratingGap": 30.808532000000003,
+          "credit": 30.808532000000003
+        },
+        {
+          "opponent": "Louisville",
+          "margin": -10,
+          "ratingGap": 2.913777000000003,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Missouri State",
+          "margin": 10,
+          "ratingGap": 17.671368,
+          "credit": 7.3271525853658535
+        },
+        {
+          "opponent": "Boston College",
+          "margin": 9,
+          "ratingGap": 20.567880000000002,
+          "credit": 7.859271219512196
+        }
+      ]
+    },
+    {
+      "team": "UConn",
+      "rank": 89,
+      "score": 9.140358,
+      "games": [
+        {
+          "opponent": "Lafayette",
+          "margin": 49,
+          "ratingGap": 34.891796,
+          "credit": 34.891796
+        },
+        {
+          "opponent": "Maryland",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Southern Miss",
+          "margin": 28,
+          "ratingGap": 10.809994000000003,
+          "credit": 10.809994000000003
+        },
+        {
+          "opponent": "Miami (OH)",
+          "margin": -3,
+          "ratingGap": 0.8602169999999987,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Syracuse",
+          "margin": -1,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Syracuse",
+      "rank": 80,
+      "score": 8.83998393292683,
+      "games": [
+        {
+          "opponent": "New Hampshire",
+          "margin": 63,
+          "ratingGap": 35.17807,
+          "credit": 35.17807
+        },
+        {
+          "opponent": "California",
+          "margin": -3,
+          "ratingGap": 4.464205,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Pittsburgh",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UConn",
+          "margin": 1,
+          "ratingGap": 1.491298999999998,
+          "credit": 0.18186573170731682
+        }
+      ]
+    },
+    {
+      "team": "California",
+      "rank": 99,
+      "score": 8.360390800000001,
+      "games": [
+        {
+          "opponent": "UCLA",
+          "margin": -21,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Syracuse",
+          "margin": 3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Wagner",
+          "margin": 42,
+          "ratingGap": 41.801954,
+          "credit": 41.801954
+        },
+        {
+          "opponent": "Clemson",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UNLV",
+          "margin": -8,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "North Texas",
+      "rank": 64,
+      "score": 8.13821037073171,
+      "games": [
+        {
+          "opponent": "Indiana",
+          "margin": -36,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UNLV",
+          "margin": 38,
+          "ratingGap": 6.895286000000006,
+          "credit": 6.895286000000006
+        },
+        {
+          "opponent": "Texas State",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Houston Christian",
+          "margin": 49,
+          "ratingGap": 32.93828500000001,
+          "credit": 32.93828500000001
+        },
+        {
+          "opponent": "Tulsa",
+          "margin": 1,
+          "ratingGap": 7.031343,
+          "credit": 0.8574808536585367
+        }
+      ]
+    },
+    {
+      "team": "Washington",
+      "rank": 50,
+      "score": 7.94047864390244,
+      "games": [
+        {
+          "opponent": "Washington State",
+          "margin": 14,
+          "ratingGap": 14.681285000000003,
+          "credit": 7.997122723577237
+        },
+        {
+          "opponent": "Utah State",
+          "margin": 2,
+          "ratingGap": 12.007069000000001,
+          "credit": 1.8547504959349597
+        },
+        {
+          "opponent": "Eastern Washington",
+          "margin": 32,
+          "ratingGap": 29.850520000000003,
+          "credit": 29.850520000000003
+        },
+        {
+          "opponent": "Minnesota",
+          "margin": -3,
+          "ratingGap": 1.7533829999999995,
+          "credit": 0.0
+        },
+        {
+          "opponent": "USC",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Louisville",
+      "rank": 48,
+      "score": 7.8461568,
+      "games": [
+        {
+          "opponent": "Ole Miss",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Villanova",
+          "margin": 46,
+          "ratingGap": 39.230784,
+          "credit": 39.230784
+        },
+        {
+          "opponent": "SMU",
+          "margin": 10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Wake Forest",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "NC State",
+          "margin": -3,
+          "ratingGap": 2.544998999999997,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Air Force",
+      "rank": 91,
+      "score": 7.794968414634145,
+      "games": [
+        {
+          "opponent": "Duquesne",
+          "margin": 34,
+          "ratingGap": 28.160064999999996,
+          "credit": 28.160064999999996
+        },
+        {
+          "opponent": "North Dakota State",
+          "margin": -6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Nevada",
+          "margin": 3,
+          "ratingGap": 8.222228999999999,
+          "credit": 1.5374899756097558
+        },
+        {
+          "opponent": "Navy",
+          "margin": 5,
+          "ratingGap": 5.881457999999995,
+          "credit": 1.4823186829268278
+        }
+      ]
+    },
+    {
+      "team": "Kentucky",
+      "rank": 22,
+      "score": 7.735551904065039,
+      "games": [
+        {
+          "opponent": "Youngstown State",
+          "margin": 32,
+          "ratingGap": 17.359302999999997,
+          "credit": 17.359302999999997
+        },
+        {
+          "opponent": "Alabama",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Texas A&M",
+          "margin": 10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "South Alabama",
+          "margin": 24,
+          "ratingGap": 23.308631,
+          "credit": 20.27661395934959
+        },
+        {
+          "opponent": "South Carolina",
+          "margin": 1,
+          "ratingGap": 8.543108999999994,
+          "credit": 1.041842560975609
+        }
+      ]
+    },
+    {
+      "team": "NC State",
+      "rank": 55,
+      "score": 7.4702295560975625,
+      "games": [
+        {
+          "opponent": "Virginia",
+          "margin": -26,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Richmond",
+          "margin": 73,
+          "ratingGap": 32.261728000000005,
+          "credit": 32.261728000000005
+        },
+        {
+          "opponent": "Vanderbilt",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "App State",
+          "margin": 10,
+          "ratingGap": 12.274483000000004,
+          "credit": 5.089419780487806
+        },
+        {
+          "opponent": "Louisville",
+          "margin": 3,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Oklahoma",
+      "rank": 43,
+      "score": 7.449287524390244,
+      "games": [
+        {
+          "opponent": "UTEP",
+          "margin": 51,
+          "ratingGap": 29.787731,
+          "credit": 29.787731
+        },
+        {
+          "opponent": "Michigan",
+          "margin": -7,
+          "ratingGap": 0.15805799999999692,
+          "credit": 0.0
+        },
+        {
+          "opponent": "New Mexico",
+          "margin": 8,
+          "ratingGap": 0.026943000000002826,
+          "credit": 0.009419097560976598
+        },
+        {
+          "opponent": "Georgia",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Missouri State",
+      "rank": 97,
+      "score": 7.377231,
+      "games": [
+        {
+          "opponent": "Texas A&M",
+          "margin": -50,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Lindenwood",
+          "margin": 34,
+          "ratingGap": 29.508924,
+          "credit": 29.508924
+        },
+        {
+          "opponent": "Marshall",
+          "margin": -6,
+          "ratingGap": 5.594881999999998,
+          "credit": 0.0
+        },
+        {
+          "opponent": "SMU",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Cincinnati",
+      "rank": 57,
+      "score": 7.282048063414632,
+      "games": [
+        {
+          "opponent": "Boston College",
+          "margin": 19,
+          "ratingGap": 14.855292999999996,
+          "credit": 10.507402365853656
+        },
+        {
+          "opponent": "Western Carolina",
+          "margin": 52,
+          "ratingGap": 23.724878999999998,
+          "credit": 23.724878999999998
+        },
+        {
+          "opponent": "Miami (OH)",
+          "margin": 4,
+          "ratingGap": 9.921812999999993,
+          "credit": 2.1779589512195106
+        },
+        {
+          "opponent": "Kansas State",
+          "margin": 5,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Arizona",
+          "margin": -27,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Liberty",
+      "rank": 74,
+      "score": 7.2485982308943075,
+      "games": [
+        {
+          "opponent": "James Madison",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Gardner-Webb",
+          "margin": 1,
+          "ratingGap": 20.1951,
+          "credit": 2.4628170731707315
+        },
+        {
+          "opponent": "Ball State",
+          "margin": 36,
+          "ratingGap": 16.495475,
+          "credit": 16.495475
+        },
+        {
+          "opponent": "Coastal Carolina",
+          "margin": 17,
+          "ratingGap": 14.516877999999998,
+          "credit": 9.323848471544714
+        },
+        {
+          "opponent": "Delaware",
+          "margin": 16,
+          "ratingGap": 13.055794999999996,
+          "credit": 7.960850609756095
+        }
+      ]
+    },
+    {
+      "team": "Kennesaw State",
+      "rank": 93,
+      "score": 7.206203499999999,
+      "games": [
+        {
+          "opponent": "West Georgia",
+          "margin": 47,
+          "ratingGap": 28.824813999999996,
+          "credit": 28.824813999999996
+        },
+        {
+          "opponent": "Georgia State",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Tennessee",
+          "margin": -33,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Arkansas State",
+          "margin": -3,
+          "ratingGap": 4.214905999999999,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "New Mexico State",
+      "rank": 122,
+      "score": 7.165308403252032,
+      "games": [
+        {
+          "opponent": "Florida State",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Mercyhurst",
+          "margin": 37,
+          "ratingGap": 30.173031,
+          "credit": 30.173031
+        },
+        {
+          "opponent": "Hawai'i",
+          "margin": -10,
+          "ratingGap": 3.327256000000002,
+          "credit": 0.0
+        },
+        {
+          "opponent": "New Mexico",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Western Kentucky",
+          "margin": 21,
+          "ratingGap": 7.319809000000003,
+          "credit": 5.653511016260165
+        }
+      ]
+    },
+    {
+      "team": "UTSA",
+      "rank": 61,
+      "score": 7.139306843902441,
+      "games": [
+        {
+          "opponent": "UT Rio Grande Valley",
+          "margin": 29,
+          "ratingGap": 26.738343000000004,
+          "credit": 26.738343000000004
+        },
+        {
+          "opponent": "Texas State",
+          "margin": 5,
+          "ratingGap": 0.6260070000000013,
+          "credit": 0.15777412195121984
+        },
+        {
+          "opponent": "Texas",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Colorado State",
+          "margin": 14,
+          "ratingGap": 11.961705000000002,
+          "credit": 6.51572548780488
+        },
+        {
+          "opponent": "Rice",
+          "margin": 2,
+          "ratingGap": 14.790372000000005,
+          "credit": 2.2846916097560985
+        }
+      ]
+    },
+    {
+      "team": "West Virginia",
+      "rank": 73,
+      "score": 7.0919586,
+      "games": [
+        {
+          "opponent": "Coastal Carolina",
+          "margin": 7,
+          "ratingGap": 14.895258999999996,
+          "credit": 4.722886999999998
+        },
+        {
+          "opponent": "UT Martin",
+          "margin": 45,
+          "ratingGap": 30.736905999999998,
+          "credit": 30.736905999999998
+        },
+        {
+          "opponent": "Virginia",
+          "margin": 11,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Oklahoma State",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Iowa State",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Illinois",
+      "rank": 58,
+      "score": 6.961589912195121,
+      "games": [
+        {
+          "opponent": "UAB",
+          "margin": 19,
+          "ratingGap": 17.147329,
+          "credit": 12.12859856097561
+        },
+        {
+          "opponent": "Duke",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Southern Illinois",
+          "margin": 38,
+          "ratingGap": 22.679350999999997,
+          "credit": 22.679351
+        },
+        {
+          "opponent": "Ohio State",
+          "margin": -23,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Purdue",
+          "margin": -7,
+          "ratingGap": 4.086728000000001,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Navy",
+      "rank": 110,
+      "score": 6.631563792682928,
+      "games": [
+        {
+          "opponent": "Towson",
+          "margin": 27,
+          "ratingGap": 27.417894000000004,
+          "credit": 26.526255170731712
+        },
+        {
+          "opponent": "Florida Atlantic",
+          "margin": -8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UAB",
+          "margin": -4,
+          "ratingGap": 2.0179260000000028,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Air Force",
+          "margin": -5,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Sacramento State",
+      "rank": 138,
+      "score": 6.5881878,
+      "games": [
+        {
+          "opponent": "Eastern Michigan",
+          "margin": -11,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Mississippi Valley State",
+          "margin": 52,
+          "ratingGap": 32.940939,
+          "credit": 32.940939
+        },
+        {
+          "opponent": "Fresno State",
+          "margin": -46,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "North Dakota State",
+          "margin": -21,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Massachusetts",
+          "margin": -29,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Army",
+      "rank": 76,
+      "score": 6.5491359878048785,
+      "games": [
+        {
+          "opponent": "Bryant",
+          "margin": 56,
+          "ratingGap": 25.645866,
+          "credit": 25.645866
+        },
+        {
+          "opponent": "South Florida",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Temple",
+          "margin": 4,
+          "ratingGap": 2.508644000000004,
+          "credit": 0.550677951219513
+        },
+        {
+          "opponent": "Louisiana Tech",
+          "margin": -2,
+          "ratingGap": 1.3500230000000002,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Ohio",
+      "rank": 104,
+      "score": 6.412966219512195,
+      "games": [
+        {
+          "opponent": "Nebraska",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Jacksonville State",
+          "margin": 2,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "South Alabama",
+          "margin": -5,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Stonehill",
+          "margin": 28,
+          "ratingGap": 30.972551000000003,
+          "credit": 30.972551000000003
+        },
+        {
+          "opponent": "Kent State",
+          "margin": 3,
+          "ratingGap": 5.841324,
+          "credit": 1.0922800975609757
+        }
+      ]
+    },
+    {
+      "team": "Michigan",
+      "rank": 45,
+      "score": 6.236583185365855,
+      "games": [
+        {
+          "opponent": "Western Michigan",
+          "margin": 1,
+          "ratingGap": 12.736592000000002,
+          "credit": 1.5532429268292685
+        },
+        {
+          "opponent": "Oklahoma",
+          "margin": 7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UTEP",
+          "margin": 35,
+          "ratingGap": 29.629673000000004,
+          "credit": 29.629673000000004
+        },
+        {
+          "opponent": "Iowa",
+          "margin": -1,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Minnesota",
+          "margin": -6,
+          "ratingGap": 3.7155699999999996,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "South Alabama",
+      "rank": 96,
+      "score": 6.09466154308943,
+      "games": [
+        {
+          "opponent": "SE Louisiana",
+          "margin": 25,
+          "ratingGap": 18.391315,
+          "credit": 16.59704036585366
+        },
+        {
+          "opponent": "Tulane",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Ohio",
+          "margin": 5,
+          "ratingGap": 1.4002069999999947,
+          "credit": 0.35289769918699054
+        },
+        {
+          "opponent": "Kentucky",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UL Monroe",
+          "margin": 17,
+          "ratingGap": 21.055373,
+          "credit": 13.523369650406503
+        }
+      ]
+    },
+    {
+      "team": "Sam Houston",
+      "rank": 112,
+      "score": 6.039096000000001,
+      "games": [
+        {
+          "opponent": "Troy",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Tulsa",
+          "margin": -6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Nicholls",
+          "margin": 59,
+          "ratingGap": 24.156384000000003,
+          "credit": 24.156384000000003
+        },
+        {
+          "opponent": "Texas Tech",
+          "margin": -35,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "UNLV",
+      "rank": 86,
+      "score": 5.973083458536584,
+      "games": [
+        {
+          "opponent": "Memphis",
+          "margin": -6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Hawai'i",
+          "margin": 15,
+          "ratingGap": 14.012838999999996,
+          "credit": 8.088711943089429
+        },
+        {
+          "opponent": "North Texas",
+          "margin": -38,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Akron",
+          "margin": 28,
+          "ratingGap": 20.514697999999996,
+          "credit": 20.514697999999996
+        },
+        {
+          "opponent": "California",
+          "margin": 8,
+          "ratingGap": 3.6099279999999965,
+          "credit": 1.2620073495934947
+        }
+      ]
+    },
+    {
+      "team": "Miami (OH)",
+      "rank": 92,
+      "score": 5.971990400000001,
+      "games": [
+        {
+          "opponent": "Pittsburgh",
+          "margin": -45,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Holy Cross",
+          "margin": 38,
+          "ratingGap": 29.859952000000003,
+          "credit": 29.859952000000003
+        },
+        {
+          "opponent": "Cincinnati",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UConn",
+          "margin": 3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Bowling Green",
+          "margin": -4,
+          "ratingGap": 11.971740000000004,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Florida International",
+      "rank": 113,
+      "score": 5.96857930487805,
+      "games": [
+        {
+          "opponent": "South Florida",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Buffalo",
+          "margin": 13,
+          "ratingGap": 10.367213,
+          "credit": 5.3100359268292685
+        },
+        {
+          "opponent": "Florida Atlantic",
+          "margin": -6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Long Island University",
+          "margin": 17,
+          "ratingGap": 28.903881000000002,
+          "credit": 18.56428129268293
+        }
+      ]
+    },
+    {
+      "team": "Auburn",
+      "rank": 31,
+      "score": 5.865306832520327,
+      "games": [
+        {
+          "opponent": "Baylor",
+          "margin": 1,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Southern Miss",
+          "margin": 35,
+          "ratingGap": 28.039694000000004,
+          "credit": 28.039694000000004
+        },
+        {
+          "opponent": "Florida",
+          "margin": -5,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Vanderbilt",
+          "margin": 6,
+          "ratingGap": 4.522324000000005,
+          "credit": 1.2868401626016275
+        },
+        {
+          "opponent": "Tennessee",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Jacksonville State",
+      "rank": 101,
+      "score": 5.859969653658537,
+      "games": [
+        {
+          "opponent": "North Dakota State",
+          "margin": -26,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Eastern Kentucky",
+          "margin": 42,
+          "ratingGap": 25.086139,
+          "credit": 25.086139
+        },
+        {
+          "opponent": "Ohio",
+          "margin": -2,
+          "ratingGap": 0.593357999999995,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia Southern",
+          "margin": 4,
+          "ratingGap": 0.33337999999999823,
+          "credit": 0.07318097560975571
+        },
+        {
+          "opponent": "Middle Tennessee",
+          "margin": 10,
+          "ratingGap": 9.985979999999998,
+          "credit": 4.140528292682926
+        }
+      ]
+    },
+    {
+      "team": "Georgia Southern",
+      "rank": 102,
+      "score": 5.719450239024391,
+      "games": [
+        {
+          "opponent": "Charleston Southern",
+          "margin": 31,
+          "ratingGap": 26.437929,
+          "credit": 26.437929
+        },
+        {
+          "opponent": "Clemson",
+          "margin": -15,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Jacksonville State",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Houston",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Coastal Carolina",
+          "margin": 7,
+          "ratingGap": 6.810169999999999,
+          "credit": 2.1593221951219514
+        }
+      ]
+    },
+    {
+      "team": "San Diego State",
+      "rank": 87,
+      "score": 5.6166352,
+      "games": [
+        {
+          "opponent": "Portland State",
+          "margin": 33,
+          "ratingGap": 28.083176,
+          "credit": 28.083176
+        },
+        {
+          "opponent": "UCLA",
+          "margin": -18,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "James Madison",
+          "margin": -13,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Toledo",
+          "margin": -25,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Texas State",
+          "margin": 2,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Rutgers",
+      "rank": 100,
+      "score": 5.6156467999999995,
+      "games": [
+        {
+          "opponent": "Massachusetts",
+          "margin": -16,
+          "ratingGap": 5.717376999999999,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Boston College",
+          "margin": -7,
+          "ratingGap": 2.531852999999998,
+          "credit": 0.0
+        },
+        {
+          "opponent": "USC",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Howard",
+          "margin": 51,
+          "ratingGap": 28.078234,
+          "credit": 28.078234
+        },
+        {
+          "opponent": "Indiana",
+          "margin": -32,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Delaware",
+      "rank": 118,
+      "score": 5.605521022764228,
+      "games": [
+        {
+          "opponent": "Merrimack",
+          "margin": 35,
+          "ratingGap": 27.516820000000003,
+          "credit": 27.516820000000003
+        },
+        {
+          "opponent": "Vanderbilt",
+          "margin": -9,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Coastal Carolina",
+          "margin": 8,
+          "ratingGap": 1.4610830000000021,
+          "credit": 0.510785113821139
+        },
+        {
+          "opponent": "Virginia",
+          "margin": -39,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Liberty",
+          "margin": -16,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Tulsa",
+      "rank": 88,
+      "score": 5.489492567479675,
+      "games": [
+        {
+          "opponent": "Oklahoma State",
+          "margin": 14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Sam Houston",
+          "margin": 6,
+          "ratingGap": 8.087882,
+          "credit": 2.301429837398374
+        },
+        {
+          "opponent": "East Texas A&M",
+          "margin": 42,
+          "ratingGap": 25.146033000000003,
+          "credit": 25.146033000000003
+        },
+        {
+          "opponent": "Arkansas",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "North Texas",
+          "margin": -1,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Western Michigan",
+      "rank": 90,
+      "score": 5.472599048780488,
+      "games": [
+        {
+          "opponent": "Michigan",
+          "margin": -1,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Monmouth",
+          "margin": 35,
+          "ratingGap": 21.991506,
+          "credit": 21.991506
+        },
+        {
+          "opponent": "Rice",
+          "margin": 7,
+          "ratingGap": 6.204272000000003,
+          "credit": 1.9672081951219522
+        },
+        {
+          "opponent": "Boise State",
+          "margin": -25,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Buffalo",
+          "margin": 3,
+          "ratingGap": 18.205503,
+          "credit": 3.4042810487804878
+        }
+      ]
+    },
+    {
+      "team": "Southern Miss",
+      "rank": 124,
+      "score": 5.437810499999999,
+      "games": [
+        {
+          "opponent": "Alcorn State",
+          "margin": 46,
+          "ratingGap": 21.751241999999998,
+          "credit": 21.751241999999998
+        },
+        {
+          "opponent": "Auburn",
+          "margin": -35,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UConn",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Tulane",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Colorado",
+      "rank": 78,
+      "score": 5.382367399999999,
+      "games": [
+        {
+          "opponent": "Georgia Tech",
+          "margin": 1,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Weber State",
+          "margin": 31,
+          "ratingGap": 26.911836999999995,
+          "credit": 26.911836999999995
+        },
+        {
+          "opponent": "Northwestern",
+          "margin": -34,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Baylor",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Texas Tech",
+          "margin": -22,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "North Carolina",
+      "rank": 52,
+      "score": 5.365014091463415,
+      "games": [
+        {
+          "opponent": "TCU",
+          "margin": 5,
+          "ratingGap": 0.43744499999999675,
+          "credit": 0.11025036585365772
+        },
+        {
+          "opponent": "East Tennessee State",
+          "margin": 32,
+          "ratingGap": 21.349806,
+          "credit": 21.349806
+        },
+        {
+          "opponent": "Clemson",
+          "margin": -8,
+          "ratingGap": 1.6502029999999976,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Notre Dame",
+          "margin": -11,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Colorado State",
+      "rank": 103,
+      "score": 5.076941136585367,
+      "games": [
+        {
+          "opponent": "Wyoming",
+          "margin": 22,
+          "ratingGap": 10.148993,
+          "credit": 8.16870168292683
+        },
+        {
+          "opponent": "Southern Utah",
+          "margin": 34,
+          "ratingGap": 17.216004,
+          "credit": 17.216004
+        },
+        {
+          "opponent": "BYU",
+          "margin": -18,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UTSA",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Oregon State",
+          "margin": -30,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Texas State",
+      "rank": 63,
+      "score": 4.983038469918699,
+      "games": [
+        {
+          "opponent": "Texas",
+          "margin": -52,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UTSA",
+          "margin": -5,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "North Texas",
+          "margin": 14,
+          "ratingGap": 0.12301899999999932,
+          "credit": 0.06701034959349557
+        },
+        {
+          "opponent": "Incarnate Word",
+          "margin": 53,
+          "ratingGap": 24.848182,
+          "credit": 24.848182
+        },
+        {
+          "opponent": "San Diego State",
+          "margin": -2,
+          "ratingGap": 7.141536000000002,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Arkansas State",
+      "rank": 107,
+      "score": 4.9219816,
+      "games": [
+        {
+          "opponent": "Memphis",
+          "margin": -18,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "West Georgia",
+          "margin": 45,
+          "ratingGap": 24.609907999999997,
+          "credit": 24.609907999999997
+        },
+        {
+          "opponent": "TCU",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Kennesaw State",
+          "margin": 3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Louisiana",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Troy",
+      "rank": 95,
+      "score": 4.8685454532520325,
+      "games": [
+        {
+          "opponent": "Sam Houston",
+          "margin": 3,
+          "ratingGap": 5.986117,
+          "credit": 1.1193552113821137
+        },
+        {
+          "opponent": "Alabama State",
+          "margin": 17,
+          "ratingGap": 28.577768000000003,
+          "credit": 18.354826601626016
+        },
+        {
+          "opponent": "Missouri",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Utah State",
+          "margin": -11,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Washington State",
+      "rank": 106,
+      "score": 4.8629278,
+      "games": [
+        {
+          "opponent": "Washington",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Kansas State",
+          "margin": -27,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Duquesne",
+          "margin": 41,
+          "ratingGap": 24.314639,
+          "credit": 24.314639
+        },
+        {
+          "opponent": "Arizona",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Fresno State",
+          "margin": -20,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "UTEP",
+      "rank": 132,
+      "score": 4.821108,
+      "games": [
+        {
+          "opponent": "Oklahoma",
+          "margin": -51,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Texas Southern",
+          "margin": 41,
+          "ratingGap": 24.105539999999998,
+          "credit": 24.105539999999998
+        },
+        {
+          "opponent": "Michigan",
+          "margin": -35,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Oregon State",
+          "margin": -26,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "New Mexico",
+          "margin": -54,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Purdue",
+      "rank": 71,
+      "score": 4.719447282926829,
+      "games": [
+        {
+          "opponent": "Indiana State",
+          "margin": 25,
+          "ratingGap": 26.148289,
+          "credit": 23.597236414634146
+        },
+        {
+          "opponent": "Wake Forest",
+          "margin": -2,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UCLA",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Notre Dame",
+          "margin": -39,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Illinois",
+          "margin": 7,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Eastern Michigan",
+      "rank": 119,
+      "score": 4.7125289227642275,
+      "games": [
+        {
+          "opponent": "Sacramento State",
+          "margin": 11,
+          "ratingGap": 14.830463000000002,
+          "credit": 6.631507845528456
+        },
+        {
+          "opponent": "San José State",
+          "margin": -6,
+          "ratingGap": 0.12348700000000434,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Michigan State",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Wisconsin",
+          "margin": -44,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Lindenwood",
+          "margin": 26,
+          "ratingGap": 23.149312000000002,
+          "credit": 21.64366569105691
+        },
+        {
+          "opponent": "Massachusetts",
+          "margin": 24,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Western Kentucky",
+      "rank": 133,
+      "score": 4.5706444,
+      "games": [
+        {
+          "opponent": "Nevada",
+          "margin": -35,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia",
+          "margin": -50,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Indiana",
+          "margin": -38,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Mercyhurst",
+          "margin": 45,
+          "ratingGap": 22.853222,
+          "credit": 22.853222
+        },
+        {
+          "opponent": "New Mexico State",
+          "margin": -21,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Temple",
+      "rank": 83,
+      "score": 4.2588900308943085,
+      "games": [
+        {
+          "opponent": "Rhode Island",
+          "margin": 24,
+          "ratingGap": 24.478666999999998,
+          "credit": 21.294450154471544
+        },
+        {
+          "opponent": "Penn State",
+          "margin": -18,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Toledo",
+          "margin": -1,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Army",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "South Florida",
+          "margin": 4,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Coastal Carolina",
+      "rank": 123,
+      "score": 4.0360272,
+      "games": [
+        {
+          "opponent": "West Virginia",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Fordham",
+          "margin": 38,
+          "ratingGap": 20.180136,
+          "credit": 20.180136
+        },
+        {
+          "opponent": "Delaware",
+          "margin": -8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Liberty",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia Southern",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Middle Tennessee",
+      "rank": 128,
+      "score": 3.972135598373984,
+      "games": [
+        {
+          "opponent": "Murray State",
+          "margin": 24,
+          "ratingGap": 22.830499,
+          "credit": 19.86067799186992
+        },
+        {
+          "opponent": "Marshall",
+          "margin": -2,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Nevada",
+          "margin": 7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Jacksonville State",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Kansas",
+          "margin": -55,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Arkansas",
+      "rank": 72,
+      "score": 3.8895278699186995,
+      "games": [
+        {
+          "opponent": "North Alabama",
+          "margin": 17,
+          "ratingGap": 23.669395,
+          "credit": 15.202294349593497
+        },
+        {
+          "opponent": "Utah",
+          "margin": -33,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Tulsa",
+          "margin": 28,
+          "ratingGap": 4.245345,
+          "credit": 4.245345
+        },
+        {
+          "opponent": "Texas A&M",
+          "margin": -27,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "UAB",
+      "rank": 114,
+      "score": 3.8224859235772355,
+      "games": [
+        {
+          "opponent": "Illinois",
+          "margin": -19,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UL Monroe",
+          "margin": 6,
+          "ratingGap": 15.294245,
+          "credit": 4.3520209349593495
+        },
+        {
+          "opponent": "Louisiana",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Navy",
+          "margin": 4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Samford",
+          "margin": 19,
+          "ratingGap": 20.868164,
+          "credit": 14.76040868292683
+        }
+      ]
+    },
+    {
+      "team": "Rice",
+      "rank": 111,
+      "score": 3.7793878,
+      "games": [
+        {
+          "opponent": "Houston Christian",
+          "margin": 28,
+          "ratingGap": 18.896939,
+          "credit": 18.896939
+        },
+        {
+          "opponent": "Notre Dame",
+          "margin": -52,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Western Michigan",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Fresno State",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UTSA",
+          "margin": -2,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Vanderbilt",
+      "rank": 42,
+      "score": 3.74833962113821,
+      "games": [
+        {
+          "opponent": "Austin Peay",
+          "margin": 19,
+          "ratingGap": 13.720583999999995,
+          "credit": 9.704803317073168
+        },
+        {
+          "opponent": "Delaware",
+          "margin": 9,
+          "ratingGap": 21.701167999999996,
+          "credit": 8.292316227642274
+        },
+        {
+          "opponent": "NC State",
+          "margin": 4,
+          "ratingGap": 3.391968999999996,
+          "credit": 0.7445785609756089
+        },
+        {
+          "opponent": "Auburn",
+          "margin": -6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Michigan State",
+      "rank": 56,
+      "score": 3.6914919999999993,
+      "games": [
+        {
+          "opponent": "Toledo",
+          "margin": 10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Eastern Michigan",
+          "margin": 28,
+          "ratingGap": 18.457459999999998,
+          "credit": 18.457459999999998
+        },
+        {
+          "opponent": "Notre Dame",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Nebraska",
+          "margin": -18,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Wisconsin",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Central Michigan",
+      "rank": 108,
+      "score": 3.638259118699186,
+      "games": [
+        {
+          "opponent": "New Mexico",
+          "margin": -31,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Colgate",
+          "margin": 3,
+          "ratingGap": 7.02422,
+          "credit": 1.313472032520325
+        },
+        {
+          "opponent": "Wyoming",
+          "margin": 14,
+          "ratingGap": 8.211510999999998,
+          "credit": 4.472936886178861
+        },
+        {
+          "opponent": "Miami",
+          "margin": -49,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Akron",
+          "margin": 24,
+          "ratingGap": 14.259822999999997,
+          "credit": 12.404886674796746
+        }
+      ]
+    },
+    {
+      "team": "Georgia Tech",
+      "rank": 77,
+      "score": 3.4475464999999996,
+      "games": [
+        {
+          "opponent": "Colorado",
+          "margin": -1,
+          "ratingGap": 0.19023900000000538,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Tennessee",
+          "margin": -21,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Mercer",
+          "margin": 33,
+          "ratingGap": 13.790185999999999,
+          "credit": 13.790185999999999
+        },
+        {
+          "opponent": "Stanford",
+          "margin": -7,
+          "ratingGap": 7.399049000000005,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Old Dominion",
+      "rank": 126,
+      "score": 3.0954098699186985,
+      "games": [
+        {
+          "opponent": "Norfolk State",
+          "margin": 21,
+          "ratingGap": 20.038705999999998,
+          "credit": 15.477049349593493
+        },
+        {
+          "opponent": "Virginia Tech",
+          "margin": -23,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "East Carolina",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "James Madison",
+          "margin": -26,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia State",
+          "margin": -32,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Clemson",
+      "rank": 60,
+      "score": 2.6776877609756102,
+      "games": [
+        {
+          "opponent": "LSU",
+          "margin": -41,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia Southern",
+          "margin": 15,
+          "ratingGap": 12.259337000000002,
+          "credit": 7.07652786178862
+        },
+        {
+          "opponent": "North Carolina",
+          "margin": 8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "California",
+          "margin": 14,
+          "ratingGap": 11.587538000000002,
+          "credit": 6.311910943089432
+        },
+        {
+          "opponent": "Miami",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Akron",
+      "rank": 135,
+      "score": 2.6213632000000002,
+      "games": [
+        {
+          "opponent": "Wake Forest",
+          "margin": -22,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Robert Morris",
+          "margin": 35,
+          "ratingGap": 13.106816,
+          "credit": 13.106816
+        },
+        {
+          "opponent": "Minnesota",
+          "margin": -34,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UNLV",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Central Michigan",
+          "margin": -24,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Nevada",
+      "rank": 116,
+      "score": 2.1949802499999995,
+      "games": [
+        {
+          "opponent": "Western Kentucky",
+          "margin": 35,
+          "ratingGap": 8.779920999999998,
+          "credit": 8.779920999999998
+        },
+        {
+          "opponent": "Montana State",
+          "margin": -13,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Middle Tennessee",
+          "margin": -7,
+          "ratingGap": 4.708855999999997,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Air Force",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Boston College",
+      "rank": 109,
+      "score": 1.7623288211382113,
+      "games": [
+        {
+          "opponent": "Cincinnati",
+          "margin": -19,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Rutgers",
+          "margin": 7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Maine",
+          "margin": 6,
+          "ratingGap": 30.966635,
+          "credit": 8.811644105691057
+        },
+        {
+          "opponent": "Virginia Tech",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "SMU",
+          "margin": -9,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Ball State",
+      "rank": 125,
+      "score": 1.7368558390243904,
+      "games": [
+        {
+          "opponent": "Ohio State",
+          "margin": -53,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Stony Brook",
+          "margin": 24,
+          "ratingGap": 9.982863000000002,
+          "credit": 8.684279195121952
+        },
+        {
+          "opponent": "Liberty",
+          "margin": -36,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Kent State",
+          "margin": -13,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Toledo",
+          "margin": -15,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Kent State",
+      "rank": 121,
+      "score": 1.7150096097560987,
+      "games": [
+        {
+          "opponent": "South Carolina",
+          "margin": -57,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Wofford",
+          "margin": 21,
+          "ratingGap": 9.320217000000003,
+          "credit": 7.198541585365857
+        },
+        {
+          "opponent": "Ohio State",
+          "margin": -56,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Ball State",
+          "margin": 13,
+          "ratingGap": 2.687465000000003,
+          "credit": 1.3765064634146358
+        },
+        {
+          "opponent": "Ohio",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "San José State",
+      "rank": 120,
+      "score": 1.1057552292682924,
+      "games": [
+        {
+          "opponent": "USC",
+          "margin": -16,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Eastern Michigan",
+          "margin": 6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Cal Poly",
+          "margin": 10,
+          "ratingGap": 11.218824999999999,
+          "credit": 4.651707926829268
+        },
+        {
+          "opponent": "Fresno State",
+          "margin": -16,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Hawai'i",
+          "margin": 4,
+          "ratingGap": 3.9955329999999982,
+          "credit": 0.8770682195121947
+        }
+      ]
+    },
+    {
+      "team": "Buffalo",
+      "rank": 134,
+      "score": 0.795436756097561,
+      "games": [
+        {
+          "opponent": "UAlbany",
+          "margin": 4,
+          "ratingGap": 5.788388000000001,
+          "credit": 1.2706217560975612
+        },
+        {
+          "opponent": "Florida International",
+          "margin": -13,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Penn State",
+          "margin": -42,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Robert Morris",
+          "margin": 3,
+          "ratingGap": 14.474223,
+          "credit": 2.706562024390244
+        },
+        {
+          "opponent": "Western Michigan",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Stanford",
+      "rank": 105,
+      "score": 0.7658215560975606,
+      "games": [
+        {
+          "opponent": "Hawai'i",
+          "margin": 10,
+          "ratingGap": 9.234906999999996,
+          "credit": 3.8291077804878033
+        },
+        {
+          "opponent": "Miami",
+          "margin": -39,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Duke",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia Tech",
+          "margin": 7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Wake Forest",
+          "margin": -54,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Tulane",
+      "rank": 84,
+      "score": 0.7368315325203253,
+      "games": [
+        {
+          "opponent": "Duke",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "South Alabama",
+          "margin": 4,
+          "ratingGap": 3.4298840000000013,
+          "credit": 0.7529013658536589
+        },
+        {
+          "opponent": "Kansas State",
+          "margin": -11,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Southern Miss",
+          "margin": 3,
+          "ratingGap": 11.735402,
+          "credit": 2.194424764227642
+        }
+      ]
+    },
+    {
+      "team": "Wyoming",
+      "rank": 130,
+      "score": 0.524943650406504,
+      "games": [
+        {
+          "opponent": "Colorado State",
+          "margin": -22,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Northern Colorado",
+          "margin": 8,
+          "ratingGap": 7.507915000000001,
+          "credit": 2.6247182520325203
+        },
+        {
+          "opponent": "Central Michigan",
+          "margin": -14,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Hawai'i",
+          "margin": 17,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "North Dakota State",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Marshall",
+      "rank": 115,
+      "score": 0.33482109268292704,
+      "games": [
+        {
+          "opponent": "Penn State",
+          "margin": -45,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Middle Tennessee",
+          "margin": 2,
+          "ratingGap": 4.805238000000003,
+          "credit": 0.7422725365853663
+        },
+        {
+          "opponent": "Missouri State",
+          "margin": 6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Gardner-Webb",
+          "margin": 1,
+          "ratingGap": 7.641030000000004,
+          "credit": 0.9318329268292689
+        },
+        {
+          "opponent": "James Madison",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Utah State",
+      "rank": 94,
+      "score": 0.0056672357723576375,
+      "games": [
+        {
+          "opponent": "Idaho State",
+          "margin": -12,
+          "ratingGap": 7.1967050000000015,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Washington",
+          "margin": -2,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Utah",
+          "margin": -33,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Troy",
+          "margin": 11,
+          "ratingGap": 0.06336999999999904,
+          "credit": 0.02833617886178819
+        },
+        {
+          "opponent": "Boise State",
+          "margin": -19,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Bowling Green",
+      "rank": 127,
+      "score": 0.0,
+      "games": [
+        {
+          "opponent": "Tarleton State",
+          "margin": -7,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Nebraska",
+          "margin": -49,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Iowa State",
+          "margin": -48,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "South Florida",
+          "margin": -8,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Miami (OH)",
+          "margin": 4,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Charlotte",
+      "rank": 136,
+      "score": 0.0,
+      "games": [
+        {
+          "opponent": "The Citadel",
+          "margin": -2,
+          "ratingGap": 7.219227999999999,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Ole Miss",
+          "margin": -32,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "App State",
+          "margin": -5,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Louisiana",
+          "margin": -27,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Memphis",
+          "margin": -51,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Hawai'i",
+      "rank": 129,
+      "score": 0.0,
+      "games": [
+        {
+          "opponent": "Stanford",
+          "margin": -10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UNLV",
+          "margin": -15,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "New Mexico State",
+          "margin": 10,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Wyoming",
+          "margin": -17,
+          "ratingGap": 0.45354700000000037,
+          "credit": 0.0
+        },
+        {
+          "opponent": "San José State",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "Northern Illinois",
+      "rank": 131,
+      "score": 0.0,
+      "games": [
+        {
+          "opponent": "Iowa",
+          "margin": -40,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Illinois State",
+          "margin": -4,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Arizona",
+          "margin": -25,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Georgia State",
+          "margin": -21,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    },
+    {
+      "team": "UL Monroe",
+      "rank": 137,
+      "score": 0.0,
+      "games": [
+        {
+          "opponent": "Mississippi State",
+          "margin": -49,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "UAB",
+          "margin": -6,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "SE Louisiana",
+          "margin": -3,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "Florida Atlantic",
+          "margin": -28,
+          "ratingGap": 0,
+          "credit": 0.0
+        },
+        {
+          "opponent": "South Alabama",
+          "margin": -17,
+          "ratingGap": 0,
+          "credit": 0.0
+        }
+      ]
+    }
+  ],
+  "method": {
+    "brawlers": "FBS Top 50 only. For games decided by fewer than 28 points against above-median FBS opponents, refit the full model without each game. Sum positive rating lifts multiplied by (opponent rating - FBS median) / (highest FBS rating - FBS median). Negative lifts contribute zero. This is an index, not additive rating points or weekly movement.",
+    "cupcakes": "All FBS. Average over all games: max(team rating - opponent rating, 0) times max(encoded margin, 0) / 30.75. This descriptive index retains a 28-point cap and 2.75 winner bonus. Losses and wins over stronger teams contribute zero. Higher means more dominance against weaker opposition, not proof of overrating.",
+    "limitations": "Early-season, current-rating-based descriptive indices. Priors remain in every fit; model game weights are recomputed after removal. These are not validated predictors, nor a causal estimate of schedule choice. The definitions were explored against this snapshot before selecting this version."
+  }
+}

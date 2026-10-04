@@ -1,0 +1,5590 @@
+{
+  "season": 2026,
+  "week": 6,
+  "previousWeek": 5,
+  "priorWeight": 0.5,
+  "newGames": 303,
+  "correctedHistoricalGameIds": [
+    "401908778"
+  ],
+  "teams": [
+    {
+      "team": "Arizona State",
+      "change": 2.9609169848781463,
+      "previousPublishedRating": 52.075317,
+      "baselineRating": 51.59423751186065,
+      "revaluedRating": 54.555154496738794,
+      "currentPublishedRating": 49.302417,
+      "priorChange": -0.48079501329598173,
+      "historicalCorrectionEffect": -0.00028447484336879825,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -5.252737825070973,
+      "excludedOwnGameIds": [
+        "401856817"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Kansas",
+          "before": 43.34018852414654,
+          "after": 49.30633907552061,
+          "change": 5.966150551374071
+        },
+        {
+          "team": "Texas A&M",
+          "before": 62.73879005655185,
+          "after": 66.1811796654494,
+          "change": 3.4423896088975567
+        },
+        {
+          "team": "Morgan State",
+          "before": 10.847984369327882,
+          "after": 13.563373775619421,
+          "change": 2.715389406291539
+        }
+      ]
+    },
+    {
+      "team": "Duke",
+      "change": -2.9050205991341116,
+      "previousPublishedRating": 60.302295,
+      "baselineRating": 60.969507898963045,
+      "revaluedRating": 58.06448729982893,
+      "currentPublishedRating": 58.064487,
+      "priorChange": 0.6675207985419291,
+      "historicalCorrectionEffect": -0.00030789957888543995,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 7.815970093361102e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "William & Mary",
+          "before": 13.561056821144792,
+          "after": 7.38877659623677,
+          "change": -6.172280224908022
+        },
+        {
+          "team": "Illinois",
+          "before": 55.658225841816744,
+          "after": 52.04231146733895,
+          "change": -3.6159143744777964
+        },
+        {
+          "team": "Stanford",
+          "before": 42.122203151524886,
+          "after": 39.01967561097603,
+          "change": -3.1025275405488557
+        },
+        {
+          "team": "Tulane",
+          "before": 45.34418759501446,
+          "after": 44.085993822165584,
+          "change": -1.2581937728488768
+        }
+      ]
+    },
+    {
+      "team": "Delaware",
+      "change": -2.8519130671095,
+      "previousPublishedRating": 37.512131,
+      "baselineRating": 38.18655799657968,
+      "revaluedRating": 35.33464492947018,
+      "currentPublishedRating": 34.166794,
+      "priorChange": 0.6747453688663185,
+      "historicalCorrectionEffect": -0.0003183722866353378,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.1678507122023376,
+      "excludedOwnGameIds": [
+        "401871050"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Virginia",
+          "before": 59.17163926188033,
+          "after": 53.051011887385044,
+          "change": -6.120627374495285
+        },
+        {
+          "team": "Vanderbilt",
+          "before": 59.24671697717203,
+          "after": 55.94172404399015,
+          "change": -3.304992933181879
+        },
+        {
+          "team": "Coastal Carolina",
+          "before": 34.94771032086018,
+          "after": 32.36086879321685,
+          "change": -2.5868415276433296
+        },
+        {
+          "team": "Merrimack",
+          "before": 8.517000809634421,
+          "after": 6.809356422961049,
+          "change": -1.7076443866733726
+        }
+      ]
+    },
+    {
+      "team": "NC State",
+      "change": -2.5282843663799213,
+      "previousPublishedRating": 52.616329,
+      "baselineRating": 53.03166138938306,
+      "revaluedRating": 50.50337702300314,
+      "currentPublishedRating": 52.475993,
+      "priorChange": 0.4156508225538573,
+      "historicalCorrectionEffect": -0.00031843317079705,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.9726160604984386,
+      "excludedOwnGameIds": [
+        "401858248"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Virginia",
+          "before": 59.17163926188033,
+          "after": 52.64565061600187,
+          "change": -6.525988645878456
+        },
+        {
+          "team": "Vanderbilt",
+          "before": 59.24671697717203,
+          "after": 55.52888080372118,
+          "change": -3.7178361734508485
+        },
+        {
+          "team": "Richmond",
+          "before": 21.24326559930506,
+          "after": 19.48177316061593,
+          "change": -1.7614924386891317
+        },
+        {
+          "team": "App State",
+          "before": 40.648005780776685,
+          "after": 39.7343014627147,
+          "change": -0.9137043180619884
+        }
+      ]
+    },
+    {
+      "team": "Texas Tech",
+      "change": 2.489764508331831,
+      "previousPublishedRating": 64.110979,
+      "baselineRating": 64.35738991432947,
+      "revaluedRating": 66.8471544226613,
+      "currentPublishedRating": 67.587338,
+      "priorChange": 0.24672802546542982,
+      "historicalCorrectionEffect": -0.00031711113595633833,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.740183882930296,
+      "excludedOwnGameIds": [
+        "401856821"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Abilene Christian",
+          "before": 28.086219090333888,
+          "after": 34.09369947977976,
+          "change": 6.00748038944587
+        },
+        {
+          "team": "Oregon State",
+          "before": 52.065401852193006,
+          "after": 56.18232063155975,
+          "change": 4.116918779366742
+        },
+        {
+          "team": "Houston",
+          "before": 60.58372735333286,
+          "after": 62.73288246007751,
+          "change": 2.149155106744651
+        },
+        {
+          "team": "Sam Houston",
+          "before": 34.88943347462777,
+          "after": 35.425593929595905,
+          "change": 0.5361604549681331
+        }
+      ]
+    },
+    {
+      "team": "Kennesaw State",
+      "change": 2.399442636951207,
+      "previousPublishedRating": 39.920997,
+      "baselineRating": 39.722755171509434,
+      "revaluedRating": 42.12219780846064,
+      "currentPublishedRating": 42.122198,
+      "priorChange": -0.19791462501549972,
+      "historicalCorrectionEffect": -0.0003272034750665398,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.0,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Georgia State",
+          "before": 43.09348324983317,
+          "after": 47.97335922532018,
+          "change": 4.8798759754870105
+        },
+        {
+          "team": "Arkansas State",
+          "before": 35.187193164441226,
+          "after": 37.90729228631868,
+          "change": 2.7200991218774533
+        },
+        {
+          "team": "Tennessee",
+          "before": 66.70231787100394,
+          "after": 67.74045065657725,
+          "change": 1.0381327855733105
+        },
+        {
+          "team": "West Georgia",
+          "before": 12.486313600172902,
+          "after": 13.297384352015435,
+          "change": 0.8110707518425322
+        }
+      ]
+    },
+    {
+      "team": "Mississippi State",
+      "change": 2.386408475408473,
+      "previousPublishedRating": 63.720664,
+      "baselineRating": 65.48731620543134,
+      "revaluedRating": 67.87372468083981,
+      "currentPublishedRating": 65.865576,
+      "priorChange": 1.7669621031308225,
+      "historicalCorrectionEffect": -0.0003098976994806435,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.008148802990121,
+      "excludedOwnGameIds": [
+        "401856707"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Missouri",
+          "before": 57.404477682919115,
+          "after": 66.4526034566588,
+          "change": 9.048125773739692
+        },
+        {
+          "team": "Minnesota",
+          "before": 49.11641984187545,
+          "after": 51.98752828377008,
+          "change": 2.871108441894634
+        },
+        {
+          "team": "South Carolina",
+          "before": 53.156870132032,
+          "after": 54.93200902385266,
+          "change": 1.77513889182066
+        },
+        {
+          "team": "UL Monroe",
+          "before": 19.28847166193645,
+          "after": 19.908271512742363,
+          "change": 0.619799850805915
+        }
+      ]
+    },
+    {
+      "team": "Colorado",
+      "change": 2.3846065409744313,
+      "previousPublishedRating": 44.025654,
+      "baselineRating": 44.49377282292647,
+      "revaluedRating": 46.878379363900905,
+      "currentPublishedRating": 46.228486,
+      "priorChange": 0.4684291901470061,
+      "historicalCorrectionEffect": -0.00031036722053556787,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.6498932417207186,
+      "excludedOwnGameIds": [
+        "401856821"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Northwestern",
+          "before": 62.465206556046546,
+          "after": 67.61551395419166,
+          "change": 5.1503073981451095
+        },
+        {
+          "team": "Baylor",
+          "before": 57.97087356234643,
+          "after": 61.409137508395965,
+          "change": 3.4382639460495312
+        },
+        {
+          "team": "Weber State",
+          "before": 16.720508250513703,
+          "after": 19.265355404990203,
+          "change": 2.5448471544765
+        },
+        {
+          "team": "Georgia Tech",
+          "before": 46.055158606418615,
+          "after": 46.48098197986984,
+          "change": 0.4258233734512231
+        }
+      ]
+    },
+    {
+      "team": "West Virginia",
+      "change": -2.359005904766768,
+      "previousPublishedRating": 47.743427,
+      "baselineRating": 49.12926629407201,
+      "revaluedRating": 46.77026038930524,
+      "currentPublishedRating": 47.60097,
+      "priorChange": 1.3861730411335245,
+      "historicalCorrectionEffect": -0.0003337470615107918,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.830709898485388,
+      "excludedOwnGameIds": [
+        "401856822"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Virginia",
+          "before": 59.17163926188033,
+          "after": 51.98949388604283,
+          "change": -7.1821453758375
+        },
+        {
+          "team": "Coastal Carolina",
+          "before": 34.94771032086018,
+          "after": 32.60540757044628,
+          "change": -2.3423027504139
+        },
+        {
+          "team": "UT Martin",
+          "before": 17.54771504468683,
+          "after": 16.554862921416277,
+          "change": -0.9928521232705521
+        },
+        {
+          "team": "Oklahoma State",
+          "before": 50.84344854874394,
+          "after": 51.36676335784088,
+          "change": 0.523314809096938
+        }
+      ]
+    },
+    {
+      "team": "UTSA",
+      "change": -2.302379744258367,
+      "previousPublishedRating": 54.058882,
+      "baselineRating": 55.87986294679315,
+      "revaluedRating": 53.577483202534786,
+      "currentPublishedRating": 51.44192,
+      "priorChange": 1.8213259666194759,
+      "historicalCorrectionEffect": -0.0003450198263195148,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.1355627948516656,
+      "excludedOwnGameIds": [
+        "401862788"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Colorado State",
+          "before": 43.82429954175536,
+          "after": 39.83160356654368,
+          "change": -3.9926959752116815
+        },
+        {
+          "team": "UT Rio Grande Valley",
+          "before": 27.85429415157902,
+          "after": 25.000820027522693,
+          "change": -2.8534741240563264
+        },
+        {
+          "team": "Texas State",
+          "before": 53.626335174676946,
+          "after": 51.19587460687774,
+          "change": -2.4304605677992086
+        },
+        {
+          "team": "Texas",
+          "before": 75.31224043790067,
+          "after": 74.664646487488,
+          "change": -0.64759395041267
+        }
+      ]
+    },
+    {
+      "team": "Sacramento State",
+      "change": 2.2527562841015794,
+      "previousPublishedRating": 18.043815,
+      "baselineRating": 16.82056983844489,
+      "revaluedRating": 19.07332612254647,
+      "currentPublishedRating": 19.073326,
+      "priorChange": -1.2229150053185158,
+      "historicalCorrectionEffect": -0.0003301562365933819,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -7.105427357601002e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Mississippi Valley State",
+          "before": -20.5070796797923,
+          "after": -13.867612518885398,
+          "change": 6.639467160906904
+        },
+        {
+          "team": "Eastern Michigan",
+          "before": 28.052270171822336,
+          "after": 33.903788953296505,
+          "change": 5.851518781474169
+        },
+        {
+          "team": "Massachusetts",
+          "before": 39.067158310915325,
+          "after": 34.18136474317227,
+          "change": -4.8857935677430575
+        },
+        {
+          "team": "Fresno State",
+          "before": 45.591278001080155,
+          "after": 49.63742295946767,
+          "change": 4.046144958387515
+        },
+        {
+          "team": "North Dakota State",
+          "before": 54.1644433866304,
+          "after": 55.17615105973742,
+          "change": 1.0117076731070185
+        }
+      ]
+    },
+    {
+      "team": "Akron",
+      "change": 2.1568331226526425,
+      "previousPublishedRating": 24.5246,
+      "baselineRating": 24.09992936704657,
+      "revaluedRating": 26.256762489699213,
+      "currentPublishedRating": 23.28291,
+      "priorChange": -0.4243579473687831,
+      "historicalCorrectionEffect": -0.000312685584646033,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.973852556219441,
+      "excludedOwnGameIds": [
+        "401866430"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wake Forest",
+          "before": 55.48044571581432,
+          "after": 59.40614253027344,
+          "change": 3.9256968144591227
+        },
+        {
+          "team": "Minnesota",
+          "before": 49.11641984187545,
+          "after": 52.52669372212234,
+          "change": 3.4102738802468906
+        },
+        {
+          "team": "UNLV",
+          "before": 42.382517533276655,
+          "after": 44.57415151798013,
+          "change": 2.191633984703472
+        },
+        {
+          "team": "Robert Morris",
+          "before": 9.278968029412264,
+          "after": 10.4663406132793,
+          "change": 1.1873725838670364
+        }
+      ]
+    },
+    {
+      "team": "Ole Miss",
+      "change": -2.0973559290478505,
+      "previousPublishedRating": 62.255332,
+      "baselineRating": 63.182414094203196,
+      "revaluedRating": 61.085058165155345,
+      "currentPublishedRating": 61.085058,
+      "priorChange": 0.927385017785916,
+      "historicalCorrectionEffect": -0.0003029235827227694,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 6.394884621840902e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Florida",
+          "before": 73.87573225187546,
+          "after": 66.88518670226775,
+          "change": -6.990545549607717
+        },
+        {
+          "team": "Louisville",
+          "before": 57.16295633412287,
+          "after": 55.02099225165114,
+          "change": -2.1419640824717305
+        },
+        {
+          "team": "LSU",
+          "before": 73.20482105555695,
+          "after": 72.23023776162924,
+          "change": -0.9745832939277079
+        },
+        {
+          "team": "Charlotte",
+          "before": 21.650436165256544,
+          "after": 21.206355128637693,
+          "change": -0.4440810366188508
+        }
+      ]
+    },
+    {
+      "team": "Bowling Green",
+      "change": -2.0040945727851245,
+      "previousPublishedRating": 27.935714,
+      "baselineRating": 28.014098711382637,
+      "revaluedRating": 26.010004138597512,
+      "currentPublishedRating": 30.328629,
+      "priorChange": 0.0786925762978079,
+      "historicalCorrectionEffect": -0.00030786491517176273,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 4.318624719879818,
+      "excludedOwnGameIds": [
+        "401866477"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Tarleton State",
+          "before": 38.357898712519564,
+          "after": 34.50245452795038,
+          "change": -3.855444184569187
+        },
+        {
+          "team": "South Florida",
+          "before": 49.967270971581954,
+          "after": 46.191476619559296,
+          "change": -3.7757943520226576
+        },
+        {
+          "team": "Iowa State",
+          "before": 57.24001253254569,
+          "after": 55.40258832003846,
+          "change": -1.83742421250723
+        },
+        {
+          "team": "Nebraska",
+          "before": 68.93701760615767,
+          "after": 68.13909285186236,
+          "change": -0.797924754295309
+        }
+      ]
+    },
+    {
+      "team": "Florida Atlantic",
+      "change": -1.960163980907737,
+      "previousPublishedRating": 42.552536,
+      "baselineRating": 43.548913295998034,
+      "revaluedRating": 41.5887493150903,
+      "currentPublishedRating": 44.002996,
+      "priorChange": 0.9966780462948108,
+      "historicalCorrectionEffect": -0.00030075029678044984,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.4142465999946268,
+      "excludedOwnGameIds": [
+        "401862790"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Florida",
+          "before": 73.87573225187546,
+          "after": 66.58279457480047,
+          "change": -7.292937677074988
+        },
+        {
+          "team": "Navy",
+          "before": 37.45292025807529,
+          "after": 36.215774595161804,
+          "change": -1.237145662913484
+        },
+        {
+          "team": "UL Monroe",
+          "before": 19.28847166193645,
+          "after": 18.950423221090784,
+          "change": -0.33804844084566454
+        },
+        {
+          "team": "Florida International",
+          "before": 34.536238451059944,
+          "after": 34.43213143855461,
+          "change": -0.10410701250533094
+        }
+      ]
+    },
+    {
+      "team": "Troy",
+      "change": 1.8922606574452843,
+      "previousPublishedRating": 39.82973,
+      "baselineRating": 39.66752558276577,
+      "revaluedRating": 41.559786240211054,
+      "currentPublishedRating": 41.559786,
+      "priorChange": -0.1618888911151899,
+      "historicalCorrectionEffect": -0.0003155261190386227,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.4210854715202004e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Missouri",
+          "before": 57.404477682919115,
+          "after": 66.22906776935243,
+          "change": 8.82459008643331
+        },
+        {
+          "team": "Sam Houston",
+          "before": 34.88943347462777,
+          "after": 35.57366924860752,
+          "change": 0.6842357739797507
+        },
+        {
+          "team": "Alabama State",
+          "before": 12.755412109849203,
+          "after": 12.982017514649243,
+          "change": 0.22660540480003988
+        },
+        {
+          "team": "Utah State",
+          "before": 41.446443939160645,
+          "after": 41.62315597973327,
+          "change": 0.17671204057262457
+        }
+      ]
+    },
+    {
+      "team": "Boston College",
+      "change": -1.8869780907023426,
+      "previousPublishedRating": 37.008833,
+      "baselineRating": 37.19385255025076,
+      "revaluedRating": 35.30687445954842,
+      "currentPublishedRating": 37.366889,
+      "priorChange": 0.18533369364622843,
+      "historicalCorrectionEffect": -0.00031414339547097825,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.0600149913147376,
+      "excludedOwnGameIds": [
+        "401858246"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Cincinnati",
+          "before": 56.25131353916683,
+          "after": 51.92017929045206,
+          "change": -4.331134248714768
+        },
+        {
+          "team": "Rutgers",
+          "before": 41.09982991587441,
+          "after": 39.2295458968392,
+          "change": -1.8702840190352106
+        },
+        {
+          "team": "Maine",
+          "before": 8.206794705093124,
+          "after": 6.364397324148769,
+          "change": -1.8423973809443552
+        },
+        {
+          "team": "Virginia Tech",
+          "before": 54.124362213617914,
+          "after": 52.937132991060885,
+          "change": -1.1872292225570291
+        }
+      ]
+    },
+    {
+      "team": "Georgia",
+      "change": -1.8609664556454533,
+      "previousPublishedRating": 75.988981,
+      "baselineRating": 77.16761512899231,
+      "revaluedRating": 75.30664867334686,
+      "currentPublishedRating": 76.921034,
+      "priorChange": 1.1789526963999037,
+      "historicalCorrectionEffect": -0.0003185674075893985,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.6143849841166258,
+      "excludedOwnGameIds": [
+        "401856705"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Western Kentucky",
+          "before": 29.96654205862931,
+          "after": 25.33881813346875,
+          "change": -4.627723925160563
+        },
+        {
+          "team": "Arkansas",
+          "before": 50.86269476807303,
+          "after": 47.54354178419541,
+          "change": -3.319152983877615
+        },
+        {
+          "team": "Oklahoma",
+          "before": 56.33037557905189,
+          "after": 54.922767876313785,
+          "change": -1.4076077027381046
+        },
+        {
+          "team": "Tennessee State",
+          "before": 14.053958657385325,
+          "after": 13.344517712798766,
+          "change": -0.709440944586559
+        }
+      ]
+    },
+    {
+      "team": "Baylor",
+      "change": -1.8053970280936014,
+      "previousPublishedRating": 56.537615,
+      "baselineRating": 57.97087356234643,
+      "revaluedRating": 56.16547653425283,
+      "currentPublishedRating": 61.320333,
+      "priorChange": 1.4335678011400788,
+      "historicalCorrectionEffect": -0.00030923879364763707,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 5.15485658398611,
+      "excludedOwnGameIds": [
+        "401856817"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Prairie View A&M",
+          "before": 22.332457332382813,
+          "after": 15.156675105666004,
+          "change": -7.175782226716809
+        },
+        {
+          "team": "Auburn",
+          "before": 63.016732497718266,
+          "after": 59.42641554666339,
+          "change": -3.5903169510548736
+        },
+        {
+          "team": "Louisiana Tech",
+          "before": 42.62695532957049,
+          "after": 44.04828061727184,
+          "change": 1.4213252877013502
+        },
+        {
+          "team": "Colorado",
+          "before": 44.49377282292647,
+          "after": 45.202499903563826,
+          "change": 0.7087270806373525
+        }
+      ]
+    },
+    {
+      "team": "Vanderbilt",
+      "change": -1.8022840361110042,
+      "previousPublishedRating": 59.101232,
+      "baselineRating": 59.24671697717203,
+      "revaluedRating": 57.444432941061024,
+      "currentPublishedRating": 55.867962,
+      "priorChange": 0.14580302361753184,
+      "historicalCorrectionEffect": -0.0003180464455070364,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.576471286274959,
+      "excludedOwnGameIds": [
+        "401856705"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Austin Peay",
+          "before": 46.24008370189355,
+          "after": 42.31912550827042,
+          "change": -3.920958193623136
+        },
+        {
+          "team": "Delaware",
+          "before": 38.18655799657968,
+          "after": 34.70337750209064,
+          "change": -3.4831804944890408
+        },
+        {
+          "team": "Auburn",
+          "before": 63.016732497718266,
+          "after": 60.78991556909247,
+          "change": -2.2268169286257944
+        },
+        {
+          "team": "NC State",
+          "before": 53.03166138938306,
+          "after": 52.75840299599456,
+          "change": -0.27325839338850244
+        }
+      ]
+    },
+    {
+      "team": "Kansas State",
+      "change": -1.7576142932306027,
+      "previousPublishedRating": 57.729212,
+      "baselineRating": 57.83016024930889,
+      "revaluedRating": 56.07254595607829,
+      "currentPublishedRating": 56.072546,
+      "priorChange": 0.10125591634599829,
+      "historicalCorrectionEffect": -0.0003076670371058299,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.2079226507921703e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Cincinnati",
+          "before": 56.25131353916683,
+          "after": 52.22218168552616,
+          "change": -4.029131853640671
+        },
+        {
+          "team": "Washington State",
+          "before": 40.71156886074434,
+          "after": 38.94894027427603,
+          "change": -1.7626285864683098
+        },
+        {
+          "team": "Nicholls",
+          "before": 12.865077660072364,
+          "after": 11.417285096762784,
+          "change": -1.44779256330958
+        },
+        {
+          "team": "Tulane",
+          "before": 45.34418759501446,
+          "after": 44.085993822165584,
+          "change": -1.2581937728488768
+        }
+      ]
+    },
+    {
+      "team": "Penn State",
+      "change": 1.7046891134298718,
+      "previousPublishedRating": 59.886058,
+      "baselineRating": 60.2576840190335,
+      "revaluedRating": 61.96237313246337,
+      "currentPublishedRating": 58.23483,
+      "priorChange": 0.3719360081559344,
+      "historicalCorrectionEffect": -0.0003099891224351836,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -3.7275430817640824,
+      "excludedOwnGameIds": [
+        "401858476"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wisconsin",
+          "before": 55.86125247385283,
+          "after": 61.60350066818853,
+          "change": 5.742248194335701
+        },
+        {
+          "team": "Buffalo",
+          "before": 21.353170921271676,
+          "after": 25.355332656256365,
+          "change": 4.002161734984689
+        },
+        {
+          "team": "Marshall",
+          "before": 37.73482610423892,
+          "after": 35.2683414269031,
+          "change": -2.4664846773358207
+        },
+        {
+          "team": "Temple",
+          "before": 43.01948170037571,
+          "after": 44.84351239044531,
+          "change": 1.8240306900696055
+        }
+      ]
+    },
+    {
+      "team": "Nevada",
+      "change": -1.6594814191836278,
+      "previousPublishedRating": 35.793189,
+      "baselineRating": 36.23161844593041,
+      "revaluedRating": 34.57213702674678,
+      "currentPublishedRating": 34.572137,
+      "priorChange": 0.4387436393539801,
+      "historicalCorrectionEffect": -0.00031419342356997504,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.4210854715202004e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Western Kentucky",
+          "before": 29.96654205862931,
+          "after": 25.792216025618533,
+          "change": -4.174326033010779
+        },
+        {
+          "team": "Middle Tennessee",
+          "before": 33.23467849909656,
+          "after": 29.863281307480307,
+          "change": -3.3713971916162535
+        },
+        {
+          "team": "Montana State",
+          "before": 43.575385361406695,
+          "after": 42.852833756439395,
+          "change": -0.7225516049673004
+        },
+        {
+          "team": "Air Force",
+          "before": 42.3352514482648,
+          "after": 42.79436556784307,
+          "change": 0.45911411957827397
+        }
+      ]
+    },
+    {
+      "team": "Virginia Tech",
+      "change": -1.6144771517184182,
+      "previousPublishedRating": 52.992685,
+      "baselineRating": 54.124362213617914,
+      "revaluedRating": 52.509885061899496,
+      "currentPublishedRating": 53.48823,
+      "priorChange": 1.1319992230353577,
+      "historicalCorrectionEffect": -0.0003220094174452015,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.9783446090226917,
+      "excludedOwnGameIds": [
+        "401858245"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Old Dominion",
+          "before": 34.377499615779975,
+          "after": 30.149473983557037,
+          "change": -4.228025632222938
+        },
+        {
+          "team": "Maryland",
+          "before": 46.34348043788487,
+          "after": 44.353919832645396,
+          "change": -1.9895606052394754
+        },
+        {
+          "team": "VMI",
+          "before": -7.442315663514364,
+          "after": -7.8327044974438955,
+          "change": -0.3903888339295314
+        },
+        {
+          "team": "Boston College",
+          "before": 37.19385255025076,
+          "after": 37.27879598372549,
+          "change": 0.08494343347472721
+        }
+      ]
+    },
+    {
+      "team": "San José State",
+      "change": 1.5988940734028603,
+      "previousPublishedRating": 31.306223,
+      "baselineRating": 31.384129827358294,
+      "revaluedRating": 32.983023900761154,
+      "currentPublishedRating": 33.780302,
+      "priorChange": 0.07822670309607105,
+      "historicalCorrectionEffect": -0.0003198757377766981,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.7972784034315765,
+      "excludedOwnGameIds": [
+        "401864513"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Eastern Michigan",
+          "before": 28.052270171822336,
+          "after": 33.62373722675765,
+          "change": 5.571467054935312
+        },
+        {
+          "team": "Fresno State",
+          "before": 45.591278001080155,
+          "after": 49.51180880169081,
+          "change": 3.9205308006106563
+        },
+        {
+          "team": "Cal Poly",
+          "before": 23.03123561643453,
+          "after": 22.396462674907127,
+          "change": -0.6347729415274017
+        },
+        {
+          "team": "USC",
+          "before": 65.28205494800473,
+          "after": 64.84260910213425,
+          "change": -0.4394458458704804
+        }
+      ]
+    },
+    {
+      "team": "Nebraska",
+      "change": -1.5912532178650025,
+      "previousPublishedRating": 66.348427,
+      "baselineRating": 68.93701760615767,
+      "revaluedRating": 67.34576438829266,
+      "currentPublishedRating": 68.853836,
+      "priorChange": 2.5889031671916456,
+      "historicalCorrectionEffect": -0.00031256103397936386,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.5080711259888773,
+      "excludedOwnGameIds": [
+        "401858475"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Michigan State",
+          "before": 56.17821002697741,
+          "after": 51.964374782203805,
+          "change": -4.213835244773605
+        },
+        {
+          "team": "North Dakota",
+          "before": 46.74202306665094,
+          "after": 43.844238449426065,
+          "change": -2.897784617224872
+        },
+        {
+          "team": "Bowling Green",
+          "before": 28.014098711382637,
+          "after": 29.85867342142764,
+          "change": 1.844574710045002
+        },
+        {
+          "team": "Ohio",
+          "before": 39.354977221467465,
+          "after": 38.92339758540357,
+          "change": -0.43157963606389416
+        }
+      ]
+    },
+    {
+      "team": "Auburn",
+      "change": -1.5858707591750871,
+      "previousPublishedRating": 61.535982,
+      "baselineRating": 63.016732497718266,
+      "revaluedRating": 61.43086173854318,
+      "currentPublishedRating": 60.390286,
+      "priorChange": 1.4810597517867947,
+      "historicalCorrectionEffect": -0.0003092540685258882,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.0405756840816025,
+      "excludedOwnGameIds": [
+        "401856710"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Florida",
+          "before": 73.87573225187546,
+          "after": 67.12444804685495,
+          "change": -6.751284205020511
+        },
+        {
+          "team": "Baylor",
+          "before": 57.97087356234643,
+          "after": 61.433030932157635,
+          "change": 3.4621573698112016
+        },
+        {
+          "team": "Vanderbilt",
+          "before": 59.24671697717203,
+          "after": 56.00565349178315,
+          "change": -3.241063485388878
+        },
+        {
+          "team": "Southern Miss",
+          "before": 33.226695449515844,
+          "after": 32.53708319137234,
+          "change": -0.6896122581435051
+        }
+      ]
+    },
+    {
+      "team": "Colorado State",
+      "change": -1.5455695080722975,
+      "previousPublishedRating": 42.456755,
+      "baselineRating": 43.82429954175536,
+      "revaluedRating": 42.27873003368306,
+      "currentPublishedRating": 39.480215,
+      "priorChange": 1.367864526730564,
+      "historicalCorrectionEffect": -0.0003199849752064665,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.7985151851236623,
+      "excludedOwnGameIds": [
+        "401860899"
+      ],
+      "previousOpponents": [
+        {
+          "team": "UTSA",
+          "before": 55.87986294679315,
+          "after": 52.11578627916906,
+          "change": -3.7640766676240958
+        },
+        {
+          "team": "Wyoming",
+          "before": 30.82687707465808,
+          "after": 29.601917895185963,
+          "change": -1.2249591794721155
+        },
+        {
+          "team": "Southern Utah",
+          "before": 23.38900803566022,
+          "after": 22.302671890516123,
+          "change": -1.0863361451440952
+        },
+        {
+          "team": "BYU",
+          "before": 68.97193617987449,
+          "after": 68.48708090083912,
+          "change": -0.4848552790353722
+        }
+      ]
+    },
+    {
+      "team": "Arkansas State",
+      "change": 1.525401461014951,
+      "previousPublishedRating": 35.607294,
+      "baselineRating": 35.187193164441226,
+      "revaluedRating": 36.71259462545618,
+      "currentPublishedRating": 37.907292,
+      "priorChange": -0.4197751540353991,
+      "historicalCorrectionEffect": -0.00032568152337830725,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.1946976608624311,
+      "excludedOwnGameIds": [
+        "401869932"
+      ],
+      "previousOpponents": [
+        {
+          "team": "TCU",
+          "before": 50.43757996817694,
+          "after": 52.95325666162745,
+          "change": 2.5156766934505086
+        },
+        {
+          "team": "Kennesaw State",
+          "before": 39.722755171509434,
+          "after": 41.51881962549295,
+          "change": 1.7960644539835187
+        },
+        {
+          "team": "Memphis",
+          "before": 48.96528063053116,
+          "after": 50.25953506264038,
+          "change": 1.29425443210922
+        },
+        {
+          "team": "West Georgia",
+          "before": 12.486313600172902,
+          "after": 12.82485778365772,
+          "change": 0.3385441834848173
+        }
+      ]
+    },
+    {
+      "team": "Missouri",
+      "change": 1.4971546533777556,
+      "previousPublishedRating": 57.437279,
+      "baselineRating": 57.404477682919115,
+      "revaluedRating": 58.90163233629687,
+      "currentPublishedRating": 66.229068,
+      "priorChange": -0.032484272495629796,
+      "historicalCorrectionEffect": -0.00031704458525183554,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 7.327435433055655,
+      "excludedOwnGameIds": [
+        "401856708"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Arkansas-Pine Bluff",
+          "before": 4.38404054940014,
+          "after": 10.251698243050038,
+          "change": 5.867657693649898
+        },
+        {
+          "team": "Kansas",
+          "before": 43.34018852414654,
+          "after": 46.382700878666434,
+          "change": 3.042512354519893
+        },
+        {
+          "team": "Mississippi State",
+          "before": 65.48731620543134,
+          "after": 64.57066079814504,
+          "change": -0.9166554072862994
+        },
+        {
+          "team": "Troy",
+          "before": 39.66752558276577,
+          "after": 40.07730903121869,
+          "change": 0.40978344845292014
+        }
+      ]
+    },
+    {
+      "team": "Coastal Carolina",
+      "change": -1.4894752835447704,
+      "previousPublishedRating": 34.216768,
+      "baselineRating": 34.94771032086018,
+      "revaluedRating": 33.45823503731541,
+      "currentPublishedRating": 32.705711,
+      "priorChange": 0.7312576561009649,
+      "historicalCorrectionEffect": -0.0003153352407849752,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.752524314066271,
+      "excludedOwnGameIds": [
+        "401869942"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Fordham",
+          "before": 16.180596770045636,
+          "after": 12.501177061459007,
+          "change": -3.6794197085866287
+        },
+        {
+          "team": "Delaware",
+          "before": 38.18655799657968,
+          "after": 34.547316015643275,
+          "change": -3.6392419809364043
+        },
+        {
+          "team": "West Virginia",
+          "before": 49.12926629407201,
+          "after": 47.67395020063652,
+          "change": -1.455316093435492
+        },
+        {
+          "team": "Liberty",
+          "before": 46.499660368632775,
+          "after": 47.531124160895175,
+          "change": 1.0314637922624001
+        }
+      ]
+    },
+    {
+      "team": "Notre Dame",
+      "change": 1.4607292986261626,
+      "previousPublishedRating": 81.059562,
+      "baselineRating": 83.09967686784141,
+      "revaluedRating": 84.56040616646757,
+      "currentPublishedRating": 81.247751,
+      "priorChange": 2.040437786195298,
+      "historicalCorrectionEffect": -0.0003229183538877578,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -3.312655270825175,
+      "excludedOwnGameIds": [
+        "401858250"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wisconsin",
+          "before": 55.86125247385283,
+          "after": 61.40997094458465,
+          "change": 5.548718470731821
+        },
+        {
+          "team": "Purdue",
+          "before": 45.24079049588092,
+          "after": 48.38736850499861,
+          "change": 3.1465780091176896
+        },
+        {
+          "team": "Rice",
+          "before": 34.07226524938348,
+          "after": 37.14875832068545,
+          "change": 3.076493071301975
+        },
+        {
+          "team": "Michigan State",
+          "before": 56.17821002697741,
+          "after": 53.34457834423387,
+          "change": -2.833631682743544
+        }
+      ]
+    },
+    {
+      "team": "Pittsburgh",
+      "change": -1.4466980497399575,
+      "previousPublishedRating": 61.348041,
+      "baselineRating": 62.67114524194474,
+      "revaluedRating": 61.224447192204785,
+      "currentPublishedRating": 60.837056,
+      "priorChange": 1.3234020590687976,
+      "historicalCorrectionEffect": -0.00029781712405707594,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.38739115698664506,
+      "excludedOwnGameIds": [
+        "401858245"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Miami (OH)",
+          "before": 46.93193441605336,
+          "after": 42.141923347184715,
+          "change": -4.790011068868644
+        },
+        {
+          "team": "Bucknell",
+          "before": 6.704023804125047,
+          "after": 5.664380976692918,
+          "change": -1.0396428274321288
+        },
+        {
+          "team": "Syracuse",
+          "before": 44.28761446392247,
+          "after": 44.714416958310295,
+          "change": 0.4268024943878217
+        },
+        {
+          "team": "UCF",
+          "before": 57.36293479521213,
+          "after": 57.10567514363852,
+          "change": -0.2572596515736052
+        }
+      ]
+    },
+    {
+      "team": "SMU",
+      "change": 1.446648976806891,
+      "previousPublishedRating": 58.59021,
+      "baselineRating": 58.450254730663524,
+      "revaluedRating": 59.896903707470415,
+      "currentPublishedRating": 57.934769,
+      "priorChange": -0.13964723984510385,
+      "historicalCorrectionEffect": -0.000308029491371542,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.962134658543178,
+      "excludedOwnGameIds": [
+        "401858246"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Florida State",
+          "before": 53.47997657368367,
+          "after": 59.95213794045723,
+          "change": 6.472161366773555
+        },
+        {
+          "team": "UC Davis",
+          "before": 24.680043360924238,
+          "after": 27.10855795616683,
+          "change": 2.428514595242593
+        },
+        {
+          "team": "Louisville",
+          "before": 57.16295633412287,
+          "after": 55.72064890786907,
+          "change": -1.442307426253798
+        },
+        {
+          "team": "Missouri State",
+          "before": 40.041674303461306,
+          "after": 40.85028266510854,
+          "change": 0.8086083616472308
+        }
+      ]
+    },
+    {
+      "team": "Kansas",
+      "change": 1.4294101563553525,
+      "previousPublishedRating": 44.341543,
+      "baselineRating": 43.34018852414654,
+      "revaluedRating": 44.76959868050189,
+      "currentPublishedRating": 48.162215,
+      "priorChange": -1.001071349690477,
+      "historicalCorrectionEffect": -0.000283126162983649,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.3926168039693394,
+      "excludedOwnGameIds": [
+        "401856807"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Missouri",
+          "before": 57.404477682919115,
+          "after": 65.50843269341445,
+          "change": 8.103955010495334
+        },
+        {
+          "team": "Arizona State",
+          "before": 51.59423751186065,
+          "after": 48.659385816043056,
+          "change": -2.934851695817592
+        },
+        {
+          "team": "Long Island University",
+          "before": 4.630418015140613,
+          "after": 5.489476430918042,
+          "change": 0.8590584157774295
+        }
+      ]
+    },
+    {
+      "team": "TCU",
+      "change": 1.362502859870382,
+      "previousPublishedRating": 50.425506,
+      "baselineRating": 50.43757996817694,
+      "revaluedRating": 51.80008282804732,
+      "currentPublishedRating": 52.987976,
+      "priorChange": 0.012397364204161931,
+      "historicalCorrectionEffect": -0.0003233960272197578,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.1878933387397694,
+      "excludedOwnGameIds": [
+        "401856818"
+      ],
+      "previousOpponents": [
+        {
+          "team": "North Carolina",
+          "before": 48.68208010054298,
+          "after": 53.30979288935706,
+          "change": 4.62771278881408
+        },
+        {
+          "team": "Arkansas State",
+          "before": 35.187193164441226,
+          "after": 37.43670141981975,
+          "change": 2.2495082553785224
+        },
+        {
+          "team": "Grambling",
+          "before": 16.85113903740108,
+          "after": 16.393637363043773,
+          "change": -0.4575016743573066
+        },
+        {
+          "team": "UCF",
+          "before": 57.36293479521213,
+          "after": 56.99444428713531,
+          "change": -0.3684905080768175
+        }
+      ]
+    },
+    {
+      "team": "Toledo",
+      "change": 1.3351245649439676,
+      "previousPublishedRating": 52.787987,
+      "baselineRating": 53.610829329535065,
+      "revaluedRating": 54.94595389447903,
+      "currentPublishedRating": 53.878763,
+      "priorChange": 0.8231468656117755,
+      "historicalCorrectionEffect": -0.00030453607671176997,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.0671908135122123,
+      "excludedOwnGameIds": [
+        "401866431"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Central Connecticut",
+          "before": 16.460288551808933,
+          "after": 22.777676828512405,
+          "change": 6.317388276703472
+        },
+        {
+          "team": "Michigan State",
+          "before": 56.17821002697741,
+          "after": 52.8628716669631,
+          "change": -3.3153383600143087
+        },
+        {
+          "team": "San Diego State",
+          "before": 40.97351641449464,
+          "after": 43.56315580550758,
+          "change": 2.5896393910129376
+        },
+        {
+          "team": "Temple",
+          "before": 43.01948170037571,
+          "after": 44.49508610929595,
+          "change": 1.4756044089202405
+        }
+      ]
+    },
+    {
+      "team": "James Madison",
+      "change": -1.3201918475596628,
+      "previousPublishedRating": 57.963747,
+      "baselineRating": 57.83954318101669,
+      "revaluedRating": 56.519351333457024,
+      "currentPublishedRating": 58.564629,
+      "priorChange": -0.12388998160869846,
+      "historicalCorrectionEffect": -0.0003138373746125467,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.0452781221346186,
+      "excludedOwnGameIds": [
+        "401869962"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wagner",
+          "before": 3.1836141308108843,
+          "after": -1.8746250033382452,
+          "change": -5.0582391341491295
+        },
+        {
+          "team": "Old Dominion",
+          "before": 34.377499615779975,
+          "after": 30.19390267387216,
+          "change": -4.183596941907815
+        },
+        {
+          "team": "San Diego State",
+          "before": 40.97351641449464,
+          "after": 43.23911180304534,
+          "change": 2.2655953885507003
+        },
+        {
+          "team": "Liberty",
+          "before": 46.499660368632775,
+          "after": 46.89902515278561,
+          "change": 0.39936478415283716
+        }
+      ]
+    },
+    {
+      "team": "Texas",
+      "change": -1.3169683311293454,
+      "previousPublishedRating": 72.92466,
+      "baselineRating": 75.31224043790067,
+      "revaluedRating": 73.99527210677132,
+      "currentPublishedRating": 73.995272,
+      "priorChange": 2.38792746570401,
+      "historicalCorrectionEffect": -0.00034702780334328054,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.842170943040401e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "UTSA",
+          "before": 55.87986294679315,
+          "after": 51.44192040768314,
+          "change": -4.437942539110011
+        },
+        {
+          "team": "Texas State",
+          "before": 53.626335174676946,
+          "after": 50.81591275870073,
+          "change": -2.8104224159762126
+        },
+        {
+          "team": "Ohio State",
+          "before": 73.72497793229716,
+          "after": 75.18048861111467,
+          "change": 1.4555106788175038
+        },
+        {
+          "team": "Tennessee",
+          "before": 66.70231787100394,
+          "after": 67.74045065657725,
+          "change": 1.0381327855733105
+        }
+      ]
+    },
+    {
+      "team": "Tulane",
+      "change": -1.2581937728488768,
+      "previousPublishedRating": 45.679009,
+      "baselineRating": 45.34418759501446,
+      "revaluedRating": 44.085993822165584,
+      "currentPublishedRating": 44.085994,
+      "priorChange": -0.33451306902084355,
+      "historicalCorrectionEffect": -0.0003083359646964823,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.552713678800501e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Duke",
+          "before": 60.969507898963045,
+          "after": 58.06448729982893,
+          "change": -2.9050205991341116
+        },
+        {
+          "team": "Kansas State",
+          "before": 57.83016024930889,
+          "after": 56.07254595607829,
+          "change": -1.7576142932306027
+        },
+        {
+          "team": "Southern Miss",
+          "before": 33.226695449515844,
+          "after": 32.35059196602693,
+          "change": -0.8761034834889116
+        },
+        {
+          "team": "South Alabama",
+          "before": 40.86597674065153,
+          "after": 40.6561095936624,
+          "change": -0.2098671469891329
+        }
+      ]
+    },
+    {
+      "team": "Washington State",
+      "change": 1.2463323017133447,
+      "previousPublishedRating": 41.996653,
+      "baselineRating": 40.71156886074434,
+      "revaluedRating": 41.95790116245769,
+      "currentPublishedRating": 38.94894,
+      "priorChange": -1.2847834277190913,
+      "historicalCorrectionEffect": -0.0003007115365676327,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -3.008960888181761,
+      "excludedOwnGameIds": [
+        "401860921"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Arizona",
+          "before": 56.370961944672516,
+          "after": 61.21100681134866,
+          "change": 4.840044866676145
+        },
+        {
+          "team": "Washington",
+          "before": 52.6125422638536,
+          "after": 54.24864082174169,
+          "change": 1.63609855788809
+        },
+        {
+          "team": "Duquesne",
+          "before": 14.27112565450047,
+          "after": 15.160955182695247,
+          "change": 0.8898295281947775
+        },
+        {
+          "team": "Kansas State",
+          "before": 57.83016024930889,
+          "after": 57.11016237837251,
+          "change": -0.7199978709363819
+        }
+      ]
+    },
+    {
+      "team": "Northern Illinois",
+      "change": 1.2212287427472859,
+      "previousPublishedRating": 25.011386,
+      "baselineRating": 25.387865106487254,
+      "revaluedRating": 26.60909384923454,
+      "currentPublishedRating": 26.609094,
+      "priorChange": 0.37681947293764395,
+      "historicalCorrectionEffect": -0.0003403664503913717,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.4868995751603507e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Georgia State",
+          "before": 43.09348324983317,
+          "after": 47.97335922532018,
+          "change": 4.8798759754870105
+        },
+        {
+          "team": "Arizona",
+          "before": 56.370961944672516,
+          "after": 60.72267882366573,
+          "change": 4.351716878993216
+        },
+        {
+          "team": "Iowa",
+          "before": 67.14623398346347,
+          "after": 64.91332084266173,
+          "change": -2.2329131408017417
+        },
+        {
+          "team": "Illinois State",
+          "before": 36.18251964571412,
+          "after": 35.271851877444746,
+          "change": -0.9106677682693771
+        }
+      ]
+    },
+    {
+      "team": "UAB",
+      "change": -1.2124583346039017,
+      "previousPublishedRating": 35.334984,
+      "baselineRating": 35.791133759620465,
+      "revaluedRating": 34.57867542501656,
+      "currentPublishedRating": 34.894982,
+      "priorChange": 0.4564514536343367,
+      "historicalCorrectionEffect": -0.0003016940138707014,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.31630691737793626,
+      "excludedOwnGameIds": [
+        "401862793"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Illinois",
+          "before": 55.658225841816744,
+          "after": 52.04070691816588,
+          "change": -3.617518923650863
+        },
+        {
+          "team": "Louisiana",
+          "before": 49.6759314040047,
+          "after": 48.302560757761206,
+          "change": -1.3733706462434938
+        },
+        {
+          "team": "Navy",
+          "before": 37.45292025807529,
+          "after": 36.629596834931824,
+          "change": -0.8233234231434636
+        },
+        {
+          "team": "UL Monroe",
+          "before": 19.28847166193645,
+          "after": 19.651073727132147,
+          "change": 0.3626020651956985
+        }
+      ]
+    },
+    {
+      "team": "Temple",
+      "change": -1.1872758455105554,
+      "previousPublishedRating": 42.321988,
+      "baselineRating": 43.01948170037571,
+      "revaluedRating": 41.83220585486515,
+      "currentPublishedRating": 44.17462,
+      "priorChange": 0.6977972624471107,
+      "historicalCorrectionEffect": -0.0003035620714015863,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.3424143499174335,
+      "excludedOwnGameIds": [
+        "401862792"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Penn State",
+          "before": 60.2576840190335,
+          "after": 57.89848760805275,
+          "change": -2.3591964109807506
+        },
+        {
+          "team": "Army",
+          "before": 48.93146242990581,
+          "after": 46.67043341644631,
+          "change": -2.261029013459499
+        },
+        {
+          "team": "Toledo",
+          "before": 53.610829329535065,
+          "after": 53.28831164300955,
+          "change": -0.32251768652551505
+        },
+        {
+          "team": "Rhode Island",
+          "before": 19.395582397546534,
+          "after": 19.25745234473475,
+          "change": -0.13813005281178192
+        }
+      ]
+    },
+    {
+      "team": "Kent State",
+      "change": 1.1081150495379433,
+      "previousPublishedRating": 31.380078,
+      "baselineRating": 32.09324496396757,
+      "revaluedRating": 33.201360013505514,
+      "currentPublishedRating": 33.414579,
+      "priorChange": 0.71347782530027,
+      "historicalCorrectionEffect": -0.0003108613327000853,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.21321896711991428,
+      "excludedOwnGameIds": [
+        "401866434"
+      ],
+      "previousOpponents": [
+        {
+          "team": "South Carolina",
+          "before": 53.156870132032,
+          "after": 55.713981249676436,
+          "change": 2.557111117644439
+        },
+        {
+          "team": "Ball State",
+          "before": 28.71983992825154,
+          "after": 30.445253767018517,
+          "change": 1.7254138387669755
+        },
+        {
+          "team": "Ohio State",
+          "before": 73.72497793229716,
+          "after": 75.17344466407113,
+          "change": 1.4484667317739621
+        },
+        {
+          "team": "Wofford",
+          "before": 23.513637977471596,
+          "after": 23.827558078413308,
+          "change": 0.3139201009417114
+        }
+      ]
+    },
+    {
+      "team": "South Carolina",
+      "change": 1.0993886774287205,
+      "previousPublishedRating": 52.386659,
+      "baselineRating": 53.156870132032,
+      "revaluedRating": 54.25625880946072,
+      "currentPublishedRating": 55.421632,
+      "priorChange": 0.7705200229239679,
+      "historicalCorrectionEffect": -0.0003088908919721689,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.165373393515253,
+      "excludedOwnGameIds": [
+        "401856709"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Alabama",
+          "before": 80.21338308059947,
+          "after": 84.56586540586915,
+          "change": 4.352482325269676
+        },
+        {
+          "team": "Towson",
+          "before": 8.68820972473113,
+          "after": 9.511531026925677,
+          "change": 0.8233213021945467
+        },
+        {
+          "team": "Kent State",
+          "before": 32.09324496396757,
+          "after": 32.846027619779754,
+          "change": 0.7527826558121831
+        },
+        {
+          "team": "Mississippi State",
+          "before": 65.48731620543134,
+          "after": 65.64373990660698,
+          "change": 0.15642370117564042
+        }
+      ]
+    },
+    {
+      "team": "UConn",
+      "change": -1.0551160162734163,
+      "previousPublishedRating": 44.796381,
+      "baselineRating": 44.79132845345535,
+      "revaluedRating": 43.73621243718193,
+      "currentPublishedRating": 43.160586,
+      "priorChange": -0.0047519109770632895,
+      "historicalCorrectionEffect": -0.0003006355675836403,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.5756268932240189,
+      "excludedOwnGameIds": [
+        "401858252"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Miami (OH)",
+          "before": 46.93193441605336,
+          "after": 42.50591050607815,
+          "change": -4.426023909975207
+        },
+        {
+          "team": "Southern Miss",
+          "before": 33.226695449515844,
+          "after": 32.01013392782887,
+          "change": -1.2165615216869767
+        },
+        {
+          "team": "Maryland",
+          "before": 46.34348043788487,
+          "after": 45.20032221697373,
+          "change": -1.1431582209111397
+        },
+        {
+          "team": "Lafayette",
+          "before": 8.586884198013708,
+          "after": 8.172592605341261,
+          "change": -0.41429159267244664
+        }
+      ]
+    },
+    {
+      "team": "Virginia",
+      "change": -1.0256962346268068,
+      "previousPublishedRating": 58.338122,
+      "baselineRating": 59.17163926188033,
+      "revaluedRating": 58.14594302725352,
+      "currentPublishedRating": 52.523677,
+      "priorChange": 0.833857165716843,
+      "historicalCorrectionEffect": -0.0003399038365117235,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -5.622266012322932,
+      "excludedOwnGameIds": [
+        "401858253"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Delaware",
+          "before": 38.18655799657968,
+          "after": 35.13357044396332,
+          "change": -3.052987552616358
+        },
+        {
+          "team": "Norfolk State",
+          "before": 13.526175152618103,
+          "after": 11.73868586307886,
+          "change": -1.7874892895392431
+        },
+        {
+          "team": "NC State",
+          "before": 53.03166138938306,
+          "after": 53.08042598665471,
+          "change": 0.04876459727164928
+        },
+        {
+          "team": "West Virginia",
+          "before": 49.12926629407201,
+          "after": 49.09950932329453,
+          "change": -0.02975697077748407
+        }
+      ]
+    },
+    {
+      "team": "Kentucky",
+      "change": 1.0171786674980865,
+      "previousPublishedRating": 61.403767,
+      "baselineRating": 63.53144052811571,
+      "revaluedRating": 64.5486191956138,
+      "currentPublishedRating": 63.964741,
+      "priorChange": 2.127979412643654,
+      "historicalCorrectionEffect": -0.0003058845279468869,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.5838780065806262,
+      "excludedOwnGameIds": [
+        "401856709"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Alabama",
+          "before": 80.21338308059947,
+          "after": 84.56586540586915,
+          "change": 4.352482325269676
+        },
+        {
+          "team": "Texas A&M",
+          "before": 62.73879005655185,
+          "after": 64.59429367250333,
+          "change": 1.855503615951477
+        },
+        {
+          "team": "Youngstown State",
+          "before": 45.73159696944015,
+          "after": 46.50919197791033,
+          "change": 0.7775950084701861
+        },
+        {
+          "team": "South Alabama",
+          "before": 40.86597674065153,
+          "after": 40.68414192585588,
+          "change": -0.1818348147956499
+        }
+      ]
+    },
+    {
+      "team": "California",
+      "change": -1.0154657659012756,
+      "previousPublishedRating": 42.105586,
+      "baselineRating": 42.847050703368204,
+      "revaluedRating": 41.83158493746693,
+      "currentPublishedRating": 40.18768,
+      "priorChange": 0.7417633012485823,
+      "historicalCorrectionEffect": -0.0002985978803806688,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.6439053953565832,
+      "excludedOwnGameIds": [
+        "401858247"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wagner",
+          "before": 3.1836141308108843,
+          "after": -1.311149667782395,
+          "change": -4.494763798593279
+        },
+        {
+          "team": "Clemson",
+          "before": 53.06434577764002,
+          "after": 52.1964587487041,
+          "change": -0.8678870289359182
+        },
+        {
+          "team": "Syracuse",
+          "before": 44.28761446392247,
+          "after": 44.80827174989075,
+          "change": 0.5206572859682765
+        },
+        {
+          "team": "UCLA",
+          "before": 62.194459904376366,
+          "after": 62.39156965361374,
+          "change": 0.19710974923737723
+        }
+      ]
+    },
+    {
+      "team": "Maryland",
+      "change": -0.9939135061701876,
+      "previousPublishedRating": 45.288181,
+      "baselineRating": 46.34348043788487,
+      "revaluedRating": 45.34956693171468,
+      "currentPublishedRating": 44.613581,
+      "priorChange": 1.055616500805975,
+      "historicalCorrectionEffect": -0.0003170629211055598,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.7359855336619674,
+      "excludedOwnGameIds": [
+        "401858475"
+      ],
+      "previousOpponents": [
+        {
+          "team": "UConn",
+          "before": 44.79132845345535,
+          "after": 42.83432513437802,
+          "change": -1.9570033190773302
+        },
+        {
+          "team": "Hampton",
+          "before": -3.192958673706059,
+          "after": -4.04861036740153,
+          "change": -0.8556516936954708
+        },
+        {
+          "team": "Virginia Tech",
+          "before": 54.124362213617914,
+          "after": 53.69131636852761,
+          "change": -0.4330458450903052
+        },
+        {
+          "team": "UCLA",
+          "before": 62.194459904376366,
+          "after": 62.433814244118516,
+          "change": 0.2393543397421496
+        }
+      ]
+    },
+    {
+      "team": "Fresno State",
+      "change": 0.977672631033542,
+      "previousPublishedRating": 45.181084,
+      "baselineRating": 45.591278001080155,
+      "revaluedRating": 46.5689506321137,
+      "currentPublishedRating": 49.637423,
+      "priorChange": 0.4105176436374194,
+      "historicalCorrectionEffect": -0.00032364255726236024,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.0684723273540655,
+      "excludedOwnGameIds": [
+        "401860921"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Rice",
+          "before": 34.07226524938348,
+          "after": 35.942566662290545,
+          "change": 1.870301412907068
+        },
+        {
+          "team": "San José State",
+          "before": 31.384129827358294,
+          "after": 33.03601671323528,
+          "change": 1.6518868858769835
+        },
+        {
+          "team": "Sacramento State",
+          "before": 16.82056983844489,
+          "after": 18.1688153400359,
+          "change": 1.348245501591009
+        },
+        {
+          "team": "USC",
+          "before": 65.28205494800473,
+          "after": 64.71874126353204,
+          "change": -0.5633136844726891
+        }
+      ]
+    },
+    {
+      "team": "Liberty",
+      "change": -0.9483231861420549,
+      "previousPublishedRating": 45.126468,
+      "baselineRating": 46.499660368632775,
+      "revaluedRating": 45.55133718249072,
+      "currentPublishedRating": 47.222589,
+      "priorChange": 1.3735055018635194,
+      "historicalCorrectionEffect": -0.00031313323074755317,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.6712520737914076,
+      "excludedOwnGameIds": [
+        "401871050"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Coastal Carolina",
+          "before": 34.94771032086018,
+          "after": 32.36086879321685,
+          "change": -2.5868415276433296
+        },
+        {
+          "team": "Gardner-Webb",
+          "before": 29.539318644779318,
+          "after": 26.958366529620207,
+          "change": -2.5809521151591106
+        },
+        {
+          "team": "Ball State",
+          "before": 28.71983992825154,
+          "after": 30.10305325786948,
+          "change": 1.3832133296179379
+        },
+        {
+          "team": "James Madison",
+          "before": 57.83954318101669,
+          "after": 58.18761583530361,
+          "change": 0.34807265428692347
+        }
+      ]
+    },
+    {
+      "team": "Texas A&M",
+      "change": -0.9106277700371024,
+      "previousPublishedRating": 62.255626,
+      "baselineRating": 62.73879005655185,
+      "revaluedRating": 61.82816228651475,
+      "currentPublishedRating": 64.723853,
+      "priorChange": 0.48346117291144,
+      "historicalCorrectionEffect": -0.0002971163595901771,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.895690642145034,
+      "excludedOwnGameIds": [
+        "401856711"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Arizona State",
+          "before": 51.59423751186065,
+          "after": 48.2396354747639,
+          "change": -3.354602037096747
+        },
+        {
+          "team": "LSU",
+          "before": 73.20482105555695,
+          "after": 72.06064530981448,
+          "change": -1.1441757457424728
+        },
+        {
+          "team": "Missouri State",
+          "before": 40.041674303461306,
+          "after": 39.41756529945869,
+          "change": -0.6241090040026194
+        },
+        {
+          "team": "Kentucky",
+          "before": 63.53144052811571,
+          "after": 63.61461075631759,
+          "change": 0.08317022820187958
+        }
+      ]
+    },
+    {
+      "team": "UCF",
+      "change": 0.9015881772607983,
+      "previousPublishedRating": 55.399263,
+      "baselineRating": 57.36293479521213,
+      "revaluedRating": 58.264522972472925,
+      "currentPublishedRating": 57.117166,
+      "priorChange": 1.9639900306649736,
+      "historicalCorrectionEffect": -0.00031823545284481725,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.1473565643876142,
+      "excludedOwnGameIds": [
+        "401856819"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Georgia State",
+          "before": 43.09348324983317,
+          "after": 48.07240271306725,
+          "change": 4.978919463234078
+        },
+        {
+          "team": "TCU",
+          "before": 50.43757996817694,
+          "after": 53.09121592646247,
+          "change": 2.653635958285527
+        },
+        {
+          "team": "Pittsburgh",
+          "before": 62.67114524194474,
+          "after": 61.15265160069923,
+          "change": -1.518493641245513
+        },
+        {
+          "team": "Bethune-Cookman",
+          "before": 17.04435146473702,
+          "after": 17.299826939061287,
+          "change": 0.25547547432426754
+        }
+      ]
+    },
+    {
+      "team": "Alabama",
+      "change": 0.8941990101917838,
+      "previousPublishedRating": 78.231828,
+      "baselineRating": 80.21338308059947,
+      "revaluedRating": 81.10758209079125,
+      "currentPublishedRating": 84.452317,
+      "priorChange": 1.981862981137553,
+      "historicalCorrectionEffect": -0.00030790053807550066,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.344734994341252,
+      "excludedOwnGameIds": [
+        "401856707"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Florida State",
+          "before": 53.47997657368367,
+          "after": 59.139908920075655,
+          "change": 5.659932346391983
+        },
+        {
+          "team": "South Carolina",
+          "before": 53.156870132032,
+          "after": 54.93200902385266,
+          "change": 1.77513889182066
+        },
+        {
+          "team": "East Carolina",
+          "before": 44.16550735901636,
+          "after": 43.43186991971563,
+          "change": -0.733637439300729
+        },
+        {
+          "team": "Kentucky",
+          "before": 63.53144052811571,
+          "after": 63.03277574796787,
+          "change": -0.4986647801478412
+        }
+      ]
+    },
+    {
+      "team": "Marshall",
+      "change": -0.8843354199629871,
+      "previousPublishedRating": 37.681967,
+      "baselineRating": 37.73482610423892,
+      "revaluedRating": 36.85049068427593,
+      "currentPublishedRating": 34.668519,
+      "priorChange": 0.05317111909455008,
+      "historicalCorrectionEffect": -0.0003120148556305935,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.1819717846946816,
+      "excludedOwnGameIds": [
+        "401869962"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Middle Tennessee",
+          "before": 33.23467849909656,
+          "after": 30.310468507871775,
+          "change": -2.924209991224785
+        },
+        {
+          "team": "Gardner-Webb",
+          "before": 29.539318644779318,
+          "after": 27.416478050798524,
+          "change": -2.1228405939807935
+        },
+        {
+          "team": "Penn State",
+          "before": 60.2576840190335,
+          "after": 58.847520229327316,
+          "change": -1.410163789706182
+        },
+        {
+          "team": "Missouri State",
+          "before": 40.041674303461306,
+          "after": 40.445088624115456,
+          "change": 0.40341432065415006
+        }
+      ]
+    },
+    {
+      "team": "Southern Miss",
+      "change": -0.8761034834889116,
+      "previousPublishedRating": 33.679848,
+      "baselineRating": 33.226695449515844,
+      "revaluedRating": 32.35059196602693,
+      "currentPublishedRating": 32.350592,
+      "priorChange": -0.4528359711292751,
+      "historicalCorrectionEffect": -0.00031657935488027533,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 7.815970093361102e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Auburn",
+          "before": 63.016732497718266,
+          "after": 60.390286054461754,
+          "change": -2.626446443256512
+        },
+        {
+          "team": "UConn",
+          "before": 44.79132845345535,
+          "after": 43.16058554395781,
+          "change": -1.6307429094975419
+        },
+        {
+          "team": "Tulane",
+          "before": 45.34418759501446,
+          "after": 44.085993822165584,
+          "change": -1.2581937728488768
+        },
+        {
+          "team": "Alcorn State",
+          "before": 10.70595188376997,
+          "after": 10.599350371253337,
+          "change": -0.10660151251663308
+        }
+      ]
+    },
+    {
+      "team": "New Mexico State",
+      "change": 0.8695075210039782,
+      "previousPublishedRating": 28.798895,
+      "baselineRating": 28.370832678423604,
+      "revaluedRating": 29.240340199427582,
+      "currentPublishedRating": 33.112025,
+      "priorChange": -0.427749676733562,
+      "historicalCorrectionEffect": -0.00031264484283610727,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.8716843467530317,
+      "excludedOwnGameIds": [
+        "401871049"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Florida State",
+          "before": 53.47997657368367,
+          "after": 58.757578559822306,
+          "change": 5.2776019861386345
+        },
+        {
+          "team": "Mercyhurst",
+          "before": 3.3508522844048585,
+          "after": 2.5728319034574696,
+          "change": -0.7780203809473889
+        },
+        {
+          "team": "Hawai'i",
+          "before": 30.045539053387877,
+          "after": 29.28671937938047,
+          "change": -0.7588196740074054
+        },
+        {
+          "team": "New Mexico",
+          "before": 54.39549394565802,
+          "after": 54.98971212384206,
+          "change": 0.5942181781840432
+        }
+      ]
+    },
+    {
+      "team": "New Mexico",
+      "change": 0.8549805985237526,
+      "previousPublishedRating": 54.078375,
+      "baselineRating": 54.39549394565802,
+      "revaluedRating": 55.25047454418177,
+      "currentPublishedRating": 55.723527,
+      "priorChange": 0.31743007619886043,
+      "historicalCorrectionEffect": -0.0003111305408438625,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.47305244114591716,
+      "excludedOwnGameIds": [
+        "401864514"
+      ],
+      "previousOpponents": [
+        {
+          "team": "New Mexico State",
+          "before": 28.370832678423604,
+          "after": 32.90958022706333,
+          "change": 4.538747548639726
+        },
+        {
+          "team": "Central Michigan",
+          "before": 34.6764999889058,
+          "after": 37.205043101362854,
+          "change": 2.5285431124570508
+        },
+        {
+          "team": "Mercyhurst",
+          "before": 3.3508522844048585,
+          "after": 2.783913605697151,
+          "change": -0.5669386787077073
+        },
+        {
+          "team": "Oklahoma",
+          "before": 56.33037557905189,
+          "after": 56.110625066368314,
+          "change": -0.21975051268357504
+        }
+      ]
+    },
+    {
+      "team": "Rutgers",
+      "change": -0.8491183150651835,
+      "previousPublishedRating": 40.885222,
+      "baselineRating": 41.09982991587441,
+      "revaluedRating": 40.250711600809225,
+      "currentPublishedRating": 39.898742,
+      "priorChange": 0.2149213066376916,
+      "historicalCorrectionEffect": -0.00031339076328151805,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.35196939136816496,
+      "excludedOwnGameIds": [
+        "401858477"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Massachusetts",
+          "before": 39.067158310915325,
+          "after": 34.72510221658495,
+          "change": -4.342056094330374
+        },
+        {
+          "team": "USC",
+          "before": 65.28205494800473,
+          "after": 64.74838851769339,
+          "change": -0.5336664303113423
+        },
+        {
+          "team": "Boston College",
+          "before": 37.19385255025076,
+          "after": 37.67599262183188,
+          "change": 0.4821400715811208
+        },
+        {
+          "team": "Howard",
+          "before": 12.024193524786895,
+          "after": 11.624122475867804,
+          "change": -0.4000710489190915
+        }
+      ]
+    },
+    {
+      "team": "Ohio State",
+      "change": -0.7876501622182985,
+      "previousPublishedRating": 73.025504,
+      "baselineRating": 73.72497793229716,
+      "revaluedRating": 72.93732777007887,
+      "currentPublishedRating": 75.180489,
+      "priorChange": 0.699788364933454,
+      "historicalCorrectionEffect": -0.0003144326362871652,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.2431608410357455,
+      "excludedOwnGameIds": [
+        "401858473"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Illinois",
+          "before": 55.658225841816744,
+          "after": 51.532906018257805,
+          "change": -4.1253198235589394
+        },
+        {
+          "team": "Texas",
+          "before": 75.31224043790067,
+          "after": 73.56703238651504,
+          "change": -1.7452080513856316
+        },
+        {
+          "team": "Ball State",
+          "before": 28.71983992825154,
+          "after": 30.359102458140285,
+          "change": 1.639262529888743
+        },
+        {
+          "team": "Kent State",
+          "before": 32.09324496396757,
+          "after": 32.809311145716975,
+          "change": 0.7160661817494045
+        }
+      ]
+    },
+    {
+      "team": "Clemson",
+      "change": 0.7767228297417503,
+      "previousPublishedRating": 52.228583,
+      "baselineRating": 53.06434577764002,
+      "revaluedRating": 53.84106860738177,
+      "currentPublishedRating": 51.775218,
+      "priorChange": 0.8360654175769184,
+      "historicalCorrectionEffect": -0.0003026399368977195,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.065850171648812,
+      "excludedOwnGameIds": [
+        "401858249"
+      ],
+      "previousOpponents": [
+        {
+          "team": "North Carolina",
+          "before": 48.68208010054298,
+          "after": 53.62467893716742,
+          "change": 4.942598836624434
+        },
+        {
+          "team": "California",
+          "before": 42.847050703368204,
+          "after": 40.495503073246226,
+          "change": -2.3515476301219778
+        },
+        {
+          "team": "Georgia Southern",
+          "before": 38.452984833535766,
+          "after": 39.8385598995831,
+          "change": 1.3855750660473376
+        },
+        {
+          "team": "LSU",
+          "before": 73.20482105555695,
+          "after": 72.97016890384273,
+          "change": -0.23465215171421505
+        }
+      ]
+    },
+    {
+      "team": "North Texas",
+      "change": 0.775848767072091,
+      "previousPublishedRating": 51.516848,
+      "baselineRating": 50.93603915068542,
+      "revaluedRating": 51.71188791775751,
+      "currentPublishedRating": 50.692894,
+      "priorChange": -0.5804286662884834,
+      "historicalCorrectionEffect": -0.00038018302610254295,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.0189934812996242,
+      "excludedOwnGameIds": [
+        "401862786"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Houston Christian",
+          "before": 13.995963481223583,
+          "after": 18.016859347426916,
+          "change": 4.0208958662033325
+        },
+        {
+          "team": "Texas State",
+          "before": 53.626335174676946,
+          "after": 51.346404356831485,
+          "change": -2.279930817845461
+        },
+        {
+          "team": "UNLV",
+          "before": 42.382517533276655,
+          "after": 43.55909763676498,
+          "change": 1.1765801034883268
+        },
+        {
+          "team": "Indiana",
+          "before": 70.3743172968573,
+          "after": 71.03564163050359,
+          "change": 0.6613243336462915
+        }
+      ]
+    },
+    {
+      "team": "Hawai'i",
+      "change": 0.7757713341673806,
+      "previousPublishedRating": 31.677431,
+      "baselineRating": 30.045539053387877,
+      "revaluedRating": 30.821310387555258,
+      "currentPublishedRating": 29.784769,
+      "priorChange": -1.6315806418963206,
+      "historicalCorrectionEffect": -0.0003113047158009863,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.0365412956132793,
+      "excludedOwnGameIds": [
+        "401864513"
+      ],
+      "previousOpponents": [
+        {
+          "team": "New Mexico State",
+          "before": 28.370832678423604,
+          "after": 33.02714684262973,
+          "change": 4.65631416420613
+        },
+        {
+          "team": "Stanford",
+          "before": 42.122203151524886,
+          "after": 39.3059354314405,
+          "change": -2.816267720084383
+        },
+        {
+          "team": "UNLV",
+          "before": 42.382517533276655,
+          "after": 44.08695063557576,
+          "change": 1.704433102299106
+        },
+        {
+          "team": "Wyoming",
+          "before": 30.82687707465808,
+          "after": 29.92967805890982,
+          "change": -0.8971990157482601
+        }
+      ]
+    },
+    {
+      "team": "Cincinnati",
+      "change": 0.7313322619716445,
+      "previousPublishedRating": 55.642887,
+      "baselineRating": 56.25131353916683,
+      "revaluedRating": 56.982645801138474,
+      "currentPublishedRating": 52.222182,
+      "priorChange": 0.6087375664829864,
+      "historicalCorrectionEffect": -0.00031102731615817447,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -4.760464115612336,
+      "excludedOwnGameIds": [
+        "401856820"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Western Carolina",
+          "before": 21.215902958547932,
+          "after": 29.263961125583847,
+          "change": 8.048058167035915
+        },
+        {
+          "team": "Miami (OH)",
+          "before": 46.93193441605336,
+          "after": 43.36437137382863,
+          "change": -3.5675630422247266
+        },
+        {
+          "team": "Kansas State",
+          "before": 57.83016024930889,
+          "after": 56.768593754901374,
+          "change": -1.061566494407515
+        },
+        {
+          "team": "Boston College",
+          "before": 37.19385255025076,
+          "after": 38.234258493310776,
+          "change": 1.0404059430600157
+        }
+      ]
+    },
+    {
+      "team": "Syracuse",
+      "change": -0.7245040703020962,
+      "previousPublishedRating": 43.259606,
+      "baselineRating": 44.28761446392247,
+      "revaluedRating": 43.56311039362038,
+      "currentPublishedRating": 44.651885,
+      "priorChange": 1.028284573272984,
+      "historicalCorrectionEffect": -0.000276109350508591,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.0887745873718515,
+      "excludedOwnGameIds": [
+        "401858252"
+      ],
+      "previousOpponents": [
+        {
+          "team": "New Hampshire",
+          "before": 5.933286017870342,
+          "after": 8.927407054620337,
+          "change": 2.994121036749995
+        },
+        {
+          "team": "California",
+          "before": 42.847050703368204,
+          "after": 40.19934245489289,
+          "change": -2.647708248475311
+        },
+        {
+          "team": "Pittsburgh",
+          "before": 62.67114524194474,
+          "after": 60.67004158724115,
+          "change": -2.0011036547035914
+        }
+      ]
+    },
+    {
+      "team": "UTEP",
+      "change": -0.7130823918963216,
+      "previousPublishedRating": 26.852706,
+      "baselineRating": 26.94860706181612,
+      "revaluedRating": 26.235524669919798,
+      "currentPublishedRating": 25.962739,
+      "priorChange": 0.09621364588583958,
+      "historicalCorrectionEffect": -0.0003125840697215665,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.27278545145125577,
+      "excludedOwnGameIds": [
+        "401864514"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Oregon State",
+          "before": 52.065401852193006,
+          "after": 56.437518220300596,
+          "change": 4.372116368107591
+        },
+        {
+          "team": "Michigan",
+          "before": 59.28238989207176,
+          "after": 55.73414444579051,
+          "change": -3.54824544628125
+        },
+        {
+          "team": "Texas Southern",
+          "before": 5.098184441131011,
+          "after": 1.7877199952515532,
+          "change": -3.3104644458794574
+        },
+        {
+          "team": "Oklahoma",
+          "before": 56.33037557905189,
+          "after": 56.110625066368314,
+          "change": -0.21975051268357504
+        }
+      ]
+    },
+    {
+      "team": "Michigan",
+      "change": -0.7125658218630733,
+      "previousPublishedRating": 59.049762,
+      "baselineRating": 59.28238989207176,
+      "revaluedRating": 58.56982407020869,
+      "currentPublishedRating": 55.592412,
+      "priorChange": 0.23293822542818532,
+      "historicalCorrectionEffect": -0.0003103333564240529,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.977411846598919,
+      "excludedOwnGameIds": [
+        "401858474"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Western Michigan",
+          "before": 45.924774139760856,
+          "after": 43.63110960162893,
+          "change": -2.293664538131928
+        },
+        {
+          "team": "Iowa",
+          "before": 67.14623398346347,
+          "after": 65.39564181495744,
+          "change": -1.7505921685060315
+        },
+        {
+          "team": "UTEP",
+          "before": 26.94860706181612,
+          "after": 26.66578968580562,
+          "change": -0.28281737601049883
+        },
+        {
+          "team": "Oklahoma",
+          "before": 56.33037557905189,
+          "after": 56.377333830776934,
+          "change": 0.04695825172504442
+        }
+      ]
+    },
+    {
+      "team": "Sam Houston",
+      "change": 0.6842357739797507,
+      "previousPublishedRating": 33.338888,
+      "baselineRating": 34.88943347462777,
+      "revaluedRating": 35.57366924860752,
+      "currentPublishedRating": 35.573669,
+      "priorChange": 1.5508595503393394,
+      "historicalCorrectionEffect": -0.00031407571156449876,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.4868995751603507e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Texas Tech",
+          "before": 64.35738991432947,
+          "after": 67.58733830559162,
+          "change": 3.229948391262141
+        },
+        {
+          "team": "Troy",
+          "before": 39.66752558276577,
+          "after": 41.559786240211054,
+          "change": 1.8922606574452843
+        },
+        {
+          "team": "Nicholls",
+          "before": 12.865077660072364,
+          "after": 11.417285096762784,
+          "change": -1.44779256330958
+        },
+        {
+          "team": "Tulsa",
+          "before": 42.43846156902064,
+          "after": 43.66155108859574,
+          "change": 1.2230895195751046
+        }
+      ]
+    },
+    {
+      "team": "Old Dominion",
+      "change": 0.6580103326615685,
+      "previousPublishedRating": 35.63698,
+      "baselineRating": 34.377499615779975,
+      "revaluedRating": 35.03550994844154,
+      "currentPublishedRating": 30.630623,
+      "priorChange": -1.25914371256507,
+      "historicalCorrectionEffect": -0.00033667165495643303,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -4.404886703489758,
+      "excludedOwnGameIds": [
+        "401869956"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Norfolk State",
+          "before": 13.526175152618103,
+          "after": 11.348585113404702,
+          "change": -2.177590039213401
+        },
+        {
+          "team": "James Madison",
+          "before": 57.83954318101669,
+          "after": 59.4989551261098,
+          "change": 1.6594119450931117
+        },
+        {
+          "team": "East Carolina",
+          "before": 44.16550735901636,
+          "after": 45.124820252497415,
+          "change": 0.9593128934810551
+        },
+        {
+          "team": "Virginia Tech",
+          "before": 54.124362213617914,
+          "after": 54.66462509801966,
+          "change": 0.5402628844017485
+        }
+      ]
+    },
+    {
+      "team": "Michigan State",
+      "change": 0.6444023896440569,
+      "previousPublishedRating": 54.05359,
+      "baselineRating": 56.17821002697741,
+      "revaluedRating": 56.82261241662147,
+      "currentPublishedRating": 52.361249,
+      "priorChange": 2.1249319340196493,
+      "historicalCorrectionEffect": -0.00031190704223860166,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -4.4613635892955585,
+      "excludedOwnGameIds": [
+        "401858479"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Eastern Michigan",
+          "before": 28.052270171822336,
+          "after": 33.487047223268505,
+          "change": 5.434777051446169
+        },
+        {
+          "team": "Notre Dame",
+          "before": 83.09967686784141,
+          "after": 81.09234059947819,
+          "change": -2.0073362683632183
+        },
+        {
+          "team": "Nebraska",
+          "before": 68.93701760615767,
+          "after": 69.86505488968517,
+          "change": 0.9280372835275017
+        },
+        {
+          "team": "Toledo",
+          "before": 53.610829329535065,
+          "after": 54.49140013809538,
+          "change": 0.8805708085603143
+        }
+      ]
+    },
+    {
+      "team": "Purdue",
+      "change": -0.6379272174056183,
+      "previousPublishedRating": 43.937073,
+      "baselineRating": 45.24079049588092,
+      "revaluedRating": 44.602863278475304,
+      "currentPublishedRating": 47.955583,
+      "priorChange": 1.3040359677319202,
+      "historicalCorrectionEffect": -0.0003184718509956497,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.3527200640879045,
+      "excludedOwnGameIds": [
+        "401858472"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wake Forest",
+          "before": 55.48044571581432,
+          "after": 58.13379582863662,
+          "change": 2.6533501128223023
+        },
+        {
+          "team": "Notre Dame",
+          "before": 83.09967686784141,
+          "after": 80.79760413441653,
+          "change": -2.302072733424879
+        },
+        {
+          "team": "Indiana State",
+          "before": 23.49119083978758,
+          "after": 21.19298440207242,
+          "change": -2.2982064377151623
+        },
+        {
+          "team": "UCLA",
+          "before": 62.194459904376366,
+          "after": 61.19821182500611,
+          "change": -0.996248079370254
+        }
+      ]
+    },
+    {
+      "team": "Louisiana Tech",
+      "change": 0.6235107194979435,
+      "previousPublishedRating": 42.093973,
+      "baselineRating": 42.62695532957049,
+      "revaluedRating": 43.250466049068436,
+      "currentPublishedRating": 45.333241,
+      "priorChange": 0.5332812229719295,
+      "historicalCorrectionEffect": -0.0002988934014354072,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.0827745872766883,
+      "excludedOwnGameIds": [
+        "401869842"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Baylor",
+          "before": 57.97087356234643,
+          "after": 60.93349360520934,
+          "change": 2.962620042862909
+        },
+        {
+          "team": "LSU",
+          "before": 73.20482105555695,
+          "after": 71.84505959310464,
+          "change": -1.3597614624523118
+        },
+        {
+          "team": "Northwestern State",
+          "before": -10.610949447953587,
+          "after": -9.284201280320545,
+          "change": 1.326748167633042
+        }
+      ]
+    },
+    {
+      "team": "Navy",
+      "change": 0.6216745834496962,
+      "previousPublishedRating": 38.645684,
+      "baselineRating": 37.45292025807529,
+      "revaluedRating": 38.074594841524984,
+      "currentPublishedRating": 36.912908,
+      "priorChange": -1.1924781857438447,
+      "historicalCorrectionEffect": -0.0002855561808701168,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.1616873354902992,
+      "excludedOwnGameIds": [
+        "401862791"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Towson",
+          "before": 8.68820972473113,
+          "after": 9.684020920840936,
+          "change": 0.9958111961098055
+        },
+        {
+          "team": "Florida Atlantic",
+          "before": 43.548913295998034,
+          "after": 44.3590205905062,
+          "change": 0.810107294508164
+        },
+        {
+          "team": "UAB",
+          "before": 35.791133759620465,
+          "after": 35.36419822811696,
+          "change": -0.42693553150350283
+        }
+      ]
+    },
+    {
+      "team": "Iowa State",
+      "change": -0.5949315536009436,
+      "previousPublishedRating": 56.539013,
+      "baselineRating": 57.24001253254569,
+      "revaluedRating": 56.64508097894475,
+      "currentPublishedRating": 56.064406,
+      "priorChange": 0.7013144029787313,
+      "historicalCorrectionEffect": -0.0003148704330371288,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.5806750158888292,
+      "excludedOwnGameIds": [
+        "401856822"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Bowling Green",
+          "before": 28.014098711382637,
+          "after": 30.220440481032213,
+          "change": 2.206341769649576
+        },
+        {
+          "team": "Iowa",
+          "before": 67.14623398346347,
+          "after": 64.97575538494904,
+          "change": -2.1704785985144355
+        },
+        {
+          "team": "Southeast Missouri State",
+          "before": 25.471981041718504,
+          "after": 23.72917153336132,
+          "change": -1.7428095083571833
+        },
+        {
+          "team": "Utah",
+          "before": 75.3575329170493,
+          "after": 75.57462771906823,
+          "change": 0.21709480201893427
+        }
+      ]
+    },
+    {
+      "team": "Oklahoma",
+      "change": -0.5799058010402831,
+      "previousPublishedRating": 56.696337,
+      "baselineRating": 56.33037557905189,
+      "revaluedRating": 55.750469778011606,
+      "currentPublishedRating": 55.75047,
+      "priorChange": -0.3656524987915901,
+      "historicalCorrectionEffect": -0.0003089221565204525,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 7.105427357601002e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Michigan",
+          "before": 59.28238989207176,
+          "after": 55.5924122236097,
+          "change": -3.6899776684620633
+        },
+        {
+          "team": "New Mexico",
+          "before": 54.39549394565802,
+          "after": 55.72352698532791,
+          "change": 1.32803303966989
+        },
+        {
+          "team": "UTEP",
+          "before": 26.94860706181612,
+          "after": 25.962739218468702,
+          "change": -0.9858678433474175
+        },
+        {
+          "team": "Georgia",
+          "before": 77.16761512899231,
+          "after": 76.9210336574634,
+          "change": -0.24658147152891274
+        }
+      ]
+    },
+    {
+      "team": "Buffalo",
+      "change": 0.5796930093723098,
+      "previousPublishedRating": 22.257963,
+      "baselineRating": 21.353170921271676,
+      "revaluedRating": 21.932863930643986,
+      "currentPublishedRating": 24.650317,
+      "priorChange": -0.9044877441514956,
+      "historicalCorrectionEffect": -0.00030433457682832454,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.717453365903456,
+      "excludedOwnGameIds": [
+        "401866432"
+      ],
+      "previousOpponents": [
+        {
+          "team": "UAlbany",
+          "before": 13.334501156688145,
+          "after": 18.3958041771793,
+          "change": 5.061303020491156
+        },
+        {
+          "team": "Penn State",
+          "before": 60.2576840190335,
+          "after": 57.75393188831529,
+          "change": -2.5037521307182047
+        },
+        {
+          "team": "Robert Morris",
+          "before": 9.278968029412264,
+          "after": 9.77885266972136,
+          "change": 0.4998846403090962
+        },
+        {
+          "team": "Florida International",
+          "before": 34.536238451059944,
+          "after": 34.466161485413764,
+          "change": -0.07007696564618016
+        }
+      ]
+    },
+    {
+      "team": "Army",
+      "change": -0.5745751992986499,
+      "previousPublishedRating": 48.001183,
+      "baselineRating": 48.93146242990581,
+      "revaluedRating": 48.35688723060716,
+      "currentPublishedRating": 46.683264,
+      "priorChange": 0.9305589804438981,
+      "historicalCorrectionEffect": -0.00027955053808881303,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.6736228332779461,
+      "excludedOwnGameIds": [
+        "401869842"
+      ],
+      "previousOpponents": [
+        {
+          "team": "South Florida",
+          "before": 49.967270971581954,
+          "after": 47.772025090568384,
+          "change": -2.1952458810135695
+        },
+        {
+          "team": "Temple",
+          "before": 43.01948170037571,
+          "after": 44.55076855825954,
+          "change": 1.5312868578838348
+        },
+        {
+          "team": "Bryant",
+          "before": 21.994060862480772,
+          "after": 21.145769714637073,
+          "change": -0.8482911478436996
+        }
+      ]
+    },
+    {
+      "team": "Eastern Michigan",
+      "change": 0.5676087529444196,
+      "previousPublishedRating": 27.908465,
+      "baselineRating": 28.052270171822336,
+      "revaluedRating": 28.619878924766756,
+      "currentPublishedRating": 33.903789,
+      "priorChange": 0.14413443141586768,
+      "historicalCorrectionEffect": -0.00032925959353136136,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 5.283910028529714,
+      "excludedOwnGameIds": [
+        "401866433"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Michigan State",
+          "before": 56.17821002697741,
+          "after": 51.33953543770129,
+          "change": -4.838674589276124
+        },
+        {
+          "team": "Wisconsin",
+          "before": 55.86125247385283,
+          "after": 59.59408363613455,
+          "change": 3.7328311622817196
+        },
+        {
+          "team": "Sacramento State",
+          "before": 16.82056983844489,
+          "after": 18.753510903511803,
+          "change": 1.9329410650669132
+        },
+        {
+          "team": "San José State",
+          "before": 31.384129827358294,
+          "after": 32.89255515544894,
+          "change": 1.5084253280906452
+        },
+        {
+          "team": "Lindenwood",
+          "before": 9.410067434767981,
+          "after": 9.48128455958385,
+          "change": 0.07121712481586862
+        }
+      ]
+    },
+    {
+      "team": "Ball State",
+      "change": 0.5615708055088682,
+      "previousPublishedRating": 27.985065,
+      "baselineRating": 28.71983992825154,
+      "revaluedRating": 29.28141073376041,
+      "currentPublishedRating": 30.727114,
+      "priorChange": 0.735086727160084,
+      "historicalCorrectionEffect": -0.00031179890854104997,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.4457033063773785,
+      "excludedOwnGameIds": [
+        "401866431"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Stony Brook",
+          "before": 21.449817943843012,
+          "after": 20.13632727647221,
+          "change": -1.3134906673708038
+        },
+        {
+          "team": "Kent State",
+          "before": 32.09324496396757,
+          "after": 33.274581123144,
+          "change": 1.181336159176432
+        },
+        {
+          "team": "Ohio State",
+          "before": 73.72497793229716,
+          "after": 74.68298306026648,
+          "change": 0.9580051279693151
+        },
+        {
+          "team": "Liberty",
+          "before": 46.499660368632775,
+          "after": 47.18211569623374,
+          "change": 0.6824553276009624
+        }
+      ]
+    },
+    {
+      "team": "LSU",
+      "change": -0.5572419278020675,
+      "previousPublishedRating": 71.148451,
+      "baselineRating": 73.20482105555695,
+      "revaluedRating": 72.64757912775488,
+      "currentPublishedRating": 72.230238,
+      "priorChange": 2.05666877367689,
+      "historicalCorrectionEffect": -0.00029871811993587016,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.41734136612564043,
+      "excludedOwnGameIds": [
+        "401856706"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Louisiana Tech",
+          "before": 42.62695532957049,
+          "after": 45.32776374822339,
+          "change": 2.7008084186528976
+        },
+        {
+          "team": "Texas A&M",
+          "before": 62.73879005655185,
+          "after": 64.38182487275067,
+          "change": 1.6430348161988206
+        },
+        {
+          "team": "Clemson",
+          "before": 53.06434577764002,
+          "after": 51.54252772456642,
+          "change": -1.521818053073602
+        },
+        {
+          "team": "Ole Miss",
+          "before": 63.182414094203196,
+          "after": 61.71489517814229,
+          "change": -1.4675189160609037
+        }
+      ]
+    },
+    {
+      "team": "Florida State",
+      "change": 0.5519912903501734,
+      "previousPublishedRating": 52.994264,
+      "baselineRating": 53.47997657368367,
+      "revaluedRating": 54.031967864033845,
+      "currentPublishedRating": 59.682901,
+      "priorChange": 0.48602643750936636,
+      "historicalCorrectionEffect": -0.0003138638256956483,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 5.650933129762265,
+      "excludedOwnGameIds": [
+        "401858253"
+      ],
+      "previousOpponents": [
+        {
+          "team": "New Mexico State",
+          "before": 28.370832678423604,
+          "after": 32.038411521174595,
+          "change": 3.6675788427509914
+        },
+        {
+          "team": "Alabama",
+          "before": 80.21338308059947,
+          "after": 83.12084830433588,
+          "change": 2.907465223736409
+        },
+        {
+          "team": "Central Arkansas",
+          "before": 20.902722780167807,
+          "after": 19.326846707737662,
+          "change": -1.5758760724301446
+        },
+        {
+          "team": "SMU",
+          "before": 58.450254730663524,
+          "after": 56.93372765965769,
+          "change": -1.5165270710058323
+        }
+      ]
+    },
+    {
+      "team": "Memphis",
+      "change": 0.5475691317798663,
+      "previousPublishedRating": 49.17624,
+      "baselineRating": 48.96528063053116,
+      "revaluedRating": 49.51284976231103,
+      "currentPublishedRating": 50.329076,
+      "priorChange": -0.21062772244453498,
+      "historicalCorrectionEffect": -0.00033164702430354964,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.8162259004687726,
+      "excludedOwnGameIds": [
+        "401862787"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Arkansas State",
+          "before": 35.187193164441226,
+          "after": 37.625417257921896,
+          "change": 2.4382240934806703
+        },
+        {
+          "team": "UNLV",
+          "before": 42.382517533276655,
+          "after": 43.587657085439346,
+          "change": 1.2051395521626915
+        },
+        {
+          "team": "UT Martin",
+          "before": 17.54771504468683,
+          "after": 16.820799451334388,
+          "change": -0.7269155933524409
+        },
+        {
+          "team": "Boise State",
+          "before": 62.27965412495284,
+          "after": 62.58537797796236,
+          "change": 0.30572385300951765
+        }
+      ]
+    },
+    {
+      "team": "Louisiana",
+      "change": -0.5380678179188294,
+      "previousPublishedRating": 48.096731,
+      "baselineRating": 49.6759314040047,
+      "revaluedRating": 49.13786358608587,
+      "currentPublishedRating": 48.439163,
+      "priorChange": 1.5795079137231554,
+      "historicalCorrectionEffect": -0.0003075097184535025,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.6987002958523547,
+      "excludedOwnGameIds": [
+        "401869932"
+      ],
+      "previousOpponents": [
+        {
+          "team": "UAB",
+          "before": 35.791133759620465,
+          "after": 35.10996087667446,
+          "change": -0.681172882946008
+        },
+        {
+          "team": "Charlotte",
+          "before": 21.650436165256544,
+          "after": 21.283470554446367,
+          "change": -0.3669656108101762
+        },
+        {
+          "team": "Lamar",
+          "before": 33.40904755931318,
+          "after": 33.70163745326878,
+          "change": 0.29258989395560064
+        },
+        {
+          "team": "USC",
+          "before": 65.28205494800473,
+          "after": 65.11212324784336,
+          "change": -0.1699317001613707
+        }
+      ]
+    },
+    {
+      "team": "Wisconsin",
+      "change": -0.5289387265114485,
+      "previousPublishedRating": 54.433501,
+      "baselineRating": 55.86125247385283,
+      "revaluedRating": 55.33231374734138,
+      "currentPublishedRating": 60.711553,
+      "priorChange": 1.4280895125534911,
+      "historicalCorrectionEffect": -0.00033803870066151376,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 5.379239552212802,
+      "excludedOwnGameIds": [
+        "401858479"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Eastern Michigan",
+          "before": 28.052270171822336,
+          "after": 33.487047223268505,
+          "change": 5.434777051446169
+        },
+        {
+          "team": "Penn State",
+          "before": 60.2576840190335,
+          "after": 57.08195564130996,
+          "change": -3.175728377723537
+        },
+        {
+          "team": "Notre Dame",
+          "before": 83.09967686784141,
+          "after": 81.09234059947819,
+          "change": -2.0073362683632183
+        },
+        {
+          "team": "Western Illinois",
+          "before": 21.9031381583265,
+          "after": 20.55903146767072,
+          "change": -1.344106690655778
+        }
+      ]
+    },
+    {
+      "team": "Arizona",
+      "change": -0.5012656405445028,
+      "previousPublishedRating": 56.871681,
+      "baselineRating": 56.370961944672516,
+      "revaluedRating": 55.86969630412801,
+      "currentPublishedRating": 60.722679,
+      "priorChange": -0.500384973410668,
+      "historicalCorrectionEffect": -0.00033408191681871813,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 4.852982519537633,
+      "excludedOwnGameIds": [
+        "401856820"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Northern Arizona",
+          "before": 29.244441182330323,
+          "after": 31.688478328245285,
+          "change": 2.4440371459149617
+        },
+        {
+          "team": "Washington State",
+          "before": 40.71156886074434,
+          "after": 38.294717132720976,
+          "change": -2.4168517280233672
+        },
+        {
+          "team": "BYU",
+          "before": 68.97193617987449,
+          "after": 66.67000896094868,
+          "change": -2.3019272189258118
+        },
+        {
+          "team": "Northern Illinois",
+          "before": 25.387865106487254,
+          "after": 25.5717787859236,
+          "change": 0.18391367943634407
+        }
+      ]
+    },
+    {
+      "team": "Florida International",
+      "change": 0.4812918156927921,
+      "previousPublishedRating": 35.255312,
+      "baselineRating": 34.536238451059944,
+      "revaluedRating": 35.017530266752736,
+      "currentPublishedRating": 35.01753,
+      "priorChange": -0.7187708063844909,
+      "historicalCorrectionEffect": -0.0003027425555686136,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.4921397450962104e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Buffalo",
+          "before": 21.353170921271676,
+          "after": 24.650317296547474,
+          "change": 3.2971463752757977
+        },
+        {
+          "team": "South Florida",
+          "before": 49.967270971581954,
+          "after": 47.20659350334847,
+          "change": -2.7606774682334816
+        },
+        {
+          "team": "Long Island University",
+          "before": 4.630418015140613,
+          "after": 6.113648900136003,
+          "change": 1.4832308849953897
+        },
+        {
+          "team": "Florida Atlantic",
+          "before": 43.548913295998034,
+          "after": 44.00299591508502,
+          "change": 0.4540826190869893
+        }
+      ]
+    },
+    {
+      "team": "Georgia State",
+      "change": 0.47266189982392603,
+      "previousPublishedRating": 41.195605,
+      "baselineRating": 43.09348324983317,
+      "revaluedRating": 43.566145149657096,
+      "currentPublishedRating": 47.973359,
+      "priorChange": 1.8982018838994605,
+      "historicalCorrectionEffect": -0.00032363406629087876,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 4.407214075663184,
+      "excludedOwnGameIds": [
+        "401869956"
+      ],
+      "previousOpponents": [
+        {
+          "team": "North Carolina A&T",
+          "before": 4.223174597569745,
+          "after": 6.505065902994341,
+          "change": 2.2818913054245957
+        },
+        {
+          "team": "Kennesaw State",
+          "before": 39.722755171509434,
+          "after": 40.76485140716383,
+          "change": 1.0420962356543981
+        },
+        {
+          "team": "UCF",
+          "before": 57.36293479521213,
+          "after": 56.379000964400134,
+          "change": -0.983933830811992
+        },
+        {
+          "team": "Northern Illinois",
+          "before": 25.387865106487254,
+          "after": 25.46518499043624,
+          "change": 0.07731988394898437
+        }
+      ]
+    },
+    {
+      "team": "Tennessee",
+      "change": -0.4619944428888232,
+      "previousPublishedRating": 65.529313,
+      "baselineRating": 66.70231787100394,
+      "revaluedRating": 66.24032342811512,
+      "currentPublishedRating": 67.740451,
+      "priorChange": 1.1733452595041172,
+      "historicalCorrectionEffect": -0.00034038850017736877,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.5001272284621336,
+      "excludedOwnGameIds": [
+        "401856710"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Furman",
+          "before": 27.09310839359542,
+          "after": 24.258770080257076,
+          "change": -2.8343383133383426
+        },
+        {
+          "team": "Kennesaw State",
+          "before": 39.722755171509434,
+          "after": 41.62905390682748,
+          "change": 1.906298735318046
+        },
+        {
+          "team": "Texas",
+          "before": 75.31224043790067,
+          "after": 73.61545252547985,
+          "change": -1.6967879124208167
+        },
+        {
+          "team": "Georgia Tech",
+          "before": 46.055158606418615,
+          "after": 45.99405798580033,
+          "change": -0.061100620618283585
+        }
+      ]
+    },
+    {
+      "team": "App State",
+      "change": -0.4464957486528647,
+      "previousPublishedRating": 40.346928,
+      "baselineRating": 40.648005780776685,
+      "revaluedRating": 40.20151003212382,
+      "currentPublishedRating": 40.20151,
+      "priorChange": 0.3013916408710102,
+      "historicalCorrectionEffect": -0.000313860094323104,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -7.105427357601002e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Maine",
+          "before": 8.206794705093124,
+          "after": 6.400253803389084,
+          "change": -1.8065409017040395
+        },
+        {
+          "team": "NC State",
+          "before": 53.03166138938306,
+          "after": 52.47599308350156,
+          "change": -0.555668305881504
+        },
+        {
+          "team": "Charlotte",
+          "before": 21.650436165256544,
+          "after": 21.206355128637693,
+          "change": -0.4440810366188508
+        },
+        {
+          "team": "East Carolina",
+          "before": 44.16550735901636,
+          "after": 44.27149614134139,
+          "change": 0.10598878232502784
+        }
+      ]
+    },
+    {
+      "team": "USC",
+      "change": 0.42787234670414875,
+      "previousPublishedRating": 64.743954,
+      "baselineRating": 65.28205494800473,
+      "revaluedRating": 65.70992729470888,
+      "currentPublishedRating": 64.906809,
+      "priorChange": 0.538423496614783,
+      "historicalCorrectionEffect": -0.0003225486100575381,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.8031186362073868,
+      "excludedOwnGameIds": [
+        "401858478"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Fresno State",
+          "before": 45.591278001080155,
+          "after": 49.369981700094705,
+          "change": 3.7787036990145495
+        },
+        {
+          "team": "San José State",
+          "before": 31.384129827358294,
+          "after": 33.774298167717156,
+          "change": 2.390168340358862
+        },
+        {
+          "team": "Louisiana",
+          "before": 49.6759314040047,
+          "after": 48.50872278998483,
+          "change": -1.16720861401987
+        },
+        {
+          "team": "Rutgers",
+          "before": 41.09982991587441,
+          "after": 40.29795423955458,
+          "change": -0.8018756763198311
+        },
+        {
+          "team": "Oregon",
+          "before": 67.28366353190872,
+          "after": 67.53911292621791,
+          "change": 0.25544939430919555
+        }
+      ]
+    },
+    {
+      "team": "Utah State",
+      "change": 0.4094231186402908,
+      "previousPublishedRating": 41.770916,
+      "baselineRating": 41.446443939160645,
+      "revaluedRating": 41.855867057800936,
+      "currentPublishedRating": 41.623156,
+      "priorChange": -0.32416026407360476,
+      "historicalCorrectionEffect": -0.0003117967657502163,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.2327110780676236,
+      "excludedOwnGameIds": [
+        "401860898"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Idaho State",
+          "before": 36.60210826435924,
+          "after": 34.90230215633509,
+          "change": -1.6998061080241484
+        },
+        {
+          "team": "Troy",
+          "before": 39.66752558276577,
+          "after": 41.288324176012914,
+          "change": 1.6207985932471445
+        },
+        {
+          "team": "Washington",
+          "before": 52.6125422638536,
+          "after": 53.538289387572405,
+          "change": 0.9257471237188071
+        },
+        {
+          "team": "Utah",
+          "before": 75.3575329170493,
+          "after": 75.28943641977658,
+          "change": -0.0680964972727196
+        }
+      ]
+    },
+    {
+      "team": "Charlotte",
+      "change": 0.4078403319926913,
+      "previousPublishedRating": 21.505433,
+      "baselineRating": 21.650436165256544,
+      "revaluedRating": 22.058276497249235,
+      "currentPublishedRating": 21.206355,
+      "priorChange": 0.14531090337169417,
+      "historicalCorrectionEffect": -0.0003077381151506131,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.8519213686114213,
+      "excludedOwnGameIds": [
+        "401862787"
+      ],
+      "previousOpponents": [
+        {
+          "team": "The Citadel",
+          "before": 10.154535856546268,
+          "after": 14.40106109098761,
+          "change": 4.246525234441343
+        },
+        {
+          "team": "Ole Miss",
+          "before": 63.182414094203196,
+          "after": 61.207850922989664,
+          "change": -1.974563171213532
+        },
+        {
+          "team": "Louisiana",
+          "before": 49.6759314040047,
+          "after": 48.604360517716756,
+          "change": -1.0715708862879438
+        },
+        {
+          "team": "App State",
+          "before": 40.648005780776685,
+          "after": 40.13648754069251,
+          "change": -0.5115182400841789
+        }
+      ]
+    },
+    {
+      "team": "Air Force",
+      "change": -0.4019426961469321,
+      "previousPublishedRating": 41.749476,
+      "baselineRating": 42.3352514482648,
+      "revaluedRating": 41.93330875211787,
+      "currentPublishedRating": 42.794366,
+      "priorChange": 0.5860493780593998,
+      "historicalCorrectionEffect": -0.00027392979460216793,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.8610568157247229,
+      "excludedOwnGameIds": [
+        "401862791"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Nevada",
+          "before": 36.23161844593041,
+          "after": 34.413096178512475,
+          "change": -1.8185222674179329
+        },
+        {
+          "team": "North Dakota State",
+          "before": 54.1644433866304,
+          "after": 54.89769768262593,
+          "change": 0.733254295995529
+        },
+        {
+          "team": "Duquesne",
+          "before": 14.27112565450047,
+          "after": 14.347863351026998,
+          "change": 0.07673769652652851
+        }
+      ]
+    },
+    {
+      "team": "Houston",
+      "change": 0.3943016148443519,
+      "previousPublishedRating": 59.379897,
+      "baselineRating": 60.58372735333286,
+      "revaluedRating": 60.97802896817721,
+      "currentPublishedRating": 62.925862,
+      "priorChange": 1.204158478070113,
+      "historicalCorrectionEffect": -0.00032812473725130076,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.9478332249336177,
+      "excludedOwnGameIds": [
+        "401856819"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Southern",
+          "before": 7.955483828726592,
+          "after": 3.168246449838465,
+          "change": -4.787237378888127
+        },
+        {
+          "team": "Oregon State",
+          "before": 52.065401852193006,
+          "after": 55.76295502124401,
+          "change": 3.6975531690510053
+        },
+        {
+          "team": "Texas Tech",
+          "before": 64.35738991432947,
+          "after": 67.08321945434976,
+          "change": 2.7258295400202854
+        },
+        {
+          "team": "Georgia Southern",
+          "before": 38.452984833535766,
+          "after": 39.243472399469006,
+          "change": 0.7904875659332404
+        }
+      ]
+    },
+    {
+      "team": "Miami (OH)",
+      "change": -0.38814361098916805,
+      "previousPublishedRating": 46.168141,
+      "baselineRating": 46.93193441605336,
+      "revaluedRating": 46.54379080506419,
+      "currentPublishedRating": 42.300369,
+      "priorChange": 0.7640902517993524,
+      "historicalCorrectionEffect": -0.0002968357459920412,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -4.243421651942633,
+      "excludedOwnGameIds": [
+        "401866477"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Holy Cross",
+          "before": 8.878917268881299,
+          "after": 12.848972175542475,
+          "change": 3.9700549066611757
+        },
+        {
+          "team": "Cincinnati",
+          "before": 56.25131353916683,
+          "after": 53.049019731085394,
+          "change": -3.2022938080814356
+        },
+        {
+          "team": "UConn",
+          "before": 44.79132845345535,
+          "after": 43.94536924583866,
+          "change": -0.8459592076166871
+        },
+        {
+          "team": "Pittsburgh",
+          "before": 62.67114524194474,
+          "after": 61.97630926277456,
+          "change": -0.694835979170179
+        }
+      ]
+    },
+    {
+      "team": "Northwestern",
+      "change": -0.38215345017982827,
+      "previousPublishedRating": 60.397173,
+      "baselineRating": 62.465206556046546,
+      "revaluedRating": 62.08305310586672,
+      "currentPublishedRating": 67.218407,
+      "priorChange": 2.068323790899619,
+      "historicalCorrectionEffect": -0.0002902348530753329,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 5.135353551713358,
+      "excludedOwnGameIds": [
+        "401858476"
+      ],
+      "previousOpponents": [
+        {
+          "team": "South Dakota State",
+          "before": 47.930738952505145,
+          "after": 48.985893395440776,
+          "change": 1.0551544429356312
+        },
+        {
+          "team": "Indiana",
+          "before": 70.3743172968573,
+          "after": 69.57971218450072,
+          "change": -0.794605112356578
+        },
+        {
+          "team": "Colorado",
+          "before": 44.49377282292647,
+          "after": 44.85930756021068,
+          "change": 0.36553473728420727
+        }
+      ]
+    },
+    {
+      "team": "Georgia Tech",
+      "change": 0.36356647976988654,
+      "previousPublishedRating": 46.66699,
+      "baselineRating": 46.055158606418615,
+      "revaluedRating": 46.4187250861885,
+      "currentPublishedRating": 46.418725,
+      "priorChange": -0.611510018945495,
+      "historicalCorrectionEffect": -0.00032137463588810533,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.842170943040401e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Stanford",
+          "before": 42.122203151524886,
+          "after": 39.01967561097603,
+          "change": -3.1025275405488557
+        },
+        {
+          "team": "Colorado",
+          "before": 44.49377282292647,
+          "after": 46.22848612218017,
+          "change": 1.7347132992536984
+        },
+        {
+          "team": "Mercer",
+          "before": 31.120345521392256,
+          "after": 32.62853862309251,
+          "change": 1.508193101700254
+        },
+        {
+          "team": "Tennessee",
+          "before": 66.70231787100394,
+          "after": 67.74045065657725,
+          "change": 1.0381327855733105
+        }
+      ]
+    },
+    {
+      "team": "Middle Tennessee",
+      "change": -0.3458483258756999,
+      "previousPublishedRating": 32.402284,
+      "baselineRating": 33.23467849909656,
+      "revaluedRating": 32.88883017322086,
+      "currentPublishedRating": 29.863281,
+      "priorChange": 0.8327139123720855,
+      "historicalCorrectionEffect": -0.0003194132755268697,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -3.0255488657407597,
+      "excludedOwnGameIds": [
+        "401856807"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Marshall",
+          "before": 37.73482610423892,
+          "after": 35.286875707749005,
+          "change": -2.447950396489915
+        },
+        {
+          "team": "Murray State",
+          "before": 5.580589806258313,
+          "after": 7.508845339257519,
+          "change": 1.9282555329992057
+        },
+        {
+          "team": "Nevada",
+          "before": 36.23161844593041,
+          "after": 34.95528809721237,
+          "change": -1.2763303487180409
+        },
+        {
+          "team": "Jacksonville State",
+          "before": 40.0659763741391,
+          "after": 40.5286516573779,
+          "change": 0.46267528323880214
+        }
+      ]
+    },
+    {
+      "team": "Florida",
+      "change": -0.3403398567562448,
+      "previousPublishedRating": 70.78537,
+      "baselineRating": 73.87573225187546,
+      "revaluedRating": 73.53539239511922,
+      "currentPublishedRating": 66.885187,
+      "priorChange": 3.0906726622160363,
+      "historicalCorrectionEffect": -0.00031041034057466277,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -6.6502056928516,
+      "excludedOwnGameIds": [
+        "401856708"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Florida Atlantic",
+          "before": 43.548913295998034,
+          "after": 45.110733990398714,
+          "change": 1.56182069440068
+        },
+        {
+          "team": "Auburn",
+          "before": 63.016732497718266,
+          "after": 61.707903701927634,
+          "change": -1.3088287957906317
+        },
+        {
+          "team": "Ole Miss",
+          "before": 63.182414094203196,
+          "after": 62.187106143407746,
+          "change": -0.9953079507954499
+        },
+        {
+          "team": "Campbell",
+          "before": 27.841450427860817,
+          "after": 27.94680215579457,
+          "change": 0.10535172793375125
+        }
+      ]
+    },
+    {
+      "team": "Illinois",
+      "change": -0.33192971942980876,
+      "previousPublishedRating": 55.390092,
+      "baselineRating": 55.658225841816744,
+      "revaluedRating": 55.326296122386935,
+      "currentPublishedRating": 52.042311,
+      "priorChange": 0.2684443215451182,
+      "historicalCorrectionEffect": -0.00031047972837683346,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -3.2839846550479876,
+      "excludedOwnGameIds": [
+        "401858472"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Ohio State",
+          "before": 73.72497793229716,
+          "after": 75.90603707549089,
+          "change": 2.181059143193721
+        },
+        {
+          "team": "Duke",
+          "before": 60.969507898963045,
+          "after": 58.83782026572745,
+          "change": -2.131687633235593
+        },
+        {
+          "team": "Southern Illinois",
+          "before": 31.018334341697198,
+          "after": 29.828810544151903,
+          "change": -1.189523797545295
+        },
+        {
+          "team": "UAB",
+          "before": 35.791133759620465,
+          "after": 35.50088046315702,
+          "change": -0.29025329646344744
+        }
+      ]
+    },
+    {
+      "team": "Oklahoma State",
+      "change": 0.3273519653659278,
+      "previousPublishedRating": 48.597734,
+      "baselineRating": 50.84344854874394,
+      "revaluedRating": 51.17080051410987,
+      "currentPublishedRating": 51.170801,
+      "priorChange": 2.2460382185688914,
+      "historicalCorrectionEffect": -0.0003236698249509118,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 4.973799150320701e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "West Virginia",
+          "before": 49.12926629407201,
+          "after": 47.60097028779039,
+          "change": -1.5282960062816215
+        },
+        {
+          "team": "Murray State",
+          "before": 5.580589806258313,
+          "after": 7.032781590231117,
+          "change": 1.452191783972804
+        },
+        {
+          "team": "Tulsa",
+          "before": 42.43846156902064,
+          "after": 43.66155108859574,
+          "change": 1.2230895195751046
+        },
+        {
+          "team": "Oregon",
+          "before": 67.28366353190872,
+          "after": 67.07252793044806,
+          "change": -0.21113560146065424
+        }
+      ]
+    },
+    {
+      "team": "Oregon State",
+      "change": 0.32252169169209566,
+      "previousPublishedRating": 50.219691,
+      "baselineRating": 52.065401852193006,
+      "revaluedRating": 52.3879235438851,
+      "currentPublishedRating": 56.414854,
+      "priorChange": 1.8460298245663012,
+      "historicalCorrectionEffect": -0.00031897237329303607,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 4.026930185471976,
+      "excludedOwnGameIds": [
+        "401860899"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Texas Tech",
+          "before": 64.35738991432947,
+          "after": 66.69196006534418,
+          "change": 2.3345701510147023
+        },
+        {
+          "team": "Montana",
+          "before": 36.24780095913794,
+          "after": 38.063738860445035,
+          "change": 1.8159379013070946
+        },
+        {
+          "team": "UTEP",
+          "before": 26.94860706181612,
+          "after": 25.14879472063975,
+          "change": -1.79981234117637
+        },
+        {
+          "team": "Houston",
+          "before": 60.58372735333286,
+          "after": 62.13048636230725,
+          "change": 1.5467590089743908
+        }
+      ]
+    },
+    {
+      "team": "Minnesota",
+      "change": -0.31666478661547615,
+      "previousPublishedRating": 48.650876,
+      "baselineRating": 49.11641984187545,
+      "revaluedRating": 48.79975505525997,
+      "currentPublishedRating": 51.876842,
+      "priorChange": 0.46586045322577263,
+      "historicalCorrectionEffect": -0.00031661135032123866,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.077086615456139,
+      "excludedOwnGameIds": [
+        "401858474"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Akron",
+          "before": 24.09992936704657,
+          "after": 22.620365697058503,
+          "change": -1.4795636699880674
+        },
+        {
+          "team": "Washington",
+          "before": 52.6125422638536,
+          "after": 52.85065310767307,
+          "change": 0.23811084381947012
+        },
+        {
+          "team": "Eastern Illinois",
+          "before": 13.990327331654981,
+          "after": 13.922439831393692,
+          "change": -0.06788750026128909
+        },
+        {
+          "team": "Mississippi State",
+          "before": 65.48731620543134,
+          "after": 65.5331023116992,
+          "change": 0.04578610626785462
+        }
+      ]
+    },
+    {
+      "team": "Texas State",
+      "change": -0.29233059914680837,
+      "previousPublishedRating": 52.082002,
+      "baselineRating": 53.626335174676946,
+      "revaluedRating": 53.33400457553014,
+      "currentPublishedRating": 50.815913,
+      "priorChange": 1.5447764773218253,
+      "historicalCorrectionEffect": -0.0004433026448822375,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.518091816829532,
+      "excludedOwnGameIds": [
+        "401860900"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Incarnate Word",
+          "before": 21.265704589623862,
+          "after": 26.18242783102987,
+          "change": 4.916723241406007
+        },
+        {
+          "team": "UTSA",
+          "before": 55.87986294679315,
+          "after": 52.2436724874841,
+          "change": -3.6361904593090557
+        },
+        {
+          "team": "Texas",
+          "before": 75.31224043790067,
+          "after": 74.91485370339129,
+          "change": -0.3973867345093822
+        },
+        {
+          "team": "North Texas",
+          "before": 50.93603915068542,
+          "after": 50.90975715356955,
+          "change": -0.026281997115866318
+        }
+      ]
+    },
+    {
+      "team": "South Florida",
+      "change": -0.2716897646439804,
+      "previousPublishedRating": 50.988515,
+      "baselineRating": 49.967270971581954,
+      "revaluedRating": 49.69558120693797,
+      "currentPublishedRating": 47.206594,
+      "priorChange": -1.0209414022555094,
+      "historicalCorrectionEffect": -0.0003026261625365123,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.4889877035895864,
+      "excludedOwnGameIds": [
+        "401862792"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Delaware State",
+          "before": 15.224061655878558,
+          "after": 11.248549059347575,
+          "change": -3.975512596530983
+        },
+        {
+          "team": "Bowling Green",
+          "before": 28.014098711382637,
+          "after": 30.950765053275468,
+          "change": 2.936666341892831
+        },
+        {
+          "team": "Army",
+          "before": 48.93146242990581,
+          "after": 46.67043341644631,
+          "change": -2.261029013459499
+        },
+        {
+          "team": "Florida International",
+          "before": 34.536238451059944,
+          "after": 35.60381181669926,
+          "change": 1.0675733656393191
+        }
+      ]
+    },
+    {
+      "team": "Iowa",
+      "change": -0.2603620797163586,
+      "previousPublishedRating": 66.178106,
+      "baselineRating": 67.14623398346347,
+      "revaluedRating": 66.88587190374712,
+      "currentPublishedRating": 64.913321,
+      "priorChange": 0.9684507519218215,
+      "historicalCorrectionEffect": -0.0003227684583464452,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.9725510610853831,
+      "excludedOwnGameIds": [
+        "401858473"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Michigan",
+          "before": 59.28238989207176,
+          "after": 56.10969740469264,
+          "change": -3.1726924873791233
+        },
+        {
+          "team": "Northern Illinois",
+          "before": 25.387865106487254,
+          "after": 26.95798095020151,
+          "change": 1.5701158437142553
+        },
+        {
+          "team": "Iowa State",
+          "before": 57.24001253254569,
+          "after": 56.52174320818801,
+          "change": -0.7182693243576779
+        },
+        {
+          "team": "Northern Iowa",
+          "before": 25.28762671501692,
+          "after": 25.3517499816001,
+          "change": 0.0641232665831808
+        }
+      ]
+    },
+    {
+      "team": "Washington",
+      "change": 0.26031259369069204,
+      "previousPublishedRating": 53.698412,
+      "baselineRating": 52.6125422638536,
+      "revaluedRating": 52.87285485754429,
+      "currentPublishedRating": 53.630225,
+      "priorChange": -1.0855551453542773,
+      "historicalCorrectionEffect": -0.00031459079212226015,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.7573696940974912,
+      "excludedOwnGameIds": [
+        "401858478"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Minnesota",
+          "before": 49.11641984187545,
+          "after": 51.86165120883787,
+          "change": 2.7452313669624218
+        },
+        {
+          "team": "Washington State",
+          "before": 40.71156886074434,
+          "after": 38.71601496506476,
+          "change": -1.9955538956795849
+        },
+        {
+          "team": "Eastern Washington",
+          "before": 24.0516373621424,
+          "after": 23.63108424885602,
+          "change": -0.4205531132863811
+        },
+        {
+          "team": "Utah State",
+          "before": 41.446443939160645,
+          "after": 41.618420855751275,
+          "change": 0.17197691659062997
+        }
+      ]
+    },
+    {
+      "team": "UCLA",
+      "change": -0.24984934434875328,
+      "previousPublishedRating": 59.983718,
+      "baselineRating": 62.194459904376366,
+      "revaluedRating": 61.94461056002761,
+      "currentPublishedRating": 61.944611,
+      "priorChange": 2.211049019093039,
+      "historicalCorrectionEffect": -0.00030711471667643764,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.1368683772161603e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Purdue",
+          "before": 45.24079049588092,
+          "after": 47.955583342563386,
+          "change": 2.714792846682464
+        },
+        {
+          "team": "San Diego State",
+          "before": 40.97351641449464,
+          "after": 43.67437668408119,
+          "change": 2.700860269586549
+        },
+        {
+          "team": "California",
+          "before": 42.847050703368204,
+          "after": 40.187679542110416,
+          "change": -2.6593711612577877
+        },
+        {
+          "team": "Maryland",
+          "before": 46.34348043788487,
+          "after": 44.6135813980526,
+          "change": -1.7298990398322687
+        }
+      ]
+    },
+    {
+      "team": "Boise State",
+      "change": -0.24461617368466193,
+      "previousPublishedRating": 60.946471,
+      "baselineRating": 62.27965412495284,
+      "revaluedRating": 62.03503795126818,
+      "currentPublishedRating": 62.594051,
+      "priorChange": 1.3335004989977932,
+      "historicalCorrectionEffect": -0.0003173740449540219,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.5590129773016628,
+      "excludedOwnGameIds": [
+        "401860898"
+      ],
+      "previousOpponents": [
+        {
+          "team": "South Dakota",
+          "before": 42.15384574780738,
+          "after": 45.7361848910063,
+          "change": 3.582339143198922
+        },
+        {
+          "team": "Western Michigan",
+          "before": 45.924774139760856,
+          "after": 42.587426331961765,
+          "change": -3.337347807799091
+        },
+        {
+          "team": "Memphis",
+          "before": 48.96528063053116,
+          "after": 50.05437127351177,
+          "change": 1.089090642980608
+        },
+        {
+          "team": "Oregon",
+          "before": 67.28366353190872,
+          "after": 67.06192218506294,
+          "change": -0.22174134684577496
+        }
+      ]
+    },
+    {
+      "team": "Georgia Southern",
+      "change": 0.24454193268692137,
+      "previousPublishedRating": 37.956452,
+      "baselineRating": 38.452984833535766,
+      "revaluedRating": 38.69752676622269,
+      "currentPublishedRating": 39.515881,
+      "priorChange": 0.49685198252283413,
+      "historicalCorrectionEffect": -0.0003191489870673081,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.8183543352615885,
+      "excludedOwnGameIds": [
+        "401869942"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Houston",
+          "before": 60.58372735333286,
+          "after": 62.625191873061425,
+          "change": 2.0414645197285637
+        },
+        {
+          "team": "Charleston Southern",
+          "before": 10.918408358437208,
+          "after": 12.808317835616563,
+          "change": 1.889909477179355
+        },
+        {
+          "team": "Clemson",
+          "before": 53.06434577764002,
+          "after": 51.70991511559554,
+          "change": -1.3544306620444786
+        },
+        {
+          "team": "Jacksonville State",
+          "before": 40.0659763741391,
+          "after": 39.80069217392423,
+          "change": -0.26528420021486454
+        }
+      ]
+    },
+    {
+      "team": "Western Michigan",
+      "change": -0.23941648047198782,
+      "previousPublishedRating": 45.255234,
+      "baselineRating": 45.924774139760856,
+      "revaluedRating": 45.68535765928887,
+      "currentPublishedRating": 42.85582,
+      "priorChange": 0.6698555364505978,
+      "historicalCorrectionEffect": -0.00031539668974289725,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.8295376692275767,
+      "excludedOwnGameIds": [
+        "401866432"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Michigan",
+          "before": 59.28238989207176,
+          "after": 56.01020010827982,
+          "change": -3.2721897837919443
+        },
+        {
+          "team": "Rice",
+          "before": 34.07226524938348,
+          "after": 37.17498508641713,
+          "change": 3.1027198370336535
+        },
+        {
+          "team": "Monmouth",
+          "before": 22.89161058791026,
+          "after": 21.15557825306928,
+          "change": -1.7360323348409814
+        },
+        {
+          "team": "Boise State",
+          "before": 62.27965412495284,
+          "after": 63.32933410828473,
+          "change": 1.0496799833318917
+        }
+      ]
+    },
+    {
+      "team": "Wyoming",
+      "change": -0.23227580806688763,
+      "previousPublishedRating": 31.235794,
+      "baselineRating": 30.82687707465808,
+      "revaluedRating": 30.59460126659119,
+      "currentPublishedRating": 29.331222,
+      "priorChange": -0.40860170544250707,
+      "historicalCorrectionEffect": -0.00031521989941296624,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.2633789822994004,
+      "excludedOwnGameIds": [
+        "401864515"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Colorado State",
+          "before": 43.82429954175536,
+          "after": 40.02332828924491,
+          "change": -3.8009712525104504
+        },
+        {
+          "team": "Central Michigan",
+          "before": 34.6764999889058,
+          "after": 37.96447159795862,
+          "change": 3.2879716090528177
+        },
+        {
+          "team": "Northern Colorado",
+          "before": 22.525049065325963,
+          "after": 22.02412833893906,
+          "change": -0.5009207263869015
+        },
+        {
+          "team": "Hawai'i",
+          "before": 30.045539053387877,
+          "after": 29.673181537085817,
+          "change": -0.3723575163020598
+        }
+      ]
+    },
+    {
+      "team": "Missouri State",
+      "change": 0.22172677740280733,
+      "previousPublishedRating": 40.10343,
+      "baselineRating": 40.041674303461306,
+      "revaluedRating": 40.263401080864114,
+      "currentPublishedRating": 40.263401,
+      "priorChange": -0.06144960745091055,
+      "historicalCorrectionEffect": -0.0003060890877861766,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 8.526512829121202e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Marshall",
+          "before": 37.73482610423892,
+          "after": 34.66851889958134,
+          "change": -3.0663072046575763
+        },
+        {
+          "team": "Texas A&M",
+          "before": 62.73879005655185,
+          "after": 64.7238529286598,
+          "change": 1.985062872107946
+        },
+        {
+          "team": "Lindenwood",
+          "before": 9.410067434767981,
+          "after": 10.754476863779583,
+          "change": 1.344409429011602
+        },
+        {
+          "team": "SMU",
+          "before": 58.450254730663524,
+          "after": 57.93476904892722,
+          "change": -0.5154856817363012
+        }
+      ]
+    },
+    {
+      "team": "Western Kentucky",
+      "change": -0.21742349917713,
+      "previousPublishedRating": 30.803236,
+      "baselineRating": 29.96654205862931,
+      "revaluedRating": 29.74911855945218,
+      "currentPublishedRating": 25.792216,
+      "priorChange": -0.8363778323600712,
+      "historicalCorrectionEffect": -0.0003161090106154063,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -3.956902533833695,
+      "excludedOwnGameIds": [
+        "401871049"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Indiana",
+          "before": 70.3743172968573,
+          "after": 71.17229461140212,
+          "change": 0.7979773145448235
+        },
+        {
+          "team": "Mercyhurst",
+          "before": 3.3508522844048585,
+          "after": 2.5728319034574696,
+          "change": -0.7780203809473889
+        },
+        {
+          "team": "Georgia",
+          "before": 77.16761512899231,
+          "after": 77.78841660844586,
+          "change": 0.6208014794535472
+        },
+        {
+          "team": "Nevada",
+          "before": 36.23161844593041,
+          "after": 36.05274474115884,
+          "change": -0.1788737047715685
+        }
+      ]
+    },
+    {
+      "team": "Jacksonville State",
+      "change": -0.21671556952214388,
+      "previousPublishedRating": 39.672208,
+      "baselineRating": 40.0659763741391,
+      "revaluedRating": 39.849260804616954,
+      "currentPublishedRating": 39.849261,
+      "priorChange": 0.3940913645514712,
+      "historicalCorrectionEffect": -0.00032299041237138226,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.3500311979441904e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Middle Tennessee",
+          "before": 33.23467849909656,
+          "after": 29.863281307480307,
+          "change": -3.3713971916162535
+        },
+        {
+          "team": "Georgia Southern",
+          "before": 38.452984833535766,
+          "after": 39.515881101484354,
+          "change": 1.062896267948588
+        },
+        {
+          "team": "North Dakota State",
+          "before": 54.1644433866304,
+          "after": 55.17615105973742,
+          "change": 1.0117076731070185
+        },
+        {
+          "team": "Eastern Kentucky",
+          "before": 14.13430140799853,
+          "after": 14.76312244014494,
+          "change": 0.6288210321464103
+        },
+        {
+          "team": "Ohio",
+          "before": 39.354977221467465,
+          "after": 39.25590297130448,
+          "change": -0.09907425016298532
+        }
+      ]
+    },
+    {
+      "team": "Oregon",
+      "change": -0.21113560146065424,
+      "previousPublishedRating": 66.902198,
+      "baselineRating": 67.28366353190872,
+      "revaluedRating": 67.07252793044806,
+      "currentPublishedRating": 67.072528,
+      "priorChange": 0.3817826428495863,
+      "historicalCorrectionEffect": -0.0003171109408697248,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.1316282072803006e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Portland State",
+          "before": 14.909772322367367,
+          "after": 15.5912005456088,
+          "change": 0.6814282232414328
+        },
+        {
+          "team": "USC",
+          "before": 65.28205494800473,
+          "after": 64.9068086585016,
+          "change": -0.37524628950312433
+        },
+        {
+          "team": "Oklahoma State",
+          "before": 50.84344854874394,
+          "after": 51.17080051410987,
+          "change": 0.3273519653659278
+        },
+        {
+          "team": "Boise State",
+          "before": 62.27965412495284,
+          "after": 62.59405092857003,
+          "change": 0.3143968036171856
+        }
+      ]
+    },
+    {
+      "team": "Louisville",
+      "change": -0.21104438026957695,
+      "previousPublishedRating": 57.11452,
+      "baselineRating": 57.16295633412287,
+      "revaluedRating": 56.95191195385329,
+      "currentPublishedRating": 55.020992,
+      "priorChange": 0.04874209005244978,
+      "historicalCorrectionEffect": -0.00030575592958115294,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.9309197022020328,
+      "excludedOwnGameIds": [
+        "401858248"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wake Forest",
+          "before": 55.48044571581432,
+          "after": 59.36240679248517,
+          "change": 3.881961076670848
+        },
+        {
+          "team": "Villanova",
+          "before": 18.912747221001986,
+          "after": 16.247669125916417,
+          "change": -2.665078095085569
+        },
+        {
+          "team": "Ole Miss",
+          "before": 63.182414094203196,
+          "after": 61.52125485811261,
+          "change": -1.6611592360905831
+        },
+        {
+          "team": "SMU",
+          "before": 58.450254730663524,
+          "after": 58.03953591135499,
+          "change": -0.41071881930853493
+        }
+      ]
+    },
+    {
+      "team": "Tulsa",
+      "change": 0.19954013013549599,
+      "previousPublishedRating": 40.789656,
+      "baselineRating": 42.43846156902064,
+      "revaluedRating": 42.638001699156135,
+      "currentPublishedRating": 43.661551,
+      "priorChange": 1.64912440908779,
+      "historicalCorrectionEffect": -0.00031884006715188207,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.0235493894396015,
+      "excludedOwnGameIds": [
+        "401862786"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Arkansas",
+          "before": 50.86269476807303,
+          "after": 48.19281588450504,
+          "change": -2.669878883567989
+        },
+        {
+          "team": "East Texas A&M",
+          "before": 16.0955703907047,
+          "after": 18.24709174240533,
+          "change": 2.15152135170063
+        },
+        {
+          "team": "Oklahoma State",
+          "before": 50.84344854874394,
+          "after": 50.33812169027381,
+          "change": -0.5053268584701343
+        },
+        {
+          "team": "Sam Houston",
+          "before": 34.88943347462777,
+          "after": 35.31731707785354,
+          "change": 0.4278836032257658
+        }
+      ]
+    },
+    {
+      "team": "Wake Forest",
+      "change": -0.19666840730118196,
+      "previousPublishedRating": 54.786534,
+      "baselineRating": 55.48044571581432,
+      "revaluedRating": 55.28377730851314,
+      "currentPublishedRating": 58.92037,
+      "priorChange": 0.6942220829782144,
+      "historicalCorrectionEffect": -0.0003103671638982064,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 3.6365926048188157,
+      "excludedOwnGameIds": [
+        "401858251"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Louisville",
+          "before": 57.16295633412287,
+          "after": 54.241941091332194,
+          "change": -2.9210152427906735
+        },
+        {
+          "team": "Purdue",
+          "before": 45.24079049588092,
+          "after": 47.36176378894477,
+          "change": 2.120973293063848
+        },
+        {
+          "team": "Miami",
+          "before": 71.36873930597682,
+          "after": 73.43443206342168,
+          "change": 2.0656927574448645
+        },
+        {
+          "team": "Akron",
+          "before": 24.09992936704657,
+          "after": 22.58334179999298,
+          "change": -1.516587567053591
+        }
+      ]
+    },
+    {
+      "team": "Stanford",
+      "change": 0.19091240279268362,
+      "previousPublishedRating": 42.224517,
+      "baselineRating": 42.122203151524886,
+      "revaluedRating": 42.31311555431757,
+      "currentPublishedRating": 39.019676,
+      "priorChange": -0.1020027481977408,
+      "historicalCorrectionEffect": -0.00031110027737213386,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -3.293439943341717,
+      "excludedOwnGameIds": [
+        "401858251"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Miami",
+          "before": 71.36873930597682,
+          "after": 73.43443206342168,
+          "change": 2.0656927574448645
+        },
+        {
+          "team": "Duke",
+          "before": 60.969507898963045,
+          "after": 59.113628492486015,
+          "change": -1.8558794064770296
+        },
+        {
+          "team": "Georgia Tech",
+          "before": 46.055158606418615,
+          "after": 46.80571696476524,
+          "change": 0.7505583583466233
+        },
+        {
+          "team": "Hawai'i",
+          "before": 30.045539053387877,
+          "after": 30.36590864413283,
+          "change": 0.32036959074495286
+        }
+      ]
+    },
+    {
+      "team": "Massachusetts",
+      "change": -0.17181785850934972,
+      "previousPublishedRating": 36.475771,
+      "baselineRating": 39.067158310915325,
+      "revaluedRating": 38.895340452405975,
+      "currentPublishedRating": 34.181365,
+      "priorChange": 2.591698667307064,
+      "historicalCorrectionEffect": -0.00031135639174095786,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -4.713975709233722,
+      "excludedOwnGameIds": [
+        "401866433"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Sacramento State",
+          "before": 16.82056983844489,
+          "after": 18.753510903511803,
+          "change": 1.9329410650669132
+        },
+        {
+          "team": "Rutgers",
+          "before": 41.09982991587441,
+          "after": 40.3968814580625,
+          "change": -0.7029484578119067
+        },
+        {
+          "team": "Stonehill",
+          "before": 8.617504812875339,
+          "after": 9.318162294223786,
+          "change": 0.700657481348447
+        },
+        {
+          "team": "Sacred Heart",
+          "before": 13.008370445154927,
+          "after": 13.340368895502106,
+          "change": 0.3319984503471787
+        }
+      ]
+    },
+    {
+      "team": "North Dakota State",
+      "change": -0.17129667278786798,
+      "previousPublishedRating": 54.017398,
+      "baselineRating": 54.1644433866304,
+      "revaluedRating": 53.993146713842535,
+      "currentPublishedRating": 55.176151,
+      "priorChange": 0.14735127121142,
+      "historicalCorrectionEffect": -0.00030588458101732385,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.183004345894659,
+      "excludedOwnGameIds": [
+        "401864515"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Fordham",
+          "before": 16.180596770045636,
+          "after": 12.497474676886064,
+          "change": -3.6831220931595716
+        },
+        {
+          "team": "Sacramento State",
+          "before": 16.82056983844489,
+          "after": 18.85990666711485,
+          "change": 2.03933682866996
+        },
+        {
+          "team": "Jacksonville State",
+          "before": 40.0659763741391,
+          "after": 39.3522110244088,
+          "change": -0.7137653497302949
+        },
+        {
+          "team": "Air Force",
+          "before": 42.3352514482648,
+          "after": 42.59878523946806,
+          "change": 0.26353379120325826
+        }
+      ]
+    },
+    {
+      "team": "Utah",
+      "change": -0.16476197625090094,
+      "previousPublishedRating": 74.397485,
+      "baselineRating": 75.3575329170493,
+      "revaluedRating": 75.1927709407984,
+      "currentPublishedRating": 75.192771,
+      "priorChange": 0.9603591144452395,
+      "historicalCorrectionEffect": -0.0003111973959448733,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.842170943040401e-14,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Idaho",
+          "before": 27.190147137504916,
+          "after": 31.376354924258436,
+          "change": 4.186207786753521
+        },
+        {
+          "team": "Arkansas",
+          "before": 50.86269476807303,
+          "after": 47.90689633735802,
+          "change": -2.9557984307150065
+        },
+        {
+          "team": "Iowa State",
+          "before": 57.24001253254569,
+          "after": 56.06440596305576,
+          "change": -1.1756065694899291
+        },
+        {
+          "team": "Utah State",
+          "before": 41.446443939160645,
+          "after": 41.62315597973327,
+          "change": 0.17671204057262457
+        }
+      ]
+    },
+    {
+      "team": "South Alabama",
+      "change": -0.15861989332653792,
+      "previousPublishedRating": 39.831932,
+      "baselineRating": 40.86597674065153,
+      "revaluedRating": 40.707356847324995,
+      "currentPublishedRating": 40.65611,
+      "priorChange": 1.0343622790968823,
+      "historicalCorrectionEffect": -0.0003175384453513175,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.05124725366248839,
+      "excludedOwnGameIds": [
+        "401871089"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Tulane",
+          "before": 45.34418759501446,
+          "after": 44.17431911999589,
+          "change": -1.1698684750185677
+        },
+        {
+          "team": "SE Louisiana",
+          "before": 21.48188815366691,
+          "after": 22.12068388819349,
+          "change": 0.6387957345265782
+        },
+        {
+          "team": "Kentucky",
+          "before": 63.53144052811571,
+          "after": 64.04346544827715,
+          "change": 0.5120249201614371
+        },
+        {
+          "team": "Ohio",
+          "before": 39.354977221467465,
+          "after": 39.148125709090884,
+          "change": -0.20685151237658062
+        }
+      ]
+    },
+    {
+      "team": "San Diego State",
+      "change": 0.14860399181391415,
+      "previousPublishedRating": 41.280046,
+      "baselineRating": 40.97351641449464,
+      "revaluedRating": 41.122120406308554,
+      "currentPublishedRating": 43.674377,
+      "priorChange": -0.306220139981896,
+      "historicalCorrectionEffect": -0.0003094455234631255,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.5522562777724715,
+      "excludedOwnGameIds": [
+        "401860900"
+      ],
+      "previousOpponents": [
+        {
+          "team": "UCLA",
+          "before": 62.194459904376366,
+          "after": 61.38449073057682,
+          "change": -0.8099691737995443
+        },
+        {
+          "team": "James Madison",
+          "before": 57.83954318101669,
+          "after": 58.0462214125145,
+          "change": 0.20667823149781128
+        },
+        {
+          "team": "Portland State",
+          "before": 14.909772322367367,
+          "after": 14.989841634055374,
+          "change": 0.0800693116880069
+        },
+        {
+          "team": "Toledo",
+          "before": 53.610829329535065,
+          "after": 53.678386869836864,
+          "change": 0.06755754030179872
+        }
+      ]
+    },
+    {
+      "team": "UL Monroe",
+      "change": 0.11876574489565428,
+      "previousPublishedRating": 19.334959,
+      "baselineRating": 19.28847166193645,
+      "revaluedRating": 19.407237406832103,
+      "currentPublishedRating": 19.600737,
+      "priorChange": -0.046172391801089674,
+      "historicalCorrectionEffect": -0.0003149462624634225,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.1935000336623105,
+      "excludedOwnGameIds": [
+        "401871089"
+      ],
+      "previousOpponents": [
+        {
+          "team": "UAB",
+          "before": 35.791133759620465,
+          "after": 34.73710327201988,
+          "change": -1.0540304876005848
+        },
+        {
+          "team": "SE Louisiana",
+          "before": 21.48188815366691,
+          "after": 22.12068388819349,
+          "change": 0.6387957345265782
+        },
+        {
+          "team": "Florida Atlantic",
+          "before": 43.548913295998034,
+          "after": 44.07477973800316,
+          "change": 0.5258664420051247
+        },
+        {
+          "team": "Mississippi State",
+          "before": 65.48731620543134,
+          "after": 65.90700460417195,
+          "change": 0.41968839874060393
+        }
+      ]
+    },
+    {
+      "team": "Rice",
+      "change": 0.11044220964196683,
+      "previousPublishedRating": 33.361259,
+      "baselineRating": 34.07226524938348,
+      "revaluedRating": 34.182707459025444,
+      "currentPublishedRating": 36.651548,
+      "priorChange": 0.7113604281505914,
+      "historicalCorrectionEffect": -0.00035417876711107965,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.468840669177382,
+      "excludedOwnGameIds": [
+        "401862788"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Fresno State",
+          "before": 45.591278001080155,
+          "after": 49.18638642734121,
+          "change": 3.5951084262610564
+        },
+        {
+          "team": "Western Michigan",
+          "before": 45.924774139760856,
+          "after": 42.40964665209725,
+          "change": -3.515127487663605
+        },
+        {
+          "team": "Houston Christian",
+          "before": 13.995963481223583,
+          "after": 17.07617141982041,
+          "change": 3.0802079385968284
+        },
+        {
+          "team": "Notre Dame",
+          "before": 83.09967686784141,
+          "after": 80.93648815715294,
+          "change": -2.1631887106884733
+        }
+      ]
+    },
+    {
+      "team": "East Carolina",
+      "change": 0.10598878232502784,
+      "previousPublishedRating": 44.942311,
+      "baselineRating": 44.16550735901636,
+      "revaluedRating": 44.27149614134139,
+      "currentPublishedRating": 44.271496,
+      "priorChange": -0.7764847729470219,
+      "historicalCorrectionEffect": -0.000318868036615072,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.1316282072803006e-13,
+      "excludedOwnGameIds": [],
+      "previousOpponents": [
+        {
+          "team": "Alabama",
+          "before": 80.21338308059947,
+          "after": 84.45231708513211,
+          "change": 4.238934004532638
+        },
+        {
+          "team": "Old Dominion",
+          "before": 34.377499615779975,
+          "after": 30.630623244951806,
+          "change": -3.7468763708281685
+        },
+        {
+          "team": "North Carolina Central",
+          "before": 5.423409552953615,
+          "after": 6.399092770853731,
+          "change": 0.9756832179001158
+        },
+        {
+          "team": "App State",
+          "before": 40.648005780776685,
+          "after": 40.20151003212382,
+          "change": -0.4464957486528647
+        }
+      ]
+    },
+    {
+      "team": "UNLV",
+      "change": -0.0937578860568209,
+      "previousPublishedRating": 43.480398,
+      "baselineRating": 42.382517533276655,
+      "revaluedRating": 42.288759647219834,
+      "currentPublishedRating": 43.797608,
+      "priorChange": -1.097554903571627,
+      "historicalCorrectionEffect": -0.00032556315171916594,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 1.5088479397025338,
+      "excludedOwnGameIds": [
+        "401858247"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Akron",
+          "before": 24.09992936704657,
+          "after": 22.791239166825335,
+          "change": -1.3086902002212355
+        },
+        {
+          "team": "Memphis",
+          "before": 48.96528063053116,
+          "after": 50.059721954931,
+          "change": 1.0944413243998383
+        },
+        {
+          "team": "Hawai'i",
+          "before": 30.045539053387877,
+          "after": 29.397673064601616,
+          "change": -0.6478659887862612
+        },
+        {
+          "team": "North Texas",
+          "before": 50.93603915068542,
+          "after": 50.83348310141345,
+          "change": -0.10255604927196771
+        }
+      ]
+    },
+    {
+      "team": "Miami",
+      "change": -0.08144521246796899,
+      "previousPublishedRating": 70.881655,
+      "baselineRating": 71.36873930597682,
+      "revaluedRating": 71.28729409350885,
+      "currentPublishedRating": 73.570728,
+      "priorChange": 0.48740723302455535,
+      "historicalCorrectionEffect": -0.0003229270477334012,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.2834337817381822,
+      "excludedOwnGameIds": [
+        "401858249"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Stanford",
+          "before": 42.122203151524886,
+          "after": 38.534857117529285,
+          "change": -3.587346033995601
+        },
+        {
+          "team": "Wake Forest",
+          "before": 55.48044571581432,
+          "after": 58.349332082481524,
+          "change": 2.868886366667205
+        },
+        {
+          "team": "Central Michigan",
+          "before": 34.6764999889058,
+          "after": 36.91935734842432,
+          "change": 2.242857359518517
+        },
+        {
+          "team": "Florida A&M",
+          "before": 7.620420744229705,
+          "after": 6.737062710698645,
+          "change": -0.88335803353106
+        }
+      ]
+    },
+    {
+      "team": "BYU",
+      "change": -0.06376609599024619,
+      "previousPublishedRating": 68.394956,
+      "baselineRating": 68.97193617987449,
+      "revaluedRating": 68.90817008388424,
+      "currentPublishedRating": 67.732732,
+      "priorChange": 0.5772866869271525,
+      "historicalCorrectionEffect": -0.0003065070526560021,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -1.175437766916474,
+      "excludedOwnGameIds": [
+        "401856818"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Arizona",
+          "before": 56.370961944672516,
+          "after": 60.84317244154211,
+          "change": 4.472210496869593
+        },
+        {
+          "team": "Colorado State",
+          "before": 43.82429954175536,
+          "after": 39.658107579922266,
+          "change": -4.166191961833093
+        },
+        {
+          "team": "Utah Tech",
+          "before": 9.429385436398675,
+          "after": 9.764043169503829,
+          "change": 0.33465773310515345
+        }
+      ]
+    },
+    {
+      "team": "North Carolina",
+      "change": -0.06366842115117066,
+      "previousPublishedRating": 47.170475,
+      "baselineRating": 48.68208010054298,
+      "revaluedRating": 48.61841167939181,
+      "currentPublishedRating": 53.425421,
+      "priorChange": 1.5119096065706756,
+      "historicalCorrectionEffect": -0.00030450602769604984,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 4.807009577546857,
+      "excludedOwnGameIds": [
+        "401858250"
+      ],
+      "previousOpponents": [
+        {
+          "team": "East Tennessee State",
+          "before": 28.510496749228487,
+          "after": 30.90914512811545,
+          "change": 2.398648378886964
+        },
+        {
+          "team": "Clemson",
+          "before": 53.06434577764002,
+          "after": 50.98659904227222,
+          "change": -2.0777467353678034
+        },
+        {
+          "team": "TCU",
+          "before": 50.43757996817694,
+          "after": 51.7447139309504,
+          "change": 1.307133962773456
+        }
+      ]
+    },
+    {
+      "team": "Central Michigan",
+      "change": -0.036142054338647256,
+      "previousPublishedRating": 34.696529,
+      "baselineRating": 34.6764999889058,
+      "revaluedRating": 34.640357934567156,
+      "currentPublishedRating": 37.542733,
+      "priorChange": -0.019721699091171274,
+      "historicalCorrectionEffect": -0.00030731200302369643,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 2.902375236013363,
+      "excludedOwnGameIds": [
+        "401866430"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Wyoming",
+          "before": 30.82687707465808,
+          "after": 28.587535233569625,
+          "change": -2.2393418410884536
+        },
+        {
+          "team": "Miami",
+          "before": 71.36873930597682,
+          "after": 73.22292918753168,
+          "change": 1.8541898815548592
+        },
+        {
+          "team": "New Mexico",
+          "before": 54.39549394565802,
+          "after": 55.35910742407585,
+          "change": 0.9636134784178338
+        },
+        {
+          "team": "Colgate",
+          "before": 30.90882579019211,
+          "after": 30.01736549707416,
+          "change": -0.8914602931179516
+        }
+      ]
+    },
+    {
+      "team": "Indiana",
+      "change": 0.03475866660636484,
+      "previousPublishedRating": 70.262538,
+      "baselineRating": 70.3743172968573,
+      "revaluedRating": 70.40907596346366,
+      "currentPublishedRating": 70.620757,
+      "priorChange": 0.11209980953057652,
+      "historicalCorrectionEffect": -0.0003205126732837016,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": 0.21168139209916603,
+      "excludedOwnGameIds": [
+        "401858477"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Northwestern",
+          "before": 62.465206556046546,
+          "after": 67.03737810446623,
+          "change": 4.572171548419682
+        },
+        {
+          "team": "Western Kentucky",
+          "before": 29.96654205862931,
+          "after": 26.01473888155044,
+          "change": -3.9518031770788724
+        },
+        {
+          "team": "North Texas",
+          "before": 50.93603915068542,
+          "after": 50.44140687522608,
+          "change": -0.4946322754593382
+        },
+        {
+          "team": "Howard",
+          "before": 12.024193524786895,
+          "after": 11.624122475867804,
+          "change": -0.4000710489190915
+        }
+      ]
+    },
+    {
+      "team": "Ohio",
+      "change": -0.02712850615434803,
+      "previousPublishedRating": 38.732342,
+      "baselineRating": 39.354977221467465,
+      "revaluedRating": 39.32784871531312,
+      "currentPublishedRating": 39.255903,
+      "priorChange": 0.6229460446809867,
+      "historicalCorrectionEffect": -0.00031082321352471354,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -0.07194574400872256,
+      "excludedOwnGameIds": [
+        "401866434"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Stonehill",
+          "before": 8.617504812875339,
+          "after": 8.302496604067194,
+          "change": -0.31500820880814473
+        },
+        {
+          "team": "Jacksonville State",
+          "before": 40.0659763741391,
+          "after": 39.760551195325256,
+          "change": -0.30542517881384157
+        },
+        {
+          "team": "South Alabama",
+          "before": 40.86597674065153,
+          "after": 40.80595368154282,
+          "change": -0.060023059108715415
+        },
+        {
+          "team": "Nebraska",
+          "before": 68.93701760615767,
+          "after": 68.88877910535655,
+          "change": -0.048238500801119244
+        }
+      ]
+    },
+    {
+      "team": "Arkansas",
+      "change": -0.010014781933385564,
+      "previousPublishedRating": 49.776353,
+      "baselineRating": 50.86269476807303,
+      "revaluedRating": 50.85267998613964,
+      "currentPublishedRating": 47.906896,
+      "priorChange": 1.08666240575878,
+      "historicalCorrectionEffect": -0.000320637685753411,
+      "modelChangeEffect": 0.0,
+      "ownGameEffect": -2.9457836487818483,
+      "excludedOwnGameIds": [
+        "401856711"
+      ],
+      "previousOpponents": [
+        {
+          "team": "Tulsa",
+          "before": 42.43846156902064,
+          "after": 43.775514616203154,
+          "change": 1.3370530471825148
+        },
+        {
+          "team": "North Alabama",
+          "before": 25.785164208365998,
+          "after": 24.832330470572643,
+          "change": -0.9528337377933553
+        },
+        {
+          "team": "Utah",
+          "before": 75.3575329170493,
+          "after": 76.09795302347213,
+          "change": 0.7404201064228317
+        },
+        {
+          "team": "Georgia",
+          "before": 77.16761512899231,
+          "after": 77.559394428796,
+          "change": 0.3917792998036873
+        }
+      ]
+    }
+  ],
+  "method": "FBS teams present in both weeks. Refit the previous games with any corrected scores and the current prior weight and margin rule. Add all newly recorded games except the focal team's own games and refit. The difference is the signed change in rating points from results elsewhere. Sort by absolute change, including upgrades and downgrades. The focal team's previous results stay fixed. Prior-weight changes, historical score corrections, and margin-rule changes are excluded. Game-count weights and the full schedule network are recomputed, so this includes indirect opponent effects and normalization, not only a simple average of opponent-rating changes. The own-game contribution is added last; this decomposition is order-dependent. Opponent changes shown are context, not additive contributions.",
+  "fingerprint": "7492e316cb6d296d66a43bccb6b6c6379666668e571b6eb1d2620bc541b94ec8"
+}

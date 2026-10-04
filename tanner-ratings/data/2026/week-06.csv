@@ -1,0 +1,715 @@
+rank,divisionRank,team,classification,conference,rating,wins,losses,ties,scheduleStrength
+1,1,Alabama,fbs,SEC,84.452317,5,0,0,57.841269
+2,2,Notre Dame,fbs,FBS Independents,81.247751,5,0,0,50.221071
+3,3,Georgia,fbs,SEC,76.921034,5,0,0,39.720247
+4,4,Utah,fbs,Big 12,75.192771,4,0,0,44.242703
+5,5,Ohio State,fbs,Big Ten,75.180489,4,1,0,51.018519
+6,6,Texas,fbs,SEC,73.995272,4,0,0,61.294693
+7,7,Miami,fbs,ACC,73.570728,5,0,0,38.867511
+8,8,LSU,fbs,SEC,72.230238,4,1,0,48.803435
+9,9,Indiana,fbs,Big Ten,70.620757,5,0,0,39.084554
+10,10,Nebraska,fbs,Big Ten,68.853836,5,0,0,42.15068
+11,11,Tennessee,fbs,SEC,67.740451,4,1,0,49.478157
+12,12,BYU,fbs,Big 12,67.732732,4,0,0,40.661217
+13,13,Texas Tech,fbs,Big 12,67.587338,5,0,0,47.050795
+14,14,Northwestern,fbs,Big Ten,67.218407,3,1,0,56.278371
+15,15,Oregon,fbs,Big Ten,67.072528,3,1,0,48.565715
+16,16,Florida,fbs,SEC,66.885187,4,1,0,51.727493
+17,17,Missouri,fbs,SEC,66.229068,4,1,0,46.86458
+18,18,Mississippi State,fbs,SEC,65.865576,4,1,0,55.516119
+19,19,Iowa,fbs,Big Ten,64.913321,4,1,0,47.73555
+20,20,USC,fbs,Big Ten,64.906809,5,1,0,48.743064
+21,21,Texas A&M,fbs,SEC,64.723853,3,2,0,54.733539
+22,22,Kentucky,fbs,SEC,63.964741,4,1,0,58.37187
+23,23,Houston,fbs,Big 12,62.925862,4,1,0,44.831748
+24,24,Boise State,fbs,Pac-12,62.594051,4,1,0,49.543003
+25,25,UCLA,fbs,Big Ten,61.944611,4,0,0,44.107805
+26,26,Baylor,fbs,Big 12,61.320333,4,1,0,43.459034
+27,27,Ole Miss,fbs,SEC,61.085058,3,1,0,53.835693
+28,28,Pittsburgh,fbs,ACC,60.837056,5,0,0,40.599328
+29,29,Arizona,fbs,Big 12,60.722679,4,1,0,43.636756
+30,30,Wisconsin,fbs,Big Ten,60.711553,4,1,0,49.453696
+31,31,Auburn,fbs,SEC,60.390286,3,2,0,56.832905
+32,32,Florida State,fbs,ACC,59.682901,3,2,0,49.654985
+33,33,Wake Forest,fbs,ACC,58.92037,4,1,0,47.769978
+34,34,James Madison,fbs,Sun Belt,58.564629,5,0,0,30.916367
+35,35,Penn State,fbs,Big Ten,58.23483,3,2,0,46.284683
+36,36,Duke,fbs,ACC,58.064487,4,0,0,35.634189
+37,37,SMU,fbs,ACC,57.934769,4,1,0,43.892084
+38,38,UCF,fbs,Big 12,57.117166,3,2,0,48.398473
+39,39,Oregon State,fbs,Pac-12,56.414854,3,2,0,47.017192
+40,40,Kansas State,fbs,Big 12,56.072546,3,1,0,36.6686
+41,41,Iowa State,fbs,Big 12,56.064406,3,2,0,48.324534
+42,42,Vanderbilt,fbs,SEC,55.867962,3,2,0,53.220297
+43,43,Oklahoma,fbs,SEC,55.75047,2,2,0,53.549928
+44,44,New Mexico,fbs,Mountain West,55.723527,4,1,0,31.061392
+45,45,Michigan,fbs,Big Ten,55.592412,3,2,0,48.271838
+46,46,South Carolina,fbs,SEC,55.421632,2,3,0,51.438445
+47,47,North Dakota State,fbs,Mountain West,55.176151,5,0,0,28.71475
+48,48,Louisville,fbs,ACC,55.020992,2,3,0,49.24128
+49,49,Toledo,fbs,Mid-American,53.878763,4,1,0,38.747992
+50,50,Washington,fbs,Big Ten,53.630225,3,2,0,44.22709
+51,51,Virginia Tech,fbs,ACC,53.48823,4,1,0,33.142626
+52,52,North Carolina,fbs,ACC,53.425421,2,2,0,54.52164
+53,53,TCU,fbs,Big 12,52.987976,2,3,0,46.544876
+54,54,Virginia,fbs,ACC,52.523677,3,2,0,40.903715
+55,55,NC State,fbs,ACC,52.475993,3,2,0,44.765681
+56,56,Michigan State,fbs,Big Ten,52.361249,2,3,0,59.719138
+57,57,Cincinnati,fbs,Big 12,52.222182,4,1,0,44.991957
+58,58,Illinois,fbs,Big Ten,52.042311,2,3,0,49.0917
+59,59,Minnesota,fbs,Big Ten,51.876842,4,1,0,42.592832
+60,60,Clemson,fbs,ACC,51.775218,3,2,0,55.78599
+61,61,UTSA,fbs,American Athletic,51.44192,4,1,0,45.129305
+62,62,Oklahoma State,fbs,Big 12,51.170801,3,1,0,41.341958
+63,63,Texas State,fbs,Pac-12,50.815913,2,3,0,49.154439
+64,64,North Texas,fbs,American Athletic,50.692894,3,2,0,45.330087
+65,65,Memphis,fbs,American Athletic,50.329076,4,1,0,36.473874
+66,1,South Dakota State,fcs,MVFC,50.02941,5,1,0,27.74306
+67,66,Fresno State,fbs,Pac-12,49.637423,4,1,0,38.672185
+68,67,Arizona State,fbs,Big 12,49.302417,2,2,0,46.744056
+69,68,Louisiana,fbs,Sun Belt,48.439163,4,1,0,38.583934
+70,69,Kansas,fbs,Big 12,48.162215,2,2,0,37.877104
+71,70,Georgia State,fbs,Sun Belt,47.973359,4,1,0,32.742252
+72,71,Purdue,fbs,Big Ten,47.955583,2,3,0,55.192467
+73,72,Arkansas,fbs,SEC,47.906896,2,3,0,56.947342
+74,73,West Virginia,fbs,Big 12,47.60097,3,2,0,41.865732
+75,74,Liberty,fbs,Conference USA,47.222589,4,1,0,36.638348
+76,75,South Florida,fbs,American Athletic,47.206594,4,1,0,33.384654
+77,76,Army,fbs,American Athletic,46.683264,2,2,0,39.437963
+78,2,Youngstown State,fcs,MVFC,46.605438,4,2,0,34.460807
+79,77,Georgia Tech,fbs,ACC,46.418725,1,3,0,46.404288
+80,78,Colorado,fbs,Big 12,46.228486,2,3,0,52.37229
+81,3,South Dakota,fcs,MVFC,45.834434,4,2,0,33.235399
+82,79,Louisiana Tech,fbs,Sun Belt,45.333241,2,2,0,42.866164
+83,80,Syracuse,fbs,ACC,44.651885,2,2,0,38.414784
+84,81,Maryland,fbs,Big Ten,44.613581,2,3,0,44.641832
+85,4,Stephen F. Austin,fcs,Southland,44.453473,6,0,0,20.92268
+86,82,East Carolina,fbs,American Athletic,44.271496,2,2,0,40.420886
+87,5,North Dakota,fcs,MVFC,44.194038,5,1,0,22.426655
+88,83,Temple,fbs,American Athletic,44.17462,2,3,0,45.139881
+89,84,Tulane,fbs,American Athletic,44.085994,2,2,0,46.785934
+90,85,Florida Atlantic,fbs,American Athletic,44.002996,4,1,0,32.054712
+91,86,UNLV,fbs,Mountain West,43.797608,3,2,0,38.855466
+92,87,San Diego State,fbs,Pac-12,43.674377,2,3,0,48.159023
+93,88,Tulsa,fbs,American Athletic,43.661551,3,2,0,40.771956
+94,89,UConn,fbs,FBS Independents,43.160586,2,3,0,34.437044
+95,90,Western Michigan,fbs,Mid-American,42.85582,3,2,0,40.070529
+96,6,Montana State,fcs,Big Sky,42.852834,5,1,0,23.776104
+97,91,Air Force,fbs,Mountain West,42.794366,3,1,0,35.323874
+98,92,Miami (OH),fbs,Mid-American,42.300369,2,3,0,39.797774
+99,7,Austin Peay,fcs,UAC,42.147378,5,1,0,20.20422
+100,93,Kennesaw State,fbs,Conference USA,42.122198,1,3,0,41.729622
+101,94,Utah State,fbs,Pac-12,41.623156,1,4,0,53.480657
+102,95,Troy,fbs,Sun Belt,41.559786,2,2,0,39.101978
+103,8,Lehigh,fcs,Patriot,40.956607,6,0,0,14.77103
+104,1,Harding,ii,Great American,40.743366,5,0,0,12.08021
+105,96,South Alabama,fbs,Sun Belt,40.65611,3,2,0,37.834434
+106,97,Missouri State,fbs,Conference USA,40.263401,1,3,0,42.020404
+107,98,App State,fbs,Sun Belt,40.20151,3,1,0,31.088525
+108,99,California,fbs,ACC,40.18768,2,3,0,40.111009
+109,100,Rutgers,fbs,Big Ten,39.898742,1,4,0,43.779266
+110,101,Jacksonville State,fbs,Conference USA,39.849261,3,2,0,35.714868
+111,102,Georgia Southern,fbs,Sun Belt,39.515881,2,3,0,40.066801
+112,103,Colorado State,fbs,Pac-12,39.480215,2,3,0,45.436988
+113,104,Ohio,fbs,Mid-American,39.255903,3,2,0,38.211427
+114,9,Montana,fcs,Big Sky,39.129806,5,1,0,24.500454
+115,105,Stanford,fbs,ACC,39.019676,2,3,0,53.351816
+116,106,Washington State,fbs,Pac-12,38.94894,1,4,0,46.939435
+117,107,Arkansas State,fbs,Sun Belt,37.907292,2,3,0,41.435159
+118,108,Central Michigan,fbs,Mid-American,37.542733,3,2,0,42.48538
+119,109,Boston College,fbs,ACC,37.366889,2,3,0,41.988835
+120,110,Navy,fbs,American Athletic,36.912908,1,3,0,32.796839
+121,111,Rice,fbs,American Athletic,36.651548,1,4,0,48.587505
+122,112,Sam Houston,fbs,Conference USA,35.573669,1,3,0,41.05649
+123,10,Tarleton State,fcs,UAC,35.335758,5,0,0,13.859602
+124,11,Illinois State,fcs,MVFC,35.271852,4,2,0,19.152847
+125,113,Florida International,fbs,Conference USA,35.01753,2,2,0,30.493389
+126,114,UAB,fbs,American Athletic,34.894982,3,2,0,34.204388
+127,115,Marshall,fbs,Sun Belt,34.668519,3,2,0,42.790726
+128,116,Nevada,fbs,Mountain West,34.572137,1,3,0,35.325674
+129,12,Idaho State,fcs,Big Sky,34.426451,4,1,0,19.566626
+130,117,Massachusetts,fbs,Mid-American,34.181365,4,1,0,22.724696
+131,118,Delaware,fbs,Conference USA,34.166794,2,3,0,38.993983
+132,13,Abilene Christian,fcs,UAC,34.111105,2,4,0,39.052372
+133,14,Lamar,fcs,Southland,34.004231,4,1,0,23.314946
+134,119,Eastern Michigan,fbs,Mid-American,33.903789,3,3,0,35.143712
+135,120,San José State,fbs,Mountain West,33.780302,3,2,0,40.158853
+136,15,Tennessee Tech,fcs,Southern,33.747713,4,1,0,22.650192
+137,121,Kent State,fbs,Mid-American,33.414579,2,3,0,44.9359
+138,122,New Mexico State,fbs,Conference USA,33.112025,2,3,0,34.784481
+139,123,Coastal Carolina,fbs,Sun Belt,32.705711,1,4,0,36.206362
+140,16,Northern Arizona,fcs,Big Sky,32.670832,4,2,0,32.867232
+141,17,Harvard,fcs,Ivy,32.632572,3,0,0,19.601314
+142,18,Mercer,fcs,Southern,32.628539,4,2,0,20.113212
+143,124,Southern Miss,fbs,Sun Belt,32.350592,1,3,0,39.559054
+144,19,East Tennessee State,fcs,Southern,32.075615,4,2,0,25.254644
+145,20,Idaho,fcs,Big Sky,31.376355,1,4,0,41.744483
+146,125,Ball State,fbs,Mid-American,30.727114,1,4,0,46.088134
+147,126,Old Dominion,fbs,Sun Belt,30.630623,1,4,0,42.977926
+148,2,Henderson State,ii,Great American,30.604502,5,0,0,7.72496
+149,21,Colgate,fcs,Patriot,30.518513,4,2,0,22.842235
+150,127,Bowling Green,fbs,Mid-American,30.328629,1,4,0,49.952192
+151,128,Middle Tennessee,fbs,Conference USA,29.863281,2,3,0,32.856983
+152,129,Hawai'i,fbs,Mountain West,29.784769,1,4,0,35.808166
+153,22,Southern Illinois,fcs,MVFC,29.36296,3,3,0,27.926438
+154,130,Wyoming,fbs,Mountain West,29.331222,2,3,0,36.761435
+155,23,Princeton,fcs,Ivy,28.759331,2,1,0,16.583404
+156,24,Western Carolina,fcs,Southern,28.497303,3,3,0,27.440555
+157,25,South Carolina State,fcs,MEAC,27.875675,5,1,0,5.963461
+158,26,Jackson State,fcs,SWAC,27.868924,5,0,0,5.810266
+159,3,Minnesota State,ii,Northern Sun,27.500554,6,0,0,0.722446
+160,27,UC Davis,fcs,Big Sky,27.126237,4,2,0,24.295322
+161,28,Gardner-Webb,fcs,OVC,27.027489,2,4,0,27.934982
+162,29,Campbell,fcs,Coastal Athletic,26.930058,5,1,0,22.808546
+163,131,Northern Illinois,fbs,Mountain West,26.609094,0,4,0,52.220303
+164,30,Dartmouth,fcs,Ivy,26.133326,1,2,0,27.980995
+165,31,Cornell,fcs,Ivy,26.121904,2,1,0,20.818912
+166,32,Incarnate Word,fcs,Southland,25.967731,2,3,0,24.189284
+167,132,UTEP,fbs,Mountain West,25.962739,1,4,0,45.067692
+168,133,Western Kentucky,fbs,Conference USA,25.792216,1,4,0,43.632989
+169,33,Chattanooga,fcs,Southern,25.76816,3,3,0,21.994221
+170,34,Northern Iowa,fcs,MVFC,25.231351,2,2,0,33.471249
+171,4,Ouachita Baptist,ii,Great American,24.715088,3,2,0,19.155475
+172,35,UT Rio Grande Valley,fcs,Southland,24.703577,2,3,0,22.951794
+173,134,Buffalo,fbs,Mid-American,24.650317,2,3,0,33.029241
+174,36,Furman,fcs,Southern,24.464303,2,4,0,30.438807
+175,5,Southeastern Oklahoma State,ii,Great American,24.354657,4,1,0,12.355326
+176,37,West Florida,fcs,UAC,24.264298,3,2,0,29.892111
+177,38,North Alabama,fcs,UAC,24.237501,4,2,0,21.846974
+178,39,Wofford,fcs,Southern,24.094362,3,3,0,26.401562
+179,40,Yale,fcs,Ivy,23.922203,2,1,0,15.070765
+180,41,Eastern Washington,fcs,Big Sky,23.779705,1,5,0,34.509092
+181,42,Southeast Missouri State,fcs,OVC,23.586978,2,3,0,30.350219
+182,135,Akron,fbs,Mid-American,23.28291,1,4,0,40.462729
+183,43,Central Connecticut,fcs,NEC,22.8026,1,3,0,35.237939
+184,6,CSU Pueblo,ii,Rocky Mountain,22.645077,6,0,0,-1.219458
+185,44,Cal Poly,fcs,Big Sky,22.561477,3,3,0,22.300553
+186,7,Ferris State,ii,GLIAC,22.389617,5,0,0,-9.342015
+187,45,SE Louisiana,fcs,Southland,22.264795,3,2,0,18.695955
+188,46,Southern Utah,fcs,Big Sky,22.264211,2,4,0,26.161381
+189,47,Pennsylvania,fcs,Ivy,22.122065,1,2,0,24.176307
+190,48,Northern Colorado,fcs,Big Sky,21.823307,2,4,0,25.477882
+191,49,Indiana State,fcs,MVFC,21.807294,2,4,0,29.824687
+192,50,Western Illinois,fcs,OVC,21.520862,3,3,0,19.907553
+193,136,Charlotte,fbs,American Athletic,21.206355,0,5,0,42.808387
+194,51,McNeese,fcs,Southland,21.099804,2,4,0,29.955252
+195,52,Bryant,fcs,Coastal Athletic,21.037398,4,1,0,17.344005
+196,8,Kutztown,ii,Pennsylvania State Athletic,20.940586,5,0,0,-4.77257
+197,53,Monmouth,fcs,Coastal Athletic,20.864314,4,2,0,23.926346
+198,54,Stony Brook,fcs,Coastal Athletic,20.744251,3,2,0,16.884469
+199,9,Grand Valley State,ii,GLIAC,20.586261,5,0,0,-17.618042
+200,55,Central Arkansas,fcs,UAC,20.252137,2,3,0,26.88632
+201,56,Richmond,fcs,Patriot,20.214265,5,1,0,18.4141
+202,10,East Central,ii,Great American,20.195183,4,1,0,13.832027
+203,11,Valdosta State,ii,Gulf South,19.992131,4,1,0,-6.391576
+204,1,Wisconsin Whitewater,iii,Wisconsin,19.882753,4,0,0,-17.187012
+205,57,Rhode Island,fcs,Coastal Athletic,19.695953,3,3,0,18.666842
+206,137,UL Monroe,fbs,Sun Belt,19.600737,0,5,0,41.536892
+207,58,Weber State,fcs,Big Sky,19.316649,3,3,0,19.949917
+208,12,Northwood,ii,Great Midwest Athletic,19.111906,5,0,0,-6.45125
+209,138,Sacramento State,fbs,Mid-American,19.073326,1,4,0,31.806223
+210,59,UAlbany,fcs,Coastal Athletic,18.861929,3,3,0,16.763442
+211,60,Brown,fcs,Ivy,18.811613,1,2,0,18.257217
+212,61,Alabama A&M,fcs,SWAC,18.692038,4,2,0,4.960725
+213,62,East Texas A&M,fcs,Southland,18.515518,2,4,0,26.296294
+214,13,Northwest Missouri State,ii,Mid America,18.047847,3,1,0,2.044261
+215,63,Houston Christian,fcs,Southland,17.754609,3,3,0,17.735056
+216,64,Bethune-Cookman,fcs,SWAC,17.268113,3,2,0,14.040379
+217,65,UT Martin,fcs,OVC,16.864064,1,4,0,31.101685
+218,14,Southwestern Oklahoma State,ii,Great American,16.781775,1,4,0,21.237339
+219,66,Grambling,fcs,SWAC,16.541767,3,2,0,10.51345
+220,15,Central Washington,ii,Lone Star,16.540357,3,2,0,5.755605
+221,2,Trinity (CT),iii,NESCAC,16.426041,3,0,0,-13.580137
+222,67,Prairie View A&M,fcs,SWAC,16.040739,2,4,0,24.273486
+223,68,Villanova,fcs,Patriot,15.790208,2,4,0,19.54179
+224,3,Saint John's (MN),iii,Minnesota,15.608393,4,0,0,-18.474452
+225,69,Portland State,fcs,Big Sky,15.591201,1,4,0,40.276766
+226,70,Dayton,fcs,Pioneer,15.414512,3,1,0,-2.233601
+227,4,Hardin Simmons,iii,American Southwest,15.244718,3,0,0,-9.527209
+228,71,St. Thomas (MN),fcs,Pioneer,15.161167,4,2,0,10.472971
+229,16,Central Missouri,ii,Mid America,14.838614,4,1,0,4.221415
+230,72,Eastern Kentucky,fcs,UAC,14.763122,1,4,0,26.753347
+231,73,Duquesne,fcs,NEC,14.634301,1,3,0,27.966986
+232,74,Eastern Illinois,fcs,OVC,14.593035,1,4,0,33.203636
+233,75,Elon,fcs,Coastal Athletic,14.388416,4,2,0,2.319933
+234,76,Samford,fcs,Southern,14.026818,1,4,0,22.901627
+235,77,The Citadel,fcs,Southern,13.987127,2,3,0,22.404501
+236,5,Wesleyan (CT),iii,NESCAC,13.807819,3,0,0,-7.062195
+237,6,Wisconsin River Falls,iii,Wisconsin,13.717448,3,1,0,-11.023279
+238,7,Wisconsin Platteville,iii,Wisconsin,13.589378,4,0,0,-17.667423
+239,8,North Central College,iii,CCIW,13.434456,4,0,0,-10.80805
+240,17,Findlay,ii,Great Midwest Athletic,13.389062,4,1,0,-8.430416
+241,78,West Georgia,fcs,UAC,13.297384,1,4,0,24.705105
+242,79,Tennessee State,fcs,OVC,13.283693,1,4,0,30.416483
+243,18,Emporia State,ii,Mid America,13.213233,5,0,0,-0.322618
+244,80,Charleston Southern,fcs,OVC,13.077952,2,3,0,12.104838
+245,19,Western Colorado,ii,Rocky Mountain,12.992026,6,0,0,-10.592132
+246,81,Alabama State,fcs,SWAC,12.982018,3,2,0,2.899457
+247,82,Morgan State,fcs,MEAC,12.769821,4,1,0,10.744071
+248,83,Fordham,fcs,Patriot,12.525575,1,5,0,31.248335
+249,84,Sacred Heart,fcs,Coastal Athletic,12.464271,2,3,0,17.061633
+250,85,Holy Cross,fcs,Patriot,12.440417,2,4,0,25.55921
+251,20,Davenport,ii,GLIAC,12.377636,5,0,0,-3.273029
+252,21,Slippery Rock,ii,Pennsylvania State Athletic,12.321324,5,0,0,-8.138301
+253,22,UT Permian Basin,ii,Lone Star,12.284443,4,1,0,-6.541611
+254,86,Arkansas-Pine Bluff,fcs,SWAC,11.850135,3,2,0,11.932334
+255,87,Howard,fcs,MEAC,11.820508,2,3,0,29.037541
+256,23,Michigan Tech,ii,GLIAC,11.813777,4,1,0,0.706071
+257,88,Butler,fcs,Pioneer,11.780702,4,1,0,3.860836
+258,89,Marist,fcs,Pioneer,11.717105,3,2,0,1.850192
+259,24,Augustana (SD),ii,Northern Sun,11.639462,4,2,0,3.446645
+260,90,Nicholls,fcs,Southland,11.417285,2,4,0,25.706836
+261,25,Carson Newman,ii,South Atlantic,11.306519,5,1,0,-0.438206
+262,26,Hillsdale,ii,Great Midwest Athletic,10.983373,4,1,0,-10.917484
+263,91,Lindenwood,fcs,OVC,10.754477,1,3,0,26.997348
+264,92,Delaware State,fcs,MEAC,10.719226,3,3,0,14.861743
+265,93,Alcorn State,fcs,SWAC,10.59935,3,3,0,11.845827
+266,94,Norfolk State,fcs,MEAC,10.591917,3,3,0,10.040881
+267,9,Linfield,iii,Northwest,10.28891,2,1,0,-8.195608
+268,95,Robert Morris,fcs,NEC,10.176094,3,2,0,8.26415
+269,27,Anderson (SC),ii,South Atlantic,10.079552,4,2,0,3.675248
+270,28,Washburn,ii,Mid America,10.063478,3,1,1,5.72932
+271,29,Central Oklahoma,ii,Mid America,10.033359,2,3,0,9.539005
+272,30,Arkansas Monticello,ii,Great American,9.958315,1,4,0,17.095159
+273,96,Drake,fcs,Pioneer,9.920118,2,3,0,14.008826
+274,97,Columbia,fcs,Ivy,9.850884,2,1,0,15.014714
+275,31,Northeastern State,ii,Independent DII,9.801185,3,3,0,9.987401
+276,32,Saginaw Valley State,ii,GLIAC,9.645265,2,3,0,3.796542
+277,33,Northern State,ii,Northern Sun,9.60498,5,1,0,-0.852739
+278,10,Hope,iii,Michigan,9.52545,5,0,0,-17.802755
+279,98,Towson,fcs,Coastal Athletic,9.495014,0,6,0,23.848026
+280,99,New Hampshire,fcs,Coastal Athletic,9.473815,2,4,0,21.880404
+281,100,Utah Tech,fcs,Big Sky,9.453996,0,6,0,37.74562
+282,34,Tiffin,ii,Great Midwest Athletic,9.41809,4,1,0,-11.634208
+283,35,Minnesota Duluth,ii,Northern Sun,9.400055,4,2,0,1.960533
+284,36,Fort Hays,ii,Mid America,9.145687,3,2,0,1.361687
+285,101,San Diego,fcs,Pioneer,9.009951,2,3,0,17.572578
+286,37,Mars Hill,ii,South Atlantic,8.705261,5,0,0,-0.140591
+287,102,Stonehill,fcs,NEC,8.283352,1,4,0,21.278321
+288,103,Lafayette,fcs,Patriot,8.26879,1,4,0,19.476651
+289,38,Arkansas Tech,ii,Great American,8.069333,2,3,0,13.460217
+290,104,Georgetown,fcs,Patriot,8.01602,0,4,0,24.285915
+291,105,William & Mary,fcs,Patriot,7.388777,2,4,0,25.082753
+292,106,North Carolina A&T,fcs,Coastal Athletic,7.232179,1,5,0,22.467614
+293,39,Southern Arkansas,ii,Great American,7.217753,2,3,0,13.501215
+294,107,Florida A&M,fcs,SWAC,7.079558,1,4,0,25.036437
+295,108,Murray State,fcs,MVFC,7.032782,1,5,0,28.661361
+296,109,Merrimack,fcs,FCS Independents,6.649974,2,4,0,20.327348
+297,110,Maine,fcs,Coastal Athletic,6.400254,1,5,0,20.094346
+298,111,North Carolina Central,fcs,MEAC,6.399093,2,4,0,14.623087
+299,112,Long Island University,fcs,NEC,6.113649,1,5,0,27.494152
+300,11,Washington St. Louis,iii,North Coast,5.774913,5,0,0,-28.792444
+301,12,John Carroll,iii,Ohio,5.758043,4,1,0,-20.367303
+302,40,Shepherd,ii,Pennsylvania State Athletic,5.594067,4,1,0,-7.055783
+303,41,Colorado School of Mines,ii,Rocky Mountain,5.568769,3,2,1,0.516995
+304,113,Bucknell,fcs,Patriot,5.438988,1,4,0,22.245715
+305,1,Georgetown College Kentucky,unknown,Independent,5.390744,0,1,0,11.780702
+306,42,Truman State,ii,Great Lakes,5.374487,2,3,0,3.390627
+307,43,North Greenville,ii,Carolinas,4.978249,5,0,0,-6.074159
+308,114,Presbyterian,fcs,Pioneer,4.904639,2,3,0,15.500634
+309,44,Minnesota St Moorhead,ii,Northern Sun,4.876462,4,2,0,-0.331454
+310,45,Lenoir Rhyne,ii,South Atlantic,4.547496,2,4,0,4.714056
+311,46,Western Oregon,ii,Lone Star,4.527974,2,3,0,-0.861879
+312,13,Baldwin Wallace,iii,Ohio,4.473323,4,0,0,-25.294467
+313,47,Wingate,ii,South Atlantic,4.232864,2,4,0,0.371756
+314,48,Bemidji State,ii,Northern Sun,4.127291,2,4,0,3.73815
+315,49,IU Pennsylvania,ii,Pennsylvania State Athletic,4.005281,5,0,0,-8.457875
+316,50,Catawba,ii,South Atlantic,3.859367,3,3,0,-0.016635
+317,51,Missouri Western,ii,Mid America,3.748548,2,3,0,6.278106
+318,52,Tusculum,ii,South Atlantic,3.609535,3,3,0,3.826625
+319,14,Trinity (TX),iii,Southern Athletic,3.605556,4,0,0,-17.037481
+320,115,Southern,fcs,SWAC,3.523501,2,4,0,18.236271
+321,15,Wisconsin La Crosse,iii,Wisconsin,3.394631,2,2,0,-1.327072
+322,53,Colorado Mesa,ii,Rocky Mountain,3.338089,3,3,0,5.818065
+323,54,Kentucky State,ii,SIAC,3.18207,4,2,0,-3.425488
+324,116,Mercyhurst,fcs,NEC,2.938994,1,5,0,24.107433
+325,117,Valparaiso,fcs,Pioneer,2.784053,2,3,0,0.904651
+326,55,Wayne State (NE),ii,Northern Sun,2.762272,5,1,0,-7.674444
+327,56,Ashland,ii,Great Midwest Athletic,2.72397,1,4,0,4.34567
+328,118,New Haven,fcs,NEC,2.443126,1,5,0,22.939805
+329,57,Oklahoma Baptist,ii,Great American,2.414838,2,3,0,14.162074
+330,58,Newberry,ii,South Atlantic,2.373642,3,2,0,-6.109366
+331,59,Southern Nazarene,ii,Great American,2.252118,1,4,0,18.466082
+332,16,Bethel (MN),iii,Minnesota,2.226779,2,2,0,-7.971066
+333,17,Calvin,iii,Michigan,2.174133,5,0,0,-27.172495
+334,60,Indianapolis,ii,Great Lakes,2.157299,2,4,0,-3.701289
+335,18,Wheaton (IL),iii,CCIW,2.12937,5,0,0,-22.211731
+336,119,Texas Southern,fcs,SWAC,1.857199,1,4,0,20.600983
+337,61,UNC Pembroke,ii,Carolinas,1.756789,4,2,0,-4.847022
+338,62,South Dakota Mines,ii,Rocky Mountain,1.680902,5,1,0,-10.587174
+339,19,Endicott,iii,Commonwealth Coast,1.616766,5,0,0,-22.273097
+340,63,Edward Waters,ii,SIAC,1.579074,5,1,0,-8.431292
+341,64,Winona State,ii,Northern Sun,1.392384,2,4,0,3.872308
+342,20,Amherst,iii,NESCAC,1.304858,3,0,0,-14.291693
+343,65,Sioux Falls,ii,Northern Sun,1.160859,3,3,0,0.596383
+344,2,Keiser (Fl),unknown,Independent,0.741028,0,1,0,10.079552
+345,21,Wisconsin Eau Claire,iii,Wisconsin,0.700995,4,0,0,-21.145235
+346,66,Johnson C. Smith,ii,CIAA,0.564277,4,1,0,-13.604234
+347,120,Stetson,fcs,Pioneer,0.326502,1,4,0,20.201678
+348,67,Minot State,ii,Northern Sun,0.101558,1,5,0,2.565002
+349,68,Benedict,ii,SIAC,-0.312613,4,1,0,-12.355991
+350,22,Middlebury,iii,NESCAC,-0.545825,2,1,0,-7.825982
+351,69,Virginia State,ii,CIAA,-0.748083,5,1,0,-14.218294
+352,70,Emory & Henry,ii,South Atlantic,-0.809932,2,4,0,3.183074
+353,71,East Stroudsburg,ii,Pennsylvania State Athletic,-0.930191,4,1,0,-12.194195
+354,72,Virginia Union,ii,CIAA,-0.995619,5,1,0,-14.733375
+355,23,Mary Hardin Baylor,iii,American Southwest,-1.15257,3,1,0,-20.819893
+356,73,Walsh,ii,Great Midwest Athletic,-1.312854,4,0,1,-9.866515
+357,74,Midwestern State,ii,Lone Star,-1.403059,4,1,0,-6.425132
+358,3,Eastern Oregon,unknown,Independent,-1.456662,1,0,0,-22.053526
+359,121,Wagner,fcs,NEC,-1.614274,1,4,0,22.674915
+360,4,Valley City State,unknown,Independent,-1.724896,0,1,0,-21.228707
+361,75,Roosevelt,ii,GLIAC,-2.200176,4,1,0,-5.781044
+362,24,Utica,iii,Empire 8,-2.478527,4,1,0,-14.738868
+363,25,Washington & Jefferson,iii,Presidents',-2.999398,3,1,0,-28.909263
+364,76,Texas A&M-Kingsville,ii,Lone Star,-3.164719,3,2,0,-6.710944
+365,77,Central State,ii,SIAC,-3.184922,3,3,0,-5.710932
+366,78,West Alabama,ii,Gulf South,-3.185018,5,1,0,-8.724535
+367,26,Wartburg,iii,American Rivers,-3.753005,2,2,0,-8.314793
+368,79,Angelo State,ii,Lone Star,-3.931,1,4,0,6.480197
+369,27,SUNY Cortland,iii,Empire 8,-3.941778,5,0,0,-27.140737
+370,28,Berry,iii,Southern Athletic,-4.025551,3,1,0,-14.766279
+371,122,Hampton,fcs,Coastal Athletic,-4.2381,1,5,0,14.482333
+372,80,Fayetteville State,ii,CIAA,-4.492627,3,3,0,-2.60304
+373,123,Chicago State,fcs,FCS Independents,-4.821138,1,5,0,7.834306
+374,5,Webber International,unknown,Independent,-5.132478,0,1,0,0.326502
+375,124,Morehead State,fcs,Pioneer,-5.241617,1,4,0,6.023487
+376,81,Concordia St. Paul,ii,Northern Sun,-5.363259,3,3,0,-2.110959
+377,82,Clarion,ii,Pennsylvania State Athletic,-5.544473,3,2,0,-11.876866
+378,29,Concordia (MN),iii,Minnesota,-5.787751,4,0,0,-35.090782
+379,30,Merchant Marine,iii,NEWMAC,-5.787914,4,0,0,-38.510266
+380,31,Wisconsin Oshkosh,iii,Wisconsin,-5.94212,2,2,0,-4.805719
+381,83,Lock Haven,ii,Pennsylvania State Athletic,-5.978607,3,2,0,-6.441763
+382,84,Assumption,ii,Northeast 10,-5.994437,3,2,0,-7.274305
+383,32,Mount St Joseph,iii,Heartland,-6.059872,3,1,0,-23.689313
+384,33,Hanover,iii,Heartland,-6.093124,3,1,0,-12.532435
+385,6,Warner,unknown,Independent,-6.124981,1,1,0,-1.941881
+386,85,Bloomsburg,ii,Pennsylvania State Athletic,-6.483148,4,1,0,-17.931075
+387,86,Delta State,ii,Gulf South,-6.564836,2,3,0,-0.217715
+388,87,Black Hills State,ii,Rocky Mountain,-6.570801,4,2,0,-11.263799
+389,88,Franklin Pierce,ii,Northeast 10,-6.692096,3,1,0,-16.397166
+390,34,Wisconsin Stout,iii,Wisconsin,-6.783161,2,2,0,-5.416815
+391,89,Pittsburg State,ii,Mid America,-6.899114,1,4,0,6.237132
+392,90,Frostburg State,ii,Mountain East,-7.058131,2,3,0,-9.241065
+393,35,Denison,iii,North Coast,-7.170272,4,1,0,-22.983428
+394,36,Chapman,iii,So. Cal.,-7.228149,3,1,0,-16.37322
+395,37,Brevard,iii,USA South,-7.247373,4,0,0,-37.8631
+396,38,Christopher Newport,iii,New Jersey,-7.262222,4,0,0,-39.265583
+397,39,Heidelberg,iii,Ohio,-7.311733,4,1,0,-23.236696
+398,125,VMI,fcs,Southern,-7.73502,0,6,0,21.432764
+399,40,Tufts,iii,NESCAC,-7.904071,2,1,0,-3.920334
+400,41,Williams,iii,NESCAC,-7.928774,2,1,0,-6.953241
+401,91,Tuskegee,ii,SIAC,-8.026975,3,2,0,-1.496354
+402,92,Albany State,ii,SIAC,-8.23995,2,3,0,-5.991905
+403,93,West Liberty,ii,Mountain East,-8.246085,4,1,1,-14.656569
+404,94,Chadron State,ii,Rocky Mountain,-8.374672,1,5,0,7.29518
+405,95,Northwestern (OK),ii,Great American,-8.508749,0,5,0,15.728095
+406,96,University of Mary,ii,Northern Sun,-8.533285,3,3,0,-2.717128
+407,42,Dickinson,iii,Centennial,-8.574894,3,1,0,-18.772873
+408,43,Wabash,iii,North Coast,-8.713549,4,1,0,-28.57827
+409,97,Missouri Southern State,ii,Mid America,-8.755076,1,4,0,6.084431
+410,126,Northwestern State,fcs,Southland,-8.76918,0,6,0,21.673841
+411,7,Northwestern (IA),unknown,Independent,-8.817661,0,1,0,21.520862
+412,44,Eastern,iii,Mid Atlantic,-9.136326,3,1,0,-20.176976
+413,8,Louisiana Christian,unknown,Independent,-9.391384,1,1,0,-2.62284
+414,45,Salisbury,iii,New Jersey,-9.417574,4,0,0,-36.179702
+415,98,California (PA),ii,Pennsylvania State Athletic,-9.693211,2,3,0,-6.056367
+416,99,West Chester,ii,Pennsylvania State Athletic,-9.901025,3,2,0,-11.724499
+417,100,Concord,ii,Mountain East,-9.915561,3,2,0,-13.930582
+418,46,Franklin & Marshall,iii,Centennial,-10.016599,4,0,0,-35.777888
+419,101,Upper Iowa,ii,Great Lakes,-10.206935,2,3,0,-12.493044
+420,47,Mount Union,iii,Ohio,-10.223392,2,2,0,-17.195009
+421,102,Nebraska Kearney,ii,Mid America,-10.37786,0,5,0,2.153039
+422,103,UVA Wise,ii,South Atlantic,-10.500943,1,5,0,2.662483
+423,9,Saint Xavier,unknown,Independent,-10.55864,0,1,0,19.882753
+424,104,West Texas,ii,Lone Star,-10.80506,1,4,0,5.015902
+425,105,Ohio Dominican,ii,Great Midwest Athletic,-10.96843,2,3,0,-2.936038
+426,48,DePauw,iii,North Coast,-11.01516,4,1,0,-25.247246
+427,10,Dakota State University,unknown,Independent,-11.343184,0,1,0,-6.570801
+428,106,Seton Hill,ii,Pennsylvania State Athletic,-11.357717,2,3,0,-9.9504
+429,49,LaGrange,iii,USA South,-11.369419,3,1,0,-22.358978
+430,127,Davidson,fcs,Pioneer,-11.412439,2,4,0,1.182168
+431,50,George Fox,iii,Northwest,-11.416555,2,1,0,-17.373021
+432,51,Lewis & Clark,iii,Northwest,-11.594951,3,0,0,-39.171698
+433,52,Trine,iii,Michigan,-11.738976,4,1,0,-30.090619
+434,107,Edinboro,ii,Pennsylvania State Athletic,-11.815203,2,3,0,-5.778359
+435,53,Illinois Wesleyan,iii,CCIW,-11.931149,4,1,0,-18.050325
+436,108,Shippensburg,ii,Pennsylvania State Athletic,-11.939399,1,4,0,-3.03184
+437,109,New Mexico Highlands,ii,Rocky Mountain,-11.946917,3,3,0,-10.254955
+438,110,Charleston (WV),ii,Mountain East,-11.986147,2,3,0,-3.349303
+439,111,Bentley,ii,Northeast 10,-12.057488,2,3,0,-15.439899
+440,112,McKendree,ii,Great Lakes,-12.524184,2,3,0,-1.032052
+441,113,William Jewell,ii,Great Lakes,-12.643513,3,1,1,-15.884532
+442,54,Hamilton,iii,NESCAC,-12.73669,0,3,0,2.402869
+443,55,Bates,iii,NESCAC,-12.832132,0,3,0,3.275609
+444,114,Wheeling,ii,Mountain East,-12.854599,3,2,0,-15.262042
+445,56,Rowan,iii,New Jersey,-12.960604,3,1,0,-31.742101
+446,57,Brockport,iii,Empire 8,-13.390855,4,1,0,-34.098837
+447,11,Wayland Baptist,unknown,Independent,-13.611605,1,0,0,-16.770042
+448,115,Lake Erie,ii,Great Midwest Athletic,-13.736402,2,3,0,-11.670011
+449,58,Howard Payne,iii,American Southwest,-13.749441,3,0,0,-41.27225
+450,116,Southwest Baptist,ii,Great Lakes,-13.812016,2,3,1,-16.250525
+451,59,Gustavus Adolphus,iii,Minnesota,-13.840312,2,2,0,-13.596513
+452,128,Mississippi Valley State,fcs,SWAC,-13.867613,2,4,0,4.653252
+453,60,Ohio Northern,iii,Ohio,-13.913787,3,1,0,-29.983174
+454,61,Augustana (IL),iii,CCIW,-14.083158,2,3,0,-16.720322
+455,117,Fort Valley State,ii,SIAC,-14.347738,1,4,0,-3.561405
+456,62,Susquehanna,iii,Landmark Conference,-14.446339,3,1,0,-27.022069
+457,63,Randolph Macon,iii,Old Dominion,-14.511693,3,1,0,-28.112254
+458,118,Allen,ii,SIAC,-14.515178,2,3,0,-22.320086
+459,119,Bowie State,ii,CIAA,-14.526105,2,3,0,-1.369949
+460,64,Carroll (WI),iii,CCIW,-14.562406,4,1,0,-28.688532
+461,120,Gannon,ii,Pennsylvania State Athletic,-14.614794,0,5,0,3.566254
+462,12,Langston,unknown,Independent,-14.63332,1,0,0,-22.743362
+463,65,Marietta,iii,Ohio,-15.200743,3,1,0,-27.39649
+464,121,Quincy,ii,Great Lakes,-15.302684,2,3,0,-14.610052
+465,66,Springfield,iii,NEWMAC,-15.303555,4,1,0,-24.371994
+466,67,Adrian,iii,Michigan,-15.358375,2,3,0,-19.164122
+467,68,Hampden Sydney,iii,Old Dominion,-15.385316,3,1,0,-22.673526
+468,13,Texas Wesleyan,unknown,Independent,-15.507053,0,2,0,15.566581
+469,122,West Virginia State,ii,Mountain East,-15.59012,1,3,1,-11.806761
+470,123,Miles,ii,SIAC,-15.762229,3,3,0,-8.877031
+471,124,Shaw,ii,CIAA,-15.93303,4,2,0,-19.315146
+472,125,Shorter,ii,Carolinas,-16.093624,2,3,0,-20.378275
+473,69,Alma,iii,Michigan,-16.255684,1,4,0,-5.573031
+474,70,Carnegie Mellon,iii,Presidents',-16.382461,2,2,0,-21.512405
+475,126,Fairmont State,ii,Mountain East,-16.398184,2,4,0,-4.804424
+476,14,University of Rio Grande,unknown,Independent,-16.480799,0,1,0,14.634301
+477,71,Coe,iii,American Rivers,-16.650732,2,2,0,-16.786607
+478,15,Bethel University Tennessee,unknown,Independent,-16.740199,1,0,0,-33.986503
+479,127,Sul Ross State,ii,Lone Star,-16.770042,2,3,0,-7.631107
+480,128,Chowan,ii,Carolinas,-16.92232,2,3,0,-12.05925
+481,129,Pace,ii,Northeast 10,-17.145759,3,2,0,-26.305267
+482,130,Thomas More,ii,Great Midwest Athletic,-17.21946,0,4,1,4.329704
+483,72,Bowdoin,iii,NESCAC,-17.306259,0,3,0,-2.389913
+484,131,Missouri S&T,ii,Great Lakes,-17.446465,0,4,1,-1.018946
+485,132,Morehouse,ii,SIAC,-17.505325,1,5,0,-9.274181
+486,73,McMurry,iii,American Southwest,-17.937509,2,2,0,-20.18688
+487,74,Rensselaer,iii,Liberty League,-18.175384,3,2,0,-29.542468
+488,75,Montclair State,iii,New Jersey,-18.188568,3,1,0,-24.052081
+489,76,Rose Hulman,iii,Heartland,-18.318649,3,1,0,-28.382411
+490,133,Southern Connecticut State,ii,Northeast 10,-18.35643,3,1,0,-27.391897
+491,77,Ursinus,iii,Centennial,-18.535388,4,0,0,-35.208692
+492,78,Olivet,iii,Michigan,-18.747318,3,2,0,-17.22411
+493,134,Northern Michigan,ii,GLIAC,-18.9274,0,5,0,12.844595
+494,79,Dubuque,iii,American Rivers,-18.973301,2,2,0,-9.508805
+495,16,Thomas,unknown,Independent,-19.032005,0,1,0,11.306519
+496,135,Fort Lewis,ii,Rocky Mountain,-19.189086,2,3,1,-12.340289
+497,80,Lake Forest,iii,Midwest,-19.567044,5,0,0,-58.28691
+498,136,Elizabeth City State,ii,CIAA,-19.579898,0,5,0,-4.84369
+499,81,Grove City,iii,Presidents',-19.901597,2,2,0,-30.259433
+500,82,Colby,iii,NESCAC,-19.979505,0,3,0,2.650481
+501,83,Misericordia,iii,Mid Atlantic,-20.167978,3,1,0,-28.021194
+502,137,Ferrum,ii,Carolinas,-20.815786,1,4,0,-7.585979
+503,84,Concordia (WI),iii,NACC,-20.871419,5,0,0,-40.285072
+504,138,Livingstone,ii,CIAA,-21.002788,2,4,0,-15.152073
+505,139,American International,ii,Northeast 10,-21.050735,2,3,0,-14.94414
+506,17,Southern Oregon,unknown,Independent,-21.084462,0,1,0,4.527974
+507,140,Southwest Minnesota State,ii,Northern Sun,-21.228707,1,5,0,4.04521
+508,85,Cal Lutheran,iii,So. Cal.,-21.419674,2,2,0,-32.99057
+509,86,Muhlenberg,iii,Centennial,-21.525448,2,2,0,-23.603104
+510,141,Eastern New Mexico,ii,Lone Star,-21.5355,0,5,0,-3.251829
+511,87,Monmouth (IL),iii,Midwest,-21.86704,2,2,0,-29.245985
+512,88,Whitworth,iii,Northwest,-22.053526,2,1,0,-29.545049
+513,18,Florida Memorial University,unknown,Independent,-22.100937,1,1,0,-6.468052
+514,89,Wisconsin Stevens Point,iii,Wisconsin,-22.103525,2,2,0,-17.947278
+515,90,Millsaps,iii,Southern Athletic,-22.13328,3,1,0,-40.296784
+516,91,Texas Lutheran,iii,Southern Collegiate Athletic,-22.236833,4,1,0,-33.016404
+517,142,Erskine,ii,Carolinas,-22.28713,1,3,0,-7.98609
+518,92,Ithaca,iii,Liberty League,-22.558711,4,1,0,-43.514719
+519,93,St. John Fisher,iii,Empire 8,-22.636838,4,1,0,-40.833339
+520,143,Glenville State,ii,Mountain East,-22.702253,1,4,0,-7.182057
+521,144,Lincoln (MO),ii,Great Lakes,-22.743362,2,3,0,-18.575126
+522,94,Lycoming,iii,Landmark Conference,-23.001244,2,3,0,-22.094448
+523,95,Hobart,iii,Liberty League,-23.035196,2,3,0,-18.598352
+524,96,Benedictine (IL),iii,NACC,-23.049803,4,0,0,-49.229514
+525,19,St. Francis (IL),unknown,Independent,-23.066672,0,1,0,35.271852
+526,97,Shenandoah,iii,Old Dominion,-23.157139,2,2,0,-33.864485
+527,98,Case Western Reserve,iii,Presidents',-23.209411,3,1,0,-24.247764
+528,99,Hendrix,iii,Southern Athletic,-23.27522,3,1,0,-38.007928
+529,20,Rocky Mountain,unknown,Independent,-23.871808,0,1,0,-8.533285
+530,145,Clark Atlanta,ii,SIAC,-23.875894,1,5,0,-3.330219
+531,100,Carleton,iii,Minnesota,-23.921155,2,2,0,-15.869267
+532,101,Centre,iii,Southern Athletic,-23.940291,1,3,0,-23.792637
+533,102,Pacific Lutheran,iii,Northwest,-23.950031,2,2,0,-17.283677
+534,146,Winston-Salem State,ii,CIAA,-24.025872,0,5,0,-0.377883
+535,21,Roanoke College,unknown,Independent,-24.56324,3,0,0,-55.231078
+536,103,Ohio Wesleyan,iii,North Coast,-24.631537,2,3,0,-19.729738
+537,22,UFTL,unknown,Independent,-24.748109,0,1,0,15.244718
+538,23,Oklahoma Panhandle,unknown,Independent,-24.748409,1,1,0,-5.954147
+539,104,Claremont Mudd Scripps,iii,So. Cal.,-24.812628,3,1,0,-26.604796
+540,147,Millersville,ii,Pennsylvania State Athletic,-24.853363,0,5,0,-4.87622
+541,105,Concordia Chicago,iii,NACC,-24.953017,3,1,0,-46.969256
+542,148,Lincoln (PA),ii,CIAA,-25.02902,1,4,0,-14.279972
+543,149,Jamestown,ii,Northern Sun,-25.334092,0,6,0,-3.131327
+544,24,Kentucky Christian,unknown,Independent,-25.366429,1,3,0,-5.931952
+545,106,Alfred State,iii,Empire 8,-25.542586,4,1,0,-49.107216
+546,107,East Texas Baptist,iii,American Southwest,-25.639953,2,2,0,-39.466679
+547,108,Washington and Lee,iii,Old Dominion,-25.937777,3,1,0,-29.934441
+548,109,Delaware Valley,iii,Mid Atlantic,-25.993777,2,2,0,-23.619452
+549,110,Johns Hopkins,iii,Centennial,-26.166116,1,3,0,-15.022909
+550,150,Savannah State,ii,SIAC,-26.270253,1,4,0,-1.812522
+551,111,Pomona Pitzer,iii,So. Cal.,-26.306542,2,2,0,-29.93955
+552,112,Millikin,iii,CCIW,-26.381764,2,3,0,-20.288736
+553,113,Capital,iii,Ohio,-26.425653,2,2,0,-25.251619
+554,114,Union,iii,Liberty League,-26.606959,3,2,0,-36.338328
+555,115,Loras,iii,American Rivers,-26.715158,2,2,0,-31.580885
+556,25,Simpson (CA),unknown,Independent,-26.785301,1,0,0,-57.843909
+557,116,Franklin,iii,Heartland,-26.902315,1,3,0,-7.996657
+558,117,Central College,iii,American Rivers,-26.903927,2,2,0,-28.283431
+559,118,North Park,iii,CCIW,-27.622813,0,5,0,-11.293514
+560,151,West Virginia Wesleyan,ii,Mountain East,-27.643311,2,4,0,-15.948626
+561,119,Salve Regina,iii,NEWMAC,-27.720205,4,1,0,-39.721936
+562,26,Reinhardt,unknown,Independent,-28.016316,0,1,0,2.373642
+563,27,Virginia Lynchburg,unknown,Independent,-28.099464,0,3,0,8.599945
+564,28,Marian (IN),unknown,Independent,-28.181225,0,1,0,2.157299
+565,120,MIT,iii,NEWMAC,-28.313328,2,2,0,-37.979936
+566,29,BLUEFIELD,unknown,Independent,-28.595495,1,2,0,-30.257035
+567,121,Stevenson,iii,Mid Atlantic,-28.776509,3,1,0,-42.028262
+568,122,Wilkes,iii,Landmark Conference,-28.779809,3,2,0,-32.69118
+569,152,Western New Mexico,ii,Lone Star,-28.907273,1,4,0,-7.212697
+570,123,Wittenberg,iii,North Coast,-29.238257,0,5,0,-12.095509
+571,124,Aurora,iii,NACC,-29.609675,1,3,0,-18.573324
+572,125,Maryville (TN),iii,USA South,-29.655025,2,3,0,-21.92438
+573,30,Mayville State,unknown,Independent,-29.852449,1,0,0,-55.247516
+574,126,Simpson (IA),iii,American Rivers,-29.991342,2,2,0,-35.087237
+575,153,Barton,ii,Carolinas,-30.024547,1,5,0,-14.366622
+576,127,Macalester,iii,Minnesota,-30.172916,3,1,0,-44.229217
+577,154,Wayne State (MI),ii,GLIAC,-30.219278,0,5,0,7.754698
+578,128,Hiram,iii,Presidents',-30.333973,4,0,0,-53.242625
+579,129,Southwestern U,iii,Southern Athletic,-30.46098,1,3,0,-29.36898
+580,130,Albright,iii,Mid Atlantic,-30.643176,2,2,0,-43.854776
+581,131,North Carolina Wesleyan,iii,USA South,-30.709287,2,2,0,-38.346955
+582,31,Point University,unknown,Independent,-30.760782,0,2,0,0.854266
+583,32,Lawrence Tech,unknown,Independent,-30.855905,0,1,0,2.784053
+584,155,Bluefield State,ii,CIAA,-30.95011,0,6,0,-8.794863
+585,132,The College of New Jersey,iii,New Jersey,-30.99892,1,3,0,-28.192266
+586,133,Allegheny,iii,Presidents',-31.010655,5,0,0,-52.246358
+587,134,Carthage,iii,CCIW,-31.659325,1,3,0,-16.43487
+588,156,Adams State,ii,Rocky Mountain,-31.833231,0,6,0,-2.488352
+589,135,Westminster (PA),iii,Presidents',-32.164211,1,3,0,-23.257078
+590,136,Augsburg,iii,Minnesota,-32.432416,1,3,0,-23.618478
+591,137,Belhaven,iii,USA South,-33.043697,1,3,0,-20.481133
+592,138,La Verne,iii,So. Cal.,-33.182598,2,2,0,-34.922376
+593,139,WPI,iii,NEWMAC,-33.821449,4,1,0,-38.116308
+594,157,Lane College,ii,SIAC,-33.986503,0,6,0,-9.120973
+595,140,Chicago,iii,Midwest,-34.728046,3,1,0,-45.088351
+596,33,Madonna,unknown,Independent,-34.766975,1,0,0,-46.825583
+597,34,Lackawanna,unknown,Independent,-34.887796,0,4,0,-6.078882
+598,141,Albion,iii,Michigan,-34.899538,0,5,0,-11.861522
+599,142,Huntingdon,iii,USA South,-34.918793,2,2,0,-25.034521
+600,143,Gettysburg,iii,Centennial,-35.03517,2,2,0,-30.747762
+601,144,Western Connecticut State,iii,Landmark Conference,-35.466235,2,2,1,-36.050882
+602,158,Kentucky Wesleyan,ii,Great Midwest Athletic,-36.054671,0,5,0,0.781823
+603,145,Wisconsin Lutheran,iii,NACC,-36.147003,3,2,0,-50.640456
+604,146,Lebanon Valley,iii,Mid Atlantic,-36.162917,0,4,0,-21.756935
+605,147,Alfred,iii,Empire 8,-36.388283,2,3,0,-33.751439
+606,148,Western New England,iii,Commonwealth Coast,-36.82105,2,3,0,-33.936912
+607,149,Coast Guard,iii,NEWMAC,-36.868728,3,2,0,-46.051614
+608,150,New England,iii,Commonwealth Coast,-36.956378,0,5,0,-24.255955
+609,151,Otterbein,iii,Ohio,-37.082311,2,3,0,-21.966279
+610,152,Kenyon,iii,North Coast,-37.359174,2,3,0,-22.920745
+611,153,Redlands,iii,So. Cal.,-37.595346,1,3,0,-27.719137
+612,35,Monroe,unknown,Independent,-37.699128,0,3,0,-12.146568
+613,154,St. Norbert,iii,NACC,-37.772153,3,2,0,-37.339731
+614,36,Elgin,unknown,Independent,-37.803697,0,1,0,20.586261
+615,37,Schreiner,unknown,Independent,-37.876024,3,2,0,-36.538276
+616,155,Greensboro,iii,USA South,-38.459428,2,2,0,-38.356722
+617,156,Nebraska Wesleyan,iii,American Rivers,-38.544037,0,3,0,-14.756268
+618,157,Kean,iii,New Jersey,-38.639357,1,2,1,-37.998395
+619,158,Rochester (NY),iii,Liberty League,-38.670306,3,2,0,-45.42768
+620,38,Central Methodist,unknown,Independent,-38.920677,0,1,0,-22.743362
+621,159,St. Olaf,iii,Minnesota,-39.346594,1,3,0,-22.21412
+622,160,Wooster,iii,North Coast,-39.39572,1,4,0,-24.710406
+623,161,Sewanee,iii,Southern Athletic,-39.425553,1,3,0,-29.90061
+624,162,Mass Maritime,iii,MSCAC,-39.57106,3,0,0,-67.31365
+625,163,Catholic,iii,Landmark Conference,-39.749255,0,5,0,-21.370147
+626,164,Lakeland,iii,NACC,-39.946921,2,3,0,-35.281037
+627,39,Arkansas Baptist,unknown,Independent,-40.583915,0,1,0,17.754609
+628,165,Kalamazoo,iii,Michigan,-40.712631,2,3,0,-32.464403
+629,166,UMass Dartmouth,iii,MSCAC,-40.730461,1,3,0,-45.522711
+630,167,King's,iii,Mid Atlantic,-41.172524,1,3,0,-36.347184
+631,168,Bridgewater State,iii,MSCAC,-41.28869,3,1,0,-55.439114
+632,169,Alvernia,iii,Mid Atlantic,-41.881037,2,2,0,-42.818131
+633,170,Westminster (MO),iii,Upper Midwest,-41.922579,3,1,0,-60.297053
+634,171,Geneva,iii,Presidents',-41.963409,2,2,0,-30.823179
+635,172,Husson,iii,Commonwealth Coast,-42.594764,1,4,0,-25.511265
+636,173,Luther,iii,Midwest,-42.64051,4,1,0,-49.17004
+637,159,Post,ii,Northeast 10,-42.705031,0,5,0,-16.689815
+638,174,SUNY Morrisville,iii,Empire 8,-43.187837,1,4,0,-26.680197
+639,175,Framingham State,iii,MSCAC,-43.227035,3,0,0,-51.632589
+640,176,Saint Vincent,iii,Presidents',-43.288717,1,2,0,-50.199509
+641,177,Illinois College,iii,Midwest,-43.449824,2,3,0,-46.2284
+642,178,Hartwick,iii,Empire 8,-43.528765,1,4,0,-27.401379
+643,179,Southern Virginia,iii,USA South,-43.572132,1,3,0,-29.693612
+644,180,Muskingum,iii,Ohio,-43.696077,0,4,0,-9.377196
+645,181,Manchester,iii,Heartland,-43.815553,1,3,0,-32.021545
+646,40,William Woods,unknown,Independent,-44.150539,0,1,0,-13.812016
+647,160,Saint Anselm,ii,Northeast 10,-44.197547,0,5,0,-13.597635
+648,41,Nelson (TX),unknown,Independent,-44.242268,0,1,0,-13.749441
+649,182,Waynesburg,iii,Presidents',-44.601558,1,4,0,-30.284925
+650,183,Puget Sound,iii,Northwest,-45.604276,0,3,0,-14.869859
+651,184,Wilmington (OH),iii,Ohio,-45.6775,1,3,0,-29.204368
+652,185,Widener,iii,Mid Atlantic,-45.951381,2,2,0,-45.934134
+653,186,Averett,iii,Old Dominion,-46.046764,2,2,0,-42.689245
+654,187,Bluffton,iii,Heartland,-46.825583,1,3,0,-32.785791
+655,188,Hamline,iii,Minnesota,-47.0868,1,3,0,-17.952528
+656,189,Centenary (LA),iii,Southern Collegiate Athletic,-47.103157,1,3,0,-35.688218
+657,190,Worcester State,iii,MSCAC,-47.109657,2,3,0,-51.026211
+658,191,Northwestern (MN),iii,Upper Midwest,-47.276413,1,3,0,-33.92711
+659,192,Keystone,iii,Independent DIII,-47.985703,1,4,0,-13.944477
+660,193,McDaniel,iii,Centennial,-48.032855,1,3,0,-29.279932
+661,194,Bridgewater,iii,Old Dominion,-48.05298,0,4,0,-20.418708
+662,195,Cornell (IA),iii,Midwest,-48.206598,2,3,0,-38.697663
+663,196,Elmhurst,iii,CCIW,-48.330412,1,3,0,-33.261693
+664,197,St. Scholastica,iii,Minnesota,-48.632187,0,4,0,-26.135022
+665,198,Moravian,iii,Landmark Conference,-48.713984,1,4,0,-27.81827
+666,199,Pacific (OR),iii,Northwest,-49.58314,0,4,0,-27.018628
+667,200,Ripon,iii,Midwest,-49.639021,1,4,0,-38.894288
+668,42,Phoenix,unknown,Independent,-50.130172,0,1,0,-19.189086
+669,201,Willamette,iii,Northwest,-50.168022,1,3,0,-33.255578
+670,202,William Paterson,iii,New Jersey,-50.603676,0,4,0,-29.790662
+671,203,Grinnell,iii,Midwest,-50.806707,3,2,0,-46.157423
+672,204,Bethany (WV),iii,Presidents',-51.184799,2,3,0,-31.716527
+673,205,Nichols,iii,Commonwealth Coast,-51.55288,2,3,0,-45.183719
+674,206,Juniata,iii,Landmark Conference,-51.570438,1,4,0,-34.771482
+675,207,Oberlin,iii,North Coast,-51.701784,0,5,0,-10.291608
+676,208,Curry,iii,Commonwealth Coast,-52.776422,3,2,0,-57.651397
+677,209,Buena Vista,iii,American Rivers,-53.04398,1,3,0,-43.352416
+678,210,Vermont State Castleton,iii,New Jersey,-54.100607,2,2,0,-50.966335
+679,211,Methodist,iii,USA South,-54.899804,1,3,0,-42.829509
+680,212,SUNY Maritime,iii,NEWMAC,-55.15094,2,3,0,-40.622874
+681,213,Minnesota Morris,iii,Upper Midwest,-55.247516,1,3,0,-41.830454
+682,214,Lyon,iii,Southern Collegiate Athletic,-55.48303,1,4,0,-39.585365
+683,215,Saint Francis,iii,Presidents',-55.687764,0,2,0,-25.117785
+684,216,Norwich,iii,NEWMAC,-55.986287,1,3,0,-37.676914
+685,217,Azusa Pacific,iii,So. Cal.,-55.986792,1,2,0,-42.873951
+686,43,Mount Mercy,unknown,Independent,-56.196665,0,1,0,-50.806707
+687,218,Apprentice School,iii,Independent DIII,-56.546083,0,3,0,-30.957104
+688,219,Guilford,iii,Old Dominion,-56.696021,1,3,0,-31.292461
+689,220,St. Lawrence,iii,Liberty League,-56.997684,1,4,0,-32.835416
+690,221,Austin,iii,Southern Collegiate Athletic,-57.103615,1,4,0,-37.651259
+691,222,Martin Luther,iii,Upper Midwest,-57.276726,0,4,0,-39.448279
+692,223,Rhodes,iii,Southern Athletic,-57.76506,0,4,0,-25.779252
+693,224,Whittier,iii,So. Cal.,-57.843909,1,3,0,-48.821386
+694,225,FDU Florham,iii,Mid Atlantic,-58.719566,0,4,0,-32.001976
+695,226,Westfield State,iii,MSCAC,-59.24522,2,2,0,-57.009054
+696,227,Crown,iii,Upper Midwest,-59.472368,2,2,0,-47.400596
+697,228,Anderson (IN),iii,Heartland,-60.005677,1,3,0,-47.271663
+698,229,Rockford,iii,NACC,-60.951384,0,5,0,-40.671254
+699,230,Thiel,iii,Presidents',-61.765399,0,5,0,-30.686078
+700,231,Plymouth State,iii,MSCAC,-62.625156,2,2,0,-63.302751
+701,232,Beloit,iii,Midwest,-62.691011,1,4,0,-47.466649
+702,233,Buffalo State,iii,Liberty League,-63.118002,0,5,0,-29.547894
+703,234,Greenville,iii,Upper Midwest,-64.677634,1,3,0,-39.229894
+704,235,Lawrence,iii,Midwest,-65.121003,0,4,0,-39.67534
+705,236,Knox,iii,Midwest,-67.37938,1,4,0,-46.390563
+706,237,Gallaudet,iii,Southern Collegiate Athletic,-70.537783,0,4,0,-40.314714
+707,238,Fitchburg State,iii,MSCAC,-71.572543,1,3,0,-62.192538
+708,44,Andrew,unknown,Independent,-74.483582,0,1,0,-16.093624
+709,239,Hilbert,iii,Empire 8,-74.986314,0,5,0,-29.647141
+710,240,Maine Maritime,iii,Commonwealth Coast,-75.673229,0,4,0,-49.500242
+711,241,Eureka,iii,NACC,-77.211995,0,5,0,-41.254184
+712,45,New England College,unknown,Independent,-79.275396,1,4,0,-53.368066
+713,242,Dean,iii,MSCAC,-85.53726,0,4,0,-58.253495
+714,46,Cetys University,unknown,Independent,-105.285301,0,1,0,-57.843909
