@@ -17,7 +17,8 @@ export function solve(a, b, n) {
   return x;
 }
 
-// Sum all nearby item evidence; the joint profile breaks exact ties only.
+// Sum the five closest neighbors per feedback type; profile breaks exact ties.
+export const NEIGHBOR_LIMIT=5;
 export function createRecommender(movies,factors,meta) {
   const n=meta.rank;
   const eligible=movies.flatMap((m,i)=>m[3]>=meta.minRecommendationRatings?[i]:[]),cache=new Map();
@@ -56,10 +57,21 @@ export function createRecommender(movies,factors,meta) {
     const positive=new Float64Array(eligible.length),negative=new Float64Array(eligible.length);
     const supportCount=new Uint32Array(eligible.length),oppositionCount=new Uint32Array(eligible.length);
     for(const [seeds,totals,counts] of [[likes,positive,supportCount],[dislikes,negative,oppositionCount]]) {
+      const strongest=new Float32Array(eligible.length*NEIGHBOR_LIMIT);
       for(const seed of seeds) {
         const sims=similarities(seed);
-        for(let j=0;j<eligible.length;j++) if(sims[j]>0) {totals[j]+=sims[j];counts[j]++;}
+        for(let j=0;j<eligible.length;j++) {
+          const offset=j*NEIGHBOR_LIMIT,value=sims[j];
+          if(value<=strongest[offset+NEIGHBOR_LIMIT-1]) continue;
+          for(let k=0;k<NEIGHBOR_LIMIT;k++) if(value>strongest[offset+k]) {
+            for(let t=NEIGHBOR_LIMIT-1;t>k;t--) strongest[offset+t]=strongest[offset+t-1];
+            strongest[offset+k]=value;break;
+          }
+        }
         yield;
+      }
+      for(let j=0;j<eligible.length;j++) for(let k=0;k<NEIGHBOR_LIMIT;k++) {
+        const value=strongest[j*NEIGHBOR_LIMIT+k];totals[j]+=value;if(value>0)counts[j]++;
       }
     }
     for(let j=0;j<eligible.length;j++) {
@@ -67,7 +79,7 @@ export function createRecommender(movies,factors,meta) {
       let prediction=movies[i][4];
       for(let k=0;k<n;k++) prediction+=factors[i*n+k]*profile[k];
       const prior=(Math.max(.5,Math.min(5,prediction))-.5)/4.5;
-      // Sum all nearby evidence. No division by list length or contributor cap.
+      // Sum five nearest weights, without dividing by list length or match count.
       // The fitted profile only breaks exact score ties when likes are present.
       const rankScore=likes.length ? positive[j]-negative[j] : prior-negative[j];
       results.push({index:i,prediction,score:Math.max(.5,Math.min(5,prediction)),rankScore,
@@ -84,6 +96,7 @@ export function createRecommender(movies,factors,meta) {
         if(weight>0) result.contributions.push({index:seed,weight});
       }
       result.contributions.sort((a,b)=>b.weight-a.weight||a.index-b.index);
+      result.contributions=result.contributions.slice(0,NEIGHBOR_LIMIT);
       result.reasons=result.contributions.map(c=>c.index);
       yield;
     }

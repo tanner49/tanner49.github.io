@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "dataset": "Amazon Reviews 2023 Movies & TV",
+  "sourceRatings": 17158519,
+  "matchedProductRatings": 1444287,
+  "seriesRatings": 230516,
+  "users": 46452,
+  "series": 1205,
+  "rank": 48,
+  "ridge": 1.0,
+  "minRecommendationRatings": 50,
+  "model": "positive-idf",
+  "seed": 49,
+  "validation": {
+    "method": "Seeded one-positive-series holdout for up to 500 users with at least five positive series; model selection on this validation set, not an independent test",
+    "models": {
+      "residual": {
+        "users": 500,
+        "hitRate20": 0.102,
+        "hitRate100": 0.238,
+        "medianRank": 366.0
+      },
+      "positive-idf": {
+        "users": 500,
+        "hitRate20": 0.162,
+        "hitRate100": 0.372,
+        "medianRank": 205.5
+      },
+      "popularity": {
+        "users": 500,
+        "hitRate20": 0.102,
+        "hitRate100": 0.304
+      }
+    }
+  },
+  "factorFormat": "row-major little-endian float32",
+  "factorsSHA256": "d9d837028f9e190d31f84f3d57dbff26b02f7bf03514f573bd7ea988e4e8db06",
+  "trainingSeconds": 4,
+  "sourceFiles": {
+    "meta_Movies_and_TV.jsonl.gz": "0afbb248ddb00c012c3e2c1e68505b7cd28b02a2c83fb4421ff0c71ad5a48b8d",
+    "Movies_and_TV.csv.gz": "aa927ae5a4fc5262bfa6152ce522349f828760035242fd7e02b1dc139e867156"
+  },
+  "neighborLimit": 5
+}

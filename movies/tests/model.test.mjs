@@ -11,9 +11,9 @@ test('ridge solve satisfies normal equations',()=>{
   assert.ok(Math.abs(x[0]+3*x[1]-2)<1e-10);
 });
 
-test('fourth and fifth nearby likes increase score without a cap or averaging',()=>{
-  const movies=Array.from({length:6},(_,i)=>[i,'Movie '+i,'',1000,3]);
-  const factors=new Float32Array(6).fill(1),meta={rank:1,ridge:1,minRecommendationRatings:100};
+test('fourth and fifth likes count; the sixth adds no weight and dislikes also cap at five',()=>{
+  const movies=Array.from({length:12},(_,i)=>[i,'Movie '+i,'',1000,3]);
+  const factors=new Float32Array(12).fill(1),meta={rank:1,ridge:1,minRecommendationRatings:100};
   for(let count=3;count<=5;count++) {
     const result=recommend(movies,factors,meta,Array.from({length:count},(_,i)=>[i,5])).find(r=>r.index===5);
     assert.equal(result.rankScore,count);
@@ -21,6 +21,10 @@ test('fourth and fifth nearby likes increase score without a cap or averaging',(
     assert.equal(result.contributions.length,count);
     assert.equal(result.contributions.reduce((s,c)=>s+c.weight,0),result.rankScore);
   }
+  const capped=recommend(movies,factors,meta,Array.from({length:6},(_,i)=>[i,5])).find(r=>r.index===11);
+  assert.equal(capped.rankScore,5);assert.equal(capped.supportCount,5);assert.equal(capped.contributions.length,5);
+  const negative=recommend(movies,factors,meta,[[0,5],...[1,2,3,4,5,6].map(i=>[i,1])]).find(r=>r.index===11);
+  assert.equal(negative.negativeScore,5);assert.equal(negative.oppositionCount,5);assert.equal(negative.rankScore,-4);
   const result=recommend(movies,factors,meta,[[0,5],[1,5],[2,5],[3,5],[4,1]])[0];
   assert.equal(result.rankScore,3);
   assert.equal(result.positiveScore,4);
@@ -77,7 +81,8 @@ test('long mixed histories, deterministic ranking, cached updates, and cancellat
     assert.ok(Math.abs(r.contributions.reduce((s,c)=>s+c.weight,0)-r.positiveScore)<1e-8);
     assert.equal(r.rankScore,r.positiveScore-r.negativeScore);
   }
-  assert.ok(extended.some(r=>r.supportCount>5));
+  assert.ok(extended.some(r=>r.supportCount===5));
+  assert.ok(extended.every(r=>r.supportCount<=5&&r.oppositionCount<=5));
   assert.deepEqual(engine.recommend([...seed].reverse()),first);
   assert.deepEqual(await engine.recommendAsync(seed),first);
   assert.equal(await engine.recommendAsync(prefs,20,()=>true),null);

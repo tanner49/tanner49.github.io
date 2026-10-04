@@ -27,17 +27,17 @@ Ranking uses item-neighborhood similarity sums, inspired by the established
 [item-item kNN similarity-sum approach](https://lenskit.org/0.14.3/knn.html).
 For every candidate and every preference, transform SVD cosine similarity with
 `weight = max(0, (cosine - .25) / .75)`, capped at 1 for numerical roundoff.
-Every positive weight contributes: there is no top-k cap and no division by
-contributor count. Weak similarities below the threshold contribute zero.
+Only the five strongest liked weights and five strongest disliked weights
+contribute per candidate. There is no division by contributor count. Weak similarities below the threshold contribute zero.
 
-The ranking score is exactly `sum(liked weights) - sum(disliked weights)`.
+The ranking score is exactly `sum(top 5 liked weights) - sum(top 5 disliked weights)`.
 The fitted user vector only breaks exact ties; dislike-only profiles instead
 use `normalized_profile_prediction - sum(disliked weights)`. The threshold is
 heuristic and the displayed score is neither a probability nor a star rating.
 
 The UI displays the weighted score separately from the full supporting-like
 count. Its compact explanation previews three titles; expandable details list
-**every** contributing like and weight, plus positive/negative totals. Only
+all five (or fewer) contributing likes and weight, plus positive/negative totals. Only
 explanation previews are shortened. All entered movies are excluded, and there
 are no handwritten title exclusions or genre filters.
 

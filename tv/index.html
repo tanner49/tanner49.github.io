@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find your next show with personalized recommendations learned from Amazon TV reviews. Pick shows you like and dislike to get started.">
+  <meta name="theme-color" content="#172d25">
+  <title>TV Night · Tanner Phillips</title>
+  <link rel="canonical" href="https://tanner49.github.io/tv/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="./styles.css?v=1">
+  <script type="module" src="./app.js?v=6"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="site-brand" href="/"><span class="site-mark">TP<span>↗</span></span><span>TANNER PHILLIPS</span></a><nav aria-label="Main"><a href="/">About</a><a href="/cv/">Experience</a><a href="/tanner-ratings/">Prove It Rankings</a><a href="/movies/">Movie Night</a><a href="/tv/" aria-current="page">TV Night</a></nav></header>
+  <main id="main">
+    <section class="intro"><div><p class="overline">A LITTLE TASTE. A BETTER WATCHLIST.</p><h1>Your next<br><span>series.</span></h1><p class="lead">Start with shows you know.<br>Find something you’ll love.</p></div><aside class="ticket" aria-label="About this experiment"><span class="ticket-icon" aria-hidden="true">▶</span><strong>Your next series.<br>A new experiment.</strong><span>Learned from Amazon reviews<br>Curated by your taste</span><div class="ticket-bottom">ADMIT ONE <span>∞ POSSIBILITIES</span></div></aside></section>
+    <p class="notice">EARLY EXPERIMENT - Amazon reviews grouped into TV series. Coverage and title matching are imperfect.</p>
+    <div id="load-status" class="notice" role="status">Loading the show catalog and recommendation model…</div>
+    <button id="retry" hidden>Try loading again</button>
+    <noscript><p>This app needs JavaScript to search shows and generate recommendations.</p></noscript>
+    <div class="workspace">
+      <section class="taste" aria-labelledby="taste-title"><div class="section-label"><span>01 / YOUR TASTE</span><button id="clear" class="text-button" disabled>Clear all</button></div><h2 id="taste-title">What have you seen?</h2><p class="muted">Add a few favorites and a few misses. Three or more is a great start.</p>
+        <label for="search">Search for a show</label>
+        <div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try The Office or Breaking Bad" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions" aria-describedby="search-help" disabled><ul id="suggestions" role="listbox" aria-label="Matching shows" hidden></ul></div>
+        <p id="search-help" class="small muted">Type a title, then select a show from the dropdown.</p>
+        <div id="selected" class="selected"><span id="selected-title">Choose a show to add</span><div class="actions"><button id="like" class="like-button" disabled>＋ Like</button><button id="dislike" class="dislike-button" disabled>− Dislike</button></div></div>
+        <div class="preference-section"><h3>Like <span id="like-count">0</span></h3><ul id="likes" class="preferences"></ul><p id="likes-empty" class="empty-list">The ones you’d watch again.</p></div>
+        <div class="preference-section"><h3>Dislike <span id="dislike-count">0</span></h3><ul id="dislikes" class="preferences"></ul><p id="dislikes-empty" class="empty-list">The ones that weren’t for you.</p></div>
+        <p class="privacy">Your picks stay in this browser. No account needed.</p>
+      </section>
+      <section class="recommendations" aria-labelledby="results-title"><div class="section-label"><span>02 / YOUR NEXT WATCH</span><span id="result-count"></span></div><h2 id="results-title">Made for your taste.</h2><p id="recommendation-status" class="muted" role="status">Your recommendations will appear here.</p><div id="results-empty" class="empty-results"><span aria-hidden="true">✳</span><h3>Good shows start with you.</h3><p>Add a show to either list and we’ll find your next watch. Keep adding picks to fine-tune the results.</p></div><ol id="results"></ol><button id="show-more" hidden>Show 20 more</button></section>
+    </div>
+    <details class="about-model"><summary>About this first TV experiment</summary><p>This model learns from the <a href="https://amazon-reviews-2023.github.io/">Amazon Reviews 2023</a> Movies &amp; TV dataset. We identify series using TV categories and season labels, merge matching seasons and editions, and average each person's ratings into one rating per series. The catalog includes only series with at least 50 reviewers after filtering for people who reviewed at least three series.</p><p>The five closest liked shows contribute similarity weights to each match score; the five closest disliked shows subtract theirs. We sum these weights, without averaging or sorting by the number of contributors. Expand any recommendation to inspect the contributions. Recommendations exclude every show you entered. You can browse up to 500 results.</p><p><strong>Experimental coverage:</strong> Amazon reviews can describe disc quality or delivery as well as the show itself. Automatic title matching can miss shows or confuse remakes. Recent streaming-only series may be absent; the source data ends in September 2023. This is an initial research prototype, not a complete TV catalog. TV and movie preference lists are saved separately in your browser.</p><p>Source: Hou et al. (2024), <a href="https://arxiv.org/abs/2403.03952">Bridging Language and Items for Retrieval and Recommendation</a>, McAuley Lab, UC San Diego. No affiliation with or endorsement by Amazon or the dataset authors. <a href="./data/model.json">Training and validation results</a> &middot; <a href="./data/series-map.json">Series/product mapping</a> &middot; <a href="./ATTRIBUTION.md">Attribution</a> &middot; <a href="https://github.com/tanner49/tanner49.github.io/tree/master/tv">Source code</a></p></details>
+  </main>
+  <footer class="site-footer"><span>Tanner Phillips, PhD</span><a href="/">Back to home ↗</a></footer>
+</body>
+</html>
