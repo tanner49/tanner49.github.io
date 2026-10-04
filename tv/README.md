@@ -31,23 +31,21 @@ No reviewer identifiers, review text, or user factors are published.
 
 ## Model and validation
 
-Two 48-factor randomized SVD variants were evaluated with seed 49 and five power
-iterations: centered explicit ratings, and positive ratings weighted by inverse
-item frequency. The latter performed better and is deployed. It transforms
-ratings with `max(0, (rating - 3) / 2)`, weights each item by
-`log(1 + user_count / (1 + positive_user_count))`, and L2-normalizes user rows.
-Item factors are `V * sqrt(S)`, then normalized per item for cosine similarity.
-All retained ratings inform baseline means; ratings of 3 or below contribute
-zero to this positive-interaction SVD. App dislikes subtract neighbor evidence.
+TV and movies now share the [same observed-only SGD trainer](../recommender_training/mf.py)
+and browser recommendation engine. Each gets separate 48-dimensional learned
+factors and biases. Training predicts global mean + user bias + series bias +
+the factor dot product, with L2 regularization. Missing ratings receive no updates.
+All actual ratings, including ratings of 3 or below, participate in training.
+Exported item vectors are normalized for the unchanged five-neighbor cosine rule.
 
-Validation holds out one positively rated series for each of 500 seeded users
-with at least five positive series. Factors are fit without those ratings and
-the browser's top-five weighted-neighbor rule ranks unseen shows against the
-full retained catalog. Hit rate at 20 is **16.2%**, versus **10.2%** for popularity
-and **10.2%** for centered-rating SVD. Hit rate at 100 is **37.2%**, versus **30.4%**
-for popularity. Production refits on all retained ratings. This validation set
-was used to select the model; it is not an independent final test. These results
-do not guarantee recommendation quality for every short Like/Dislike list.
+A seeded validation rating holdout selects the epoch. A separate, untouched test
+holdout measures rating prediction; production then refits on all retained ratings.
+Test RMSE is **0.81918**, versus **0.92659** for the regularized series-mean baseline.
+See `data/model.json` for exact metrics and hyperparameters. This evaluates trained
+user-vector rating prediction, not binary-profile recommendation ranking. It is a
+different experiment from the earlier positive-IDF SVD hit-rate test, so those
+scores are not comparable. Sparse, overwhelmingly positive Amazon reviews remain
+a limitation; adopting a shared model does not establish better ranking quality.
 
 ## Reproduce and test
 

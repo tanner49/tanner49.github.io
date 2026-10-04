@@ -76,7 +76,7 @@ function renderResults(results) {
 function fail(message) { $('load-status').textContent=message+' Check your connection and try again.'; $('load-status').classList.add('error'); $('retry').hidden=false; $('search').disabled=true;  $('like').disabled=$('dislike').disabled=true; }
 function load() {
   if(worker) worker.terminate(); $('retry').hidden=true; $('load-status').classList.remove('error'); $('load-status').textContent='Loading catalog and model (small download on your first visit)…';
-  try { worker=new Worker(new URL('./worker.js?v=6',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
+  try { worker=new Worker(new URL('./worker.js?v=7',import.meta.url),{type:'module'}); } catch { fail('This browser could not start the recommendation engine.'); return; }
   worker.onerror=()=>fail('The recommendation engine could not start.');
   worker.onmessage=({data})=>{
     if(data.type==='ready') {

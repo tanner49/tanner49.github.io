@@ -106,6 +106,9 @@ test('production artifact integrity and real personalized ranking',()=>{
   const factors=new Float32Array(buffer.buffer,buffer.byteOffset,buffer.byteLength/4);
   assert.ok(factors.every(Number.isFinite));
   assert.equal(new Set(movies.map(m=>m[0])).size,meta.movies);
+  assert.equal(meta.model,'observed-only-biased-sgd');
+  assert.equal(meta.version,2);
+  assert.ok(meta.test.rmse<meta.test.movieMeanRmse);
   assert.ok(meta.validation.rmse<meta.validation.movieMeanRmse);
   assert.equal(movies.reduce((s,m)=>s+m[3],0),32000204);
   const matrix=movies.findIndex(m=>m[0]===2571), toy=movies.findIndex(m=>m[0]===1);
