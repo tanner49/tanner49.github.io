@@ -1,9 +1,9 @@
-import {createRecommender} from '../movies/model.mjs?v=8';
+import {createRecommender} from '../movies/model.mjs?v=6';
 let movies, factors, meta, engine, latestRequest=0;
 self.onmessage = async ({data}) => {
   try {
     if (data.type === 'load') {
-      const responses = await Promise.all(['data/shows.json','data/model.json','data/factors.f32'].map(path => fetch(new URL(path+'?v=8',import.meta.url))));
+      const responses = await Promise.all(['data/shows.json','data/model.json','data/factors.f32'].map(path => fetch(new URL(path,import.meta.url))));
       if (responses.some(r => !r.ok)) throw new Error('Could not download the recommendation files.');
       [movies, meta] = await Promise.all([responses[0].json(),responses[1].json()]);
       const buffer = await responses[2].arrayBuffer();

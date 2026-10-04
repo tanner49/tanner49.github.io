@@ -13,7 +13,6 @@ test('Amazon artifacts, coverage and trained factors are consistent',()=>{
   assert.equal(buffer.byteLength,meta.series*meta.rank*4);
   assert.equal(createHash('sha256').update(buffer).digest('hex'),meta.factorsSHA256);
   assert.equal(shows.length,meta.series);
-  assert.equal(meta.model,'positive-idf');
   assert.ok(shows.length>500);
   assert.equal(new Set(shows.map(s=>s[0])).size,shows.length);
   assert.equal(shows.reduce((total,s)=>total+s[3],0),meta.seriesRatings);

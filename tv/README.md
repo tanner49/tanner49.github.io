@@ -49,24 +49,6 @@ for popularity. Production refits on all retained ratings. This validation set
 was used to select the model; it is not an independent final test. These results
 do not guarantee recommendation quality for every short Like/Dislike list.
 
-## Observed-only SGD experiment
-
-The shared movie SGD trainer was also trained on TV ratings. Its independent
-rating-test RMSE was 0.81918 versus 0.92659 for series means, but its cosine
-neighbors produced much worse recommendations. On a separate 200-user positive
-holdout comparison, top-20 hit rate was 1.0% for SGD versus 14.5% for the previous
-positive-IDF model (top-100: 8.5% versus 43.0%). Both models were refit without
-those held-out ratings. The comparison uses the same top-five weighting rule,
-with popularity breaking ties, rather than the browser's ridge tie-breaker.
-This is a validation comparison, not an independent final ranking test.
-
-Experiments with 8/16/48 factors, smaller initialization, and longer SGD training
-also failed to close the gap. The previous TV model is therefore deployed;
-movies use observed-only SGD. Both still share the browser ranking engine.
-The experimental adapter remains available as `training/train_sgd.py`; it uses
-`recommender_training/mf.py` and saves outside the site by default. See
-[data/sgd-experiment.json](data/sgd-experiment.json) and `training/compare_models.py`.
-
 ## Reproduce and test
 
 Use Python 3.10 and `training/requirements.txt`. Download both archives to a cache

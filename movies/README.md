@@ -9,25 +9,23 @@ Preferences are stored locally by MovieLens movie ID; nothing is submitted.
 ## Model
 
 All **32,000,204 ratings** from **200,948 users** are used in the production model.
-The catalog contains 87,585 titles. Movies use the
-[observed-only SGD trainer](../recommender_training/mf.py), also available for TV
-experiments, with 48-dimensional factors. TV retains its previous similarity model
-after SGD substantially reduced held-out recommendation quality. Prediction during training is global mean + user bias +
-title bias + the user/item factor dot product. Each epoch visits only actual
-ratings; missing ratings are never filled with zeros or added to the loss.
-L2 regularization discourages overfitting. Low ratings remain real observations.
-Item factors are normalized for the browser's cosine-neighbor ranking.
+The catalog contains 87,585 titles. Training subtracts a regularized movie mean
+(25 pseudo-ratings at the global mean) from observed ratings, leaving missing
+entries at zero residual. Randomized truncated SVD extracts 48 factors with four
+power iterations and seed 49. Movie factors are `V * sqrt(S)`, normalized by row.
+This is explicit truncated SVD of a sparse residual matrix, not the SGD algorithm
+sometimes also called SVD by recommender libraries.
 
 For a new visitor, Like = 5 stars and Dislike = 1 star. We solve
-`p = (Q_selected.T Q_selected + I)^-1 Q_selected.T (ratings - item_baselines)`.
-Predictions are `global_mean + item_bias + Q_movie p`. These break exact similarity-score ties
+`p = (Q_selected.T Q_selected + I)^-1 Q_selected.T (ratings - movie_means)`.
+Predictions are `movie_mean + Q_movie p`. These break exact similarity-score ties
 and provide a fallback for dislike-only profiles. Existing picks are excluded.
 Recommendations need 100 ratings; all titles remain searchable, but titles with
 no ratings cannot be used to build a profile. Genre metadata is display-only.
 
 Ranking uses item-neighborhood similarity sums, inspired by the established
 [item-item kNN similarity-sum approach](https://lenskit.org/0.14.3/knn.html).
-For every candidate and every preference, transform factor cosine similarity with
+For every candidate and every preference, transform SVD cosine similarity with
 `weight = max(0, (cosine - .25) / .75)`, capped at 1 for numerical roundoff.
 Only the five strongest liked weights and five strongest disliked weights
 contribute per candidate. There is no division by contributor count. Weak similarities below the threshold contribute zero.
@@ -51,15 +49,13 @@ Tanner's favorites button merges 28 matched titles into Like, preserving other
 picks and moving any matching dislikes to Like. Both tiers are treated equally.
 Next Goal Wins (2023) and Dune: Part Two are unavailable in this dataset.
 
-Training selects an epoch using a seeded rating holdout, then evaluates a
-separate untouched test holdout, and refits on all ratings for deployment.
-Validation/test users are disjoint; each retains an observed training history.
-See [data/model.json](data/model.json) for RMSE, baseline comparison, epoch history,
-hyperparameters, checksums, and timings. The test measures trained user-vector
-rating prediction, not the browser's binary Like/Dislike recommendation quality.
-The earlier truncated-SVD score used a different split and inference method and
-is not a direct comparison. Hyperparameters are a starting configuration, not an
-exhaustive search; the ranking threshold and five-neighbor rule stay unchanged.
+Validation withholds five randomly chosen ratings for each of 1,000 seeded
+random users before fitting both the SVD and baselines. Their remaining ratings
+fit ridge profiles. RMSE on 5,000 unseen ratings is **0.81175**, compared with
+**0.98099** for the regularized movie-mean baseline. Production then refits on
+all ratings. This measures rating prediction with established user histories;
+it does not establish ranking quality for short binary Like/Dislike profiles.
+See [data/model.json](data/model.json) for metadata, checksums, and timings.
 
 ## Reproduce
 
@@ -76,7 +72,7 @@ python -m http.server 8765
 node --test movies/tests/model.test.mjs
 ```
 
-Ratings are memory-mapped outside the repository to keep training memory bounded. Runtime artifacts total about
+Training requires roughly 3–4 GB available RAM. Runtime artifacts total about
 22.4 MB before HTTP compression; no user factors or raw ratings are published.
 Do not commit the raw archive or install dependencies inside the published tree.
 Deploy by committing the `movies/` directory to the existing Pages source branch.
