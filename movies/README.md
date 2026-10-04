@@ -9,9 +9,10 @@ Preferences are stored locally by MovieLens movie ID; nothing is submitted.
 ## Model
 
 All **32,000,204 ratings** from **200,948 users** are used in the production model.
-The catalog contains 87,585 titles. Both apps use the same
-[observed-only SGD trainer](../recommender_training/mf.py), with separately learned
-48-dimensional factors. Prediction during training is global mean + user bias +
+The catalog contains 87,585 titles. Movies use the
+[observed-only SGD trainer](../recommender_training/mf.py), also available for TV
+experiments, with 48-dimensional factors. TV retains its previous similarity model
+after SGD substantially reduced held-out recommendation quality. Prediction during training is global mean + user bias +
 title bias + the user/item factor dot product. Each epoch visits only actual
 ratings; missing ratings are never filled with zeros or added to the loss.
 L2 regularization discourages overfitting. Low ratings remain real observations.

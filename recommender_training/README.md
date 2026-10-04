@@ -1,6 +1,8 @@
 # Shared movie/TV matrix factorization
 
-Both dataset adapters call `mf.train` and `mf.export`. Both websites import
+The movie adapter and experimental TV adapter call `mf.train` and `mf.export`.
+TV deployment retains positive-IDF SVD after SGD failed its ranking comparison.
+Both websites import
 `movies/model.mjs` for ranking. Data cleaning and catalogs remain dataset-specific.
 
 Training predicts `global_mean + user_bias + item_bias + dot(user, item)`.
@@ -27,7 +29,7 @@ That profile is only a tie-breaker or a dislike-only fallback. The main ranking
 remains the sum of the five strongest liked similarities minus the five strongest
 disliked similarities, with the existing cosine threshold of 0.25.
 
-Run training through `movies/training/train.py` or `tv/training/train.py`.
+Run training through `movies/training/train.py` or `tv/training/train_sgd.py`.
 Run gradient/missing-data regression tests from the repository root:
 
 ```sh

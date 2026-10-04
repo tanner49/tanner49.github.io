@@ -1,1 +1,2 @@
 -r ../../recommender_training/requirements.txt
+scikit-learn==1.5.0

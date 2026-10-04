@@ -1,7 +1,7 @@
 # Data attribution
 
 This noncommercial research prototype derives series-level counts, means, and
-matrix-factorization item factors from the **Amazon Reviews 2023** Movies & TV category,
+SVD item factors from the **Amazon Reviews 2023** Movies & TV category,
 released by the McAuley Lab at UC San Diego.
 
 Yupeng Hou, Jiacheng Li, Zhankui He, An Yan, Xiusi Chen, and Julian McAuley.
