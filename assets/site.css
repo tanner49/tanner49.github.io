@@ -23,7 +23,7 @@ a:focus-visible { outline: 3px solid var(--orange); outline-offset: 5px; }
 .site-mark span { color: var(--lime); font-size: 17px; margin-left: 2px; }
 .site-header nav { display: flex; flex-wrap: wrap; gap: 28px; font-size: 12px; font-weight: 600; }
 .site-header nav a { text-decoration: none; border-bottom: 2px solid transparent; padding: 6px 0; }
-.site-header nav a:hover, .site-header nav a[aria-current='page'] { border-color: var(--orange); }
+.site-header nav a:hover, .site-header nav a[aria-current='page'], .site-header nav a[aria-current='location'] { border-color: var(--orange); }
 .personal-page { min-height: 100vh; display: flex; flex-direction: column; }
 .personal-page .site-header, .personal-page .site-footer { width: 100%; }
 .personal-main { width: 100%; max-width: 1200px; margin: 0 auto; padding: 65px 5% 75px; flex: 1; }

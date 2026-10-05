@@ -1,0 +1,30 @@
+.engines-main { max-width: 1280px; padding-top: 60px; }
+.engines-intro { margin-bottom: 44px; }
+.engines-intro h1 { font-size: clamp(46px, 6vw, 80px); letter-spacing: -.5px; }
+.engines-intro > p:last-child { max-width: 560px; color: #4f5e54; font-size: 16px; line-height: 1.8; }
+.engine-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.engine-card { display: flex; flex-direction: column; padding: 28px; border: 1px solid var(--line); background: var(--white); text-decoration: none; border-top: 4px solid var(--ink); transition: border-color .15s, background .15s; }
+.engine-card:hover { border-color: var(--orange); background: #fff; }
+.card-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 26px; }
+.card-top .overline { margin: 0; font-size: 9px; letter-spacing: 1.6px; }
+.card-top svg { width: 44px; height: 44px; flex-shrink: 0; }
+.movies-card { border-top-color: var(--orange); }
+.games-card { border-top-color: #688143; }
+.tv-card { border-top-color: #6c7d91; }
+.engine-card h2 { font: 600 42px/1.1 var(--display); margin: 0 0 16px; }
+.engine-card p { margin: 0 0 26px; color: #4f5e54; font-size: 14px; line-height: 1.8; }
+.card-source { margin-top: auto; color: var(--muted); font-size: 10px; padding-bottom: 20px; }
+.card-link { border-top: 1px solid var(--line); padding-top: 17px; display: flex; justify-content: space-between; align-items: center; font-weight: 600; font-size: 13px; }
+.card-link > span { color: var(--orange); font-size: 22px; line-height: 1; }
+.engines-note { display: flex; gap: 12px; align-items: baseline; color: var(--muted); font-size: 12px; margin: 28px 0 0; }
+.engines-note > span { color: var(--orange); font-size: 19px; }
+@media (max-width: 900px) { .engine-grid { gap: 15px; } .engine-card { padding: 22px; } }
+@media (max-width: 700px) {
+  .engines-main { padding-top: 36px; }
+  .engines-intro { margin-bottom: 30px; }
+  .engine-grid { grid-template-columns: 1fr; gap: 20px; }
+  .engine-card { padding: 25px; }
+  .card-top { margin-bottom: 18px; }
+  .engine-card p { max-width: 470px; margin-bottom: 22px; }
+}
+@media (prefers-reduced-motion: reduce) { .engine-card { transition: none; } }
