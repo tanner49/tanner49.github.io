@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find your next game with personalized recommendations learned from Steam playtime histories. Pick games you like and dislike to get started.">
+  <meta name="theme-color" content="#172d25">
+  <title>Game Night · Tanner Phillips</title>
+  <link rel="canonical" href="https://tanner49.github.io/games/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="./styles.css?v=1">
+  <script type="module" src="./app.js?v=1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="site-brand" href="/"><span class="site-mark">TP<span>↗</span></span><span>TANNER PHILLIPS</span></a><nav aria-label="Main"><a href="/">About</a><a href="/cv/">Experience</a><a href="/tanner-ratings/">Prove It Rankings</a><a href="/movies/">Movie Night</a><a href="/tv/">TV Night</a><a href="/games/" aria-current="page">Game Night</a></nav></header>
+  <main id="main">
+    <section class="intro"><div><p class="overline">A LITTLE TASTE. YOUR NEXT ADVENTURE.</p><h1>Your next<br><span>game.</span></h1><p class="lead">Start with games you know.<br>Find something you’ll love.</p></div><aside class="ticket" aria-label="About this experiment"><span class="ticket-icon" aria-hidden="true">▶</span><strong>Your next game.<br>A new experiment.</strong><span>Learned from Steam playtime<br>Curated by your taste</span><div class="ticket-bottom">ADMIT ONE <span>∞ POSSIBILITIES</span></div></aside></section>
+    <p class="notice">EARLY EXPERIMENT — Steam playtime data published in April 2024. Newer releases may be missing.</p>
+    <div id="load-status" class="notice" role="status">Loading the game catalog and recommendation model…</div>
+    <button id="retry" hidden>Try loading again</button>
+    <noscript><p>This app needs JavaScript to search games and generate recommendations.</p></noscript>
+    <div class="workspace">
+      <section class="taste" aria-labelledby="taste-title"><div class="section-label"><span>01 / YOUR TASTE</span><button id="clear" class="text-button" disabled>Clear all</button></div><h2 id="taste-title">What have you played?</h2><p class="muted">Add a few favorites and a few misses. Three or more is a great start.</p>
+        <label for="search">Search for a game</label>
+        <div class="search-wrap"><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Try Baldur’s Gate 3 or Elden Ring" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions" aria-describedby="search-help" disabled><ul id="suggestions" role="listbox" aria-label="Matching games" hidden></ul></div>
+        <p id="search-help" class="small muted">Type a title, then select a game from the dropdown.</p>
+        <div id="selected" class="selected"><span id="selected-title">Choose a game to add</span><div class="actions"><button id="like" class="like-button" disabled>＋ Like</button><button id="dislike" class="dislike-button" disabled>− Dislike</button></div></div>
+        <div class="preference-section"><h3>Like <span id="like-count">0</span></h3><ul id="likes" class="preferences"></ul><p id="likes-empty" class="empty-list">The ones you’d play again.</p></div>
+        <div class="preference-section"><h3>Dislike <span id="dislike-count">0</span></h3><ul id="dislikes" class="preferences"></ul><p id="dislikes-empty" class="empty-list">The ones that weren’t for you.</p></div>
+        <p class="privacy">Your picks stay in this browser. No account needed.</p>
+      </section>
+      <section class="recommendations" aria-labelledby="results-title"><div class="section-label"><span>02 / YOUR NEXT GAME</span><span id="result-count"></span></div><h2 id="results-title">Made for your taste.</h2><p id="recommendation-status" class="muted" role="status">Your recommendations will appear here.</p><div id="results-empty" class="empty-results"><span aria-hidden="true">✳</span><h3>Good games start with you.</h3><p>Add a game to either list and we’ll find your next game. Keep adding picks to fine-tune the results.</p></div><ol id="results"></ol><button id="show-more" hidden>Show 20 more</button></section>
+    </div>
+    <details class="about-model"><summary>About this Steam experiment</summary><p>Learned from the <a href="https://huggingface.co/datasets/steamgamerecommender/data_files_public">Steam Game Ownership and User Friendships dataset</a>. The snapshot was published in April 2024 and includes early-2024 games such as Helldivers 2 and Palworld. Its exact collection cutoff is undocumented; this is not a live Steam catalog.</p><p>Games played for at least 30 minutes provide evidence of interest. Unplayed purchases do not count as dislikes. We compare binary play history with capped playtime weighting, select on held-out recommendations, and train compact similarity factors. Playtime is an imperfect proxy for enjoyment. Search includes games with at least 50 retained players.</p><p>The five closest liked games add similarity weights and the five closest disliked games subtract theirs. Scores are weighted sums, not star predictions or percentages. Expand a result to see its contributing likes. Every game you enter is excluded; browse up to 500 recommendations. Likes and dislikes stay in your browser, separate from Movie Night and TV Night.</p><p>The dataset samples public profiles through friend networks, so it is not representative of all players. It does not contain explicit dislikes. Short games and recent releases may have weaker coverage. This independent experiment is not affiliated with Valve. <a href="./data/model.json">Training and validation</a> · <a href="./ATTRIBUTION.md">Dataset credits and license</a> · <a href="https://github.com/tanner49/tanner49.github.io/tree/master/games">Source code</a></p></details>
+  </main>
+  <footer class="site-footer"><span>Tanner Phillips, PhD</span><a href="/">Back to home ↗</a></footer>
+</body>
+</html>

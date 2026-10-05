@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "dataset": "Steam Game Ownership and User Friendships",
+  "sourceRevision": "d31fadbdcea69f26d3a3a6515607be1a23293303",
+  "snapshotPublished": "2024-04-04",
+  "collectionCutoff": "Not documented; contains early-2024 releases",
+  "sourceOwnerships": 25228753,
+  "sourceUsers": 79314,
+  "users": 71118,
+  "games": 12830,
+  "playedInteractions": 11321738,
+  "minimumPlaytimeMinutes": 30,
+  "minPlayersPerGame": 50,
+  "minGamesPerUser": 5,
+  "rank": 48,
+  "seed": 49,
+  "model": "binary-idf-full-s",
+  "ridge": 1.0,
+  "neighborLimit": 5,
+  "minRecommendationRatings": 50,
+  "neutralBaseline": 3.0,
+  "validation": {
+    "method": "600 seeded users with >=20 played games: one >=60-minute game held out each; 20 remaining played games form Likes. First 300 select weighting, other 300 form independent test. Held-out entries from both groups excluded from factor fitting. All other owned games excluded from recommendations. Catalog/core filtering precedes split. No negative ratings exist in source. Test inspected during development; exploratory results, not a pristine final benchmark.",
+    "models": {
+      "binary-idf": {
+        "model": {
+          "users": 300,
+          "hitRate20": 0.09333333333333334,
+          "hitRate100": 0.16,
+          "medianRank": 1271.5,
+          "ndcg20": 0.034887123360353274
+        },
+        "popularity": {
+          "users": 300,
+          "hitRate20": 0.20666666666666667,
+          "hitRate100": 0.39666666666666667,
+          "medianRank": 178.5,
+          "ndcg20": 0.11115653769394053
+        }
+      },
+      "capped-playtime-idf": {
+        "model": {
+          "users": 300,
+          "hitRate20": 0.07,
+          "hitRate100": 0.15666666666666668,
+          "medianRank": 1412.5,
+          "ndcg20": 0.028122004027996087
+        },
+        "popularity": {
+          "users": 300,
+          "hitRate20": 0.20666666666666667,
+          "hitRate100": 0.39666666666666667,
+          "medianRank": 178.5,
+          "ndcg20": 0.11115653769394053
+        }
+      },
+      "binary-no-idf": {
+        "model": {
+          "users": 300,
+          "hitRate20": 0.06,
+          "hitRate100": 0.14333333333333334,
+          "medianRank": 2277.5,
+          "ndcg20": 0.021912799048112972
+        },
+        "popularity": {
+          "users": 300,
+          "hitRate20": 0.20666666666666667,
+          "hitRate100": 0.39666666666666667,
+          "medianRank": 178.5,
+          "ndcg20": 0.11115653769394053
+        }
+      },
+      "binary-no-idf-full-s": {
+        "model": {
+          "users": 300,
+          "hitRate20": 0.07666666666666666,
+          "hitRate100": 0.16333333333333333,
+          "medianRank": 1367.0,
+          "ndcg20": 0.025569693322028696
+        },
+        "popularity": {
+          "users": 300,
+          "hitRate20": 0.20666666666666667,
+          "hitRate100": 0.39666666666666667,
+          "medianRank": 178.5,
+          "ndcg20": 0.11115653769394053
+        }
+      },
+      "binary-sqrt-idf-full-s": {
+        "model": {
+          "users": 300,
+          "hitRate20": 0.08,
+          "hitRate100": 0.15666666666666668,
+          "medianRank": 1156.5,
+          "ndcg20": 0.027652523914325655
+        },
+        "popularity": {
+          "users": 300,
+          "hitRate20": 0.20666666666666667,
+          "hitRate100": 0.39666666666666667,
+          "medianRank": 178.5,
+          "ndcg20": 0.11115653769394053
+        }
+      },
+      "binary-idf-full-s": {
+        "model": {
+          "users": 300,
+          "hitRate20": 0.11,
+          "hitRate100": 0.19,
+          "medianRank": 913.5,
+          "ndcg20": 0.044026184740718954
+        },
+        "popularity": {
+          "users": 300,
+          "hitRate20": 0.20666666666666667,
+          "hitRate100": 0.39666666666666667,
+          "medianRank": 178.5,
+          "ndcg20": 0.11115653769394053
+        }
+      }
+    }
+  },
+  "test": {
+    "model": {
+      "users": 300,
+      "hitRate20": 0.06333333333333334,
+      "hitRate100": 0.16,
+      "medianRank": 942.0,
+      "ndcg20": 0.029853575218682593
+    },
+    "popularity": {
+      "users": 300,
+      "hitRate20": 0.18333333333333332,
+      "hitRate100": 0.37333333333333335,
+      "medianRank": 235.0,
+      "ndcg20": 0.0962016881149603
+    }
+  },
+  "sourceFiles": {
+    "0/games.csv": "d10f8eff3b7c9d6f47a1c6d60ea6400dad23c61488a250013eec06cf59c9b133",
+    "0/users_games.csv": "b7b89486dad0c4aedf6e15add123008e27291dfa8001df0bd43a764ff4f64acf",
+    "20000/games.csv": "1c39c8d3f9e3cf681f181c8a062e49a20f12895d3e3c19e48a578641bf60edd9",
+    "20000/users_games.csv": "33a1f2489401fc25e86d1fd6dfa7729898a4581f71a6befbbb5239bebdf03045",
+    "39935/games.csv": "5d6bdb104d65e014cef02edf5e22ce35d1520a1a5f6f345a42c0683046c32d52",
+    "39935/users_games.csv": "35900e03f2bdeb1d281a7d342d6b937a6a7aa8c681ed965924a158e979ab2817",
+    "59526/games.csv": "13313b169257e4830e1dc943d0240f0bb706003fdd503c07da372b163f9eb8a1",
+    "59526/users_games.csv": "333c6f00bfa48dd5c07a6b45d1d0e64b0124a1b32722bcd905a55329a84410a5"
+  },
+  "trainingSeconds": 39,
+  "factorsSHA256": "2e4a02bea460862005c7a663dbbc3472edbc70d882fcc6b2d810c6ced5b843aa",
+  "factorFormat": "row-major little-endian float32"
+}
