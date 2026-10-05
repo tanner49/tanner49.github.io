@@ -182,7 +182,7 @@ def main():
                 snapshotPublished='2024-04-04', collectionCutoff='Not documented; contains early-2024 releases',
                 **stats, rank=args.rank, seed=49, model=selected, ridge=1., neighborLimit=5,
                 minRecommendationRatings=50, neutralBaseline=3.,
-                validation={'method':'600 seeded users with >=20 played games: one >=60-minute game held out each; 20 remaining played games form Likes. First 300 select weighting, other 300 form independent test. Held-out entries from both groups excluded from factor fitting. All other owned games excluded from recommendations. Catalog/core filtering precedes split. No negative ratings exist in source. Test inspected during development; exploratory results, not a pristine final benchmark.', 'models':metrics},
+                validation={'method':'600 seeded users with >=20 played games: one >=60-minute game held out each; Up to 20 remaining played games form Likes. First 300 select weighting, other 300 form independent test. Held-out entries from both groups excluded from factor fitting. All other owned games excluded from recommendations. Catalog/core filtering precedes split. No negative ratings exist in source. Test inspected during development; exploratory results, not a pristine final benchmark.', 'models':metrics},
                 test=test_metrics, sourceFiles=hashes, trainingSeconds=round(time.time()-start),
                 factorsSHA256=hashlib.sha256((out/'factors.f32').read_bytes()).hexdigest(),
                 factorFormat='row-major little-endian float32')

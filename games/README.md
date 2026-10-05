@@ -41,7 +41,7 @@ scores are similarity sums, not probabilities.
 ## Evaluation and limitations
 
 We remove one >=60-minute interaction for each of 600 seeded users with >=20
-played games. Twenty other played games form each profile. Both validation and
+played games. Up to twenty other played games form each profile. Both validation and
 test targets are removed before fitting; other owned games are excluded from
 ranking. The first 300 users select the variant by NDCG@20, and the other 300
 evaluate it. Catalog/core filtering precedes the split. Test results were

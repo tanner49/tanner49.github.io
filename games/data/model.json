@@ -20,7 +20,7 @@
   "minRecommendationRatings": 50,
   "neutralBaseline": 3.0,
   "validation": {
-    "method": "600 seeded users with >=20 played games: one >=60-minute game held out each; 20 remaining played games form Likes. First 300 select weighting, other 300 form independent test. Held-out entries from both groups excluded from factor fitting. All other owned games excluded from recommendations. Catalog/core filtering precedes split. No negative ratings exist in source. Test inspected during development; exploratory results, not a pristine final benchmark.",
+    "method": "600 seeded users with >=20 played games: one >=60-minute game held out each; Up to 20 remaining played games form Likes. First 300 select weighting, other 300 form independent test. Held-out entries from both groups excluded from factor fitting. All other owned games excluded from recommendations. Catalog/core filtering precedes split. No negative ratings exist in source. Test inspected during development; exploratory results, not a pristine final benchmark.",
     "models": {
       "binary-idf": {
         "model": {
