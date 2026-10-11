@@ -7,6 +7,6 @@
   "historicalErrorGames": 1816,
   "historicalErrorRMS": 16.111921510170998,
   "calibrationScope": "all available 2023-2025 regular-season FBS/FBS forecasts in saved backtest, including games without usable book lines; no 2026 outcomes",
-  "snapshotSha256": "9aed04c09e206cf15de9ce260e7cb8dde4e55cd86b641a703630f39fb1876188",
+  "snapshotSha256": "3050ac447bdbeb13cd8615f07e2b496decea3c534a2a3f19968196158701290d",
   "historicalSha256": "8a0cb393458d67d45feb31d580734e4aa0842f4e3f433b6584d99d60c840bf62"
 }
