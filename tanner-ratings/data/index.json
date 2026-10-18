@@ -12,7 +12,7 @@
       "comparisonPath": "comparisons/2026/week-05.json",
       "conferenceCharts": {
         "path": "share/2026/week-05/conferences",
-        "version": "993c41a1e936"
+        "version": "af9fd82fd09e"
       }
     },
     {
@@ -22,7 +22,7 @@
       "comparisonPath": "comparisons/2026/week-06.json",
       "conferenceCharts": {
         "path": "share/2026/week-06/conferences",
-        "version": "a3bf0f2daf9f"
+        "version": "bc89deb8a357"
       }
     },
     {
@@ -32,7 +32,7 @@
       "comparisonPath": "comparisons/2026/week-07.json",
       "conferenceCharts": {
         "path": "share/2026/week-07/conferences",
-        "version": "d8e9ed2807e1"
+        "version": "81299d564137"
       }
     },
     {
@@ -42,7 +42,7 @@
       "comparisonPath": "comparisons/2026/week-08.json",
       "conferenceCharts": {
         "path": "share/2026/week-08/conferences",
-        "version": "3d7f6a046944"
+        "version": "f104d07dc0bb"
       }
     }
   ]

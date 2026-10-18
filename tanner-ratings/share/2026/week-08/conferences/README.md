@@ -1,4 +1,4 @@
-# Conference previews — 2026 Week 5
+# Conference previews — 2026 Week 8 · Results through Week 7
 
 All 138 rated FBS teams, assigned to the conferences in the supplied snapshot. Independents are a comparison group, not an actual conference. Charts use the selected publication and do not change its team ratings.
 
