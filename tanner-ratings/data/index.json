@@ -3,7 +3,11 @@
     {
       "season": 2026,
       "week": 4,
-      "path": "2026/week-04.json"
+      "path": "2026/week-04.json",
+      "playoff": {
+        "path": "share/2026/week-04/playoff.json",
+        "version": "db4e3785bac5"
+      }
     },
     {
       "season": 2026,
@@ -13,6 +17,10 @@
       "conferenceCharts": {
         "path": "share/2026/week-05/conferences",
         "version": "af9fd82fd09e"
+      },
+      "playoff": {
+        "path": "share/2026/week-05/playoff.json",
+        "version": "615e021caef9"
       }
     },
     {
@@ -23,6 +31,10 @@
       "conferenceCharts": {
         "path": "share/2026/week-06/conferences",
         "version": "bc89deb8a357"
+      },
+      "playoff": {
+        "path": "share/2026/week-06/playoff.json",
+        "version": "5f0652017c03"
       }
     },
     {
@@ -33,6 +45,10 @@
       "conferenceCharts": {
         "path": "share/2026/week-07/conferences",
         "version": "81299d564137"
+      },
+      "playoff": {
+        "path": "share/2026/week-07/playoff.json",
+        "version": "ba7bbf181e43"
       }
     },
     {
@@ -43,6 +59,10 @@
       "conferenceCharts": {
         "path": "share/2026/week-08/conferences",
         "version": "f104d07dc0bb"
+      },
+      "playoff": {
+        "path": "share/2026/week-08/playoff.json",
+        "version": "d2cad37ddf5f"
       }
     },
     {
@@ -53,6 +73,10 @@
       "conferenceCharts": {
         "path": "share/2026/week-09/conferences",
         "version": "33d8684926cc"
+      },
+      "playoff": {
+        "path": "share/2026/week-09/playoff.json",
+        "version": "d7c0bb5999e1"
       }
     }
   ]

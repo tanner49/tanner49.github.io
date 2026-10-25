@@ -1,0 +1,4504 @@
+{
+  "season": 2026,
+  "week": 8,
+  "throughWeek": 7,
+  "field": [
+    {
+      "team": "Notre Dame",
+      "rating": 79.566171,
+      "classification": "fbs",
+      "conference": "FBS Independents",
+      "wins": 6,
+      "losses": 1,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401858438",
+          "week": 1,
+          "date": "2026-09-06T23:30:00.000Z",
+          "opponent": "Wisconsin",
+          "venue": "N",
+          "scored": 41,
+          "allowed": 13,
+          "result": "W",
+          "halftimeMargin": 3
+        },
+        {
+          "id": "401859184",
+          "week": 2,
+          "date": "2026-09-12T19:30:00.000Z",
+          "opponent": "Rice",
+          "venue": "H",
+          "scored": 52,
+          "allowed": 0,
+          "result": "W",
+          "halftimeMargin": 42
+        },
+        {
+          "id": "401858453",
+          "week": 3,
+          "date": "2026-09-19T23:30:00.000Z",
+          "opponent": "Michigan State",
+          "venue": "H",
+          "scored": 27,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 7
+        },
+        {
+          "id": "401858467",
+          "week": 4,
+          "date": "2026-09-26T18:00:00.000Z",
+          "opponent": "Purdue",
+          "venue": "A",
+          "scored": 49,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 35
+        },
+        {
+          "id": "401858250",
+          "week": 5,
+          "date": "2026-10-03T16:00:00.000Z",
+          "opponent": "North Carolina",
+          "venue": "A",
+          "scored": 37,
+          "allowed": 26,
+          "result": "W",
+          "halftimeMargin": 7
+        },
+        {
+          "id": "401858257",
+          "week": 6,
+          "date": "2026-10-10T19:30:00.000Z",
+          "opponent": "Stanford",
+          "venue": "H",
+          "scored": 58,
+          "allowed": 7,
+          "result": "W",
+          "halftimeMargin": 37
+        },
+        {
+          "id": "401856809",
+          "week": 7,
+          "date": "2026-10-17T23:30:00.000Z",
+          "opponent": "BYU",
+          "venue": "A",
+          "scored": 24,
+          "allowed": 28,
+          "result": "L",
+          "halftimeMargin": -11
+        }
+      ],
+      "rank": 1,
+      "divisionRank": 1,
+      "scheduleStrength": 50.604776,
+      "seed": 1,
+      "modelRank": 1,
+      "bid": "Notre Dame guarantee"
+    },
+    {
+      "team": "Alabama",
+      "rating": 77.063038,
+      "classification": "fbs",
+      "conference": "SEC",
+      "wins": 5,
+      "losses": 2,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401856634",
+          "week": 1,
+          "date": "2026-09-05T16:00:00.000Z",
+          "opponent": "East Carolina",
+          "venue": "H",
+          "scored": 48,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 31
+        },
+        {
+          "id": "401856674",
+          "week": 2,
+          "date": "2026-09-12T19:30:00.000Z",
+          "opponent": "Kentucky",
+          "venue": "A",
+          "scored": 45,
+          "allowed": 17,
+          "result": "W",
+          "halftimeMargin": -4
+        },
+        {
+          "id": "401856685",
+          "week": 3,
+          "date": "2026-09-19T19:30:00.000Z",
+          "opponent": "Florida State",
+          "venue": "H",
+          "scored": 50,
+          "allowed": 36,
+          "result": "W",
+          "halftimeMargin": 5
+        },
+        {
+          "id": "401856696",
+          "week": 4,
+          "date": "2026-09-26T23:00:00.000Z",
+          "opponent": "South Carolina",
+          "venue": "H",
+          "scored": 49,
+          "allowed": 18,
+          "result": "W",
+          "halftimeMargin": 25
+        },
+        {
+          "id": "401856707",
+          "week": 5,
+          "date": "2026-10-03T16:00:00.000Z",
+          "opponent": "Mississippi State",
+          "venue": "A",
+          "scored": 56,
+          "allowed": 23,
+          "result": "W",
+          "halftimeMargin": 11
+        },
+        {
+          "id": "401856712",
+          "week": 6,
+          "date": "2026-10-10T23:30:00.000Z",
+          "opponent": "Georgia",
+          "venue": "H",
+          "scored": 17,
+          "allowed": 20,
+          "result": "L",
+          "halftimeMargin": 4
+        },
+        {
+          "id": "401856723",
+          "week": 7,
+          "date": "2026-10-17T19:30:00.000Z",
+          "opponent": "Tennessee",
+          "venue": "A",
+          "scored": 10,
+          "allowed": 26,
+          "result": "L",
+          "halftimeMargin": -2
+        }
+      ],
+      "rank": 2,
+      "divisionRank": 2,
+      "scheduleStrength": 59.873769,
+      "seed": 2,
+      "modelRank": 2,
+      "bid": "At-large"
+    },
+    {
+      "team": "LSU",
+      "rating": 74.135948,
+      "classification": "fbs",
+      "conference": "SEC",
+      "wins": 5,
+      "losses": 2,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401856660",
+          "week": 1,
+          "date": "2026-09-05T23:30:00.000Z",
+          "opponent": "Clemson",
+          "venue": "H",
+          "scored": 51,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 28
+        },
+        {
+          "id": "401867796",
+          "week": 2,
+          "date": "2026-09-12T23:30:00.000Z",
+          "opponent": "Louisiana Tech",
+          "venue": "H",
+          "scored": 45,
+          "allowed": 14,
+          "result": "W",
+          "halftimeMargin": 3
+        },
+        {
+          "id": "401856688",
+          "week": 3,
+          "date": "2026-09-19T23:30:00.000Z",
+          "opponent": "Ole Miss",
+          "venue": "A",
+          "scored": 24,
+          "allowed": 32,
+          "result": "L",
+          "halftimeMargin": -17
+        },
+        {
+          "id": "401856702",
+          "week": 4,
+          "date": "2026-09-26T23:30:00.000Z",
+          "opponent": "Texas A&M",
+          "venue": "H",
+          "scored": 35,
+          "allowed": 6,
+          "result": "W",
+          "halftimeMargin": 11
+        },
+        {
+          "id": "401856706",
+          "week": 5,
+          "date": "2026-10-03T23:45:00.000Z",
+          "opponent": "McNeese",
+          "venue": "H",
+          "scored": 63,
+          "allowed": 14,
+          "result": "W",
+          "halftimeMargin": 35
+        },
+        {
+          "id": "401856715",
+          "week": 6,
+          "date": "2026-10-10T23:00:00.000Z",
+          "opponent": "Kentucky",
+          "venue": "A",
+          "scored": 34,
+          "allowed": 35,
+          "result": "L",
+          "halftimeMargin": -4
+        },
+        {
+          "id": "401856720",
+          "week": 7,
+          "date": "2026-10-17T16:00:00.000Z",
+          "opponent": "Mississippi State",
+          "venue": "H",
+          "scored": 31,
+          "allowed": 0,
+          "result": "W",
+          "halftimeMargin": 21
+        }
+      ],
+      "rank": 3,
+      "divisionRank": 3,
+      "scheduleStrength": 53.656865,
+      "seed": 3,
+      "modelRank": 3,
+      "bid": "SEC champ"
+    },
+    {
+      "team": "Ohio State",
+      "rating": 73.737319,
+      "classification": "fbs",
+      "conference": "Big Ten",
+      "wins": 6,
+      "losses": 1,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401858432",
+          "week": 1,
+          "date": "2026-09-05T16:30:00.000Z",
+          "opponent": "Ball State",
+          "venue": "H",
+          "scored": 56,
+          "allowed": 3,
+          "result": "W",
+          "halftimeMargin": 25
+        },
+        {
+          "id": "401856682",
+          "week": 2,
+          "date": "2026-09-12T23:30:00.000Z",
+          "opponent": "Texas",
+          "venue": "A",
+          "scored": 23,
+          "allowed": 24,
+          "result": "L",
+          "halftimeMargin": 17
+        },
+        {
+          "id": "401858454",
+          "week": 3,
+          "date": "2026-09-19T16:00:00.000Z",
+          "opponent": "Kent State",
+          "venue": "H",
+          "scored": 59,
+          "allowed": 3,
+          "result": "W",
+          "halftimeMargin": 35
+        },
+        {
+          "id": "401858465",
+          "week": 4,
+          "date": "2026-09-26T16:00:00.000Z",
+          "opponent": "Illinois",
+          "venue": "H",
+          "scored": 42,
+          "allowed": 19,
+          "result": "W",
+          "halftimeMargin": 18
+        },
+        {
+          "id": "401858473",
+          "week": 5,
+          "date": "2026-10-03T19:30:00.000Z",
+          "opponent": "Iowa",
+          "venue": "A",
+          "scored": 31,
+          "allowed": 14,
+          "result": "W",
+          "halftimeMargin": 11
+        },
+        {
+          "id": "401858483",
+          "week": 6,
+          "date": "2026-10-10T20:15:00.000Z",
+          "opponent": "Maryland",
+          "venue": "H",
+          "scored": 45,
+          "allowed": 16,
+          "result": "W",
+          "halftimeMargin": 21
+        },
+        {
+          "id": "401858488",
+          "week": 7,
+          "date": "2026-10-17T16:00:00.000Z",
+          "opponent": "Indiana",
+          "venue": "A",
+          "scored": 19,
+          "allowed": 15,
+          "result": "W",
+          "halftimeMargin": 3
+        }
+      ],
+      "rank": 4,
+      "divisionRank": 4,
+      "scheduleStrength": 51.244556,
+      "seed": 4,
+      "modelRank": 4,
+      "bid": "Big Ten champ"
+    },
+    {
+      "team": "Miami",
+      "rating": 73.208332,
+      "classification": "fbs",
+      "conference": "ACC",
+      "wins": 6,
+      "losses": 0,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401858206",
+          "week": 1,
+          "date": "2026-09-05T01:00:00.000Z",
+          "opponent": "Stanford",
+          "venue": "A",
+          "scored": 45,
+          "allowed": 6,
+          "result": "W",
+          "halftimeMargin": 22
+        },
+        {
+          "id": "401858213",
+          "week": 2,
+          "date": "2026-09-11T00:00:00.000Z",
+          "opponent": "Florida A&M",
+          "venue": "H",
+          "scored": 77,
+          "allowed": 7,
+          "result": "W",
+          "halftimeMargin": 49
+        },
+        {
+          "id": "401858226",
+          "week": 3,
+          "date": "2026-09-18T23:30:00.000Z",
+          "opponent": "Wake Forest",
+          "venue": "A",
+          "scored": 33,
+          "allowed": 20,
+          "result": "W",
+          "halftimeMargin": 17
+        },
+        {
+          "id": "401858238",
+          "week": 4,
+          "date": "2026-09-26T22:30:00.000Z",
+          "opponent": "Central Michigan",
+          "venue": "H",
+          "scored": 52,
+          "allowed": 3,
+          "result": "W",
+          "halftimeMargin": 32
+        },
+        {
+          "id": "401858249",
+          "week": 5,
+          "date": "2026-10-03T23:30:00.000Z",
+          "opponent": "Clemson",
+          "venue": "A",
+          "scored": 41,
+          "allowed": 13,
+          "result": "W",
+          "halftimeMargin": 11
+        },
+        {
+          "id": "401858263",
+          "week": 7,
+          "date": "2026-10-17T23:00:00.000Z",
+          "opponent": "Florida State",
+          "venue": "H",
+          "scored": 43,
+          "allowed": 35,
+          "result": "W",
+          "halftimeMargin": 0
+        }
+      ],
+      "rank": 5,
+      "divisionRank": 5,
+      "scheduleStrength": 41.993684,
+      "seed": 5,
+      "modelRank": 5,
+      "bid": "ACC champ"
+    },
+    {
+      "team": "Georgia",
+      "rating": 73.189972,
+      "classification": "fbs",
+      "conference": "SEC",
+      "wins": 6,
+      "losses": 1,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401856658",
+          "week": 1,
+          "date": "2026-09-05T19:00:00.000Z",
+          "opponent": "Tennessee State",
+          "venue": "H",
+          "scored": 63,
+          "allowed": 3,
+          "result": "W",
+          "halftimeMargin": 32
+        },
+        {
+          "id": "401856673",
+          "week": 2,
+          "date": "2026-09-12T16:45:00.000Z",
+          "opponent": "Western Kentucky",
+          "venue": "H",
+          "scored": 70,
+          "allowed": 20,
+          "result": "W",
+          "halftimeMargin": 43
+        },
+        {
+          "id": "401856686",
+          "week": 3,
+          "date": "2026-09-19T16:00:00.000Z",
+          "opponent": "Arkansas",
+          "venue": "A",
+          "scored": 45,
+          "allowed": 17,
+          "result": "W",
+          "halftimeMargin": 18
+        },
+        {
+          "id": "401856700",
+          "week": 4,
+          "date": "2026-09-26T19:30:00.000Z",
+          "opponent": "Oklahoma",
+          "venue": "H",
+          "scored": 41,
+          "allowed": 13,
+          "result": "W",
+          "halftimeMargin": 28
+        },
+        {
+          "id": "401856705",
+          "week": 5,
+          "date": "2026-10-03T16:45:00.000Z",
+          "opponent": "Vanderbilt",
+          "venue": "H",
+          "scored": 38,
+          "allowed": 14,
+          "result": "W",
+          "halftimeMargin": 7
+        },
+        {
+          "id": "401856712",
+          "week": 6,
+          "date": "2026-10-10T23:30:00.000Z",
+          "opponent": "Alabama",
+          "venue": "A",
+          "scored": 20,
+          "allowed": 17,
+          "result": "W",
+          "halftimeMargin": -4
+        },
+        {
+          "id": "401856719",
+          "week": 7,
+          "date": "2026-10-17T19:30:00.000Z",
+          "opponent": "Auburn",
+          "venue": "H",
+          "scored": 24,
+          "allowed": 27,
+          "result": "L",
+          "halftimeMargin": -3
+        }
+      ],
+      "rank": 6,
+      "divisionRank": 6,
+      "scheduleStrength": 47.317389,
+      "seed": 6,
+      "modelRank": 6,
+      "bid": "At-large"
+    },
+    {
+      "team": "Ole Miss",
+      "rating": 71.715729,
+      "classification": "fbs",
+      "conference": "SEC",
+      "wins": 5,
+      "losses": 1,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401856661",
+          "week": 1,
+          "date": "2026-09-06T23:30:00.000Z",
+          "opponent": "Louisville",
+          "venue": "N",
+          "scored": 41,
+          "allowed": 38,
+          "result": "W",
+          "halftimeMargin": 4
+        },
+        {
+          "id": "401856676",
+          "week": 2,
+          "date": "2026-09-12T23:45:00.000Z",
+          "opponent": "Charlotte",
+          "venue": "H",
+          "scored": 41,
+          "allowed": 9,
+          "result": "W",
+          "halftimeMargin": 27
+        },
+        {
+          "id": "401856688",
+          "week": 3,
+          "date": "2026-09-19T23:30:00.000Z",
+          "opponent": "LSU",
+          "venue": "H",
+          "scored": 32,
+          "allowed": 24,
+          "result": "W",
+          "halftimeMargin": 17
+        },
+        {
+          "id": "401856699",
+          "week": 4,
+          "date": "2026-09-26T19:30:00.000Z",
+          "opponent": "Florida",
+          "venue": "A",
+          "scored": 28,
+          "allowed": 52,
+          "result": "L",
+          "halftimeMargin": -11
+        },
+        {
+          "id": "401856718",
+          "week": 6,
+          "date": "2026-10-10T19:30:00.000Z",
+          "opponent": "Vanderbilt",
+          "venue": "A",
+          "scored": 52,
+          "allowed": 17,
+          "result": "W",
+          "halftimeMargin": 39
+        },
+        {
+          "id": "401856721",
+          "week": 7,
+          "date": "2026-10-17T19:30:00.000Z",
+          "opponent": "Missouri",
+          "venue": "H",
+          "scored": 31,
+          "allowed": 3,
+          "result": "W",
+          "halftimeMargin": 18
+        }
+      ],
+      "rank": 7,
+      "divisionRank": 7,
+      "scheduleStrength": 55.027183,
+      "seed": 7,
+      "modelRank": 7,
+      "bid": "At-large"
+    },
+    {
+      "team": "Indiana",
+      "rating": 70.350198,
+      "classification": "fbs",
+      "conference": "Big Ten",
+      "wins": 6,
+      "losses": 1,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401858425",
+          "week": 1,
+          "date": "2026-09-05T16:00:00.000Z",
+          "opponent": "North Texas",
+          "venue": "H",
+          "scored": 52,
+          "allowed": 16,
+          "result": "W",
+          "halftimeMargin": 18
+        },
+        {
+          "id": "401858439",
+          "week": 2,
+          "date": "2026-09-12T16:00:00.000Z",
+          "opponent": "Howard",
+          "venue": "H",
+          "scored": 55,
+          "allowed": 0,
+          "result": "W",
+          "halftimeMargin": 41
+        },
+        {
+          "id": "401858449",
+          "week": 3,
+          "date": "2026-09-19T20:00:00.000Z",
+          "opponent": "Western Kentucky",
+          "venue": "H",
+          "scored": 38,
+          "allowed": 0,
+          "result": "W",
+          "halftimeMargin": 14
+        },
+        {
+          "id": "401858461",
+          "week": 4,
+          "date": "2026-09-26T00:00:00.000Z",
+          "opponent": "Northwestern",
+          "venue": "H",
+          "scored": 29,
+          "allowed": 23,
+          "result": "W",
+          "halftimeMargin": 12
+        },
+        {
+          "id": "401858477",
+          "week": 5,
+          "date": "2026-10-04T00:00:00.000Z",
+          "opponent": "Rutgers",
+          "venue": "A",
+          "scored": 47,
+          "allowed": 15,
+          "result": "W",
+          "halftimeMargin": 23
+        },
+        {
+          "id": "401858481",
+          "week": 6,
+          "date": "2026-10-10T16:00:00.000Z",
+          "opponent": "Nebraska",
+          "venue": "A",
+          "scored": 20,
+          "allowed": 17,
+          "result": "W",
+          "halftimeMargin": -7
+        },
+        {
+          "id": "401858488",
+          "week": 7,
+          "date": "2026-10-17T16:00:00.000Z",
+          "opponent": "Ohio State",
+          "venue": "H",
+          "scored": 15,
+          "allowed": 19,
+          "result": "L",
+          "halftimeMargin": -3
+        }
+      ],
+      "rank": 8,
+      "divisionRank": 8,
+      "scheduleStrength": 49.235561,
+      "seed": 8,
+      "modelRank": 8,
+      "bid": "At-large"
+    },
+    {
+      "team": "Texas Tech",
+      "rating": 70.224767,
+      "classification": "fbs",
+      "conference": "Big 12",
+      "wins": 6,
+      "losses": 0,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401856770",
+          "week": 1,
+          "date": "2026-09-05T23:00:00.000Z",
+          "opponent": "Abilene Christian",
+          "venue": "H",
+          "scored": 33,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 14
+        },
+        {
+          "id": "401856783",
+          "week": 2,
+          "date": "2026-09-12T23:30:00.000Z",
+          "opponent": "Oregon State",
+          "venue": "A",
+          "scored": 35,
+          "allowed": 24,
+          "result": "W",
+          "halftimeMargin": 7
+        },
+        {
+          "id": "401856811",
+          "week": 3,
+          "date": "2026-09-19T00:00:00.000Z",
+          "opponent": "Houston",
+          "venue": "H",
+          "scored": 28,
+          "allowed": 26,
+          "result": "W",
+          "halftimeMargin": -3
+        },
+        {
+          "id": "401856805",
+          "week": 4,
+          "date": "2026-09-26T16:00:00.000Z",
+          "opponent": "Sam Houston",
+          "venue": "H",
+          "scored": 49,
+          "allowed": 14,
+          "result": "W",
+          "halftimeMargin": 7
+        },
+        {
+          "id": "401856821",
+          "week": 5,
+          "date": "2026-10-03T23:30:00.000Z",
+          "opponent": "Colorado",
+          "venue": "A",
+          "scored": 29,
+          "allowed": 7,
+          "result": "W",
+          "halftimeMargin": -4
+        },
+        {
+          "id": "401856828",
+          "week": 7,
+          "date": "2026-10-17T19:30:00.000Z",
+          "opponent": "Arizona State",
+          "venue": "H",
+          "scored": 53,
+          "allowed": 25,
+          "result": "W",
+          "halftimeMargin": 33
+        }
+      ],
+      "rank": 9,
+      "divisionRank": 9,
+      "scheduleStrength": 47.040942,
+      "seed": 9,
+      "modelRank": 9,
+      "bid": "Big 12 champ"
+    },
+    {
+      "team": "BYU",
+      "rating": 70.131999,
+      "classification": "fbs",
+      "conference": "Big 12",
+      "wins": 6,
+      "losses": 0,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401856775",
+          "week": 1,
+          "date": "2026-09-06T00:00:00.000Z",
+          "opponent": "Utah Tech",
+          "venue": "H",
+          "scored": 63,
+          "allowed": 7,
+          "result": "W",
+          "halftimeMargin": 42
+        },
+        {
+          "id": "401856810",
+          "week": 2,
+          "date": "2026-09-12T19:30:00.000Z",
+          "opponent": "Arizona",
+          "venue": "H",
+          "scored": 28,
+          "allowed": 17,
+          "result": "W",
+          "halftimeMargin": -3
+        },
+        {
+          "id": "401856795",
+          "week": 3,
+          "date": "2026-09-19T23:30:00.000Z",
+          "opponent": "Colorado State",
+          "venue": "A",
+          "scored": 41,
+          "allowed": 23,
+          "result": "W",
+          "halftimeMargin": 24
+        },
+        {
+          "id": "401856818",
+          "week": 5,
+          "date": "2026-10-03T23:00:00.000Z",
+          "opponent": "TCU",
+          "venue": "A",
+          "scored": 17,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 0
+        },
+        {
+          "id": "401856826",
+          "week": 6,
+          "date": "2026-10-10T02:15:00.000Z",
+          "opponent": "Iowa State",
+          "venue": "H",
+          "scored": 24,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 11
+        },
+        {
+          "id": "401856809",
+          "week": 7,
+          "date": "2026-10-17T23:30:00.000Z",
+          "opponent": "Notre Dame",
+          "venue": "H",
+          "scored": 28,
+          "allowed": 24,
+          "result": "W",
+          "halftimeMargin": 11
+        }
+      ],
+      "rank": 10,
+      "divisionRank": 10,
+      "scheduleStrength": 49.225234,
+      "seed": 10,
+      "modelRank": 10,
+      "bid": "At-large"
+    },
+    {
+      "team": "Utah",
+      "rating": 69.306857,
+      "classification": "fbs",
+      "conference": "Big 12",
+      "wins": 6,
+      "losses": 0,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401856768",
+          "week": 1,
+          "date": "2026-09-04T01:00:00.000Z",
+          "opponent": "Idaho",
+          "venue": "H",
+          "scored": 66,
+          "allowed": 14,
+          "result": "W",
+          "halftimeMargin": 24
+        },
+        {
+          "id": "401856670",
+          "week": 2,
+          "date": "2026-09-13T02:15:00.000Z",
+          "opponent": "Arkansas",
+          "venue": "H",
+          "scored": 43,
+          "allowed": 10,
+          "result": "W",
+          "halftimeMargin": 26
+        },
+        {
+          "id": "401856801",
+          "week": 3,
+          "date": "2026-09-19T19:30:00.000Z",
+          "opponent": "Utah State",
+          "venue": "H",
+          "scored": 33,
+          "allowed": 0,
+          "result": "W",
+          "halftimeMargin": 26
+        },
+        {
+          "id": "401856816",
+          "week": 4,
+          "date": "2026-09-26T19:30:00.000Z",
+          "opponent": "Iowa State",
+          "venue": "A",
+          "scored": 31,
+          "allowed": 17,
+          "result": "W",
+          "halftimeMargin": 21
+        },
+        {
+          "id": "401856827",
+          "week": 6,
+          "date": "2026-10-11T00:00:00.000Z",
+          "opponent": "Kansas",
+          "venue": "H",
+          "scored": 41,
+          "allowed": 24,
+          "result": "W",
+          "halftimeMargin": 4
+        },
+        {
+          "id": "401856833",
+          "week": 7,
+          "date": "2026-10-18T02:15:00.000Z",
+          "opponent": "Colorado",
+          "venue": "A",
+          "scored": 27,
+          "allowed": 24,
+          "result": "W",
+          "halftimeMargin": 13
+        }
+      ],
+      "rank": 11,
+      "divisionRank": 11,
+      "scheduleStrength": 44.217353,
+      "seed": 11,
+      "modelRank": 11,
+      "bid": "At-large"
+    },
+    {
+      "team": "Boise State",
+      "rating": 62.394114,
+      "classification": "fbs",
+      "conference": "Pac-12",
+      "wins": 5,
+      "losses": 1,
+      "ties": 0,
+      "games": [
+        {
+          "id": "401858433",
+          "week": 1,
+          "date": "2026-09-05T19:30:00.000Z",
+          "opponent": "Oregon",
+          "venue": "A",
+          "scored": 27,
+          "allowed": 34,
+          "result": "L",
+          "halftimeMargin": 3
+        },
+        {
+          "id": "401860881",
+          "week": 2,
+          "date": "2026-09-12T22:00:00.000Z",
+          "opponent": "Memphis",
+          "venue": "H",
+          "scored": 38,
+          "allowed": 20,
+          "result": "W",
+          "halftimeMargin": -3
+        },
+        {
+          "id": "401860885",
+          "week": 3,
+          "date": "2026-09-20T02:00:00.000Z",
+          "opponent": "South Dakota",
+          "venue": "H",
+          "scored": 38,
+          "allowed": 24,
+          "result": "W",
+          "halftimeMargin": 7
+        },
+        {
+          "id": "401860897",
+          "week": 4,
+          "date": "2026-09-26T19:30:00.000Z",
+          "opponent": "Western Michigan",
+          "venue": "A",
+          "scored": 32,
+          "allowed": 7,
+          "result": "W",
+          "halftimeMargin": 15
+        },
+        {
+          "id": "401860898",
+          "week": 5,
+          "date": "2026-10-03T23:30:00.000Z",
+          "opponent": "Utah State",
+          "venue": "H",
+          "scored": 37,
+          "allowed": 18,
+          "result": "W",
+          "halftimeMargin": 18
+        },
+        {
+          "id": "401860901",
+          "week": 6,
+          "date": "2026-10-11T02:30:00.000Z",
+          "opponent": "Fresno State",
+          "venue": "A",
+          "scored": 38,
+          "allowed": 31,
+          "result": "W",
+          "halftimeMargin": 5
+        }
+      ],
+      "rank": 25,
+      "divisionRank": 25,
+      "scheduleStrength": 49.194817,
+      "seed": 12,
+      "modelRank": 25,
+      "bid": "Group of Six bid"
+    }
+  ],
+  "conferenceChampions": {
+    "ACC": {
+      "team": "Miami",
+      "finalists": [
+        "Miami",
+        "Wake Forest"
+      ],
+      "standings": [
+        {
+          "team": "Miami",
+          "wins": 9,
+          "losses": 0,
+          "ties": 0,
+          "rating": 73.208332
+        },
+        {
+          "team": "Wake Forest",
+          "wins": 8,
+          "losses": 1,
+          "ties": 0,
+          "rating": 65.465701
+        },
+        {
+          "team": "SMU",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "rating": 56.106137
+        },
+        {
+          "team": "North Carolina",
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "rating": 57.145525
+        },
+        {
+          "team": "Louisville",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 58.93447
+        },
+        {
+          "team": "Clemson",
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "rating": 53.253747
+        },
+        {
+          "team": "Pittsburgh",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 52.818208
+        },
+        {
+          "team": "Duke",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 52.465778
+        },
+        {
+          "team": "Florida State",
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "rating": 54.653895
+        },
+        {
+          "team": "Virginia Tech",
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "rating": 52.250741
+        },
+        {
+          "team": "NC State",
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "rating": 47.142574
+        },
+        {
+          "team": "Virginia",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 48.580499
+        },
+        {
+          "team": "California",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 39.737929
+        },
+        {
+          "team": "Georgia Tech",
+          "wins": 2,
+          "losses": 6,
+          "ties": 0,
+          "rating": 43.237564
+        },
+        {
+          "team": "Boston College",
+          "wins": 1,
+          "losses": 7,
+          "ties": 0,
+          "rating": 39.121599
+        },
+        {
+          "team": "Syracuse",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 43.919445
+        },
+        {
+          "team": "Stanford",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 37.176388
+        }
+      ],
+      "tiebreaks": [
+        {
+          "teams": [
+            "Pittsburgh",
+            "Duke"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Virginia Tech",
+            "NC State"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Virginia",
+            "California"
+          ],
+          "method": "head-to-head"
+        },
+        {
+          "teams": [
+            "Syracuse",
+            "Stanford"
+          ],
+          "method": "model rating"
+        }
+      ]
+    },
+    "Big Ten": {
+      "team": "Ohio State",
+      "finalists": [
+        "Ohio State",
+        "UCLA"
+      ],
+      "standings": [
+        {
+          "team": "Ohio State",
+          "wins": 9,
+          "losses": 0,
+          "ties": 0,
+          "rating": 73.737319
+        },
+        {
+          "team": "UCLA",
+          "wins": 9,
+          "losses": 0,
+          "ties": 0,
+          "rating": 65.751549
+        },
+        {
+          "team": "Indiana",
+          "wins": 8,
+          "losses": 1,
+          "ties": 0,
+          "rating": 70.350198
+        },
+        {
+          "team": "Oregon",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "rating": 67.318964
+        },
+        {
+          "team": "Iowa",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "rating": 65.907977
+        },
+        {
+          "team": "Northwestern",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 64.829243
+        },
+        {
+          "team": "Wisconsin",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 57.550395
+        },
+        {
+          "team": "Nebraska",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 67.496194
+        },
+        {
+          "team": "USC",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 62.920004
+        },
+        {
+          "team": "Penn State",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 54.554527
+        },
+        {
+          "team": "Michigan",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 53.154515
+        },
+        {
+          "team": "Purdue",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 50.051012
+        },
+        {
+          "team": "Illinois",
+          "wins": 2,
+          "losses": 7,
+          "ties": 0,
+          "rating": 49.984092
+        },
+        {
+          "team": "Michigan State",
+          "wins": 2,
+          "losses": 7,
+          "ties": 0,
+          "rating": 49.347031
+        },
+        {
+          "team": "Minnesota",
+          "wins": 2,
+          "losses": 7,
+          "ties": 0,
+          "rating": 44.667691
+        },
+        {
+          "team": "Washington",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 48.462906
+        },
+        {
+          "team": "Rutgers",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 40.157872
+        },
+        {
+          "team": "Maryland",
+          "wins": 0,
+          "losses": 9,
+          "ties": 0,
+          "rating": 42.358292
+        }
+      ],
+      "tiebreaks": [
+        {
+          "teams": [
+            "Ohio State",
+            "UCLA"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Oregon",
+            "Iowa"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Northwestern",
+            "Wisconsin"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Nebraska",
+            "USC",
+            "Penn State"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Michigan",
+            "Purdue"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Illinois",
+            "Michigan State",
+            "Minnesota"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Washington",
+            "Rutgers"
+          ],
+          "method": "model rating"
+        }
+      ]
+    },
+    "Big 12": {
+      "team": "Texas Tech",
+      "finalists": [
+        "Texas Tech",
+        "Utah"
+      ],
+      "standings": [
+        {
+          "team": "Texas Tech",
+          "wins": 9,
+          "losses": 0,
+          "ties": 0,
+          "rating": 70.224767
+        },
+        {
+          "team": "Utah",
+          "wins": 9,
+          "losses": 0,
+          "ties": 0,
+          "rating": 69.306857
+        },
+        {
+          "team": "BYU",
+          "wins": 8,
+          "losses": 1,
+          "ties": 0,
+          "rating": 70.131999
+        },
+        {
+          "team": "Houston",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "rating": 65.875551
+        },
+        {
+          "team": "Arizona",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 61.931929
+        },
+        {
+          "team": "Oklahoma State",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 56.655496
+        },
+        {
+          "team": "UCF",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 53.3118
+        },
+        {
+          "team": "Baylor",
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "rating": 56.276079
+        },
+        {
+          "team": "TCU",
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "rating": 55.230042
+        },
+        {
+          "team": "Iowa State",
+          "wins": 4,
+          "losses": 5,
+          "ties": 0,
+          "rating": 54.213098
+        },
+        {
+          "team": "Kansas State",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 52.067238
+        },
+        {
+          "team": "West Virginia",
+          "wins": 2,
+          "losses": 7,
+          "ties": 0,
+          "rating": 46.549677
+        },
+        {
+          "team": "Cincinnati",
+          "wins": 2,
+          "losses": 7,
+          "ties": 0,
+          "rating": 49.039446
+        },
+        {
+          "team": "Colorado",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 48.718688
+        },
+        {
+          "team": "Arizona State",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 42.319667
+        },
+        {
+          "team": "Kansas",
+          "wins": 0,
+          "losses": 9,
+          "ties": 0,
+          "rating": 45.786252
+        }
+      ],
+      "tiebreaks": [
+        {
+          "teams": [
+            "Texas Tech",
+            "Utah"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Arizona",
+            "Oklahoma State",
+            "UCF"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Baylor",
+            "TCU",
+            "Iowa State"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "West Virginia",
+            "Cincinnati"
+          ],
+          "method": "head-to-head"
+        },
+        {
+          "teams": [
+            "Colorado",
+            "Arizona State"
+          ],
+          "method": "head-to-head"
+        }
+      ]
+    },
+    "SEC": {
+      "team": "LSU",
+      "finalists": [
+        "Ole Miss",
+        "LSU"
+      ],
+      "standings": [
+        {
+          "team": "Ole Miss",
+          "wins": 8,
+          "losses": 1,
+          "ties": 0,
+          "rating": 71.715729
+        },
+        {
+          "team": "LSU",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "rating": 74.135948
+        },
+        {
+          "team": "Georgia",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "rating": 73.189972
+        },
+        {
+          "team": "Tennessee",
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "rating": 67.135435
+        },
+        {
+          "team": "Alabama",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 77.063038
+        },
+        {
+          "team": "Kentucky",
+          "wins": 6,
+          "losses": 3,
+          "ties": 0,
+          "rating": 65.6426
+        },
+        {
+          "team": "Texas",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 67.516936
+        },
+        {
+          "team": "Florida",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 64.581354
+        },
+        {
+          "team": "Missouri",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 63.225568
+        },
+        {
+          "team": "Mississippi State",
+          "wins": 5,
+          "losses": 4,
+          "ties": 0,
+          "rating": 61.40448
+        },
+        {
+          "team": "Auburn",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 59.000692
+        },
+        {
+          "team": "South Carolina",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 57.758632
+        },
+        {
+          "team": "Oklahoma",
+          "wins": 3,
+          "losses": 6,
+          "ties": 0,
+          "rating": 55.548234
+        },
+        {
+          "team": "Texas A&M",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 57.322997
+        },
+        {
+          "team": "Arkansas",
+          "wins": 1,
+          "losses": 8,
+          "ties": 0,
+          "rating": 47.838177
+        },
+        {
+          "team": "Vanderbilt",
+          "wins": 0,
+          "losses": 9,
+          "ties": 0,
+          "rating": 44.082541
+        }
+      ],
+      "tiebreaks": [
+        {
+          "teams": [
+            "LSU",
+            "Georgia",
+            "Tennessee"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Alabama",
+            "Kentucky"
+          ],
+          "method": "head-to-head"
+        },
+        {
+          "teams": [
+            "Texas",
+            "Florida",
+            "Missouri",
+            "Mississippi State"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Auburn",
+            "South Carolina",
+            "Oklahoma"
+          ],
+          "method": "model rating"
+        },
+        {
+          "teams": [
+            "Texas A&M",
+            "Arkansas"
+          ],
+          "method": "head-to-head"
+        }
+      ]
+    }
+  },
+  "conferenceResults": [
+    {
+      "id": "401858202",
+      "conference": "ACC",
+      "home": "Virginia",
+      "away": "NC State",
+      "winner": "Virginia",
+      "projected": false,
+      "homeMargin": 26
+    },
+    {
+      "id": "401858206",
+      "conference": "ACC",
+      "home": "Stanford",
+      "away": "Miami",
+      "winner": "Miami",
+      "projected": false,
+      "homeMargin": -39
+    },
+    {
+      "id": "401858212",
+      "conference": "ACC",
+      "home": "Florida State",
+      "away": "SMU",
+      "winner": "SMU",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858216",
+      "conference": "ACC",
+      "home": "Syracuse",
+      "away": "California",
+      "winner": "California",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401856810",
+      "conference": "Big 12",
+      "home": "BYU",
+      "away": "Arizona",
+      "winner": "BYU",
+      "projected": false,
+      "homeMargin": 11
+    },
+    {
+      "id": "401856674",
+      "conference": "SEC",
+      "home": "Kentucky",
+      "away": "Alabama",
+      "winner": "Alabama",
+      "projected": false,
+      "homeMargin": -28
+    },
+    {
+      "id": "401858225",
+      "conference": "ACC",
+      "home": "Pittsburgh",
+      "away": "Syracuse",
+      "winner": "Pittsburgh",
+      "projected": false,
+      "homeMargin": 14
+    },
+    {
+      "id": "401858226",
+      "conference": "ACC",
+      "home": "Wake Forest",
+      "away": "Miami",
+      "winner": "Miami",
+      "projected": false,
+      "homeMargin": -13
+    },
+    {
+      "id": "401856811",
+      "conference": "Big 12",
+      "home": "Texas Tech",
+      "away": "Houston",
+      "winner": "Texas Tech",
+      "projected": false,
+      "homeMargin": 2
+    },
+    {
+      "id": "401858229",
+      "conference": "ACC",
+      "home": "Clemson",
+      "away": "North Carolina",
+      "winner": "Clemson",
+      "projected": false,
+      "homeMargin": 8
+    },
+    {
+      "id": "401856686",
+      "conference": "SEC",
+      "home": "Arkansas",
+      "away": "Georgia",
+      "winner": "Georgia",
+      "projected": false,
+      "homeMargin": -28
+    },
+    {
+      "id": "401856812",
+      "conference": "Big 12",
+      "home": "Kansas",
+      "away": "Arizona State",
+      "winner": "Arizona State",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401856694",
+      "conference": "SEC",
+      "home": "Texas A&M",
+      "away": "Kentucky",
+      "winner": "Kentucky",
+      "projected": false,
+      "homeMargin": -10
+    },
+    {
+      "id": "401858457",
+      "conference": "Big Ten",
+      "home": "Rutgers",
+      "away": "USC",
+      "winner": "USC",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401858230",
+      "conference": "ACC",
+      "home": "Louisville",
+      "away": "SMU",
+      "winner": "Louisville",
+      "projected": false,
+      "homeMargin": 10
+    },
+    {
+      "id": "401858231",
+      "conference": "ACC",
+      "home": "Duke",
+      "away": "Stanford",
+      "winner": "Duke",
+      "projected": false,
+      "homeMargin": 28
+    },
+    {
+      "id": "401856691",
+      "conference": "SEC",
+      "home": "South Carolina",
+      "away": "Mississippi State",
+      "winner": "Mississippi State",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401856687",
+      "conference": "SEC",
+      "home": "Auburn",
+      "away": "Florida",
+      "winner": "Florida",
+      "projected": false,
+      "homeMargin": -5
+    },
+    {
+      "id": "401856688",
+      "conference": "SEC",
+      "home": "Ole Miss",
+      "away": "LSU",
+      "winner": "Ole Miss",
+      "projected": false,
+      "homeMargin": 8
+    },
+    {
+      "id": "401858458",
+      "conference": "Big Ten",
+      "home": "UCLA",
+      "away": "Purdue",
+      "winner": "UCLA",
+      "projected": false,
+      "homeMargin": 14
+    },
+    {
+      "id": "401858461",
+      "conference": "Big Ten",
+      "home": "Indiana",
+      "away": "Northwestern",
+      "winner": "Indiana",
+      "projected": false,
+      "homeMargin": 6
+    },
+    {
+      "id": "401858234",
+      "conference": "ACC",
+      "home": "California",
+      "away": "Clemson",
+      "winner": "Clemson",
+      "projected": false,
+      "homeMargin": -14
+    },
+    {
+      "id": "401858243",
+      "conference": "ACC",
+      "home": "Louisville",
+      "away": "Wake Forest",
+      "winner": "Wake Forest",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858465",
+      "conference": "Big Ten",
+      "home": "Ohio State",
+      "away": "Illinois",
+      "winner": "Ohio State",
+      "projected": false,
+      "homeMargin": 23
+    },
+    {
+      "id": "401856704",
+      "conference": "SEC",
+      "home": "Tennessee",
+      "away": "Texas",
+      "winner": "Texas",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858242",
+      "conference": "ACC",
+      "home": "Boston College",
+      "away": "Virginia Tech",
+      "winner": "Virginia Tech",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401856813",
+      "conference": "Big 12",
+      "home": "Baylor",
+      "away": "Colorado",
+      "winner": "Baylor",
+      "projected": false,
+      "homeMargin": 10
+    },
+    {
+      "id": "401858462",
+      "conference": "Big Ten",
+      "home": "Maryland",
+      "away": "UCLA",
+      "winner": "UCLA",
+      "projected": false,
+      "homeMargin": -51
+    },
+    {
+      "id": "401856816",
+      "conference": "Big 12",
+      "home": "Iowa State",
+      "away": "Utah",
+      "winner": "Utah",
+      "projected": false,
+      "homeMargin": -14
+    },
+    {
+      "id": "401856815",
+      "conference": "Big 12",
+      "home": "UCF",
+      "away": "TCU",
+      "winner": "UCF",
+      "projected": false,
+      "homeMargin": 8
+    },
+    {
+      "id": "401856699",
+      "conference": "SEC",
+      "home": "Florida",
+      "away": "Ole Miss",
+      "winner": "Florida",
+      "projected": false,
+      "homeMargin": 24
+    },
+    {
+      "id": "401858463",
+      "conference": "Big Ten",
+      "home": "Michigan",
+      "away": "Iowa",
+      "winner": "Iowa",
+      "projected": false,
+      "homeMargin": -1
+    },
+    {
+      "id": "401856700",
+      "conference": "SEC",
+      "home": "Georgia",
+      "away": "Oklahoma",
+      "winner": "Georgia",
+      "projected": false,
+      "homeMargin": 28
+    },
+    {
+      "id": "401856698",
+      "conference": "SEC",
+      "home": "Auburn",
+      "away": "Vanderbilt",
+      "winner": "Auburn",
+      "projected": false,
+      "homeMargin": 6
+    },
+    {
+      "id": "401858464",
+      "conference": "Big Ten",
+      "home": "Michigan State",
+      "away": "Nebraska",
+      "winner": "Nebraska",
+      "projected": false,
+      "homeMargin": -18
+    },
+    {
+      "id": "401858466",
+      "conference": "Big Ten",
+      "home": "Penn State",
+      "away": "Wisconsin",
+      "winner": "Wisconsin",
+      "projected": false,
+      "homeMargin": -4
+    },
+    {
+      "id": "401856696",
+      "conference": "SEC",
+      "home": "Alabama",
+      "away": "South Carolina",
+      "winner": "Alabama",
+      "projected": false,
+      "homeMargin": 31
+    },
+    {
+      "id": "401856814",
+      "conference": "Big 12",
+      "home": "Cincinnati",
+      "away": "Kansas State",
+      "winner": "Cincinnati",
+      "projected": false,
+      "homeMargin": 5
+    },
+    {
+      "id": "401856881",
+      "conference": "Big 12",
+      "home": "West Virginia",
+      "away": "Oklahoma State",
+      "winner": "Oklahoma State",
+      "projected": false,
+      "homeMargin": -17
+    },
+    {
+      "id": "401856702",
+      "conference": "SEC",
+      "home": "LSU",
+      "away": "Texas A&M",
+      "winner": "LSU",
+      "projected": false,
+      "homeMargin": 29
+    },
+    {
+      "id": "401858469",
+      "conference": "Big Ten",
+      "home": "USC",
+      "away": "Oregon",
+      "winner": "Oregon",
+      "projected": false,
+      "homeMargin": -14
+    },
+    {
+      "id": "401856703",
+      "conference": "SEC",
+      "home": "Mississippi State",
+      "away": "Missouri",
+      "winner": "Mississippi State",
+      "projected": false,
+      "homeMargin": 7
+    },
+    {
+      "id": "401858240",
+      "conference": "ACC",
+      "home": "Stanford",
+      "away": "Georgia Tech",
+      "winner": "Stanford",
+      "projected": false,
+      "homeMargin": 7
+    },
+    {
+      "id": "401858470",
+      "conference": "Big Ten",
+      "home": "Washington",
+      "away": "Minnesota",
+      "winner": "Minnesota",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858245",
+      "conference": "ACC",
+      "home": "Virginia Tech",
+      "away": "Pittsburgh",
+      "winner": "Pittsburgh",
+      "projected": false,
+      "homeMargin": -2
+    },
+    {
+      "id": "401858476",
+      "conference": "Big Ten",
+      "home": "Northwestern",
+      "away": "Penn State",
+      "winner": "Northwestern",
+      "projected": false,
+      "homeMargin": 21
+    },
+    {
+      "id": "401858474",
+      "conference": "Big Ten",
+      "home": "Minnesota",
+      "away": "Michigan",
+      "winner": "Minnesota",
+      "projected": false,
+      "homeMargin": 6
+    },
+    {
+      "id": "401858246",
+      "conference": "ACC",
+      "home": "SMU",
+      "away": "Boston College",
+      "winner": "SMU",
+      "projected": false,
+      "homeMargin": 9
+    },
+    {
+      "id": "401858251",
+      "conference": "ACC",
+      "home": "Wake Forest",
+      "away": "Stanford",
+      "winner": "Wake Forest",
+      "projected": false,
+      "homeMargin": 54
+    },
+    {
+      "id": "401856822",
+      "conference": "Big 12",
+      "home": "Iowa State",
+      "away": "West Virginia",
+      "winner": "Iowa State",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401856819",
+      "conference": "Big 12",
+      "home": "Houston",
+      "away": "UCF",
+      "winner": "Houston",
+      "projected": false,
+      "homeMargin": 10
+    },
+    {
+      "id": "401856707",
+      "conference": "SEC",
+      "home": "Mississippi State",
+      "away": "Alabama",
+      "winner": "Alabama",
+      "projected": false,
+      "homeMargin": -33
+    },
+    {
+      "id": "401858479",
+      "conference": "Big Ten",
+      "home": "Wisconsin",
+      "away": "Michigan State",
+      "winner": "Wisconsin",
+      "projected": false,
+      "homeMargin": 28
+    },
+    {
+      "id": "401856705",
+      "conference": "SEC",
+      "home": "Georgia",
+      "away": "Vanderbilt",
+      "winner": "Georgia",
+      "projected": false,
+      "homeMargin": 24
+    },
+    {
+      "id": "401858248",
+      "conference": "ACC",
+      "home": "NC State",
+      "away": "Louisville",
+      "winner": "NC State",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401858253",
+      "conference": "ACC",
+      "home": "Florida State",
+      "away": "Virginia",
+      "winner": "Florida State",
+      "projected": false,
+      "homeMargin": 31
+    },
+    {
+      "id": "401858473",
+      "conference": "Big Ten",
+      "home": "Iowa",
+      "away": "Ohio State",
+      "winner": "Ohio State",
+      "projected": false,
+      "homeMargin": -17
+    },
+    {
+      "id": "401856710",
+      "conference": "SEC",
+      "home": "Tennessee",
+      "away": "Auburn",
+      "winner": "Tennessee",
+      "projected": false,
+      "homeMargin": 10
+    },
+    {
+      "id": "401856708",
+      "conference": "SEC",
+      "home": "Missouri",
+      "away": "Florida",
+      "winner": "Missouri",
+      "projected": false,
+      "homeMargin": 28
+    },
+    {
+      "id": "401858475",
+      "conference": "Big Ten",
+      "home": "Nebraska",
+      "away": "Maryland",
+      "winner": "Nebraska",
+      "projected": false,
+      "homeMargin": 25
+    },
+    {
+      "id": "401858472",
+      "conference": "Big Ten",
+      "home": "Illinois",
+      "away": "Purdue",
+      "winner": "Purdue",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401856709",
+      "conference": "SEC",
+      "home": "South Carolina",
+      "away": "Kentucky",
+      "winner": "Kentucky",
+      "projected": false,
+      "homeMargin": -1
+    },
+    {
+      "id": "401856711",
+      "conference": "SEC",
+      "home": "Texas A&M",
+      "away": "Arkansas",
+      "winner": "Texas A&M",
+      "projected": false,
+      "homeMargin": 27
+    },
+    {
+      "id": "401856818",
+      "conference": "Big 12",
+      "home": "TCU",
+      "away": "BYU",
+      "winner": "BYU",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401858249",
+      "conference": "ACC",
+      "home": "Clemson",
+      "away": "Miami",
+      "winner": "Miami",
+      "projected": false,
+      "homeMargin": -28
+    },
+    {
+      "id": "401856821",
+      "conference": "Big 12",
+      "home": "Colorado",
+      "away": "Texas Tech",
+      "winner": "Texas Tech",
+      "projected": false,
+      "homeMargin": -22
+    },
+    {
+      "id": "401858478",
+      "conference": "Big Ten",
+      "home": "USC",
+      "away": "Washington",
+      "winner": "USC",
+      "projected": false,
+      "homeMargin": 4
+    },
+    {
+      "id": "401858477",
+      "conference": "Big Ten",
+      "home": "Rutgers",
+      "away": "Indiana",
+      "winner": "Indiana",
+      "projected": false,
+      "homeMargin": -32
+    },
+    {
+      "id": "401856817",
+      "conference": "Big 12",
+      "home": "Arizona State",
+      "away": "Baylor",
+      "winner": "Baylor",
+      "projected": false,
+      "homeMargin": -36
+    },
+    {
+      "id": "401856820",
+      "conference": "Big 12",
+      "home": "Arizona",
+      "away": "Cincinnati",
+      "winner": "Arizona",
+      "projected": false,
+      "homeMargin": 27
+    },
+    {
+      "id": "401858254",
+      "conference": "ACC",
+      "home": "Louisville",
+      "away": "Florida State",
+      "winner": "Louisville",
+      "projected": false,
+      "homeMargin": 24
+    },
+    {
+      "id": "401858487",
+      "conference": "Big Ten",
+      "home": "Washington",
+      "away": "Iowa",
+      "winner": "Iowa",
+      "projected": false,
+      "homeMargin": -17
+    },
+    {
+      "id": "401856826",
+      "conference": "Big 12",
+      "home": "BYU",
+      "away": "Iowa State",
+      "winner": "BYU",
+      "projected": false,
+      "homeMargin": 14
+    },
+    {
+      "id": "401856716",
+      "conference": "SEC",
+      "home": "Missouri",
+      "away": "Texas A&M",
+      "winner": "Missouri",
+      "projected": false,
+      "homeMargin": 21
+    },
+    {
+      "id": "401856823",
+      "conference": "Big 12",
+      "home": "West Virginia",
+      "away": "Arizona",
+      "winner": "Arizona",
+      "projected": false,
+      "homeMargin": -21
+    },
+    {
+      "id": "401858256",
+      "conference": "ACC",
+      "home": "Pittsburgh",
+      "away": "North Carolina",
+      "winner": "North Carolina",
+      "projected": false,
+      "homeMargin": -4
+    },
+    {
+      "id": "401858481",
+      "conference": "Big Ten",
+      "home": "Nebraska",
+      "away": "Indiana",
+      "winner": "Indiana",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401856824",
+      "conference": "Big 12",
+      "home": "Oklahoma State",
+      "away": "UCF",
+      "winner": "Oklahoma State",
+      "projected": false,
+      "homeMargin": 14
+    },
+    {
+      "id": "401858260",
+      "conference": "ACC",
+      "home": "NC State",
+      "away": "Wake Forest",
+      "winner": "Wake Forest",
+      "projected": false,
+      "homeMargin": -24
+    },
+    {
+      "id": "401856714",
+      "conference": "SEC",
+      "home": "Florida",
+      "away": "South Carolina",
+      "winner": "South Carolina",
+      "projected": false,
+      "homeMargin": -19
+    },
+    {
+      "id": "401858259",
+      "conference": "ACC",
+      "home": "California",
+      "away": "Virginia Tech",
+      "winner": "California",
+      "projected": false,
+      "homeMargin": 5
+    },
+    {
+      "id": "401858484",
+      "conference": "Big Ten",
+      "home": "Oregon",
+      "away": "UCLA",
+      "winner": "UCLA",
+      "projected": false,
+      "homeMargin": -2
+    },
+    {
+      "id": "401858480",
+      "conference": "Big Ten",
+      "home": "Michigan State",
+      "away": "Illinois",
+      "winner": "Illinois",
+      "projected": false,
+      "homeMargin": -1
+    },
+    {
+      "id": "401856717",
+      "conference": "SEC",
+      "home": "Oklahoma",
+      "away": "Texas",
+      "winner": "Oklahoma",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401856718",
+      "conference": "SEC",
+      "home": "Vanderbilt",
+      "away": "Ole Miss",
+      "winner": "Ole Miss",
+      "projected": false,
+      "homeMargin": -35
+    },
+    {
+      "id": "401856825",
+      "conference": "Big 12",
+      "home": "Kansas State",
+      "away": "Houston",
+      "winner": "Houston",
+      "projected": false,
+      "homeMargin": -19
+    },
+    {
+      "id": "401858255",
+      "conference": "ACC",
+      "home": "Georgia Tech",
+      "away": "Duke",
+      "winner": "Georgia Tech",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401858483",
+      "conference": "Big Ten",
+      "home": "Ohio State",
+      "away": "Maryland",
+      "winner": "Ohio State",
+      "projected": false,
+      "homeMargin": 29
+    },
+    {
+      "id": "401856713",
+      "conference": "SEC",
+      "home": "Arkansas",
+      "away": "Tennessee",
+      "winner": "Tennessee",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401856715",
+      "conference": "SEC",
+      "home": "Kentucky",
+      "away": "LSU",
+      "winner": "Kentucky",
+      "projected": false,
+      "homeMargin": 1
+    },
+    {
+      "id": "401858258",
+      "conference": "ACC",
+      "home": "Virginia",
+      "away": "Syracuse",
+      "winner": "Virginia",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401856712",
+      "conference": "SEC",
+      "home": "Alabama",
+      "away": "Georgia",
+      "winner": "Georgia",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858485",
+      "conference": "Big Ten",
+      "home": "Penn State",
+      "away": "USC",
+      "winner": "USC",
+      "projected": false,
+      "homeMargin": -8
+    },
+    {
+      "id": "401858486",
+      "conference": "Big Ten",
+      "home": "Purdue",
+      "away": "Minnesota",
+      "winner": "Purdue",
+      "projected": false,
+      "homeMargin": 28
+    },
+    {
+      "id": "401856827",
+      "conference": "Big 12",
+      "home": "Utah",
+      "away": "Kansas",
+      "winner": "Utah",
+      "projected": false,
+      "homeMargin": 17
+    },
+    {
+      "id": "401858493",
+      "conference": "Big Ten",
+      "home": "Purdue",
+      "away": "Washington",
+      "winner": "Washington",
+      "projected": false,
+      "homeMargin": -12
+    },
+    {
+      "id": "401856829",
+      "conference": "Big 12",
+      "home": "West Virginia",
+      "away": "Cincinnati",
+      "winner": "West Virginia",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401858267",
+      "conference": "ACC",
+      "home": "Boston College",
+      "away": "Pittsburgh",
+      "winner": "Boston College",
+      "projected": false,
+      "homeMargin": 6
+    },
+    {
+      "id": "401858488",
+      "conference": "Big Ten",
+      "home": "Indiana",
+      "away": "Ohio State",
+      "winner": "Ohio State",
+      "projected": false,
+      "homeMargin": -4
+    },
+    {
+      "id": "401858268",
+      "conference": "ACC",
+      "home": "SMU",
+      "away": "Virginia",
+      "winner": "SMU",
+      "projected": false,
+      "homeMargin": 10
+    },
+    {
+      "id": "401856724",
+      "conference": "SEC",
+      "home": "Texas",
+      "away": "Florida",
+      "winner": "Florida",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401856830",
+      "conference": "Big 12",
+      "home": "Kansas State",
+      "away": "Kansas",
+      "winner": "Kansas State",
+      "projected": false,
+      "homeMargin": 11
+    },
+    {
+      "id": "401856720",
+      "conference": "SEC",
+      "home": "LSU",
+      "away": "Mississippi State",
+      "winner": "LSU",
+      "projected": false,
+      "homeMargin": 31
+    },
+    {
+      "id": "401858491",
+      "conference": "Big Ten",
+      "home": "Michigan State",
+      "away": "Northwestern",
+      "winner": "Northwestern",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858489",
+      "conference": "Big Ten",
+      "home": "Maryland",
+      "away": "Rutgers",
+      "winner": "Rutgers",
+      "projected": false,
+      "homeMargin": -7
+    },
+    {
+      "id": "401856719",
+      "conference": "SEC",
+      "home": "Georgia",
+      "away": "Auburn",
+      "winner": "Auburn",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858264",
+      "conference": "ACC",
+      "home": "Virginia Tech",
+      "away": "Georgia Tech",
+      "winner": "Virginia Tech",
+      "projected": false,
+      "homeMargin": 10
+    },
+    {
+      "id": "401856828",
+      "conference": "Big 12",
+      "home": "Texas Tech",
+      "away": "Arizona State",
+      "winner": "Texas Tech",
+      "projected": false,
+      "homeMargin": 28
+    },
+    {
+      "id": "401858490",
+      "conference": "Big Ten",
+      "home": "Michigan",
+      "away": "Penn State",
+      "winner": "Michigan",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401856721",
+      "conference": "SEC",
+      "home": "Ole Miss",
+      "away": "Missouri",
+      "winner": "Ole Miss",
+      "projected": false,
+      "homeMargin": 28
+    },
+    {
+      "id": "401856723",
+      "conference": "SEC",
+      "home": "Tennessee",
+      "away": "Alabama",
+      "winner": "Tennessee",
+      "projected": false,
+      "homeMargin": 16
+    },
+    {
+      "id": "401858266",
+      "conference": "ACC",
+      "home": "Duke",
+      "away": "North Carolina",
+      "winner": "North Carolina",
+      "projected": false,
+      "homeMargin": -4
+    },
+    {
+      "id": "401858263",
+      "conference": "ACC",
+      "home": "Miami",
+      "away": "Florida State",
+      "winner": "Miami",
+      "projected": false,
+      "homeMargin": 8
+    },
+    {
+      "id": "401856832",
+      "conference": "Big 12",
+      "home": "Baylor",
+      "away": "TCU",
+      "winner": "TCU",
+      "projected": false,
+      "homeMargin": -11
+    },
+    {
+      "id": "401856726",
+      "conference": "SEC",
+      "home": "Vanderbilt",
+      "away": "Arkansas",
+      "winner": "Arkansas",
+      "projected": false,
+      "homeMargin": -10
+    },
+    {
+      "id": "401858494",
+      "conference": "Big Ten",
+      "home": "UCLA",
+      "away": "Wisconsin",
+      "winner": "UCLA",
+      "projected": false,
+      "homeMargin": 10
+    },
+    {
+      "id": "401856831",
+      "conference": "Big 12",
+      "home": "Houston",
+      "away": "Oklahoma State",
+      "winner": "Houston",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401858265",
+      "conference": "ACC",
+      "home": "Syracuse",
+      "away": "Louisville",
+      "winner": "Louisville",
+      "projected": false,
+      "homeMargin": -8
+    },
+    {
+      "id": "401856722",
+      "conference": "SEC",
+      "home": "Oklahoma",
+      "away": "Kentucky",
+      "winner": "Kentucky",
+      "projected": false,
+      "homeMargin": -8
+    },
+    {
+      "id": "401856833",
+      "conference": "Big 12",
+      "home": "Colorado",
+      "away": "Utah",
+      "winner": "Utah",
+      "projected": false,
+      "homeMargin": -3
+    },
+    {
+      "id": "401858269",
+      "conference": "ACC",
+      "home": "California",
+      "away": "Wake Forest",
+      "winner": "Wake Forest",
+      "projected": false,
+      "homeMargin": -34
+    },
+    {
+      "id": "401858492",
+      "conference": "Big Ten",
+      "home": "Oregon",
+      "away": "Nebraska",
+      "winner": "Oregon",
+      "projected": false,
+      "homeMargin": 3
+    },
+    {
+      "id": "401858271",
+      "conference": "ACC",
+      "home": "Virginia",
+      "away": "Duke",
+      "winner": "Duke",
+      "projected": true,
+      "homeMargin": -0.885278999999997
+    },
+    {
+      "id": "401858272",
+      "conference": "ACC",
+      "home": "Stanford",
+      "away": "NC State",
+      "winner": "NC State",
+      "projected": true,
+      "homeMargin": -6.966186
+    },
+    {
+      "id": "401856836",
+      "conference": "Big 12",
+      "home": "Oklahoma State",
+      "away": "Colorado",
+      "winner": "Oklahoma State",
+      "projected": true,
+      "homeMargin": 10.936808
+    },
+    {
+      "id": "401856839",
+      "conference": "Big 12",
+      "home": "Arizona State",
+      "away": "Kansas State",
+      "winner": "Kansas State",
+      "projected": true,
+      "homeMargin": -6.747571000000001
+    },
+    {
+      "id": "401858495",
+      "conference": "Big Ten",
+      "home": "Illinois",
+      "away": "Oregon",
+      "winner": "Oregon",
+      "projected": true,
+      "homeMargin": -14.334871999999997
+    },
+    {
+      "id": "401858499",
+      "conference": "Big Ten",
+      "home": "UCLA",
+      "away": "Michigan State",
+      "winner": "UCLA",
+      "projected": true,
+      "homeMargin": 19.404517999999996
+    },
+    {
+      "id": "401856834",
+      "conference": "Big 12",
+      "home": "Kansas",
+      "away": "Baylor",
+      "winner": "Baylor",
+      "projected": true,
+      "homeMargin": -7.489827000000005
+    },
+    {
+      "id": "401856835",
+      "conference": "Big 12",
+      "home": "UCF",
+      "away": "BYU",
+      "winner": "BYU",
+      "projected": true,
+      "homeMargin": -13.820198999999995
+    },
+    {
+      "id": "401856837",
+      "conference": "Big 12",
+      "home": "Utah",
+      "away": "Houston",
+      "winner": "Utah",
+      "projected": true,
+      "homeMargin": 6.431305999999992
+    },
+    {
+      "id": "401856838",
+      "conference": "Big 12",
+      "home": "Arizona",
+      "away": "Iowa State",
+      "winner": "Arizona",
+      "projected": true,
+      "homeMargin": 10.718830999999994
+    },
+    {
+      "id": "401856840",
+      "conference": "Big 12",
+      "home": "Cincinnati",
+      "away": "Texas Tech",
+      "winner": "Texas Tech",
+      "projected": true,
+      "homeMargin": -18.185321000000002
+    },
+    {
+      "id": "401858276",
+      "conference": "ACC",
+      "home": "Clemson",
+      "away": "Virginia Tech",
+      "winner": "Clemson",
+      "projected": true,
+      "homeMargin": 4.003005999999999
+    },
+    {
+      "id": "401858497",
+      "conference": "Big Ten",
+      "home": "Minnesota",
+      "away": "Iowa",
+      "winner": "Iowa",
+      "projected": true,
+      "homeMargin": -18.240286000000005
+    },
+    {
+      "id": "401856841",
+      "conference": "Big 12",
+      "home": "TCU",
+      "away": "West Virginia",
+      "winner": "TCU",
+      "projected": true,
+      "homeMargin": 11.680364999999995
+    },
+    {
+      "id": "401856728",
+      "conference": "SEC",
+      "home": "Auburn",
+      "away": "LSU",
+      "winner": "LSU",
+      "projected": true,
+      "homeMargin": -12.135255999999998
+    },
+    {
+      "id": "401858274",
+      "conference": "ACC",
+      "home": "Miami",
+      "away": "Pittsburgh",
+      "winner": "Miami",
+      "projected": true,
+      "homeMargin": 23.390124
+    },
+    {
+      "id": "401858270",
+      "conference": "ACC",
+      "home": "SMU",
+      "away": "California",
+      "winner": "SMU",
+      "projected": true,
+      "homeMargin": 19.368207999999996
+    },
+    {
+      "id": "401858498",
+      "conference": "Big Ten",
+      "home": "Northwestern",
+      "away": "Rutgers",
+      "winner": "Northwestern",
+      "projected": true,
+      "homeMargin": 27.671371000000008
+    },
+    {
+      "id": "401858496",
+      "conference": "Big Ten",
+      "home": "Michigan",
+      "away": "Indiana",
+      "winner": "Indiana",
+      "projected": true,
+      "homeMargin": -14.195683000000002
+    },
+    {
+      "id": "401858273",
+      "conference": "ACC",
+      "home": "Georgia Tech",
+      "away": "Boston College",
+      "winner": "Georgia Tech",
+      "projected": true,
+      "homeMargin": 7.115964999999996
+    },
+    {
+      "id": "401856731",
+      "conference": "SEC",
+      "home": "South Carolina",
+      "away": "Tennessee",
+      "winner": "Tennessee",
+      "projected": true,
+      "homeMargin": -6.376803000000002
+    },
+    {
+      "id": "401856727",
+      "conference": "SEC",
+      "home": "Alabama",
+      "away": "Texas A&M",
+      "winner": "Alabama",
+      "projected": true,
+      "homeMargin": 22.740041000000005
+    },
+    {
+      "id": "401856730",
+      "conference": "SEC",
+      "home": "Mississippi State",
+      "away": "Oklahoma",
+      "winner": "Mississippi State",
+      "projected": true,
+      "homeMargin": 8.856245999999999
+    },
+    {
+      "id": "401856732",
+      "conference": "SEC",
+      "home": "Texas",
+      "away": "Ole Miss",
+      "winner": "Ole Miss",
+      "projected": true,
+      "homeMargin": -1.198792999999995
+    },
+    {
+      "id": "401856729",
+      "conference": "SEC",
+      "home": "Kentucky",
+      "away": "Vanderbilt",
+      "winner": "Kentucky",
+      "projected": true,
+      "homeMargin": 24.560059000000003
+    },
+    {
+      "id": "401858275",
+      "conference": "ACC",
+      "home": "North Carolina",
+      "away": "Syracuse",
+      "winner": "North Carolina",
+      "projected": true,
+      "homeMargin": 16.226079999999996
+    },
+    {
+      "id": "401858500",
+      "conference": "Big Ten",
+      "home": "Wisconsin",
+      "away": "USC",
+      "winner": "USC",
+      "projected": true,
+      "homeMargin": -2.369608999999997
+    },
+    {
+      "id": "401856844",
+      "conference": "Big 12",
+      "home": "UCF",
+      "away": "Baylor",
+      "winner": "UCF",
+      "projected": true,
+      "homeMargin": 0.03572099999999523
+    },
+    {
+      "id": "401856842",
+      "conference": "Big 12",
+      "home": "Texas Tech",
+      "away": "Arizona",
+      "winner": "Texas Tech",
+      "projected": true,
+      "homeMargin": 11.292838000000003
+    },
+    {
+      "id": "401856848",
+      "conference": "Big 12",
+      "home": "Cincinnati",
+      "away": "Utah",
+      "winner": "Utah",
+      "projected": true,
+      "homeMargin": -17.267410999999996
+    },
+    {
+      "id": "401856846",
+      "conference": "Big 12",
+      "home": "Colorado",
+      "away": "Kansas State",
+      "winner": "Kansas State",
+      "projected": true,
+      "homeMargin": -0.348550000000003
+    },
+    {
+      "id": "401856736",
+      "conference": "SEC",
+      "home": "Oklahoma",
+      "away": "South Carolina",
+      "winner": "Oklahoma",
+      "projected": true,
+      "homeMargin": 0.7896020000000021
+    },
+    {
+      "id": "401856735",
+      "conference": "SEC",
+      "home": "Ole Miss",
+      "away": "Auburn",
+      "winner": "Ole Miss",
+      "projected": true,
+      "homeMargin": 15.715036999999995
+    },
+    {
+      "id": "401856733",
+      "conference": "SEC",
+      "home": "Arkansas",
+      "away": "Missouri",
+      "winner": "Missouri",
+      "projected": true,
+      "homeMargin": -12.387391000000001
+    },
+    {
+      "id": "401858278",
+      "conference": "ACC",
+      "home": "Syracuse",
+      "away": "SMU",
+      "winner": "SMU",
+      "projected": true,
+      "homeMargin": -9.186691999999994
+    },
+    {
+      "id": "401858279",
+      "conference": "ACC",
+      "home": "Duke",
+      "away": "Boston College",
+      "winner": "Duke",
+      "projected": true,
+      "homeMargin": 16.344178999999997
+    },
+    {
+      "id": "401858282",
+      "conference": "ACC",
+      "home": "North Carolina",
+      "away": "Miami",
+      "winner": "Miami",
+      "projected": true,
+      "homeMargin": -13.062807
+    },
+    {
+      "id": "401858501",
+      "conference": "Big Ten",
+      "home": "Indiana",
+      "away": "Minnesota",
+      "winner": "Indiana",
+      "projected": true,
+      "homeMargin": 28.682507000000008
+    },
+    {
+      "id": "401858502",
+      "conference": "Big Ten",
+      "home": "Iowa",
+      "away": "Wisconsin",
+      "winner": "Iowa",
+      "projected": true,
+      "homeMargin": 11.357582
+    },
+    {
+      "id": "401858504",
+      "conference": "Big Ten",
+      "home": "Nebraska",
+      "away": "Washington",
+      "winner": "Nebraska",
+      "projected": true,
+      "homeMargin": 22.033288000000006
+    },
+    {
+      "id": "401858506",
+      "conference": "Big Ten",
+      "home": "Penn State",
+      "away": "Purdue",
+      "winner": "Penn State",
+      "projected": true,
+      "homeMargin": 7.503515
+    },
+    {
+      "id": "401858507",
+      "conference": "Big Ten",
+      "home": "Rutgers",
+      "away": "Michigan",
+      "winner": "Michigan",
+      "projected": true,
+      "homeMargin": -9.996643000000006
+    },
+    {
+      "id": "401858505",
+      "conference": "Big Ten",
+      "home": "Oregon",
+      "away": "Northwestern",
+      "winner": "Oregon",
+      "projected": true,
+      "homeMargin": 5.489720999999989
+    },
+    {
+      "id": "401858281",
+      "conference": "ACC",
+      "home": "Pittsburgh",
+      "away": "Georgia Tech",
+      "winner": "Pittsburgh",
+      "projected": true,
+      "homeMargin": 12.580644
+    },
+    {
+      "id": "401856843",
+      "conference": "Big 12",
+      "home": "BYU",
+      "away": "Arizona State",
+      "winner": "BYU",
+      "projected": true,
+      "homeMargin": 30.81233199999999
+    },
+    {
+      "id": "401858509",
+      "conference": "Big Ten",
+      "home": "USC",
+      "away": "Ohio State",
+      "winner": "Ohio State",
+      "projected": true,
+      "homeMargin": -7.817315000000001
+    },
+    {
+      "id": "401856845",
+      "conference": "Big 12",
+      "home": "TCU",
+      "away": "Kansas",
+      "winner": "TCU",
+      "projected": true,
+      "homeMargin": 12.44379
+    },
+    {
+      "id": "401856847",
+      "conference": "Big 12",
+      "home": "Iowa State",
+      "away": "Oklahoma State",
+      "winner": "Iowa State",
+      "projected": true,
+      "homeMargin": 0.5576020000000028
+    },
+    {
+      "id": "401858280",
+      "conference": "ACC",
+      "home": "Florida State",
+      "away": "Clemson",
+      "winner": "Florida State",
+      "projected": true,
+      "homeMargin": 4.4001480000000015
+    },
+    {
+      "id": "401858503",
+      "conference": "Big Ten",
+      "home": "Maryland",
+      "away": "Illinois",
+      "winner": "Illinois",
+      "projected": true,
+      "homeMargin": -4.625799999999998
+    },
+    {
+      "id": "401856737",
+      "conference": "SEC",
+      "home": "Texas",
+      "away": "Mississippi State",
+      "winner": "Texas",
+      "projected": true,
+      "homeMargin": 9.112456000000002
+    },
+    {
+      "id": "401858277",
+      "conference": "ACC",
+      "home": "NC State",
+      "away": "California",
+      "winner": "NC State",
+      "projected": true,
+      "homeMargin": 10.404645000000002
+    },
+    {
+      "id": "401858284",
+      "conference": "ACC",
+      "home": "Wake Forest",
+      "away": "Virginia",
+      "winner": "Wake Forest",
+      "projected": true,
+      "homeMargin": 19.885201999999992
+    },
+    {
+      "id": "401858283",
+      "conference": "ACC",
+      "home": "Louisville",
+      "away": "Stanford",
+      "winner": "Louisville",
+      "projected": true,
+      "homeMargin": 24.758081999999995
+    },
+    {
+      "id": "401856734",
+      "conference": "SEC",
+      "home": "Georgia",
+      "away": "Florida",
+      "winner": "Georgia",
+      "projected": true,
+      "homeMargin": 8.608617999999993
+    },
+    {
+      "id": "401858288",
+      "conference": "ACC",
+      "home": "SMU",
+      "away": "Virginia Tech",
+      "winner": "SMU",
+      "projected": true,
+      "homeMargin": 6.855395999999999
+    },
+    {
+      "id": "401858510",
+      "conference": "Big Ten",
+      "home": "Illinois",
+      "away": "Nebraska",
+      "winner": "Nebraska",
+      "projected": true,
+      "homeMargin": -14.512102000000006
+    },
+    {
+      "id": "401856855",
+      "conference": "Big 12",
+      "home": "Arizona",
+      "away": "TCU",
+      "winner": "Arizona",
+      "projected": true,
+      "homeMargin": 9.701887
+    },
+    {
+      "id": "401858517",
+      "conference": "Big Ten",
+      "home": "Wisconsin",
+      "away": "Rutgers",
+      "winner": "Wisconsin",
+      "projected": true,
+      "homeMargin": 20.392523000000004
+    },
+    {
+      "id": "401858289",
+      "conference": "ACC",
+      "home": "Boston College",
+      "away": "Florida State",
+      "winner": "Florida State",
+      "projected": true,
+      "homeMargin": -12.532295999999995
+    },
+    {
+      "id": "401858514",
+      "conference": "Big Ten",
+      "home": "Ohio State",
+      "away": "Oregon",
+      "winner": "Ohio State",
+      "projected": true,
+      "homeMargin": 9.418355000000005
+    },
+    {
+      "id": "401858513",
+      "conference": "Big Ten",
+      "home": "Northwestern",
+      "away": "Iowa",
+      "winner": "Northwestern",
+      "projected": true,
+      "homeMargin": 1.9212660000000028
+    },
+    {
+      "id": "401858515",
+      "conference": "Big Ten",
+      "home": "Purdue",
+      "away": "Maryland",
+      "winner": "Purdue",
+      "projected": true,
+      "homeMargin": 10.692720000000001
+    },
+    {
+      "id": "401856742",
+      "conference": "SEC",
+      "home": "Mississippi State",
+      "away": "Vanderbilt",
+      "winner": "Mississippi State",
+      "projected": true,
+      "homeMargin": 20.321939
+    },
+    {
+      "id": "401856849",
+      "conference": "Big 12",
+      "home": "Utah",
+      "away": "BYU",
+      "winner": "Utah",
+      "projected": true,
+      "homeMargin": 2.1748580000000004
+    },
+    {
+      "id": "401856850",
+      "conference": "Big 12",
+      "home": "Kansas",
+      "away": "UCF",
+      "winner": "UCF",
+      "projected": true,
+      "homeMargin": -4.525548000000001
+    },
+    {
+      "id": "401856851",
+      "conference": "Big 12",
+      "home": "Houston",
+      "away": "Cincinnati",
+      "winner": "Houston",
+      "projected": true,
+      "homeMargin": 19.836105000000003
+    },
+    {
+      "id": "401856853",
+      "conference": "Big 12",
+      "home": "Baylor",
+      "away": "Iowa State",
+      "winner": "Baylor",
+      "projected": true,
+      "homeMargin": 5.062981000000001
+    },
+    {
+      "id": "401856854",
+      "conference": "Big 12",
+      "home": "Kansas State",
+      "away": "Oklahoma State",
+      "winner": "Oklahoma State",
+      "projected": true,
+      "homeMargin": -1.5882579999999962
+    },
+    {
+      "id": "401856856",
+      "conference": "Big 12",
+      "home": "Texas Tech",
+      "away": "West Virginia",
+      "winner": "Texas Tech",
+      "projected": true,
+      "homeMargin": 26.675089999999997
+    },
+    {
+      "id": "401856852",
+      "conference": "Big 12",
+      "home": "Arizona State",
+      "away": "Colorado",
+      "winner": "Colorado",
+      "projected": true,
+      "homeMargin": -3.3990209999999976
+    },
+    {
+      "id": "401856741",
+      "conference": "SEC",
+      "home": "Ole Miss",
+      "away": "Georgia",
+      "winner": "Ole Miss",
+      "projected": true,
+      "homeMargin": 1.5257569999999987
+    },
+    {
+      "id": "401856739",
+      "conference": "SEC",
+      "home": "Florida",
+      "away": "Oklahoma",
+      "winner": "Florida",
+      "projected": true,
+      "homeMargin": 12.033120000000004
+    },
+    {
+      "id": "401856745",
+      "conference": "SEC",
+      "home": "Tennessee",
+      "away": "Kentucky",
+      "winner": "Tennessee",
+      "projected": true,
+      "homeMargin": 4.4928349999999995
+    },
+    {
+      "id": "401856740",
+      "conference": "SEC",
+      "home": "LSU",
+      "away": "Alabama",
+      "winner": "LSU",
+      "projected": true,
+      "homeMargin": 0.07290999999999315
+    },
+    {
+      "id": "401856738",
+      "conference": "SEC",
+      "home": "Auburn",
+      "away": "Arkansas",
+      "winner": "Auburn",
+      "projected": true,
+      "homeMargin": 14.162514999999999
+    },
+    {
+      "id": "401858512",
+      "conference": "Big Ten",
+      "home": "Minnesota",
+      "away": "UCLA",
+      "winner": "UCLA",
+      "projected": true,
+      "homeMargin": -18.083858
+    },
+    {
+      "id": "401858516",
+      "conference": "Big Ten",
+      "home": "Washington",
+      "away": "Penn State",
+      "winner": "Penn State",
+      "projected": true,
+      "homeMargin": -3.0916210000000035
+    },
+    {
+      "id": "401858287",
+      "conference": "ACC",
+      "home": "Georgia Tech",
+      "away": "Louisville",
+      "winner": "Louisville",
+      "projected": true,
+      "homeMargin": -12.696905999999998
+    },
+    {
+      "id": "401856744",
+      "conference": "SEC",
+      "home": "South Carolina",
+      "away": "Texas A&M",
+      "winner": "South Carolina",
+      "projected": true,
+      "homeMargin": 3.4356349999999978
+    },
+    {
+      "id": "401858511",
+      "conference": "Big Ten",
+      "home": "Michigan",
+      "away": "Michigan State",
+      "winner": "Michigan",
+      "projected": true,
+      "homeMargin": 6.807484000000002
+    },
+    {
+      "id": "401858286",
+      "conference": "ACC",
+      "home": "NC State",
+      "away": "Duke",
+      "winner": "Duke",
+      "projected": true,
+      "homeMargin": -2.323203999999997
+    },
+    {
+      "id": "401858285",
+      "conference": "ACC",
+      "home": "Syracuse",
+      "away": "Clemson",
+      "winner": "Clemson",
+      "projected": true,
+      "homeMargin": -6.334301999999994
+    },
+    {
+      "id": "401856743",
+      "conference": "SEC",
+      "home": "Missouri",
+      "away": "Texas",
+      "winner": "Texas",
+      "projected": true,
+      "homeMargin": -1.2913679999999985
+    },
+    {
+      "id": "401858293",
+      "conference": "ACC",
+      "home": "Pittsburgh",
+      "away": "Florida State",
+      "winner": "Pittsburgh",
+      "projected": true,
+      "homeMargin": 1.164313
+    },
+    {
+      "id": "401858526",
+      "conference": "Big Ten",
+      "home": "UCLA",
+      "away": "Illinois",
+      "winner": "UCLA",
+      "projected": true,
+      "homeMargin": 18.767457
+    },
+    {
+      "id": "401856860",
+      "conference": "Big 12",
+      "home": "Colorado",
+      "away": "Houston",
+      "winner": "Houston",
+      "projected": true,
+      "homeMargin": -14.156863000000001
+    },
+    {
+      "id": "401856885",
+      "conference": "SEC",
+      "home": "LSU",
+      "away": "Texas",
+      "winner": "LSU",
+      "projected": true,
+      "homeMargin": 9.619011999999998
+    },
+    {
+      "id": "401856859",
+      "conference": "Big 12",
+      "home": "Iowa State",
+      "away": "Cincinnati",
+      "winner": "Iowa State",
+      "projected": true,
+      "homeMargin": 8.173652000000004
+    },
+    {
+      "id": "401856888",
+      "conference": "SEC",
+      "home": "Texas A&M",
+      "away": "Tennessee",
+      "winner": "Tennessee",
+      "projected": true,
+      "homeMargin": -6.812438
+    },
+    {
+      "id": "401858523",
+      "conference": "Big Ten",
+      "home": "Oregon",
+      "away": "Michigan",
+      "winner": "Oregon",
+      "projected": true,
+      "homeMargin": 17.16444899999999
+    },
+    {
+      "id": "401856857",
+      "conference": "Big 12",
+      "home": "UCF",
+      "away": "Arizona State",
+      "winner": "UCF",
+      "projected": true,
+      "homeMargin": 13.992132999999995
+    },
+    {
+      "id": "401858518",
+      "conference": "Big Ten",
+      "home": "Indiana",
+      "away": "USC",
+      "winner": "Indiana",
+      "projected": true,
+      "homeMargin": 10.430194000000007
+    },
+    {
+      "id": "401856858",
+      "conference": "Big 12",
+      "home": "BYU",
+      "away": "Baylor",
+      "winner": "BYU",
+      "projected": true,
+      "homeMargin": 16.85591999999999
+    },
+    {
+      "id": "401856861",
+      "conference": "Big 12",
+      "home": "West Virginia",
+      "away": "Kansas",
+      "winner": "West Virginia",
+      "projected": true,
+      "homeMargin": 3.763425000000005
+    },
+    {
+      "id": "401856862",
+      "conference": "Big 12",
+      "home": "TCU",
+      "away": "Kansas State",
+      "winner": "TCU",
+      "projected": true,
+      "homeMargin": 6.162803999999994
+    },
+    {
+      "id": "401856863",
+      "conference": "Big 12",
+      "home": "Oklahoma State",
+      "away": "Texas Tech",
+      "winner": "Texas Tech",
+      "projected": true,
+      "homeMargin": -10.569271
+    },
+    {
+      "id": "401856864",
+      "conference": "Big 12",
+      "home": "Arizona",
+      "away": "Utah",
+      "winner": "Utah",
+      "projected": true,
+      "homeMargin": -4.374927999999997
+    },
+    {
+      "id": "401856883",
+      "conference": "SEC",
+      "home": "Georgia",
+      "away": "Missouri",
+      "winner": "Georgia",
+      "projected": true,
+      "homeMargin": 12.964403999999995
+    },
+    {
+      "id": "401856884",
+      "conference": "SEC",
+      "home": "Kentucky",
+      "away": "Florida",
+      "winner": "Kentucky",
+      "projected": true,
+      "homeMargin": 4.061245999999997
+    },
+    {
+      "id": "401856886",
+      "conference": "SEC",
+      "home": "Mississippi State",
+      "away": "Auburn",
+      "winner": "Mississippi State",
+      "projected": true,
+      "homeMargin": 5.403787999999999
+    },
+    {
+      "id": "401856887",
+      "conference": "SEC",
+      "home": "Oklahoma",
+      "away": "Ole Miss",
+      "winner": "Ole Miss",
+      "projected": true,
+      "homeMargin": -13.167494999999995
+    },
+    {
+      "id": "401858296",
+      "conference": "ACC",
+      "home": "Miami",
+      "away": "Duke",
+      "winner": "Miami",
+      "projected": true,
+      "homeMargin": 23.742554
+    },
+    {
+      "id": "401858297",
+      "conference": "ACC",
+      "home": "Clemson",
+      "away": "Georgia Tech",
+      "winner": "Clemson",
+      "projected": true,
+      "homeMargin": 13.016182999999998
+    },
+    {
+      "id": "401858524",
+      "conference": "Big Ten",
+      "home": "Penn State",
+      "away": "Minnesota",
+      "winner": "Penn State",
+      "projected": true,
+      "homeMargin": 12.886836000000002
+    },
+    {
+      "id": "401858521",
+      "conference": "Big Ten",
+      "home": "Michigan State",
+      "away": "Washington",
+      "winner": "Michigan State",
+      "projected": true,
+      "homeMargin": 3.8841250000000045
+    },
+    {
+      "id": "401858299",
+      "conference": "ACC",
+      "home": "Virginia Tech",
+      "away": "Stanford",
+      "winner": "Virginia Tech",
+      "projected": true,
+      "homeMargin": 18.074352999999995
+    },
+    {
+      "id": "401858298",
+      "conference": "ACC",
+      "home": "North Carolina",
+      "away": "Louisville",
+      "winner": "North Carolina",
+      "projected": true,
+      "homeMargin": 1.2110550000000018
+    },
+    {
+      "id": "401858300",
+      "conference": "ACC",
+      "home": "NC State",
+      "away": "Syracuse",
+      "winner": "NC State",
+      "projected": true,
+      "homeMargin": 6.223129
+    },
+    {
+      "id": "401858301",
+      "conference": "ACC",
+      "home": "SMU",
+      "away": "Wake Forest",
+      "winner": "Wake Forest",
+      "projected": true,
+      "homeMargin": -6.359563999999999
+    },
+    {
+      "id": "401858520",
+      "conference": "Big Ten",
+      "home": "Maryland",
+      "away": "Wisconsin",
+      "winner": "Wisconsin",
+      "projected": true,
+      "homeMargin": -12.192103000000003
+    },
+    {
+      "id": "401858522",
+      "conference": "Big Ten",
+      "home": "Ohio State",
+      "away": "Northwestern",
+      "winner": "Ohio State",
+      "projected": true,
+      "homeMargin": 11.908075999999994
+    },
+    {
+      "id": "401858525",
+      "conference": "Big Ten",
+      "home": "Rutgers",
+      "away": "Nebraska",
+      "winner": "Nebraska",
+      "projected": true,
+      "homeMargin": -24.338322000000005
+    },
+    {
+      "id": "401856882",
+      "conference": "SEC",
+      "home": "Arkansas",
+      "away": "South Carolina",
+      "winner": "South Carolina",
+      "projected": true,
+      "homeMargin": -6.920454999999997
+    },
+    {
+      "id": "401858295",
+      "conference": "ACC",
+      "home": "Virginia",
+      "away": "California",
+      "winner": "Virginia",
+      "projected": true,
+      "homeMargin": 11.842570000000002
+    },
+    {
+      "id": "401856889",
+      "conference": "SEC",
+      "home": "Vanderbilt",
+      "away": "Alabama",
+      "winner": "Alabama",
+      "projected": true,
+      "homeMargin": -29.980497000000007
+    },
+    {
+      "id": "401858519",
+      "conference": "Big Ten",
+      "home": "Iowa",
+      "away": "Purdue",
+      "winner": "Iowa",
+      "projected": true,
+      "homeMargin": 18.856965000000002
+    },
+    {
+      "id": "401856869",
+      "conference": "Big 12",
+      "home": "UCF",
+      "away": "Iowa State",
+      "winner": "UCF",
+      "projected": true,
+      "homeMargin": 2.098701999999996
+    },
+    {
+      "id": "401858303",
+      "conference": "ACC",
+      "home": "Duke",
+      "away": "Clemson",
+      "winner": "Duke",
+      "projected": true,
+      "homeMargin": 2.212031000000003
+    },
+    {
+      "id": "401858529",
+      "conference": "Big Ten",
+      "home": "Michigan State",
+      "away": "Oregon",
+      "winner": "Oregon",
+      "projected": true,
+      "homeMargin": -14.971932999999993
+    },
+    {
+      "id": "401856753",
+      "conference": "SEC",
+      "home": "South Carolina",
+      "away": "Georgia",
+      "winner": "Georgia",
+      "projected": true,
+      "homeMargin": -12.431339999999999
+    },
+    {
+      "id": "401856866",
+      "conference": "Big 12",
+      "home": "Kansas",
+      "away": "BYU",
+      "winner": "BYU",
+      "projected": true,
+      "homeMargin": -21.345746999999996
+    },
+    {
+      "id": "401858306",
+      "conference": "ACC",
+      "home": "Louisville",
+      "away": "Pittsburgh",
+      "winner": "Louisville",
+      "projected": true,
+      "homeMargin": 9.116261999999999
+    },
+    {
+      "id": "401858309",
+      "conference": "ACC",
+      "home": "Boston College",
+      "away": "Syracuse",
+      "winner": "Syracuse",
+      "projected": true,
+      "homeMargin": -1.7978459999999998
+    },
+    {
+      "id": "401858308",
+      "conference": "ACC",
+      "home": "California",
+      "away": "Stanford",
+      "winner": "California",
+      "projected": true,
+      "homeMargin": 5.561540999999998
+    },
+    {
+      "id": "401858527",
+      "conference": "Big Ten",
+      "home": "Illinois",
+      "away": "Iowa",
+      "winner": "Iowa",
+      "projected": true,
+      "homeMargin": -12.923885000000006
+    },
+    {
+      "id": "401858533",
+      "conference": "Big Ten",
+      "home": "Purdue",
+      "away": "Wisconsin",
+      "winner": "Wisconsin",
+      "projected": true,
+      "homeMargin": -4.499383000000002
+    },
+    {
+      "id": "401858305",
+      "conference": "ACC",
+      "home": "Virginia",
+      "away": "North Carolina",
+      "winner": "North Carolina",
+      "projected": true,
+      "homeMargin": -5.565025999999996
+    },
+    {
+      "id": "401858535",
+      "conference": "Big Ten",
+      "home": "Washington",
+      "away": "Indiana",
+      "winner": "Indiana",
+      "projected": true,
+      "homeMargin": -18.88729200000001
+    },
+    {
+      "id": "401858534",
+      "conference": "Big Ten",
+      "home": "USC",
+      "away": "Maryland",
+      "winner": "USC",
+      "projected": true,
+      "homeMargin": 23.561712
+    },
+    {
+      "id": "401858532",
+      "conference": "Big Ten",
+      "home": "Penn State",
+      "away": "Rutgers",
+      "winner": "Penn State",
+      "projected": true,
+      "homeMargin": 17.396655000000003
+    },
+    {
+      "id": "401858531",
+      "conference": "Big Ten",
+      "home": "Nebraska",
+      "away": "Ohio State",
+      "winner": "Ohio State",
+      "projected": true,
+      "homeMargin": -3.2411249999999967
+    },
+    {
+      "id": "401858530",
+      "conference": "Big Ten",
+      "home": "Minnesota",
+      "away": "Northwestern",
+      "winner": "Northwestern",
+      "projected": true,
+      "homeMargin": -17.161552000000007
+    },
+    {
+      "id": "401858528",
+      "conference": "Big Ten",
+      "home": "Michigan",
+      "away": "UCLA",
+      "winner": "UCLA",
+      "projected": true,
+      "homeMargin": -9.597033999999994
+    },
+    {
+      "id": "401858302",
+      "conference": "ACC",
+      "home": "Miami",
+      "away": "Virginia Tech",
+      "winner": "Miami",
+      "projected": true,
+      "homeMargin": 23.957591
+    },
+    {
+      "id": "401856872",
+      "conference": "Big 12",
+      "home": "TCU",
+      "away": "Utah",
+      "winner": "Utah",
+      "projected": true,
+      "homeMargin": -11.076814999999996
+    },
+    {
+      "id": "401856871",
+      "conference": "Big 12",
+      "home": "Baylor",
+      "away": "Texas Tech",
+      "winner": "Texas Tech",
+      "projected": true,
+      "homeMargin": -10.948687999999997
+    },
+    {
+      "id": "401856870",
+      "conference": "Big 12",
+      "home": "Arizona State",
+      "away": "Oklahoma State",
+      "winner": "Oklahoma State",
+      "projected": true,
+      "homeMargin": -11.335828999999997
+    },
+    {
+      "id": "401856868",
+      "conference": "Big 12",
+      "home": "West Virginia",
+      "away": "Houston",
+      "winner": "Houston",
+      "projected": true,
+      "homeMargin": -16.325874
+    },
+    {
+      "id": "401856865",
+      "conference": "Big 12",
+      "home": "Kansas State",
+      "away": "Arizona",
+      "winner": "Arizona",
+      "projected": true,
+      "homeMargin": -6.864690999999993
+    },
+    {
+      "id": "401856754",
+      "conference": "SEC",
+      "home": "Tennessee",
+      "away": "LSU",
+      "winner": "LSU",
+      "projected": true,
+      "homeMargin": -4.000512999999998
+    },
+    {
+      "id": "401856751",
+      "conference": "SEC",
+      "home": "Missouri",
+      "away": "Kentucky",
+      "winner": "Missouri",
+      "projected": true,
+      "homeMargin": 0.582968000000001
+    },
+    {
+      "id": "401856752",
+      "conference": "SEC",
+      "home": "Oklahoma",
+      "away": "Texas A&M",
+      "winner": "Oklahoma",
+      "projected": true,
+      "homeMargin": 1.225237
+    },
+    {
+      "id": "401858304",
+      "conference": "ACC",
+      "home": "Florida State",
+      "away": "NC State",
+      "winner": "Florida State",
+      "projected": true,
+      "homeMargin": 10.511320999999995
+    },
+    {
+      "id": "401856748",
+      "conference": "SEC",
+      "home": "Florida",
+      "away": "Vanderbilt",
+      "winner": "Florida",
+      "projected": true,
+      "homeMargin": 23.498813000000006
+    },
+    {
+      "id": "401858310",
+      "conference": "ACC",
+      "home": "Georgia Tech",
+      "away": "Wake Forest",
+      "winner": "Wake Forest",
+      "projected": true,
+      "homeMargin": -19.228136999999997
+    },
+    {
+      "id": "401856755",
+      "conference": "SEC",
+      "home": "Texas",
+      "away": "Arkansas",
+      "winner": "Texas",
+      "projected": true,
+      "homeMargin": 22.678759
+    },
+    {
+      "id": "401856867",
+      "conference": "Big 12",
+      "home": "Cincinnati",
+      "away": "Colorado",
+      "winner": "Cincinnati",
+      "projected": true,
+      "homeMargin": 3.320757999999998
+    },
+    {
+      "id": "401856879",
+      "conference": "Big 12",
+      "home": "Texas Tech",
+      "away": "TCU",
+      "winner": "Texas Tech",
+      "projected": true,
+      "homeMargin": 17.994725000000003
+    },
+    {
+      "id": "401856762",
+      "conference": "SEC",
+      "home": "Ole Miss",
+      "away": "Mississippi State",
+      "winner": "Ole Miss",
+      "projected": true,
+      "homeMargin": 13.311248999999997
+    },
+    {
+      "id": "401858536",
+      "conference": "Big Ten",
+      "home": "Iowa",
+      "away": "Nebraska",
+      "winner": "Iowa",
+      "projected": true,
+      "homeMargin": 1.4117829999999998
+    },
+    {
+      "id": "401858544",
+      "conference": "Big Ten",
+      "home": "Wisconsin",
+      "away": "Minnesota",
+      "winner": "Wisconsin",
+      "projected": true,
+      "homeMargin": 15.882704000000004
+    },
+    {
+      "id": "401856756",
+      "conference": "SEC",
+      "home": "Texas A&M",
+      "away": "Texas",
+      "winner": "Texas",
+      "projected": true,
+      "homeMargin": -7.193939
+    },
+    {
+      "id": "401856880",
+      "conference": "Big 12",
+      "home": "Utah",
+      "away": "West Virginia",
+      "winner": "Utah",
+      "projected": true,
+      "homeMargin": 25.75717999999999
+    },
+    {
+      "id": "401858543",
+      "conference": "Big Ten",
+      "home": "UCLA",
+      "away": "USC",
+      "winner": "UCLA",
+      "projected": true,
+      "homeMargin": 5.831544999999998
+    },
+    {
+      "id": "401856875",
+      "conference": "Big 12",
+      "home": "Colorado",
+      "away": "UCF",
+      "winner": "UCF",
+      "projected": true,
+      "homeMargin": -1.5931119999999979
+    },
+    {
+      "id": "401858315",
+      "conference": "ACC",
+      "home": "California",
+      "away": "Pittsburgh",
+      "winner": "Pittsburgh",
+      "projected": true,
+      "homeMargin": -10.080278999999997
+    },
+    {
+      "id": "401858539",
+      "conference": "Big Ten",
+      "home": "Maryland",
+      "away": "Penn State",
+      "winner": "Penn State",
+      "projected": true,
+      "homeMargin": -9.196235000000001
+    },
+    {
+      "id": "401858537",
+      "conference": "Big Ten",
+      "home": "Northwestern",
+      "away": "Illinois",
+      "winner": "Northwestern",
+      "projected": true,
+      "homeMargin": 17.84515100000001
+    },
+    {
+      "id": "401858538",
+      "conference": "Big Ten",
+      "home": "Indiana",
+      "away": "Purdue",
+      "winner": "Indiana",
+      "projected": true,
+      "homeMargin": 23.299186000000006
+    },
+    {
+      "id": "401858311",
+      "conference": "ACC",
+      "home": "Miami",
+      "away": "Boston College",
+      "winner": "Miami",
+      "projected": true,
+      "homeMargin": 37.086732999999995
+    },
+    {
+      "id": "401856874",
+      "conference": "Big 12",
+      "home": "Houston",
+      "away": "Baylor",
+      "winner": "Houston",
+      "projected": true,
+      "homeMargin": 12.599471999999999
+    },
+    {
+      "id": "401856873",
+      "conference": "Big 12",
+      "home": "Arizona",
+      "away": "Arizona State",
+      "winner": "Arizona",
+      "projected": true,
+      "homeMargin": 22.612261999999994
+    },
+    {
+      "id": "401856878",
+      "conference": "Big 12",
+      "home": "Iowa State",
+      "away": "Kansas State",
+      "winner": "Iowa State",
+      "projected": true,
+      "homeMargin": 5.145859999999999
+    },
+    {
+      "id": "401858317",
+      "conference": "ACC",
+      "home": "Virginia Tech",
+      "away": "Virginia",
+      "winner": "Virginia Tech",
+      "projected": true,
+      "homeMargin": 6.670241999999995
+    },
+    {
+      "id": "401856758",
+      "conference": "SEC",
+      "home": "Arkansas",
+      "away": "LSU",
+      "winner": "LSU",
+      "projected": true,
+      "homeMargin": -23.297770999999997
+    },
+    {
+      "id": "401856763",
+      "conference": "SEC",
+      "home": "Missouri",
+      "away": "Oklahoma",
+      "winner": "Missouri",
+      "projected": true,
+      "homeMargin": 10.677334000000002
+    },
+    {
+      "id": "401858541",
+      "conference": "Big Ten",
+      "home": "Oregon",
+      "away": "Washington",
+      "winner": "Oregon",
+      "projected": true,
+      "homeMargin": 21.856057999999997
+    },
+    {
+      "id": "401858316",
+      "conference": "ACC",
+      "home": "Stanford",
+      "away": "SMU",
+      "winner": "SMU",
+      "projected": true,
+      "homeMargin": -15.929748999999994
+    },
+    {
+      "id": "401856757",
+      "conference": "SEC",
+      "home": "Alabama",
+      "away": "Auburn",
+      "winner": "Alabama",
+      "projected": true,
+      "homeMargin": 21.062346000000005
+    },
+    {
+      "id": "401858542",
+      "conference": "Big Ten",
+      "home": "Rutgers",
+      "away": "Michigan State",
+      "winner": "Michigan State",
+      "projected": true,
+      "homeMargin": -6.189159000000004
+    },
+    {
+      "id": "401858313",
+      "conference": "ACC",
+      "home": "North Carolina",
+      "away": "NC State",
+      "winner": "North Carolina",
+      "projected": true,
+      "homeMargin": 13.002950999999996
+    },
+    {
+      "id": "401858312",
+      "conference": "ACC",
+      "home": "Wake Forest",
+      "away": "Duke",
+      "winner": "Wake Forest",
+      "projected": true,
+      "homeMargin": 15.999922999999995
+    },
+    {
+      "id": "401856877",
+      "conference": "Big 12",
+      "home": "Oklahoma State",
+      "away": "Kansas",
+      "winner": "Oklahoma State",
+      "projected": true,
+      "homeMargin": 13.869244000000002
+    },
+    {
+      "id": "401856765",
+      "conference": "SEC",
+      "home": "Vanderbilt",
+      "away": "Tennessee",
+      "winner": "Tennessee",
+      "projected": true,
+      "homeMargin": -20.052894000000002
+    },
+    {
+      "id": "401856876",
+      "conference": "Big 12",
+      "home": "BYU",
+      "away": "Cincinnati",
+      "winner": "BYU",
+      "projected": true,
+      "homeMargin": 24.092552999999995
+    },
+    {
+      "id": "401858540",
+      "conference": "Big Ten",
+      "home": "Ohio State",
+      "away": "Michigan",
+      "winner": "Ohio State",
+      "projected": true,
+      "homeMargin": 23.582803999999996
+    }
+  ],
+  "rulesSource": "https://collegefootballplayoff.com/sports/2024/5/29/12-team-format",
+  "method": "Current Prove It ratings stand in for committee rankings. Predict remaining regular-season conference games at current ratings plus 3 home points, neutral zero, keeping completed results through this snapshot. Top two by projected conference winning percentage reach each Power Four title game; two-team ties use head-to-head when available, other ties use model rating (not all official conference tiebreakers). Higher-rated finalist wins a neutral title game. Four Power Four champions and the top-rated Group of Six team receive bids; Notre Dame is protected if model top 12. Fill to 12 by model rating, then seed by rating, with top four byes. Bracket winners use home +3 in round one, neutral thereafter. Ratings are held fixed; not a forecast of committee decisions or updated final-season ratings.",
+  "sourceSha256": "5e7cda870d0aa6ba3f7c1def819a5c96ce318f05416345e6fb7c9ea1274f9c63",
+  "projectedPlayoffGames": [
+    {
+      "home": "Indiana",
+      "away": "Texas Tech",
+      "winner": "Indiana",
+      "neutral": false
+    },
+    {
+      "home": "Notre Dame",
+      "away": "Indiana",
+      "winner": "Notre Dame",
+      "neutral": true
+    },
+    {
+      "home": "Miami",
+      "away": "Boise State",
+      "winner": "Miami",
+      "neutral": false
+    },
+    {
+      "home": "Ohio State",
+      "away": "Miami",
+      "winner": "Ohio State",
+      "neutral": true
+    },
+    {
+      "home": "Ole Miss",
+      "away": "BYU",
+      "winner": "Ole Miss",
+      "neutral": false
+    },
+    {
+      "home": "Alabama",
+      "away": "Ole Miss",
+      "winner": "Alabama",
+      "neutral": true
+    },
+    {
+      "home": "Georgia",
+      "away": "Utah",
+      "winner": "Georgia",
+      "neutral": false
+    },
+    {
+      "home": "LSU",
+      "away": "Georgia",
+      "winner": "LSU",
+      "neutral": true
+    },
+    {
+      "home": "Notre Dame",
+      "away": "Ohio State",
+      "winner": "Notre Dame",
+      "neutral": true
+    },
+    {
+      "home": "Alabama",
+      "away": "LSU",
+      "winner": "Alabama",
+      "neutral": true
+    },
+    {
+      "home": "Notre Dame",
+      "away": "Alabama",
+      "winner": "Notre Dame",
+      "neutral": true
+    }
+  ],
+  "projectedChampion": "Notre Dame"
+}
