@@ -1,0 +1,12 @@
+{
+  "seed": 20260929,
+  "gamesPerPair": 1000,
+  "conferencePairs": 55,
+  "sampling": "uniform teams within each conference, with replacement; each pair simulated once; reverse records exactly complementary",
+  "outcome": "current rating difference + randomly sampled historical forecast error, randomly sign-flipped; no home advantage",
+  "historicalErrorGames": 1816,
+  "historicalErrorRMS": 16.111921510170998,
+  "calibrationScope": "all available 2023-2025 regular-season FBS/FBS forecasts in saved backtest, including games without usable book lines; no 2026 outcomes",
+  "snapshotSha256": "5316f08b13e460a8c25a0be5cebf22ec1a39065adbd12033e7d26ef0f39bb785",
+  "historicalSha256": "8a0cb393458d67d45feb31d580734e4aa0842f4e3f433b6584d99d60c840bf62"
+}
