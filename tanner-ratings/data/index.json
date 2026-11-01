@@ -78,6 +78,20 @@
         "path": "share/2026/week-09/playoff.json",
         "version": "d7c0bb5999e1"
       }
+    },
+    {
+      "season": 2026,
+      "week": 10,
+      "path": "2026/week-10.json",
+      "comparisonPath": "comparisons/2026/week-10.json",
+      "playoff": {
+        "path": "share/2026/week-10/playoff.json",
+        "version": "b917af75924b"
+      },
+      "conferenceCharts": {
+        "path": "share/2026/week-10/conferences",
+        "version": "20f75fe0af14"
+      }
     }
   ]
 }
