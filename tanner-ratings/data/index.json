@@ -92,6 +92,20 @@
         "path": "share/2026/week-10/conferences",
         "version": "20f75fe0af14"
       }
+    },
+    {
+      "season": 2026,
+      "week": 11,
+      "path": "2026/week-11.json",
+      "comparisonPath": "comparisons/2026/week-11.json",
+      "playoff": {
+        "path": "share/2026/week-11/playoff.json",
+        "version": "eee35791b84c"
+      },
+      "conferenceCharts": {
+        "path": "share/2026/week-11/conferences",
+        "version": "42807ff1b566"
+      }
     }
   ]
 }
