@@ -1,0 +1,27 @@
+.podcast-main { max-width: 1200px; width: 100%; margin: auto; padding: 64px 5% 80px; flex: 1; }
+.podcast-hero { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 70px; align-items: center; padding-bottom: 60px; }
+.podcast-hero h1 { font: 600 clamp(60px, 7vw, 92px)/.95 var(--display); letter-spacing: -1px; margin: 0 0 24px; }
+.podcast-hero h1 span { display: block; }
+.podcast-lead { max-width: 520px; font-size: clamp(19px, 2.4vw, 24px); line-height: 1.5; margin: 0 0 28px; }
+.podcast-art { width: 100%; height: auto; display: block; box-shadow: 12px 12px 0 var(--line); }
+.podcast-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.podcast-button { display: inline-block; text-decoration: none; padding: 12px 22px; border: 1px solid var(--ink); font-weight: 600; font-size: 13px; }
+.podcast-button.primary { background: var(--ink); color: var(--white); }
+.podcast-button:hover { background: var(--lime); color: var(--ink); }
+.listen-links { display: flex; flex-wrap: wrap; gap: 12px 24px; padding: 20px 0; border-block: 1px solid var(--line); align-items: center; font-size: 12px; }
+.listen-links > span { color: var(--muted); }
+.listen-links a { text-underline-offset: 4px; }
+.episodes-heading { display: flex; justify-content: space-between; align-items: baseline; margin: 45px 0 20px; gap: 20px; }
+.episodes-heading h2 { font: 600 38px/1.1 var(--display); margin: 0; }
+.episodes-heading a { font-size: 12px; text-underline-offset: 4px; }
+.episode { padding: 32px; border: 1px solid var(--line); background: var(--white); margin-bottom: 24px; }
+.episode-meta { display: flex; flex-wrap: wrap; gap: 8px 20px; color: var(--muted); font-size: 11px; }
+.episode-meta > span:first-child { color: var(--orange); font-weight: 700; letter-spacing: 1px; }
+.episode h3 { font: 600 clamp(30px, 4vw, 44px)/1.12 var(--display); margin: 18px 0; }
+.episode-description { max-width: 780px; color: #4f5e54; }
+.episode audio { width: 100%; display: block; margin: 24px 0 20px; }
+.episode-links { display: flex; flex-wrap: wrap; gap: 20px; font-size: 12px; }
+.episode-links a { text-underline-offset: 4px; }
+.podcast-note { color: var(--muted); font-size: 12px; }
+@media(max-width: 800px) { .podcast-hero { grid-template-columns: minmax(0, 1fr) 220px; gap: 30px; } }
+@media(max-width: 600px) { .podcast-main { padding-top: 35px; } .podcast-hero { grid-template-columns: 1fr; gap: 32px; padding-bottom: 32px; } .podcast-art { max-width: 230px; } .episode { padding: 22px 18px; } .episodes-heading { align-items: start; } }
