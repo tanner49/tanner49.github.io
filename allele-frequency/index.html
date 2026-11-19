@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#153c33">
+  <meta name="description" content="Run the population genetics simulations for Lab 12.">
+  <title>Allele Frequency Simulator · Lab 12</title>
+  <link rel="stylesheet" href="lab.css">
+  <script src="lab.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">INTRODUCTORY BIOLOGY / LAB 12</p>
+      <h1>Allele frequency simulator</h1>
+      <p>Follow a population across generations. Choose the exercise you’re working on, run it, and use the results to show your calculations.</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="tabs" role="tablist" aria-label="Worksheet exercises">
+      <button type="button" role="tab" id="tab-equilibrium" aria-controls="simulation" aria-selected="true" data-mode="equilibrium"><span>Exercise 2</span> Hardy–Weinberg</button>
+      <button type="button" role="tab" id="tab-selection" aria-controls="simulation" aria-selected="false" tabindex="-1" data-mode="selection"><span>Exercise 3</span> Selection</button>
+      <button type="button" role="tab" id="tab-advantage" aria-controls="simulation" aria-selected="false" tabindex="-1" data-mode="advantage"><span>Exercise 4</span> Heterozygote advantage</button>
+      <button type="button" role="tab" id="tab-drift" aria-controls="simulation" aria-selected="false" tabindex="-1" data-mode="drift"><span>Exercise 5</span> Genetic drift</button>
+    </div>
+    <noscript><p>Enable JavaScript in your browser to run the simulations.</p></noscript>
+    <section id="simulation" role="tabpanel" aria-labelledby="tab-equilibrium">
+      <div class="setup">
+        <section class="card">
+          <h2 id="exercise-title">Hardy–Weinberg</h2>
+          <p id="exercise-description">Randomly paired parents each produce two offspring that survive. Population size stays constant.</p>
+          <form id="settings">
+            <div class="fields">
+              <label for="size"><span id="size-label">Population size</span><input id="size" type="number" min="4" max="20000" step="4" value="1000" required aria-describedby="size-hint"><small id="size-hint">Individuals, in multiples of 4</small></label>
+              <label for="generations">Generations<input id="generations" type="number" min="1" max="200" value="7" required aria-describedby="generation-hint"><small id="generation-hint">Adjust to match your lab</small></label>
+            </div>
+            <button class="primary" type="submit">Run simulation</button>
+          </form>
+        </section>
+        <aside class="card rules" aria-labelledby="rules-title">
+          <h2 id="rules-title">Survival by genotype</h2>
+          <dl class="survival">
+            <div><dt>AA</dt><dd id="survival-aa-upper">100%</dd></div>
+            <div><dt>Aa</dt><dd id="survival-hetero">100%</dd></div>
+            <div><dt>aa</dt><dd id="survival-aa-lower">100%</dd></div>
+          </dl>
+          <p id="start-note">Each run starts with 25% AA, 50% Aa, and 25% aa, so the starting p and q are both 0.5.</p>
+        </aside>
+      </div>
+      <section class="card result" aria-labelledby="results-title">
+        <div class="section-heading">
+          <div><h2 id="results-title">Simulation results</h2><p id="status" role="status">Run the simulation to see your genotype and allele counts.</p></div>
+          <button type="button" class="secondary" id="download" hidden>Download CSV</button>
+        </div>
+        <div id="results"></div>
+      </section>
+    </section>
+    <section class="card" id="comparison" aria-labelledby="compare-title" hidden>
+      <h2 id="compare-title">Compare exercises</h2>
+      <p>The latest run for each exercise in this browser tab.</p>
+      <div id="compare-table"></div>
+    </section>
+    <details class="card formulas">
+      <summary>Worksheet calculation reference</summary>
+      <ul>
+        <li>Genotype frequency = genotype count ÷ total individuals (N).</li>
+        <li>A copies = 2 × AA count + Aa count. The frequency of A is p = A copies ÷ (2 × N).</li>
+        <li>a copies = 2 × aa count + Aa count. The frequency of a is q = a copies ÷ (2 × N).</li>
+        <li>Under Hardy–Weinberg expectations, the genotype frequencies for AA, Aa, and aa are p², 2pq, and q². Also, p + q = 1.</li>
+        <li>With complete dominance, AA and Aa show the dominant trait. Only aa shows the recessive trait.</li>
+      </ul>
+    </details>
+  </main>
+</body>
+</html>
