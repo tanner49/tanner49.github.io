@@ -110,6 +110,22 @@ const frequency = value => value.toFixed(5).replace(/0{1,4}$/, "");
 let activeMode = "equilibrium";
 let activeCharts = [];
 
+const chartTypes = [
+  {
+    title: "Genotype frequency by generation",
+    series: [["AA", row => row.frequencies[0]], ["Aa", row => row.frequencies[1]], ["aa", row => row.frequencies[2]]]
+  },
+  {
+    title: "Allele frequency by generation",
+    series: [["p (A)", row => row.p], ["q (a)", row => row.q]]
+  }
+];
+const chartStyles = [
+  { color: "#166b55", dash: [] },
+  { color: "#7246ab", dash: [6, 4] },
+  { color: "#a95012", dash: [2, 3] }
+];
+
 function selectMode(mode) {
   if (mode === activeMode) return;
   settingsByMode.set(activeMode, [sizeInput.value, generationsInput.value]);
@@ -162,9 +178,29 @@ for (const tab of tabs) {
 
 byId("settings").addEventListener("submit", event => {
   event.preventDefault();
-  resultsByMode.set(activeMode, simulate(activeMode, sizeInput.valueAsNumber, generationsInput.valueAsNumber));
+  const mode = activeMode;
+  clearInterval(resultsByMode.get(mode)?.timer);
+  const total = generationsInput.valueAsNumber;
+  const run = { groups: simulate(mode, sizeInput.valueAsNumber, total), total, shown: 0 };
+  resultsByMode.set(mode, run);
   renderResults();
   renderComparison();
+
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  byId("results-title").focus({ preventScroll: true });
+  byId("results-title").closest(".result").scrollIntoView({ behavior: reduceMotion ? "instant" : "smooth" });
+
+  run.timer = setInterval(() => {
+    run.shown++;
+    if (run.shown === run.total) {
+      clearInterval(run.timer);
+      if (mode === activeMode) renderResults();
+      renderComparison();
+    } else if (mode === activeMode) {
+      updateProgress(run);
+      drawCharts();
+    }
+  }, 500);
 });
 
 function table(label, captions, rows) {
@@ -188,38 +224,57 @@ function dataRow(row) {
 
 function renderResults() {
   const results = byId("results");
-  const groups = resultsByMode.get(activeMode);
+  const run = resultsByMode.get(activeMode);
   activeCharts = [];
-  download.hidden = !groups;
-  if (!groups) {
+  download.hidden = !run || run.shown < run.total;
+  byId("playback").hidden = !run || run.shown === run.total;
+  if (!run) {
     results.replaceChildren();
     byId("status").textContent = "Run the simulation to see your genotype and allele counts.";
     return;
   }
+  const { groups, total, shown } = run;
+  const complete = shown === total;
   const { size } = groups[0].rows[0];
-  const finalGeneration = groups[0].rows.length - 1;
   const sizeDescription = groups.length === 2 ? " individuals per population." : " individuals.";
-  byId("status").textContent = "Ran " + finalGeneration + (finalGeneration === 1 ? " generation" : " generations") +
-    " with " + number.format(size) + sizeDescription + " Genotype cells show count (frequency).";
+  byId("status").textContent = (complete ? "Ran " : "Simulating ") + total +
+    (total === 1 ? " generation" : " generations") + " with " + number.format(size) + sizeDescription +
+    (complete ? " Genotype cells show count (frequency)." : "");
+  if (!complete) updateProgress(run);
+
   const headings = ["Generation", "Individuals", "AA", "Aa", "aa", "A copies", "a copies", "p (A)", "q (a)"];
+  const charts = chartTypes.map(({ title, series }) => {
+    const legend = series.map(([label]) => "<span>" + label + "</span>").join("");
+    return '<figure class="chart"><figcaption>' + title + '</figcaption><div class="legend">' + legend +
+      '</div><canvas role="img" aria-label="' + title + '"></canvas></figure>';
+  }).join("");
   results.innerHTML = groups.map(group => {
     const heading = groups.length === 2 ? "<h3>" + group.name + "</h3>" : "";
+    const graphs = '<div class="charts">' + charts + '</div>';
     const summary = [group.rows[0], group.rows.at(-1)].map(dataRow);
-    return '<section class="population">' + heading + table(group.name + " · Initial and final counts", headings, summary) +
-      '<figure class="chart"><figcaption>Allele frequency by generation</figcaption>' +
-      '<div class="legend"><span>p (A)</span><span>q (a)</span></div>' +
-      '<canvas role="img" aria-label="Frequency of A and a by generation. Values are in the generation table below."></canvas></figure>' +
+    const tables = complete ? table(group.name + " · Initial and final counts", headings, summary) +
       '<details><summary>View all generations</summary>' +
-      table(group.name + " · All generations", headings, group.rows.map(dataRow)) + '</details></section>';
+      table(group.name + " · All generations", headings, group.rows.map(dataRow)) + '</details>' : "";
+    return '<section class="population">' + heading + graphs + tables + '</section>';
   }).join("");
-  activeCharts = Array.from(results.querySelectorAll("canvas"), (canvas, index) => ({
-    canvas, rows: groups[index].rows
-  }));
+  activeCharts = Array.from(results.querySelectorAll(".charts")).flatMap((charts, index) =>
+    Array.from(charts.querySelectorAll("canvas"), (canvas, type) => ({
+      canvas, rows: groups[index].rows, series: chartTypes[type].series
+    }))
+  );
   drawCharts();
 }
 
+function updateProgress({ shown, total }) {
+  const progress = byId("generation-progress");
+  progress.max = total;
+  progress.value = shown;
+  byId("generation-progress-label").textContent = "Generation " + shown + " of " + total;
+}
+
 function drawCharts() {
-  for (const { canvas, rows } of activeCharts) {
+  const run = resultsByMode.get(activeMode);
+  for (const { canvas, rows, series } of activeCharts) {
     const { width, height } = canvas.getBoundingClientRect();
     if (!width || !height) continue;
     const ratio = window.devicePixelRatio || 1;
@@ -255,14 +310,23 @@ function drawCharts() {
       const generation = Math.round(tick * last / tickCount);
       ctx.fillText(String(generation), x(generation), bottom + 7);
     }
-    for (const [allele, color, dash] of [["p", "#166b55", []], ["q", "#7246ab", [5, 4]]]) {
+    for (const [index, [, value]] of series.entries()) {
+      const { color, dash } = chartStyles[index];
       ctx.beginPath();
       ctx.strokeStyle = color;
       ctx.lineWidth = 2.5;
       ctx.setLineDash(dash);
-      ctx.moveTo(x(0), y(rows[0][allele]));
-      for (const row of rows.slice(1)) ctx.lineTo(x(row.generation), y(row[allele]));
+      ctx.moveTo(x(0), y(value(rows[0])));
+      for (let generation = 1; generation <= run.shown; generation++) {
+        ctx.lineTo(x(generation), y(value(rows[generation])));
+      }
       ctx.stroke();
+      if (run.shown === 0) {
+        ctx.beginPath();
+        ctx.fillStyle = color;
+        ctx.arc(x(0), y(value(rows[0])), 4 - index, 0, Math.PI * 2);
+        ctx.fill();
+      }
     }
   }
 }
@@ -270,9 +334,14 @@ function drawCharts() {
 window.addEventListener("resize", drawCharts);
 
 function renderComparison() {
-  byId("comparison").hidden = resultsByMode.size < 2;
-  if (resultsByMode.size < 2) return;
-  const rows = Object.entries(modes).flatMap(([key, config]) => (resultsByMode.get(key) ?? []).map(group => {
+  const completed = Object.keys(modes).filter(key => {
+    const run = resultsByMode.get(key);
+    return run && run.shown === run.total;
+  });
+  byId("comparison").hidden = completed.length < 2;
+  if (completed.length < 2) return;
+  const rows = completed.flatMap(key => resultsByMode.get(key).groups.map(group => {
+    const config = modes[key];
     const initial = group.rows[0];
     const final = group.rows.at(-1);
     const label = config.exercise + " · " + (key === "drift" ? group.name : config.title);
@@ -284,10 +353,10 @@ function renderComparison() {
 }
 
 download.addEventListener("click", () => {
-  const groups = resultsByMode.get(activeMode);
-  if (!groups) return;
+  const run = resultsByMode.get(activeMode);
+  if (!run || run.shown < run.total) return;
   const headings = "Population,Generation,Individuals,Homozygous dominant (AA) count,Heterozygous (Aa) count,Homozygous recessive (aa) count,Homozygous dominant (AA) frequency,Heterozygous (Aa) frequency,Homozygous recessive (aa) frequency,Dominant allele (A) copies,Recessive allele (a) copies,p (A),q (a)";
-  const lines = groups.flatMap(group => group.rows.map(row => [
+  const lines = run.groups.flatMap(group => group.rows.map(row => [
     group.name, row.generation, row.size, ...row.counts, ...row.frequencies, row.A, row.a, row.p, row.q
   ].join(",")));
   const blob = new Blob([[headings, ...lines].join("\r\n") + "\r\n"], { type: "text/csv;charset=utf-8" });
