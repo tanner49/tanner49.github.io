@@ -286,7 +286,7 @@ function renderComparison() {
 download.addEventListener("click", () => {
   const groups = resultsByMode.get(activeMode);
   if (!groups) return;
-  const headings = "Population,Generation,Individuals,AA count,Aa count,aa count,AA frequency,Aa frequency,aa frequency,A copies,a copies,p (A),q (a)";
+  const headings = "Population,Generation,Individuals,Homozygous dominant (AA) count,Heterozygous (Aa) count,Homozygous recessive (aa) count,Homozygous dominant (AA) frequency,Heterozygous (Aa) frequency,Homozygous recessive (aa) frequency,Dominant allele (A) copies,Recessive allele (a) copies,p (A),q (a)";
   const lines = groups.flatMap(group => group.rows.map(row => [
     group.name, row.generation, row.size, ...row.counts, ...row.frequencies, row.A, row.a, row.p, row.q
   ].join(",")));
