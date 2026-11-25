@@ -1,15 +1,18 @@
 """Render the podcast page from official feeds; retain the published page on failure."""
 from datetime import timezone
 from email.utils import parsedate_to_datetime
-from html import escape, unescape
+from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[2]
 FEED = 'https://api.substack.com/feed/podcast/11018089.rss'
+PUBLICATION_FEED = 'https://thewhiteboxpodcast.substack.com/feed'
 NS = {'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'}
 
 class PlainText(HTMLParser):
@@ -23,9 +26,46 @@ def plain(value):
     return ' '.join(' '.join(parser.parts).split())
 
 def fetch(url):
-    request = urllib.request.Request(url, headers={'User-Agent': 'WhiteBoxPodcastSite/1.0'})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return ET.fromstring(response.read()).find('channel')
+    request = urllib.request.Request(url, headers={
+        'User-Agent': 'WhiteBoxPodcastSite/1.0',
+        'Accept': 'application/rss+xml, application/xml, text/xml;q=0.9',
+    })
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                channel = ET.fromstring(response.read()).find('channel')
+            if channel is None:
+                raise ValueError('Feed has no RSS channel')
+            return channel
+        except (urllib.error.URLError, TimeoutError, ET.ParseError, ValueError) as error:
+            if isinstance(error, urllib.error.HTTPError) and error.code not in {
+                    403, 408, 429, 500, 502, 503, 504}:
+                raise
+            if attempt == 2:
+                raise
+            print(f'RSS request failed ({error}); retrying {url}.')
+            time.sleep(2 ** attempt)
+
+
+def audio_items(channel):
+    return [item for item in channel.findall('item')
+            if item.find('enclosure') is not None
+            and item.find('enclosure').get('type', '').startswith('audio/')]
+
+
+def podcast_channel():
+    errors = []
+    for source in (FEED, PUBLICATION_FEED):
+        try:
+            channel = fetch(source)
+            if not audio_items(channel):
+                raise ValueError('No audio episodes found')
+            return channel, source
+        except (urllib.error.URLError, TimeoutError, ET.ParseError, ValueError) as error:
+            errors.append(f'{source}: {error}')
+            print(f'Podcast feed unavailable: {source}: {error}')
+    raise RuntimeError('All official podcast feeds failed; keeping the existing page. '
+                       + '; '.join(errors))
 
 def url(value):
     if not value or not value.startswith('https://'):
@@ -33,14 +73,14 @@ def url(value):
     return escape(value, quote=True)
 
 def render():
-    channel = fetch(FEED)
+    channel, source = podcast_channel()
     try:
+        summary_channel = channel if source == PUBLICATION_FEED else fetch(PUBLICATION_FEED)
         summaries = {i.findtext('link'): plain(i.findtext('description'))
-                     for i in fetch('https://thewhiteboxpodcast.substack.com/feed').findall('item')}
+                     for i in summary_channel.findall('item')}
     except Exception:
         summaries = {}
-    items = [i for i in channel.findall('item') if i.find('enclosure') is not None
-             and i.find('enclosure').get('type', '').startswith('audio/')]
+    items = audio_items(channel)
     if not items:
         raise ValueError('No audio episodes found; refusing to replace the page')
     items.sort(key=lambda i: parsedate_to_datetime(i.findtext('pubDate')), reverse=True)
@@ -68,7 +108,9 @@ def render():
     rendered = template.replace('{{EPISODES}}', '\n'.join(cards)).replace('{{ARTWORK}}', url(channel.find('itunes:image', NS).get('href')))
     rendered = rendered.replace('{{DESCRIPTION}}', escape(plain(channel.findtext('itunes:subtitle', '', NS))))
     destination = ROOT / 'podcast/index.html'
-    destination.write_text(rendered, encoding='utf-8')
+    temporary = destination.with_suffix('.html.tmp')
+    temporary.write_text(rendered, encoding='utf-8')
+    temporary.replace(destination)
     print(f'Rendered {len(items)} podcast episode(s).')
 
 if __name__ == '__main__':
